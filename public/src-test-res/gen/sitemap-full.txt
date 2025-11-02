@@ -7,9 +7,6 @@
 [2] /icon-192.png
 [2] /icon-512.png
 [2] /image/gallery/1.jpeg
-[2] /image/gallery/10.jpeg
-[2] /image/gallery/11.jpeg
-[2] /image/gallery/12.jpeg
 [2] /image/gallery/2.jpeg
 [2] /image/gallery/3.jpeg
 [2] /image/gallery/4.jpeg
