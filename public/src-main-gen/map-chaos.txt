@@ -14,6 +14,7 @@ https://portia5.gitlab.io/test/image/test2
 https://portia5.gitlab.io/test/image/test3
 https://portia5.gitlab.io/test/image/test4
 https://portia5.gitlab.io/test/image/test5
+https://portia5.gitlab.io/test/image/test6
 https://portia5.gitlab.io/test/issue3/index1
 https://portia5.gitlab.io/test/issue3/index2
 https://portia5.gitlab.io/test/issue3/index3

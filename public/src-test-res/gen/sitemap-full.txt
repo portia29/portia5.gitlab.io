@@ -46,6 +46,7 @@
 [3] /test/image/test3[.html]
 [3] /test/image/test4[.html]
 [3] /test/image/test5[.html]
+[3] /test/image/test6[.html]
 [3] /test/issue3/index1[.html]
 [3] /test/issue3/index2[.html]
 [3] /test/issue3/index3[.html]
