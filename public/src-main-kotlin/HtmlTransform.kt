@@ -188,6 +188,15 @@ class HtmlTransform(
                 return "\n" + GalleryGrid().resolve(path)
             }
         }
+        if (paragraph.startsWith("#image")) {
+            val path = paragraph.split(" ")[1]
+            if (inText) {
+                inText = false
+                return "\n    </div>\n" + ImageSingle().resolve(path)
+            } else {
+                return "\n" + ImageSingle().resolve(path)
+            }
+        }
         if (!inText) {
             inText = true
             result.append(articleTextDivStart)
