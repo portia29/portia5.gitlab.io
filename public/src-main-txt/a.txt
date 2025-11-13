@@ -61,5 +61,3 @@
 #image /image/gallery/7.jpeg
 
 #image /image/gallery/8.jpeg
-
-#image /image/gallery/9.jpeg
