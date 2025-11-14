@@ -13,8 +13,6 @@
 [2] /image/gallery/5.jpeg
 [2] /image/gallery/6.jpeg
 [2] /image/gallery/7.jpeg
-[2] /image/gallery/8.jpeg
-[2] /image/gallery/9.jpeg
 [2] /image/gallery/infos.json
 [2] /image/selfie/1.jpeg
 [2] /image/selfie/2.jpeg
