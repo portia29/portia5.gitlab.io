@@ -130,7 +130,7 @@ a, a:visited, a:hover, a:active {
 }
 .article-text {
   width: 100%;
-  max-width: 43rem;
+  max-width: 44rem;
   margin: 0rem auto;
   box-sizing: border-box;
   color: rgba(0,0,0,.8);
