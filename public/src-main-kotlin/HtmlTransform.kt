@@ -28,32 +28,22 @@ class HtmlTransform(
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
 
-    private val bottomNavigationEnabled = false
-    private val articleTextDivStart = """<div class="article-text">"""
     private val bottomNavigationDinkus = """<p class="dinkus">⁂ ⁂ ⁂</p>"""
     private val bottomNavigationHome = """<p>🏠 <a href="/">$HOST_NAME</a></p>"""
-    private val bottomNavigationHtml = "    $articleTextDivStart" +
-            "\n    $bottomNavigationDinkus" +
-            "\n\n    $bottomNavigationHome\n    </div>"
+    private val bottomNavigationHtml = "    $bottomNavigationDinkus" +
+            "\n\n    $bottomNavigationHome"
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
         return htmlTemplate
             .replace("<!--TITLE-->", title)
             .replace("<!--DATA-->", body)
-            .replace(
-                "<!--DATA-FOOTER-->",
-                if (bottomNavigationEnabled && bottomNavigation) bottomNavigationHtml else ""
-            )
+            .replace("<!--DATA-FOOTER-->", "")
     }
-
-    var inText = false
 
     fun textToHtml(url: RatUrl, text: String): String {
         val article = StringBuilder()
         article.append("    ")
-        article.append(articleTextDivStart)
         article.appendLine()
-        inText = true
         val paragraphs = StringBuilder()
         UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
             if (paragraphs.isEmpty()) {
@@ -68,10 +58,6 @@ class HtmlTransform(
             }
         }
         article.append(paragraphs)
-        if (inText) {
-            article.appendLine()
-            article.append("""    </div>""")
-        }
         return article.toString()
     }
 
@@ -178,40 +164,23 @@ class HtmlTransform(
     val beautifiedShortSeparator = TextTypography().beautifiedShortSeparator
 
     fun transformParagraph(url: RatUrl, paragraph: String): String {
-        val result = StringBuilder()
         if (paragraph.startsWith("#gallery")) {
             val path = paragraph.split(" ")[1]
-            if (inText) {
-                inText = false
-                return "\n    </div>\n" + GalleryGrid().resolve(path)
-            } else {
-                return "\n" + GalleryGrid().resolve(path)
-            }
+            return "\n" + GalleryGrid().resolve(path)
         }
         if (paragraph.startsWith("#image")) {
-            val path = paragraph.split(" ")[1]
-            if (inText) {
-                inText = false
-                return "\n    </div>\n" + ImageSingle().resolve(path)
-            } else {
-                return "\n" + ImageSingle().resolve(path)
-            }
-        }
-        if (!inText) {
-            inText = true
-            result.append(articleTextDivStart)
+            return ImageSingle().resolve(paragraph.split(" ")[1])
         }
         if (paragraph.contains("* * *")) {
             if (paragraph != "* * *") {
                 throw IllegalStateException(paragraph)
             }
-            result.append("<p class=\"dinkus\">* * *</p>")
-            return result.toString()
+            return "<p class=\"dinkus\">* * *</p>"
         }
         if (paragraph == beautifiedShortSeparator) {
-            result.append("<p class=\"dinkus\">$beautifiedShortSeparator</p>")
-            return result.toString()
+            return "<p class=\"dinkus\">$beautifiedShortSeparator</p>"
         }
+        val result = StringBuilder()
         result.append("<p>")
         val lines = UtilsAbsolute.splitParagraphToLines(paragraph).map { transformLine(url, it) }
         result.append(lines.joinToString("\n        $brElement"))
