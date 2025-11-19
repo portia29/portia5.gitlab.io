@@ -32,13 +32,7 @@ class IncludeTransform(private val generator: Generator) {
                     paragIterator.add(it)
                 }
             } else {
-                throw IllegalStateException("$path in ${page.relativeUrl}")/*
-                val summarySection = includedPage.summaryFull
-                paragIterator.remove()
-                summarySection.forEach {
-                    paragIterator.add(it)
-                }
-                */
+                throw IllegalStateException("$path in ${page.relativeUrl}")
             }
         } else {
             throw IllegalStateException("${page.relativeUrl} $parag")
