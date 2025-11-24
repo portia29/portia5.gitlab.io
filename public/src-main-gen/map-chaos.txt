@@ -7,7 +7,6 @@ https://portia5.gitlab.io/test/bullet
 https://portia5.gitlab.io/test/emoji-font
 https://portia5.gitlab.io/test/favicon-oneliner
 https://portia5.gitlab.io/test/font-size/1
-https://portia5.gitlab.io/test/font-size/2
 https://portia5.gitlab.io/test/gallery
 https://portia5.gitlab.io/test/image/test1
 https://portia5.gitlab.io/test/image/test2

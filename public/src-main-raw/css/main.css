@@ -103,8 +103,9 @@ template {
   display: none;
 }
 
+/* Font size grows with view width, but not larger than plus 0.2rem. */
 :root {
-  font-size: calc(0.88rem + 0.1vw);
+  font-size: calc(0.88rem + min(0.2rem, 0.1vw));
 }
 html {
     font-family:
