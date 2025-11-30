@@ -63,22 +63,18 @@ class Library {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-
-        val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
+        val builder = StringBuilder("Лучшее. </>")
         val recommendations =
             writingsIn.filter { booksFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         recommendations.forEach { (authors, writings) ->
-            if (favoritesBuilder.isNotEmpty()) {
-                favoritesBuilder.append(" ")
+            if (builder.isNotEmpty()) {
+                builder.append(" ")
             }
-            favoritesBuilder.append(formatAuthors(authors, "ru"))
-            favoritesBuilder.append(formatWritings(writings, "ru"))
+            builder.append(formatAuthors(authors, "ru"))
+            builder.append(formatWritings(writings, "ru"))
         }
-        libraryOut.resolve("library-favorites.txt").toFile().writeText(favoritesBuilder.toString())
-
-        val listsBuilder = StringBuilder()
-
-        listsBuilder.append("Интересные штуки размером со статью. </> ")
+        builder.append("\n\n")
+        builder.append("Интересное. </> ")
         val posts =
             writingsIn.filter { articlesFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         val postsBuilder = StringBuilder()
@@ -89,15 +85,13 @@ class Library {
             postsBuilder.append(formatAuthors(authors, "en"))
             postsBuilder.append(formatWritings(writings, "en"))
         }
-        listsBuilder.append(postsBuilder)
-
-        listsBuilder.append("\n\n")
-
-        listsBuilder.append("Ещё я читал этих авторов. </> ")
+        builder.append(postsBuilder)
+        builder.append("\n\n")
+        builder.append("Ещё я читал этих авторов. </> ")
         val authorsList = writingsIn.filter {
             !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
         }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
-        listsBuilder.append(
+        builder.append(
             authorsList.joinToString(
                 separator = ", ", prefix = "", postfix = ".", transform = {
                     it.joinToString(separator = ", ", prefix = "", postfix = "", transform = {
@@ -105,7 +99,7 @@ class Library {
                     })
                 })
         )
-        libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
+        libraryOut.resolve("library.txt").toFile().writeText(builder.toString())
     }
 
     private fun printCount(inputWritings: List<Writing>) {
