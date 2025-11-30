@@ -138,13 +138,23 @@ class Library {
 
     private fun formatWritings(writings: List<Writing>, language: String): String {
         return writings.joinToString(
-            separator = "», «", prefix = ": «", postfix = "».", transform = { it.names[0].name })
+            separator = "», «", prefix = ": «", postfix = "».", transform = {
+                var writingName = it.names[0].name
+                if (it.names.size > 1) {
+                    it.names.forEach { wn ->
+                        if (wn.language == language) writingName = wn.name
+                    }
+                }
+                writingName
+            })
     }
 
     private fun formatAuthors(authors: List<Author>, language: String): String {
         var author = authors[0].names.first().name
         if (authors[0].names.size > 1) {
-            authors[0].names.forEach { if (it.language == language) author = it.name }
+            authors[0].names.forEach {
+                if (it.language == language) author = it.name
+            }
         }
         return author
     }

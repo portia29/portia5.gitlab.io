@@ -2,19 +2,58 @@
     {
         "names": [
             {
-                "name": "They're Made Out of Meat",
+                "name": "Conditions of Personhood",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+                "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
+            },
+            {
+                "name": "Условия присутствия личности",
+                "language": "ru",
+                "comment": "http://www.ruthenia.ru/logos/number/37/07.pdf"
             }
         ],
         "authors": [
-            "Terry Bisson"
+            "Daniel Dennett"
         ],
         "tags": [
-            "short story",
+            "blogging",
+            "essay",
+            "recommendation"
+        ],
+        "rating": 20
+    },
+    {
+        "names": [
+            {
+                "name": "Why Philosophers Should Care About Computational Complexity",
+                "language": "en",
+                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
+            }
+        ],
+        "authors": [
+            "Scott Aaronson"
+        ],
+        "tags": [
+            "recommendation",
             "entertaining"
         ],
-        "rating": 90
+        "rating": 30
+    },
+    {
+        "names": [
+            {
+                "name": "Рациональность: от ИИ до зомби",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 50
     },
     {
         "names": [
@@ -31,21 +70,22 @@
             "recommendation",
             "novel"
         ],
-        "rating": 100
+        "rating": 90
     },
     {
         "names": [
             {
-                "name": "Рациональность: от ИИ до зомби",
-                "language": "?"
+                "name": "They're Made Out of Meat",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
             }
         ],
         "authors": [
-            "Eliezer Yudkowsky"
+            "Terry Bisson"
         ],
         "tags": [
-            "recommendation",
-            "novel"
+            "short story",
+            "entertaining"
         ],
         "rating": 100
     },
@@ -634,29 +674,6 @@
         ],
         "authors": [
             "Zvi Mowshowitz"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
-                "name": "Conditions of Personhood",
-                "language": "en",
-                "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
-            },
-            {
-                "name": "Условия присутствия личности",
-                "language": "ru",
-                "comment": "http://www.ruthenia.ru/logos/number/37/07.pdf"
-            }
-        ],
-        "authors": [
-            "Daniel Dennett"
         ],
         "tags": [
             "blogging",
@@ -1947,7 +1964,7 @@
         "names": [
             {
                 "name": "Непокоренная",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -1956,7 +1973,7 @@
         "tags": [
             "archive",
             "nouvelle",
-            "recommendation"
+            "entertaining"
         ],
         "rating": 1900
     },
