@@ -313,8 +313,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 300
     },
@@ -394,8 +393,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 400
     },
@@ -621,11 +619,27 @@
         "names": [
             {
                 "name": "Schelling fences on slippery slopes",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
             "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Simulacra Levels Summary",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
@@ -679,23 +693,6 @@
         "tags": [
             "archive",
             "nouvelle"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
-                "name": "Simulacra Levels Summary",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Zvi Mowshowitz"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
         ],
         "rating": 700
     },
@@ -924,7 +921,7 @@
         "names": [
             {
                 "name": "Simulacra Levels and Their Interactions",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -932,8 +929,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 800
     },
@@ -1049,7 +1045,7 @@
         "names": [
             {
                 "name": "Unifying the Simulacra Definitions",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1057,8 +1053,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 900
     },
@@ -1223,7 +1218,7 @@
         "names": [
             {
                 "name": "The Four Children of the Seder as the Simulacra Levels",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1231,8 +1226,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 1000
     },
@@ -1272,7 +1266,23 @@
         "names": [
             {
                 "name": "The Platinum Rule: Treat Others the Way They Want to Be Treated",
-                "language": "?"
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1060
+    },
+    {
+        "names": [
+            {
+                "name": "The Shirky Principle: Institutions Try to Preserve the Problem to Which They Are the Solution",
+                "language": "en"
             }
         ],
         "authors": [

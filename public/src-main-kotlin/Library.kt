@@ -59,36 +59,53 @@ class Library {
         }
     }
 
+    private fun mainList(writingsIn: MutableList<Writing>, groupByAuthor: Boolean): StringBuilder {
+        val b = StringBuilder()
+        if (groupByAuthor) {
+            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }.forEach { (authors, writings) ->
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(authors, "ru"))
+                b.append(formatWritings(writings, "ru"))
+            }
+            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }.forEach { (authors, writings) ->
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(authors, "ru"))
+                b.append(formatWritings(writings, "ru"))
+            }
+        } else {
+            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.forEach { writing ->
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(writing.authors, "ru"))
+                b.append(formatWritings(listOf(writing), "ru"))
+            }
+            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.forEach { writing ->
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(writing.authors, "ru"))
+                b.append(formatWritings(listOf(writing), "ru"))
+            }
+        }
+        return b
+    }
+
     fun main() {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
         val builder = StringBuilder("Библиотека, я это читал. </>")
-        val recommendations =
-            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
-        recommendations.forEach { (authors, writings) ->
-            if (builder.isNotEmpty()) {
-                builder.append(" ")
-            }
-            builder.append(formatAuthors(authors, "ru"))
-            builder.append(formatWritings(writings, "ru"))
-        }
-        val posts =
-            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
-        val postsBuilder = StringBuilder()
-        posts.forEach { (authors, writings) ->
-            if (postsBuilder.isNotEmpty()) {
-                postsBuilder.append(" ")
-            }
-            postsBuilder.append(formatAuthors(authors, "ru"))
-            postsBuilder.append(formatWritings(writings, "ru"))
-        }
-        builder.append(postsBuilder)
+        builder.append(mainList(writingsIn, false))
         builder.append("\n\n")
         builder.append("Библиотека, ещё я читал этих авторов. </> ")
-        val authorsList = writingsIn.filter {
-            !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
-        }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
+        val mainListAuthors = writingsIn.filter {
+            recommendationFilter(it) || entertainingFilter(it) }.groupBy { it.authors }.keys
+        val authorsList = writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
         builder.append(
             authorsList.joinToString(
                 separator = ", ", prefix = "", postfix = ".", transform = {
