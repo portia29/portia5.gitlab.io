@@ -114,10 +114,10 @@ class Library {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-        val builder = StringBuilder("Библиотека, это я читал. </> ")
+        val builder = StringBuilder("Коллекция прочитанного. </> ")
         builder.append(mainList(writingsIn, false))
         builder.append("\n\n")
-        builder.append("Библиотека, ещё я читал этих авторов. </> ")
+        builder.append("Ещё я читал этих авторов. </> ")
         val mainListAuthors = writingsIn.filter {
             recommendationFilter(it) || entertainingFilter(it)
         }.groupBy { it.authors }.keys

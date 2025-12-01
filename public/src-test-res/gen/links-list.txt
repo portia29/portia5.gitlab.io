@@ -1,9 +1,11 @@
 https://portia5.gitlab.io
 https://portia5.gitlab.io/a
+https://portia5.gitlab.io/b
 https://portia5.gitlab.io/library
-https://portia5.gitlab.io/main
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
+https://portia5.gitlab.io/p1
+https://portia5.gitlab.io/p2
 https://portia5.gitlab.io/test
 https://portia5.gitlab.io/test/bullet
 https://portia5.gitlab.io/test/emoji-font
