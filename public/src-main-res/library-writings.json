@@ -74,6 +74,22 @@
     {
         "names": [
             {
+                "name": "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials",
+                "language": "en",
+                "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf"
+            }
+        ],
+        "authors": [
+            "Gordon C S Smith, Jill P Pell"
+        ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 99
+    },
+    {
+        "names": [
+            {
                 "name": "They're Made Out of Meat",
                 "language": "en",
                 "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"

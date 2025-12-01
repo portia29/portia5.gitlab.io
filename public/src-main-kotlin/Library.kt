@@ -1,8 +1,8 @@
-
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
+import java.util.*
 
 /**
  * Novel - роман.
@@ -33,6 +33,7 @@ class Library {
                 names.first().name
             }
         }
+
         fun sort(): String {
             return id() + names.size
         }
@@ -40,7 +41,10 @@ class Library {
 
     @Serializable
     data class Writing(
-        val names: List<Name>, val authors: MutableList<Author>, val tags: Set<String>, val rating: Int
+        val names: List<Name>,
+        val authors: MutableList<Author>,
+        val tags: Set<String>,
+        val rating: Int
     ) : FiltrableWriting {
         override fun containTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
@@ -62,34 +66,45 @@ class Library {
     private fun mainList(writingsIn: MutableList<Writing>, groupByAuthor: Boolean): StringBuilder {
         val b = StringBuilder()
         if (groupByAuthor) {
-            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }.forEach { (authors, writings) ->
-                if (b.isNotEmpty()) {
-                    b.append(" ")
+            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+                .groupBy { it.authors }.forEach { (authors, writings) ->
+                    if (b.isNotEmpty()) {
+                        b.append(" ")
+                    }
+                    b.append(formatAuthors(authors, "ru"))
+                    b.append(formatWritings(writings, "ru"))
                 }
-                b.append(formatAuthors(authors, "ru"))
-                b.append(formatWritings(writings, "ru"))
-            }
-            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }.forEach { (authors, writings) ->
-                if (b.isNotEmpty()) {
-                    b.append(" ")
+            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }
+                .groupBy { it.authors }.forEach { (authors, writings) ->
+                    if (b.isNotEmpty()) {
+                        b.append(" ")
+                    }
+                    b.append(formatAuthors(authors, "ru"))
+                    b.append(formatWritings(writings, "ru"))
                 }
-                b.append(formatAuthors(authors, "ru"))
-                b.append(formatWritings(writings, "ru"))
-            }
         } else {
-            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.forEach { writing ->
-                if (b.isNotEmpty()) {
-                    b.append(" ")
+            val fullList = LinkedList<Writing>()
+            fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
+            fullList.addAll(writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating })
+            val currentList = LinkedList<Writing>()
+            fullList.forEach { w ->
+                if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
+                    if (b.isNotEmpty()) {
+                        b.append(" ")
+                    }
+                    b.append(formatAuthors(currentList.first().authors, "ru"))
+                    b.append(formatWritings(currentList, "ru"))
+                    currentList.clear()
                 }
-                b.append(formatAuthors(writing.authors, "ru"))
-                b.append(formatWritings(listOf(writing), "ru"))
+                currentList.add(w)
             }
-            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.forEach { writing ->
+            if (currentList.isNotEmpty()) {
                 if (b.isNotEmpty()) {
                     b.append(" ")
                 }
-                b.append(formatAuthors(writing.authors, "ru"))
-                b.append(formatWritings(listOf(writing), "ru"))
+                b.append(formatAuthors(currentList.first().authors, "ru"))
+                b.append(formatWritings(currentList, "ru"))
+                currentList.clear()
             }
         }
         return b
@@ -99,19 +114,26 @@ class Library {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-        val builder = StringBuilder("Библиотека, я это читал. </>")
+        val builder = StringBuilder("Библиотека, это я читал. </> ")
         builder.append(mainList(writingsIn, false))
         builder.append("\n\n")
         builder.append("Библиотека, ещё я читал этих авторов. </> ")
         val mainListAuthors = writingsIn.filter {
-            recommendationFilter(it) || entertainingFilter(it) }.groupBy { it.authors }.keys
-        val authorsList = writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
+            recommendationFilter(it) || entertainingFilter(it)
+        }.groupBy { it.authors }.keys
+        val authorsList =
+            writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }
+                .groupBy { it.authors }.keys.toMutableList()
         builder.append(
             authorsList.joinToString(
                 separator = ", ", prefix = "", postfix = ".", transform = {
-                    it.joinToString(separator = ", ", prefix = "", postfix = "", transform = {
-                            author -> author.names.first().name
-                    })
+                    it.joinToString(
+                        separator = ", ",
+                        prefix = "",
+                        postfix = "",
+                        transform = { author ->
+                            author.names.first().name
+                        })
                 })
         )
         libraryOut.resolve("library.txt").toFile().writeText(builder.toString())
@@ -168,7 +190,11 @@ class Library {
         return author
     }
 
-    fun saveLibrary(dst: Path, authorsMap: MutableMap<String, Author>, writingsIn: MutableList<Writing>) {
+    fun saveLibrary(
+        dst: Path,
+        authorsMap: MutableMap<String, Author>,
+        writingsIn: MutableList<Writing>
+    ) {
         val format = Json { prettyPrint = true }
         val outAuthorsFile = dst.resolve("library-authors.json").toFile()
         outAuthorsFile.writeText(format.encodeToString(authorsMap.values.toList()))
@@ -183,14 +209,17 @@ class Library {
         val outWritingsFile = dst.resolve("library-writings.json").toFile()
         outWritingsFile.writeText(format.encodeToString(writingsToSave))
 
-        val rest = writings.filter { !articlesFileFilter(it)
-                && !otherFileFilter(it) && !chaosFileFilter(it) }
+        val rest = writings.filter {
+            !articlesFileFilter(it)
+                    && !otherFileFilter(it) && !chaosFileFilter(it)
+        }
         if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
     fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
         val authorsIn: List<Author> = Json.decodeFromString<List<Author>>(
-            srcDir.resolve("library-authors.json").toFile().readText())
+            srcDir.resolve("library-authors.json").toFile().readText()
+        )
         val authorsMap = mutableMapOf<String, Author>()
         authorsIn.forEach {
             authorsMap[it.id()] = it
@@ -224,7 +253,14 @@ class Library {
                 }
                 authors.add(authorById)
             }
-            writings.add(Writing(writingRecord.names, authors, writingRecord.tags, writingRecord.rating))
+            writings.add(
+                Writing(
+                    writingRecord.names,
+                    authors,
+                    writingRecord.tags,
+                    writingRecord.rating
+                )
+            )
         }
         saveLibrary(srcDir, authorsMap, writings)
         return writings
