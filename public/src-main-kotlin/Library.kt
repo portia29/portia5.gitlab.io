@@ -63,9 +63,9 @@ class Library {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-        val builder = StringBuilder("Лучшее. </>")
+        val builder = StringBuilder("Библиотека, я это читал. </>")
         val recommendations =
-            writingsIn.filter { booksFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
+            writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         recommendations.forEach { (authors, writings) ->
             if (builder.isNotEmpty()) {
                 builder.append(" ")
@@ -73,21 +73,19 @@ class Library {
             builder.append(formatAuthors(authors, "ru"))
             builder.append(formatWritings(writings, "ru"))
         }
-        builder.append("\n\n")
-        builder.append("Интересное. </> ")
         val posts =
-            writingsIn.filter { articlesFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
+            writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         val postsBuilder = StringBuilder()
         posts.forEach { (authors, writings) ->
             if (postsBuilder.isNotEmpty()) {
                 postsBuilder.append(" ")
             }
-            postsBuilder.append(formatAuthors(authors, "en"))
-            postsBuilder.append(formatWritings(writings, "en"))
+            postsBuilder.append(formatAuthors(authors, "ru"))
+            postsBuilder.append(formatWritings(writings, "ru"))
         }
         builder.append(postsBuilder)
         builder.append("\n\n")
-        builder.append("Ещё я читал этих авторов. </> ")
+        builder.append("Библиотека, ещё я читал этих авторов. </> ")
         val authorsList = writingsIn.filter {
             !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
         }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
@@ -227,11 +225,11 @@ class Library {
         return w.containTags("chaos")
     }
 
-    fun booksFilter(writing: FiltrableWriting): Boolean {
-        return writing.containTags("recommendation")
+    fun recommendationFilter(w: FiltrableWriting): Boolean {
+        return w.containTags("recommendation")
     }
 
-    fun articlesFilter(writing: FiltrableWriting): Boolean {
-        return writing.containTags("entertaining") && writing.containTags("blogging", "short story")
+    fun entertainingFilter(w: FiltrableWriting): Boolean {
+        return w.containTags("entertaining")
     }
 }

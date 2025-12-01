@@ -34,8 +34,7 @@
             "Scott Aaronson"
         ],
         "tags": [
-            "recommendation",
-            "entertaining"
+            "recommendation"
         ],
         "rating": 30
     },
@@ -415,6 +414,24 @@
             "novel"
         ],
         "rating": 420
+    },
+    {
+        "names": [
+            {
+                "name": "Coding Machines",
+                "language": "en",
+                "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
+            }
+        ],
+        "authors": [
+            "Lawrence Kesteloot"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 430
     },
     {
         "names": [
@@ -1121,7 +1138,7 @@
         "names": [
             {
                 "name": "We Need To Talk About Fifty-Five",
-                "language": "?",
+                "language": "en",
                 "comment": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
             }
         ],
@@ -1131,6 +1148,25 @@
         "tags": [
             "blogging",
             "essay",
+            "chaos"
+        ],
+        "rating": 980
+    },
+    {
+        "names": [
+            {
+                "name": "Современные операционные системы",
+                "language": "ru"
+            },
+            {
+                "name": "Modern Operating Systems",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Andrew S. Tanenbaum"
+        ],
+        "tags": [
             "chaos"
         ],
         "rating": 980
@@ -1512,7 +1548,7 @@
         "names": [
             {
                 "name": "The Invisible Man",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1528,7 +1564,7 @@
         "names": [
             {
                 "name": "Смерть героя",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -1544,7 +1580,7 @@
         "names": [
             {
                 "name": "Мартин Иден",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -1560,7 +1596,7 @@
         "names": [
             {
                 "name": "Seventh Victim",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1625,7 +1661,7 @@
         "names": [
             {
                 "name": "Watchbird",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1657,24 +1693,6 @@
     {
         "names": [
             {
-                "name": "Coding Machines",
-                "language": "en",
-                "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
-            }
-        ],
-        "authors": [
-            "Lawrence Kesteloot"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 1410
-    },
-    {
-        "names": [
-            {
                 "name": "451 градус по Фаренгейту",
                 "language": "?"
             }
@@ -1692,7 +1710,7 @@
         "names": [
             {
                 "name": "Казаки",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -1724,7 +1742,7 @@
         "names": [
             {
                 "name": "Смерть чиновника",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -1740,7 +1758,7 @@
         "names": [
             {
                 "name": "Марсианские хроники",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [

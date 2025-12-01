@@ -70,6 +70,18 @@
     {
         "names": [
             {
+                "name": "Эндрю Таненбаум",
+                "language": "ru"
+            },
+            {
+                "name": "Andrew S. Tanenbaum",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Daniel Dennett",
                 "language": "en"
             },
