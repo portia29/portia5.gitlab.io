@@ -224,7 +224,7 @@
         "names": [
             {
                 "name": "The Demiurge’s Older Brother",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -235,7 +235,24 @@
             "essay",
             "entertaining"
         ],
-        "rating": 250
+        "rating": 251
+    },
+    {
+        "names": [
+            {
+                "name": "The Virtue of Silence",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 251
     },
     {
         "names": [
@@ -451,7 +468,7 @@
         "names": [
             {
                 "name": "Ложная слепота",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -461,7 +478,23 @@
             "recommendation",
             "novel"
         ],
-        "rating": 500
+        "rating": 490
+    },
+    {
+        "names": [
+            {
+                "name": "Эхопраксия",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Питер Уоттс"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 490
     },
     {
         "names": [
@@ -496,23 +529,6 @@
         "tags": [
             "recommendation",
             "novel"
-        ],
-        "rating": 500
-    },
-    {
-        "names": [
-            {
-                "name": "The Virtue of Silence",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Scott Alexander"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
         ],
         "rating": 500
     },
@@ -586,22 +602,6 @@
     {
         "names": [
             {
-                "name": "Эхопраксия",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            "Питер Уоттс"
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
                 "name": "Омон Ра",
                 "language": "ru"
             }
@@ -610,7 +610,6 @@
             "Виктор Пелевин"
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 600
@@ -2016,8 +2015,7 @@
         ],
         "tags": [
             "archive",
-            "nouvelle",
-            "entertaining"
+            "nouvelle"
         ],
         "rating": 1900
     },
