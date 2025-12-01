@@ -165,8 +165,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 100
     },
@@ -215,8 +214,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 200
     },
@@ -1443,7 +1441,7 @@
         "names": [
             {
                 "name": "Double Crux — A Strategy for Mutual Understanding",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1451,8 +1449,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 1100
     },
@@ -1710,8 +1707,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 1400
     },
