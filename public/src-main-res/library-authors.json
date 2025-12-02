@@ -4,6 +4,10 @@
             {
                 "name": "Сол Аарон Крипке",
                 "language": "ru"
+            },
+            {
+                "name": "Saul Kripke",
+                "language": "en"
             }
         ]
     },
@@ -531,7 +535,11 @@
         "names": [
             {
                 "name": "Грег Иган",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Greg Egan",
+                "language": "en"
             }
         ]
     },
@@ -539,7 +547,7 @@
         "names": [
             {
                 "name": "Даниил Андреев",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -547,7 +555,7 @@
         "names": [
             {
                 "name": "Джек Лондон",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -555,7 +563,7 @@
         "names": [
             {
                 "name": "Дмитрий Мережковский",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },

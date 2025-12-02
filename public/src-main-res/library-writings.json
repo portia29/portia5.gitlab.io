@@ -25,24 +25,12 @@
     {
         "names": [
             {
-                "name": "Why Philosophers Should Care About Computational Complexity",
-                "language": "en",
-                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
-            }
-        ],
-        "authors": [
-            "Scott Aaronson"
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 30
-    },
-    {
-        "names": [
-            {
                 "name": "Рациональность: от ИИ до зомби",
                 "language": "ru"
+            },
+            {
+                "name": "Rationality: From AI to Zombies",
+                "language": "en"
             }
         ],
         "authors": [
@@ -57,13 +45,33 @@
     {
         "names": [
             {
-                "name": "Витгенштейн о правилах и индивидуальном языке",
-                "language": "ru",
-                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
+                "name": "Why Philosophers Should Care About Computational Complexity",
+                "language": "en",
+                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
         "authors": [
-            "Сол Аарон Крипке"
+            "Scott Aaronson"
+        ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 60
+    },
+    {
+        "names": [
+            {
+                "name": "Витгенштейн о правилах и индивидуальном языке",
+                "language": "ru",
+                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
+            },
+            {
+                "name": "Wittgenstein on Rules and Private Language",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Saul Kripke"
         ],
         "tags": [
             "recommendation",
@@ -86,23 +94,6 @@
             "recommendation"
         ],
         "rating": 99
-    },
-    {
-        "names": [
-            {
-                "name": "They're Made Out of Meat",
-                "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
-            }
-        ],
-        "authors": [
-            "Terry Bisson"
-        ],
-        "tags": [
-            "short story",
-            "entertaining"
-        ],
-        "rating": 100
     },
     {
         "names": [
@@ -174,6 +165,10 @@
             {
                 "name": "Тройной контакт",
                 "language": "ru"
+            },
+            {
+                "name": "Three Worlds Collide",
+                "language": "en"
             }
         ],
         "authors": [
@@ -352,11 +347,15 @@
         "names": [
             {
                 "name": "Диаспора",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Diaspora",
+                "language": "en"
             }
         ],
         "authors": [
-            "Грег Иган"
+            "Greg Egan"
         ],
         "tags": [
             "recommendation",
@@ -525,7 +524,7 @@
             "Emily Nagoski"
         ],
         "tags": [
-            "recommendation",
+            "visible",
             "novel"
         ],
         "rating": 500
@@ -566,6 +565,22 @@
     {
         "names": [
             {
+                "name": "They're Made Out of Meat",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+            }
+        ],
+        "authors": [
+            "Terry Bisson"
+        ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
                 "name": "Москва - Петушки. С комментариями Эдуарда Власова",
                 "language": "ru",
                 "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05."
@@ -578,22 +593,6 @@
         "tags": [
             "archive",
             "novel"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
-                "name": "Живые мощи",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            "Иван Тургенев"
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
         ],
         "rating": 600
     },
@@ -860,7 +859,6 @@
             "Anthony Burgess"
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 800
@@ -1240,6 +1238,22 @@
         "tags": [
             "blogging",
             "essay"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Живые мощи",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Иван Тургенев"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 1000
     },
@@ -2027,9 +2041,9 @@
             "А. Б. Сосинский"
         ],
         "tags": [
+            "invisible",
             "blogging",
-            "essay",
-            "entertaining"
+            "essay"
         ],
         "rating": 1900
     },
@@ -2062,22 +2076,6 @@
         "tags": [
             "archive",
             "novel"
-        ],
-        "rating": 2000
-    },
-    {
-        "names": [
-            {
-                "name": "Little Muck",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Wilhelm Hauff"
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
         ],
         "rating": 2000
     },
@@ -2446,22 +2444,6 @@
         "tags": [
             "archive",
             "novel"
-        ],
-        "rating": 2900
-    },
-    {
-        "names": [
-            {
-                "name": "Маттео Фальконе",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Prosper Merimee"
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
         ],
         "rating": 2900
     },
@@ -2999,6 +2981,22 @@
     {
         "names": [
             {
+                "name": "Маттео Фальконе",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Prosper Merimee"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 6000
+    },
+    {
+        "names": [
+            {
                 "name": "Записки сумасшедшего",
                 "language": "?"
             }
@@ -3338,14 +3336,32 @@
     {
         "names": [
             {
+                "name": "Little Muck",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Wilhelm Hauff"
+        ],
+        "tags": [
+            "invisible",
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
                 "name": "Ангел-хранитель",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
             "Француаза Саган"
         ],
         "tags": [
+            "invisible",
             "archive",
             "novel"
         ],
@@ -3362,6 +3378,7 @@
             "James Hadley Chase"
         ],
         "tags": [
+            "invisible",
             "archive",
             "novel"
         ],
@@ -3378,6 +3395,7 @@
             "Ross Macdonald"
         ],
         "tags": [
+            "invisible",
             "archive",
             "novel"
         ],
@@ -3394,6 +3412,7 @@
             "Оксана Панкеева"
         ],
         "tags": [
+            "invisible",
             "archive",
             "novel"
         ],
@@ -3426,6 +3445,7 @@
             "Prosper Merimee"
         ],
         "tags": [
+            "invisible",
             "archive",
             "novel",
             "chaos"
@@ -3443,10 +3463,11 @@
             "SenLinYu"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
-        "rating": 8900
+        "rating": 8500
     },
     {
         "names": [
@@ -3463,6 +3484,7 @@
             "Hans Christian Andersen"
         ],
         "tags": [
+            "invisible",
             "short story",
             "chaos"
         ],
@@ -3479,6 +3501,7 @@
             "Пауло Коэльо"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3495,6 +3518,7 @@
             "Пауло Коэльо"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3511,6 +3535,7 @@
             "Пауло Коэльо"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3527,6 +3552,7 @@
             "Даниил Андреев"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3543,6 +3569,7 @@
             "Елена Блаватская"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3559,6 +3586,7 @@
             "Пауло Коэльо"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3575,6 +3603,7 @@
             "Андрей Ломачинский"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3591,6 +3620,7 @@
             "Анатолий Протопопов"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],
@@ -3607,6 +3637,7 @@
             "Муромов Игорь Анатольевич"
         ],
         "tags": [
+            "invisible",
             "chaos",
             "novel"
         ],

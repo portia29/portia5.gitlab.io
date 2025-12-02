@@ -10,6 +10,6 @@
 
 <<< * * * >>>
 
-Коллекция штук о которых я что-то слышал. Münchhausen trilemma. Inductive bias. Russell's paradox. Bayes' theorem. Kolmogorov complexity. Prisoner's dilemma. Utility monster. Exploration-exploitation dilemma.
+Коллекция штук, о которых я что-то слышал. Münchhausen trilemma. Inductive bias. Russell's paradox. Bayes' theorem. Kolmogorov complexity. Prisoner's dilemma. Utility monster. Exploration-exploitation dilemma.
 
 #include /library
