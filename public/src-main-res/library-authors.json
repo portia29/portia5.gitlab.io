@@ -350,7 +350,7 @@
     {
         "names": [
             {
-                "name": "Sam qntm Hughes",
+                "name": "Sam Hughes",
                 "language": "en"
             }
         ]
@@ -496,6 +496,10 @@
             {
                 "name": "Виктор Пелевин",
                 "language": "ru"
+            },
+            {
+                "name": "Victor Pelevin",
+                "language": "en"
             }
         ]
     },
@@ -715,7 +719,11 @@
         "names": [
             {
                 "name": "Питер Уоттс",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Peter Watts",
+                "language": "en"
             }
         ]
     },

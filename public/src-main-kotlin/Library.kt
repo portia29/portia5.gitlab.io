@@ -114,7 +114,7 @@ class Library {
         return b
     }
 
-    private fun mainListLarge(writingsIn: MutableList<Writing>): StringBuilder {
+    private fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
         val builder = StringBuilder("Коллекция прочитанного. ")
         builder.append(mainList(writingsIn))
         builder.append("\n\n")
@@ -140,11 +140,30 @@ class Library {
         return builder
     }
 
+    private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
+        val writingsCount = writingsIn.size
+        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
+        val b = StringBuilder(
+            "Коллекция штук, которые я прочитал," +
+                    " штук всего $writingsCount, авторов всего $authorsCount."
+        )
+        val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+        for (i in 0..9) {
+            val w = list[i]
+            if (b.isNotEmpty()) {
+                b.append(" ")
+            }
+            b.append(formatAuthors(w.authors, defaultLang))
+            b.append(formatWritings(listOf(w), defaultLang))
+        }
+        return b
+    }
+
     fun main() {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-        libraryOut.resolve("library.txt").toFile().writeText(mainListLarge(writingsIn).toString())
+        libraryOut.resolve("library.txt").toFile().writeText(mainListShort(writingsIn).toString())
     }
 
     private fun printCount(inputWritings: List<Writing>) {

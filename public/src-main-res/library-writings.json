@@ -45,6 +45,26 @@
     {
         "names": [
             {
+                "name": "Чапаев и Пустота",
+                "language": "ru"
+            },
+            {
+                "name": "Chapayev and Void",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Victor Pelevin"
+        ],
+        "tags": [
+            "visible",
+            "novel"
+        ],
+        "rating": 60
+    },
+    {
+        "names": [
+            {
                 "name": "Why Philosophers Should Care About Computational Complexity",
                 "language": "en",
                 "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
@@ -56,7 +76,7 @@
         "tags": [
             "recommendation"
         ],
-        "rating": 60
+        "rating": 70
     },
     {
         "names": [
@@ -82,31 +102,19 @@
     {
         "names": [
             {
-                "name": "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials",
-                "language": "en",
-                "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf"
-            }
-        ],
-        "authors": [
-            "Gordon C S Smith, Jill P Pell"
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 99
-    },
-    {
-        "names": [
-            {
-                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
+                "name": "Диаспора",
                 "language": "ru"
+            },
+            {
+                "name": "Diaspora",
+                "language": "en"
             }
         ],
         "authors": [
-            "Карл Саган"
+            "Greg Egan"
         ],
         "tags": [
-            "archive",
+            "recommendation",
             "novel"
         ],
         "rating": 100
@@ -114,51 +122,91 @@
     {
         "names": [
             {
-                "name": "…And I Show You How Deep the Rabbit Hole Goes",
-                "language": "?"
+                "name": "Ложная слепота",
+                "language": "ru"
+            },
+            {
+                "name": "Blindsight",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Peter Watts"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 110
+    },
+    {
+        "names": [
+            {
+                "name": "The Demiurge’s Older Brother",
+                "language": "en"
             }
         ],
         "authors": [
             "Scott Alexander"
         ],
         "tags": [
-            "chaos",
-            "nouvelle"
+            "visible",
+            "blogging",
+            "essay"
         ],
-        "rating": 100
+        "rating": 200
     },
     {
         "names": [
             {
-                "name": "In Praise of Boredom",
-                "language": "?"
+                "name": "Simulacra Levels Summary",
+                "language": "en"
             }
         ],
         "authors": [
-            "Eliezer Yudkowsky"
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
             "essay",
-            "chaos"
+            "visible"
         ],
-        "rating": 100
+        "rating": 200
     },
     {
         "names": [
             {
-                "name": "Well-Kept Gardens Die By Pacifism",
-                "language": "?"
+                "name": "There Is No Antimemetics Division",
+                "language": "en",
+                "comment": "https://scp-wiki.wikidot.com/introductory-antimemetics"
             }
         ],
         "authors": [
-            "Eliezer Yudkowsky"
+            "Sam Hughes"
         ],
         "tags": [
             "blogging",
-            "essay"
+            "essay",
+            "visible"
         ],
-        "rating": 100
+        "rating": 290
+    },
+    {
+        "names": [
+            {
+                "name": "The Virtue of Silence",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 300
     },
     {
         "names": [
@@ -178,74 +226,7 @@
             "recommendation",
             "novel"
         ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
-                "name": "Eight Short Studies On Excuses",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Scott Alexander"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
-                "name": "Hero Licensing",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Eliezer Yudkowsky"
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
-                "name": "The Demiurge’s Older Brother",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Scott Alexander"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 251
-    },
-    {
-        "names": [
-            {
-                "name": "The Virtue of Silence",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Scott Alexander"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 251
+        "rating": 300
     },
     {
         "names": [
@@ -346,20 +327,98 @@
     {
         "names": [
             {
-                "name": "Диаспора",
-                "language": "ru"
-            },
-            {
-                "name": "Diaspora",
-                "language": "en"
+                "name": "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials",
+                "language": "en",
+                "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf"
             }
         ],
         "authors": [
-            "Greg Egan"
+            "Gordon C S Smith, Jill P Pell"
         ],
         "tags": [
-            "recommendation",
+            "recommendation"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Карл Саган"
+        ],
+        "tags": [
+            "archive",
             "novel"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "In Praise of Boredom",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Well-Kept Gardens Die By Pacifism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Eight Short Studies On Excuses",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
         ],
         "rating": 400
     },
@@ -464,31 +523,14 @@
     {
         "names": [
             {
-                "name": "Ложная слепота",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            "Питер Уоттс"
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 490
-    },
-    {
-        "names": [
-            {
                 "name": "Эхопраксия",
                 "language": "ru"
             }
         ],
         "authors": [
-            "Питер Уоттс"
+            "Peter Watts"
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 490
@@ -496,16 +538,16 @@
     {
         "names": [
             {
-                "name": "Чапаев и Пустота",
+                "name": "…And I Show You How Deep the Rabbit Hole Goes",
                 "language": "?"
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Scott Alexander"
         ],
         "tags": [
-            "archive",
-            "novel"
+            "chaos",
+            "nouvelle"
         ],
         "rating": 500
     },
@@ -537,7 +579,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "recommendation",
@@ -604,7 +646,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "novel"
@@ -640,23 +682,6 @@
         "tags": [
             "blogging",
             "essay"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
-                "name": "Simulacra Levels Summary",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Zvi Mowshowitz"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
         ],
         "rating": 600
     },
@@ -1089,31 +1114,13 @@
     {
         "names": [
             {
-                "name": "Introductory Antimemetics",
-                "language": "en",
-                "comment": "https://scp-wiki.wikidot.com/introductory-antimemetics"
-            }
-        ],
-        "authors": [
-            "Sam qntm Hughes"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 950
-    },
-    {
-        "names": [
-            {
                 "name": "If You Are Reading This",
                 "language": "?",
                 "comment": "https://qntm.org/readin"
             }
         ],
         "authors": [
-            "Sam qntm Hughes"
+            "Sam Hughes"
         ],
         "tags": [
             "blogging",
@@ -1131,7 +1138,7 @@
             }
         ],
         "authors": [
-            "Sam qntm Hughes"
+            "Sam Hughes"
         ],
         "tags": [
             "blogging",
@@ -1149,7 +1156,7 @@
             }
         ],
         "authors": [
-            "Sam qntm Hughes"
+            "Sam Hughes"
         ],
         "tags": [
             "blogging",
@@ -3098,7 +3105,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3114,7 +3121,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3130,7 +3137,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3146,7 +3153,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3162,7 +3169,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3197,7 +3204,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3213,7 +3220,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3229,7 +3236,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3245,7 +3252,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3261,7 +3268,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3277,7 +3284,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
@@ -3293,7 +3300,7 @@
             }
         ],
         "authors": [
-            "Виктор Пелевин"
+            "Victor Pelevin"
         ],
         "tags": [
             "archive",
