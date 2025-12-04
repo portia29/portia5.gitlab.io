@@ -140,7 +140,7 @@ class Library {
         return builder
     }
 
-    private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
+    private fun mainListMedium(writingsIn: MutableList<Writing>): StringBuilder {
         val writingsCount = writingsIn.size
         val authorsCount = writingsIn.groupBy { it.authors }.keys.size
         val b = StringBuilder(
@@ -148,7 +148,7 @@ class Library {
                     " штук всего $writingsCount, авторов всего $authorsCount."
         )
         val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
-        for (i in 0..7) {
+        for (i in 0..9) {
             val w = list[i]
             if (b.isNotEmpty()) {
                 b.append(" ")
@@ -156,6 +156,25 @@ class Library {
             b.append(formatAuthors(w.authors, defaultLang))
             b.append(formatWritings(listOf(w), defaultLang))
         }
+        return b
+    }
+
+    private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
+        val writingsCount = writingsIn.size
+        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
+        val b = StringBuilder(
+            "Коллекция авторов, которых я читал, авторов всего $authorsCount," +
+                    " произведений всего $writingsCount. "
+        )
+        val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+        for (i in 0..9) {
+            val w = list[i]
+            if (i != 0) {
+                b.append(", ")
+            }
+            b.append(formatAuthors(w.authors, defaultLang))
+        }
+        b.append(".")
         return b
     }
 

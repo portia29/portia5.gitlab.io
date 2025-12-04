@@ -45,22 +45,18 @@
     {
         "names": [
             {
-                "name": "Чапаев и Пустота",
-                "language": "ru"
-            },
-            {
-                "name": "Chapayev and Void",
-                "language": "en"
+                "name": "Why Philosophers Should Care About Computational Complexity",
+                "language": "en",
+                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
         "authors": [
-            "Victor Pelevin"
+            "Scott Aaronson"
         ],
         "tags": [
-            "visible",
-            "novel"
+            "recommendation"
         ],
-        "rating": 60
+        "rating": 55
     },
     {
         "names": [
@@ -78,6 +74,47 @@
         ],
         "tags": [
             "recommendation",
+            "novel"
+        ],
+        "rating": 60
+    },
+    {
+        "names": [
+            {
+                "name": "Витгенштейн о правилах и индивидуальном языке",
+                "language": "ru",
+                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
+            },
+            {
+                "name": "Wittgenstein on Rules and Private Language",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Saul Kripke"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 80
+    },
+    {
+        "names": [
+            {
+                "name": "Чапаев и Пустота",
+                "language": "ru"
+            },
+            {
+                "name": "Chapayev and Void",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Victor Pelevin"
+        ],
+        "tags": [
+            "visible",
             "novel"
         ],
         "rating": 100
@@ -153,43 +190,6 @@
             "visible"
         ],
         "rating": 290
-    },
-    {
-        "names": [
-            {
-                "name": "Why Philosophers Should Care About Computational Complexity",
-                "language": "en",
-                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
-            }
-        ],
-        "authors": [
-            "Scott Aaronson"
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 295
-    },
-    {
-        "names": [
-            {
-                "name": "Витгенштейн о правилах и индивидуальном языке",
-                "language": "ru",
-                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
-            },
-            {
-                "name": "Wittgenstein on Rules and Private Language",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Saul Kripke"
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 297
     },
     {
         "names": [

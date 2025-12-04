@@ -13,12 +13,16 @@
 [2] /image/gallery/5.jpeg
 [2] /image/gallery/6.jpeg
 [2] /image/gallery/7.jpeg
+[2] /image/gallery/8.jpeg
 [2] /image/gallery/infos.json
 [2] /image/selfie/1.jpeg
 [2] /image/selfie/2.jpeg
 [2] /image/selfie/3.jpeg
 [2] /image/selfie/4.jpeg
 [2] /image/selfie/5.jpeg
+[2] /image/selfie/6.jpeg
+[2] /image/selfie/7.jpeg
+[2] /image/selfie/8.jpeg
 [2] /image/selfie/infos.json
 [2] /manifest.webmanifest
 [2] /test/image/game-die.svg
