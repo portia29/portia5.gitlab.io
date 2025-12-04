@@ -65,43 +65,6 @@
     {
         "names": [
             {
-                "name": "Why Philosophers Should Care About Computational Complexity",
-                "language": "en",
-                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
-            }
-        ],
-        "authors": [
-            "Scott Aaronson"
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 70
-    },
-    {
-        "names": [
-            {
-                "name": "Витгенштейн о правилах и индивидуальном языке",
-                "language": "ru",
-                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
-            },
-            {
-                "name": "Wittgenstein on Rules and Private Language",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Saul Kripke"
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 90
-    },
-    {
-        "names": [
-            {
                 "name": "Диаспора",
                 "language": "ru"
             },
@@ -194,6 +157,43 @@
     {
         "names": [
             {
+                "name": "Why Philosophers Should Care About Computational Complexity",
+                "language": "en",
+                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
+            }
+        ],
+        "authors": [
+            "Scott Aaronson"
+        ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 295
+    },
+    {
+        "names": [
+            {
+                "name": "Витгенштейн о правилах и индивидуальном языке",
+                "language": "ru",
+                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
+            },
+            {
+                "name": "Wittgenstein on Rules and Private Language",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Saul Kripke"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 297
+    },
+    {
+        "names": [
+            {
                 "name": "The Virtue of Silence",
                 "language": "en"
             }
@@ -274,7 +274,7 @@
             "archive",
             "nouvelle"
         ],
-        "rating": 300
+        "rating": 400
     },
     {
         "names": [
@@ -290,7 +290,7 @@
             "archive",
             "nouvelle"
         ],
-        "rating": 300
+        "rating": 400
     },
     {
         "names": [
@@ -306,7 +306,7 @@
             "archive",
             "nouvelle"
         ],
-        "rating": 300
+        "rating": 400
     },
     {
         "names": [
@@ -322,7 +322,7 @@
             "blogging",
             "essay"
         ],
-        "rating": 300
+        "rating": 400
     },
     {
         "names": [
@@ -337,22 +337,6 @@
         ],
         "tags": [
             "recommendation"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            "Карл Саган"
-        ],
-        "tags": [
-            "archive",
-            "novel"
         ],
         "rating": 400
     },
@@ -393,7 +377,7 @@
         "names": [
             {
                 "name": "Eight Short Studies On Excuses",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -410,7 +394,7 @@
         "names": [
             {
                 "name": "Hero Licensing",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -426,7 +410,7 @@
         "names": [
             {
                 "name": "Солярис",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -534,6 +518,22 @@
             "novel"
         ],
         "rating": 490
+    },
+    {
+        "names": [
+            {
+                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Карл Саган"
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 500
     },
     {
         "names": [

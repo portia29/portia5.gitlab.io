@@ -148,7 +148,7 @@ class Library {
                     " штук всего $writingsCount, авторов всего $authorsCount."
         )
         val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
-        for (i in 0..9) {
+        for (i in 0..7) {
             val w = list[i]
             if (b.isNotEmpty()) {
                 b.append(" ")
