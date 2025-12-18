@@ -16,7 +16,6 @@
             "Daniel Dennett"
         ],
         "tags": [
-            "blogging",
             "essay",
             "recommendation"
         ],
@@ -518,6 +517,19 @@
             "novel"
         ],
         "rating": 490
+    },
+    {
+        "names": [
+            {
+                "name": "Сексуальные преступления и симбиотические отношения",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Карола Ленэке"
+        ],
+        "tags": [],
+        "rating": 500
     },
     {
         "names": [
