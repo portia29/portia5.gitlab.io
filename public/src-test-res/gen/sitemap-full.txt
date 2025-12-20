@@ -32,6 +32,7 @@
 [2] /test/issue3/css/main-standalone.css
 [2] /test/issue3/css/normalize.css
 [3] /a[.html]
+[3] /b[.html]
 [3] /library[.html]
 [3] /map[.html]
 [3] /map-order[.html]

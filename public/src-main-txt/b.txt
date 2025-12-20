@@ -1,0 +1,9 @@
+#include /p1
+
+<<< * * * >>>
+
+#include /p2
+
+<<< * * * >>>
+
+Можно обмениваться одним письмом в день, а можно одним в год, адрес «irrationalunzen@gmail.com», тема «Jabberwocky».
