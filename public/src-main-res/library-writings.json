@@ -141,6 +141,21 @@
     {
         "names": [
             {
+                "name": "What the Tortoise Said to Achilles",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Lewis Carroll"
+        ],
+        "tags": [
+            "visible"
+        ],
+        "rating": 250
+    },
+    {
+        "names": [
+            {
                 "name": "The Demiurge’s Older Brother",
                 "language": "en"
             }
@@ -153,7 +168,7 @@
             "blogging",
             "essay"
         ],
-        "rating": 200
+        "rating": 255
     },
     {
         "names": [
@@ -171,7 +186,7 @@
             "essay",
             "visible"
         ],
-        "rating": 200
+        "rating": 260
     },
     {
         "names": [
@@ -1280,6 +1295,22 @@
     {
         "names": [
             {
+                "name": "Alice's Adventures in Wonderland",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Lewis Carroll"
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
                 "name": "Precommitment: Intentionally Limiting Your Future Options",
                 "language": "?"
             }
@@ -1770,22 +1801,6 @@
         ],
         "authors": [
             "Лев Толстой"
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1500
-    },
-    {
-        "names": [
-            {
-                "name": "Alice's Adventures in Wonderland",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            "Lewis Carroll"
         ],
         "tags": [
             "archive",
