@@ -2485,6 +2485,23 @@
     {
         "names": [
             {
+                "name": "Guts",
+                "language": "en"
+            },
+            {
+                "name": "Кишки",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Chuck Palahniuk"
+        ],
+        "tags": [],
+        "rating": 3000
+    },
+    {
+        "names": [
+            {
                 "name": "Аэлита",
                 "language": "?"
             }
