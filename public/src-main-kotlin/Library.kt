@@ -65,28 +65,7 @@ class Library {
 
     val defaultLang = "en"
 
-    private fun mainListGroupByAuthor(writingsIn: MutableList<Writing>): StringBuilder {
-        val b = StringBuilder()
-        writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
-            .groupBy { it.authors }.forEach { (authors, writings) ->
-                if (b.isNotEmpty()) {
-                    b.append(" ")
-                }
-                b.append(formatAuthors(authors, defaultLang))
-                b.append(formatWritings(writings, defaultLang))
-            }
-        writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating }
-            .groupBy { it.authors }.forEach { (authors, writings) ->
-                if (b.isNotEmpty()) {
-                    b.append(" ")
-                }
-                b.append(formatAuthors(authors, defaultLang))
-                b.append(formatWritings(writings, defaultLang))
-            }
-        return b
-    }
-
-    private fun mainList(writingsIn: MutableList<Writing>): StringBuilder {
+    private fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
         val b = StringBuilder()
         val fullList = LinkedList<Writing>()
         fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
@@ -111,21 +90,15 @@ class Library {
             b.append(formatWritings(currentList, defaultLang))
             currentList.clear()
         }
-        return b
-    }
-
-    private fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
-        val builder = StringBuilder("Коллекция прочитанного. ")
-        builder.append(mainList(writingsIn))
-        builder.append("\n\n")
-        builder.append("Ещё я читал этих авторов. ")
+        b.append(" ")
+        b.append("Ещё я читал этих авторов. ")
         val mainListAuthors = writingsIn.filter {
             recommendationFilter(it) || entertainingFilter(it) || it.tags.contains("invisible")
         }.groupBy { it.authors }.keys
         val authorsList =
             writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }
                 .groupBy { it.authors }.keys.toMutableList()
-        builder.append(
+        b.append(
             authorsList.joinToString(
                 separator = ", ", prefix = "", postfix = ".", transform = {
                     it.joinToString(
@@ -137,17 +110,12 @@ class Library {
                         })
                 })
         )
-        return builder
+        return b
     }
 
-    private fun mainListMedium(writingsIn: MutableList<Writing>): StringBuilder {
-        val writingsCount = writingsIn.size
-        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
-        val b = StringBuilder(
-            "Коллекция штук, которые я прочитал," +
-                    " штук всего $writingsCount, авторов всего $authorsCount."
-        )
-        val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+    private fun mainListMedium(writingsIn: MutableList<Writing>, predicate: (Writing) -> Boolean): StringBuilder {
+        val b = StringBuilder()
+        val list = writingsIn.filter { predicate(it) }.sortedBy { it.rating }
         for (i in 0..9) {
             val w = list[i]
             if (b.isNotEmpty()) {
@@ -160,12 +128,7 @@ class Library {
     }
 
     private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
-        val writingsCount = writingsIn.size
-        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
-        val b = StringBuilder(
-            "Коллекция авторов, которых я читал, авторов всего $authorsCount," +
-                    " произведений всего $writingsCount. "
-        )
+        val b = StringBuilder()
         val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
         for (i in 0..9) {
             val w = list[i]
@@ -178,39 +141,31 @@ class Library {
         return b
     }
 
+    private fun mainListSummary(writingsIn: MutableList<Writing>): StringBuilder {
+        val b = StringBuilder()
+        val writingsCount = writingsIn.size
+        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
+        b.append("Коллекция штук, прочитанных мной," +
+                " штук всего $writingsCount, авторов всего $authorsCount.")
+        b.append(" ").append("Коллекция авторов, которых я читал, авторов всего $authorsCount," +
+                " произведений всего $writingsCount.")
+        return b
+    }
+
     fun main() {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
-        libraryOut.resolve("library.txt").toFile().writeText(mainListShort(writingsIn).toString())
-    }
-
-    private fun printCount(inputWritings: List<Writing>) {
-        val novelCount = inputWritings.count { it.tags.contains("novel") }
-        val recommendation = inputWritings.count {
-            it.tags.contains("novel") && it.tags.contains("recommendation")
-        }
-        val entertaining = inputWritings.count {
-            it.tags.contains("novel") && it.tags.contains("entertaining")
-        }
-        val archive = inputWritings.count {
-            it.tags.contains("novel") && it.tags.contains("archive")
-        }
-        val chaos = inputWritings.count {
-            it.tags.contains("novel") && it.tags.contains("chaos")
-        }
-        if ((recommendation + entertaining + archive + chaos) != novelCount) {
-            throw IllegalStateException()
-        }
-        // Total novels 163, listed 128, unlisted 35.
-        // Recommendation 10, entertaining 0, archive 109, chaos 9.
-        val unlisted = 35
-        print("Total novels ${novelCount + unlisted}, listed $novelCount, unlisted $unlisted.")
-        print(" ")
-        print("Recommendation $recommendation, entertaining $entertaining,")
-        print(" ")
-        print("archive $archive, chaos $chaos.")
-        print("\n")
+        val text = StringBuilder()
+        text.append(mainListSummary(writingsIn)).appendLine().appendLine()
+        text.append(mainListShort(writingsIn)).appendLine().appendLine()
+        //text.append(mainListMedium(writingsIn) { recommendationFilter(it) }).append("\n\n")
+        text.append(mainListMedium(writingsIn) { !it.containTags("fiction") })
+        text.appendLine().appendLine()
+        text.append(mainListMedium(writingsIn) { it.containTags("fiction") })
+        text.appendLine().appendLine()
+        text.append(mainListLong(writingsIn))
+        libraryOut.resolve("library.txt").toFile().writeText(text.toString())
     }
 
     private fun formatWritings(writings: List<Writing>, language: String): String {
@@ -254,12 +209,6 @@ class Library {
         val writingsToSave = writings.sortedBy { it.rating }
         val outWritingsFile = dst.resolve("library-writings.json").toFile()
         outWritingsFile.writeText(format.encodeToString(writingsToSave))
-
-        val rest = writings.filter {
-            !articlesFileFilter(it)
-                    && !otherFileFilter(it) && !chaosFileFilter(it)
-        }
-        if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
     fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
@@ -310,18 +259,6 @@ class Library {
         }
         saveLibrary(srcDir, authorsMap, writings)
         return writings
-    }
-
-    fun articlesFileFilter(w: FiltrableWriting): Boolean {
-        return w.containTags("essay", "blogging") && !w.containTags("chaos")
-    }
-
-    fun otherFileFilter(w: FiltrableWriting): Boolean {
-        return (!w.containTags("essay") && !w.containTags("blogging")) && !w.containTags("chaos")
-    }
-
-    fun chaosFileFilter(w: FiltrableWriting): Boolean {
-        return w.containTags("chaos")
     }
 
     fun recommendationFilter(w: FiltrableWriting): Boolean {
