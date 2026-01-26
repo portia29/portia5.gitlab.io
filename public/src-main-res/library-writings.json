@@ -1185,6 +1185,26 @@
     {
         "names": [
             {
+                "name": "Путешествия Гулливера",
+                "language": "ru"
+            },
+            {
+                "name": "Gulliver's Travels",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Jonathan Swift"
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
                 "name": "If You Are Reading This",
                 "language": "?",
                 "comment": "https://qntm.org/readin"
@@ -1515,22 +1535,6 @@
     {
         "names": [
             {
-                "name": "Путешествия Гулливера",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Оливер Свифт"
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1100
-    },
-    {
-        "names": [
-            {
                 "name": "Masculine Virtues",
                 "language": "?"
             }
@@ -1770,6 +1774,23 @@
             "essay"
         ],
         "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "A Hunger Artist",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Franz Kafka"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 1400
     },
     {
         "names": [

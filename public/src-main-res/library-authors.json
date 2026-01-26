@@ -722,8 +722,12 @@
     {
         "names": [
             {
-                "name": "Оливер Свифт",
-                "language": "?"
+                "name": "Джонатан Свифт",
+                "language": "ru"
+            },
+            {
+                "name": "Jonathan Swift",
+                "language": "en"
             }
         ]
     },
