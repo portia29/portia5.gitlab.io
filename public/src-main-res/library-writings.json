@@ -1843,6 +1843,23 @@
     {
         "names": [
             {
+                "name": "BusyBeaver(6) is really quite large",
+                "language": "en",
+                "comment": "https://scottaaronson.blog/?p=8972"
+            }
+        ],
+        "authors": [
+            "Scott Aaronson"
+        ],
+        "tags": [
+            "recommendation",
+            "math"
+        ],
+        "rating": 1500
+    },
+    {
+        "names": [
+            {
                 "name": "451 градус по Фаренгейту",
                 "language": "?"
             }

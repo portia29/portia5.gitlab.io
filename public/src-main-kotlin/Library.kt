@@ -130,12 +130,12 @@ class Library {
     private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
         val b = StringBuilder()
         val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+            .groupBy { it.authors }.keys.toList()
         for (i in 0..9) {
-            val w = list[i]
             if (i != 0) {
                 b.append(", ")
             }
-            b.append(formatAuthors(w.authors, defaultLang))
+            b.append(formatAuthors(list[i], defaultLang))
         }
         b.append(".")
         return b
