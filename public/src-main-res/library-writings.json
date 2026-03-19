@@ -272,6 +272,25 @@
     {
         "names": [
             {
+                "name": "In The Balance",
+                "language": "en",
+                "comment": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "visible",
+            "blogging",
+            "essay",
+            "fiction"
+        ],
+        "rating": 320
+    },
+    {
+        "names": [
+            {
                 "name": "S.N.U.F.F.",
                 "language": "ru"
             }
@@ -1861,7 +1880,7 @@
         "names": [
             {
                 "name": "451 градус по Фаренгейту",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
