@@ -16,7 +16,7 @@ class Library {
     }
 
     interface FiltrableWriting {
-        fun containTags(vararg tags: String): Boolean
+        fun containAnyOfTags(vararg tags: String): Boolean
     }
 
     @Serializable
@@ -46,7 +46,7 @@ class Library {
         val tags: Set<String>,
         val rating: Int
     ) : FiltrableWriting {
-        override fun containTags(vararg tags: String): Boolean {
+        override fun containAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
             return false
         }
@@ -57,7 +57,7 @@ class Library {
         val names: List<Name>, val authors: MutableList<String>, val tags: Set<String>,
         val rating: Int
     ) : FiltrableWriting {
-        override fun containTags(vararg tags: String): Boolean {
+        override fun containAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
             return false
         }
@@ -145,10 +145,11 @@ class Library {
         val b = StringBuilder()
         val writingsCount = writingsIn.size
         val authorsCount = writingsIn.groupBy { it.authors }.keys.size
+        b.append("Коллекция авторов, штуки которых я читал, авторов всего $authorsCount," +
+                " штук всего $writingsCount.")
+        b.append(" ")
         b.append("Коллекция штук, прочитанных мной," +
                 " штук всего $writingsCount, авторов всего $authorsCount.")
-        b.append(" ").append("Коллекция авторов, которых я читал, авторов всего $authorsCount," +
-                " произведений всего $writingsCount.")
         return b
     }
 
@@ -158,13 +159,37 @@ class Library {
         val libraryOut = UtilsAbsolute.srcGenDir
         val text = StringBuilder()
         text.append(mainListSummary(writingsIn)).appendLine().appendLine()
-        text.append(mainListShort(writingsIn)).appendLine().appendLine()
+        //text.append(mainListShort(writingsIn)).appendLine().appendLine()
         //text.append(mainListMedium(writingsIn) { recommendationFilter(it) }).append("\n\n")
-        text.append(mainListMedium(writingsIn) { !it.containTags("fiction") })
-        text.appendLine().appendLine()
-        text.append(mainListMedium(writingsIn) { it.containTags("fiction") })
-        text.appendLine().appendLine()
-        text.append(mainListLong(writingsIn))
+        //text.append(mainListMedium(writingsIn) { !it.containAnyOfTags("fiction") })
+        //text.appendLine().appendLine()
+        //text.append(mainListMedium(writingsIn) { it.containAnyOfTags("fiction") })
+        //text.appendLine().appendLine()
+        //text.append(mainListLong(writingsIn))
+        val b = StringBuilder()
+        val fullList = LinkedList<Writing>()
+        fullList.addAll(writingsIn.sortedBy { it.rating })
+        val currentList = LinkedList<Writing>()
+        fullList.forEach { w ->
+            if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(currentList.first().authors, defaultLang))
+                b.append(formatWritings(currentList, defaultLang))
+                currentList.clear()
+            }
+            currentList.add(w)
+        }
+        if (currentList.isNotEmpty()) {
+            if (b.isNotEmpty()) {
+                b.append(" ")
+            }
+            b.append(formatAuthors(currentList.first().authors, defaultLang))
+            b.append(formatWritings(currentList, defaultLang))
+            currentList.clear()
+        }
+        text.append(b)
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())
     }
 
@@ -262,10 +287,10 @@ class Library {
     }
 
     fun recommendationFilter(w: FiltrableWriting): Boolean {
-        return w.containTags("recommendation", "visible") && !w.containTags("invisible")
+        return w.containAnyOfTags("recommendation", "visible") && !w.containAnyOfTags("invisible")
     }
 
     fun entertainingFilter(w: FiltrableWriting): Boolean {
-        return w.containTags("entertaining") && !w.containTags("invisible")
+        return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
     }
 }
