@@ -4,12 +4,4 @@
 
 #include /p2
 
-<<< * * * >>>
-
-irrationalunzen@gmail.com
-
-<<< * * * >>>
-
-#include /p3
-
 https://portia5.gitlab.io/x
