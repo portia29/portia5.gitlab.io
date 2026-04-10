@@ -651,7 +651,7 @@
         "names": [
             {
                 "name": "Кхьенце Норбу",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -659,7 +659,7 @@
         "names": [
             {
                 "name": "Лев Толстой",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -667,7 +667,7 @@
         "names": [
             {
                 "name": "Лион Фейхтвангер",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -675,7 +675,7 @@
         "names": [
             {
                 "name": "Марк Твен",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -683,7 +683,7 @@
         "names": [
             {
                 "name": "Михаил Булгаков",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -699,7 +699,7 @@
         "names": [
             {
                 "name": "Николай Гоголь",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -707,7 +707,7 @@
         "names": [
             {
                 "name": "Николай Носов",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -715,7 +715,7 @@
         "names": [
             {
                 "name": "Оксана Панкеева",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -734,8 +734,16 @@
     {
         "names": [
             {
+                "name": "Richard Hanania",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Павел Бажов",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },

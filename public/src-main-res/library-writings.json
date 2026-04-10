@@ -3522,8 +3522,24 @@
     {
         "names": [
             {
+                "name": "Stop Trying to Make Heterosexuals into Lesbians",
+                "language": "en",
+                "comment": "https://www.richardhanania.com/p/stop-trying-to-make-heterosexuals"
+            }
+        ],
+        "authors": [
+            "Richard Hanania"
+        ],
+        "tags": [
+            "invisible"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
                 "name": "This Way For a Shroud",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -3540,7 +3556,7 @@
         "names": [
             {
                 "name": "The Doomsters",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -3557,7 +3573,7 @@
         "names": [
             {
                 "name": "Пересекая границы",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3731,7 +3747,7 @@
         "names": [
             {
                 "name": "Алхимик",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3748,7 +3764,7 @@
         "names": [
             {
                 "name": "Вынос мозга",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3765,7 +3781,7 @@
         "names": [
             {
                 "name": "Трактат о любви как ее понимает жуткий зануда",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
