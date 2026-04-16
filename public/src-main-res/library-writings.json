@@ -9,7 +9,7 @@
             {
                 "name": "Условия присутствия личности",
                 "language": "ru",
-                "comment": "http://www.ruthenia.ru/logos/number/37/07.pdf"
+                "comment": "https://www.ruthenia.ru/logos/number/37/07.pdf"
             }
         ],
         "authors": [
@@ -1293,6 +1293,23 @@
             "chaos"
         ],
         "rating": 980
+    },
+    {
+        "names": [
+            {
+                "name": "Only Law Can Prevent Extinction",
+                "language": "en",
+                "comment": "https://x.com/ESYudkowsky/status/2043601524815716866"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1000
     },
     {
         "names": [
@@ -2909,6 +2926,23 @@
     {
         "names": [
             {
+                "name": "Behaviourism’s Revenge",
+                "language": "en",
+                "comment": "Примерно: “У нас сейчас куча людей начнёт верить в наличие сознания у LLM, что мы с этим будем делать?” Один из десятка взглядов из обзора взглядов: “Nobody supposes that the computational model of rainstorms in London will leave us all wet. But they make the mistake of supposing that the computational model of consciousness is somehow conscious”, Searle, 2002. Из заключения: “While noting the impossibility of ever directly knowing that other humans are conscious, Turing spoke of the “polite convention” we extend to others in assuming they have minds like ours.” https://www.polytropolis.com/p/behaviourisms-revenge"
+            }
+        ],
+        "authors": [
+            "Henry Shevlin"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 4500
+    },
+    {
+        "names": [
+            {
                 "name": "Серия о капитане Бладе",
                 "language": "?"
             }
@@ -2989,6 +3023,22 @@
     {
         "names": [
             {
+                "name": "Отчего вы не буддист",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Кхьенце Норбу"
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5000
+    },
+    {
+        "names": [
+            {
                 "name": "Триумфальная арка",
                 "language": "?"
             }
@@ -3033,6 +3083,20 @@
             "novel"
         ],
         "rating": 5300
+    },
+    {
+        "names": [
+            {
+                "name": "Слышали, что духи «с феромонами» привлекают окружающих? Но возможно ли это с точки зрения науки? И есть ли вообще у человека феромоны?",
+                "language": "ru",
+                "comment": "https://meduza.io/feature/2026/04/18/slyshali-chto-duhi-s-feromonami-privlekayut-okruzhayuschih-no-vozmozhno-li-eto-s-tochki-zreniya-nauki-i-est-li-voobsche-u-cheloveka-feromony / В порядке увеличения числа нейронов в обонятельной луковице: мужчина, мышь, хомяк, морская свинка, женщина, макака, крыса. У всего разнообразия исследованных млекопитающих, 24 вида, включая грызунов, приматов, насекомоядных, зайцеобразных и шерстокрылов, количество нейронов в луковицах всегда оставалось в пределах 10 миллионов, что удивительно учитывая разницу в массе тела в пять тысяч раз. / Женщины с естественным менструальным циклом предпочитают запахи мужчин, максимально непохожих на них по вариантам MHC. У женщин, принимающих гормональные контрацептивы, эффект был обратный."
+            }
+        ],
+        "authors": [
+            "Meduza"
+        ],
+        "tags": [],
+        "rating": 5400
     },
     {
         "names": [
@@ -3229,22 +3293,6 @@
     {
         "names": [
             {
-                "name": "Отчего вы не буддист",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Кхьенце Норбу"
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6500
-    },
-    {
-        "names": [
-            {
                 "name": "Empire V",
                 "language": "?"
             }
@@ -3278,7 +3326,7 @@
         "names": [
             {
                 "name": "Затворник и Шестипалый",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3294,7 +3342,7 @@
         "names": [
             {
                 "name": "Священная книга оборотня",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3310,7 +3358,7 @@
         "names": [
             {
                 "name": "Тайные виды на гору Фудзи",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3344,8 +3392,25 @@
     {
         "names": [
             {
+                "name": "No one owes you supply-chain security",
+                "language": "en",
+                "comment": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
+            }
+        ],
+        "authors": [
+            "Alisa Sireneva"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 7000
+    },
+    {
+        "names": [
+            {
                 "name": "Любовь к трём цукербринам",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3361,7 +3426,7 @@
         "names": [
             {
                 "name": "Принц Госплана",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3377,7 +3442,7 @@
         "names": [
             {
                 "name": "Жёлтая стрела",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3393,7 +3458,7 @@
         "names": [
             {
                 "name": "Generation 'П'",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -3473,7 +3538,7 @@
         "names": [
             {
                 "name": "The Alchemical Marriage of Alistair Crompton",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -3522,6 +3587,23 @@
     {
         "names": [
             {
+                "name": "Why is Everything Liberal?",
+                "language": "en",
+                "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. https://www.richardhanania.com/p/why-is-everything-liberal"
+            }
+        ],
+        "authors": [
+            "Richard Hanania"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8010
+    },
+    {
+        "names": [
+            {
                 "name": "Stop Trying to Make Heterosexuals into Lesbians",
                 "language": "en",
                 "comment": "https://www.richardhanania.com/p/stop-trying-to-make-heterosexuals"
@@ -3531,9 +3613,61 @@
             "Richard Hanania"
         ],
         "tags": [
+            "essay",
             "invisible"
         ],
-        "rating": 8000
+        "rating": 8050
+    },
+    {
+        "names": [
+            {
+                "name": "Yes, Sydney Sweeney's Boobs Are Anti-Woke",
+                "language": "en",
+                "comment": "https://www.richardhanania.com/p/yes-sydney-sweeneys-boobs-are-anti"
+            }
+        ],
+        "authors": [
+            "Richard Hanania"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8100
+    },
+    {
+        "names": [
+            {
+                "name": "Women's Tears Win in the Marketplace of Ideas",
+                "language": "en",
+                "comment": "https://www.richardhanania.com/p/womens-tears-win-in-the-marketplace"
+            }
+        ],
+        "authors": [
+            "Richard Hanania"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8100
+    },
+    {
+        "names": [
+            {
+                "name": "The Based Ritual",
+                "language": "en",
+                "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет “Я реально знаю таких людей и всё действительно так плохо”, они считают что logical consistency is for cucks. https://www.richardhanania.com/p/the-based-ritual"
+            }
+        ],
+        "authors": [
+            "Richard Hanania"
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8100
     },
     {
         "names": [

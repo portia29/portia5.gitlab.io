@@ -742,6 +742,22 @@
     {
         "names": [
             {
+                "name": "Alisa Sireneva",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Henry Shevlin",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Павел Бажов",
                 "language": "ru"
             }
@@ -963,6 +979,14 @@
         "names": [
             {
                 "name": "Эрих Мария Ремарк",
+                "language": "?"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Meduza",
                 "language": "?"
             }
         ]

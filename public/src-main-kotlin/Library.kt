@@ -66,6 +66,12 @@ class Library {
     val defaultLang = "en"
 
     private fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
+        fun recommendationFilter(w: FiltrableWriting): Boolean {
+            return w.containAnyOfTags("recommendation", "visible") && !w.containAnyOfTags("invisible")
+        }
+        fun entertainingFilter(w: FiltrableWriting): Boolean {
+            return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
+        }
         val b = StringBuilder()
         val fullList = LinkedList<Writing>()
         fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
@@ -129,7 +135,7 @@ class Library {
 
     private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
         val b = StringBuilder()
-        val list = writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating }
+        val list = writingsIn.filter { it.containAnyOfTags("recommendation", "visible") && !it.containAnyOfTags("invisible") }.sortedBy { it.rating }
             .groupBy { it.authors }.keys.toList()
         for (i in 0..9) {
             if (i != 0) {
@@ -151,6 +157,29 @@ class Library {
         b.append("Коллекция штук, прочитанных мной," +
                 " штук всего $writingsCount, авторов всего $authorsCount.")
         return b
+    }
+
+    private fun formatWritings(writings: List<Writing>, language: String): String {
+        return writings.joinToString(
+            separator = "», «", prefix = ": «", postfix = "».", transform = {
+                var writingName = it.names[0].name
+                if (it.names.size > 1) {
+                    it.names.forEach { wn ->
+                        if (wn.language == language) writingName = wn.name
+                    }
+                }
+                writingName
+            })
+    }
+
+    private fun formatAuthors(authors: List<Author>, language: String): String {
+        var author = authors[0].names.first().name
+        if (authors[0].names.size > 1) {
+            authors[0].names.forEach {
+                if (it.language == language) author = it.name
+            }
+        }
+        return author
     }
 
     fun main() {
@@ -191,29 +220,6 @@ class Library {
         }
         text.append(b)
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())
-    }
-
-    private fun formatWritings(writings: List<Writing>, language: String): String {
-        return writings.joinToString(
-            separator = "», «", prefix = ": «", postfix = "».", transform = {
-                var writingName = it.names[0].name
-                if (it.names.size > 1) {
-                    it.names.forEach { wn ->
-                        if (wn.language == language) writingName = wn.name
-                    }
-                }
-                writingName
-            })
-    }
-
-    private fun formatAuthors(authors: List<Author>, language: String): String {
-        var author = authors[0].names.first().name
-        if (authors[0].names.size > 1) {
-            authors[0].names.forEach {
-                if (it.language == language) author = it.name
-            }
-        }
-        return author
     }
 
     fun saveLibrary(
@@ -267,8 +273,11 @@ class Library {
                         }
                     }
                     if (authorById == null) {
+                        val author = Author(linkedSetOf(Name(authorId, "?")))
+                        authorsMap[authorId] = author
+                        authorById = author
                         val e = "$writingRecord - $authorId"
-                        throw IllegalStateException(e)
+                        println("New author: $e")
                     }
                 }
                 authors.add(authorById)
@@ -284,13 +293,5 @@ class Library {
         }
         saveLibrary(srcDir, authorsMap, writings)
         return writings
-    }
-
-    fun recommendationFilter(w: FiltrableWriting): Boolean {
-        return w.containAnyOfTags("recommendation", "visible") && !w.containAnyOfTags("invisible")
-    }
-
-    fun entertainingFilter(w: FiltrableWriting): Boolean {
-        return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
     }
 }
