@@ -4,7 +4,7 @@
             {
                 "name": "Münchhausen trilemma",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
+                "link": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
             }
         ],
         "authors": [
@@ -27,7 +27,7 @@
             {
                 "name": "Russell's paradox",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+                "link": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
             }
         ],
         "authors": [
@@ -50,7 +50,7 @@
             {
                 "name": "Kolmogorov complexity",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
+                "link": "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
             }
         ],
         "authors": [
@@ -73,7 +73,7 @@
             {
                 "name": "Inductive bias",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Inductive_bias"
+                "link": "https://en.wikipedia.org/wiki/Inductive_bias"
             }
         ],
         "authors": [
@@ -96,7 +96,7 @@
             {
                 "name": "Bayes' theorem",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+                "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
             }
         ],
         "authors": [
@@ -119,7 +119,7 @@
             {
                 "name": "Prisoner's dilemma",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
+                "link": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
             }
         ],
         "authors": [
@@ -142,7 +142,7 @@
             {
                 "name": "Utility monster",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Utility_monster"
+                "link": "https://en.wikipedia.org/wiki/Utility_monster"
             }
         ],
         "authors": [
@@ -165,7 +165,7 @@
             {
                 "name": "Exploration–exploitation dilemma",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
+                "link": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
             }
         ],
         "authors": [
@@ -188,12 +188,12 @@
             {
                 "name": "Conditions of Personhood",
                 "language": "en",
-                "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
+                "link": "https://doi.org/10.1007/978-1-4612-3950-5_7"
             },
             {
                 "name": "Условия присутствия личности",
                 "language": "ru",
-                "comment": "https://www.ruthenia.ru/logos/number/37/07.pdf"
+                "link": "https://www.ruthenia.ru/logos/number/37/07.pdf"
             }
         ],
         "authors": [
@@ -252,7 +252,7 @@
             {
                 "name": "Why Philosophers Should Care About Computational Complexity",
                 "language": "en",
-                "comment": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
+                "link": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
         "authors": [
@@ -450,7 +450,7 @@
             {
                 "name": "Simulacra Levels Summary",
                 "language": "en",
-                "comment": "https://www.lesswrong.com/posts/hLzwNuPyEvR4mfAce/simulacra-levels-summary"
+                "link": "https://www.lesswrong.com/posts/hLzwNuPyEvR4mfAce/simulacra-levels-summary"
             }
         ],
         "authors": [
@@ -475,7 +475,7 @@
             {
                 "name": "There Is No Antimemetics Division",
                 "language": "en",
-                "comment": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+                "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
             }
         ],
         "authors": [
@@ -588,7 +588,7 @@
             {
                 "name": "In The Balance",
                 "language": "en",
-                "comment": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
+                "link": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
             }
         ],
         "authors": [
@@ -636,6 +636,29 @@
             "fiction"
         ],
         "rating": 350
+    },
+    {
+        "names": [
+            {
+                "name": "Juni Taisen: Zodiac War",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Juni_Taisen:_Zodiac_War"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoto Hosoda",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 400
     },
     {
         "names": [
@@ -963,6 +986,29 @@
     {
         "names": [
             {
+                "name": "Bokurano",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Bokurano:_Ours"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroyuki Morita",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 420
+    },
+    {
+        "names": [
+            {
                 "name": "Тебе нравится, что ты видишь?",
                 "language": "?"
             }
@@ -1013,6 +1059,75 @@
     {
         "names": [
             {
+                "name": "Claymore",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Claymore_(manga)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroyuki Tanaka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 440
+    },
+    {
+        "names": [
+            {
+                "name": "World Trigger",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/World_Trigger"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mitsuru Hongo",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 460
+    },
+    {
+        "names": [
+            {
+                "name": "Blame!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Blame!"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Tsutomu Nihei",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "manga"
+        ],
+        "rating": 480
+    },
+    {
+        "names": [
+            {
                 "name": "Эхопраксия",
                 "language": "ru"
             }
@@ -1035,6 +1150,29 @@
             "novel"
         ],
         "rating": 490
+    },
+    {
+        "names": [
+            {
+                "name": "Made in Abyss",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Made_in_Abyss"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Masayuki Kojima",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 500
     },
     {
         "names": [
@@ -1159,6 +1297,52 @@
             "novel"
         ],
         "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "Ghost in the Shell",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mamoru Oshii",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 520
+    },
+    {
+        "names": [
+            {
+                "name": "Psycho-Pass",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoyoshi Shiotani, Katsuyuki Motohiro",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 540
     },
     {
         "names": [
