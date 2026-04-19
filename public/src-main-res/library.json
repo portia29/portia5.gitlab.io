@@ -2897,6 +2897,29 @@
     {
         "names": [
             {
+                "name": "Fate/stay night",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yūji Yamaguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
                 "name": "The War of the Worlds",
                 "language": "?"
             }
@@ -2939,6 +2962,98 @@
             "novel"
         ],
         "rating": 1202
+    },
+    {
+        "names": [
+            {
+                "name": "Puella Magi Madoka Magica",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1220
+    },
+    {
+        "names": [
+            {
+                "name": "The Promised Neverland",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Promised_Neverland"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mamoru Kanbe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1240
+    },
+    {
+        "names": [
+            {
+                "name": "So I'm a Spider, So What?",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/So_I%27m_a_Spider,_So_What%3F"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shinji Itō",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1260
+    },
+    {
+        "names": [
+            {
+                "name": "Akame ga Kill!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Tomoki Kobayashi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1280
     },
     {
         "names": [
@@ -3063,6 +3178,121 @@
     {
         "names": [
             {
+                "name": "That Time I Got Reincarnated as a Slime",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yasuhito Kikuchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "The King's Avatar",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hao Lin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1320
+    },
+    {
+        "names": [
+            {
+                "name": "Saga of Tanya the Evil",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Youjo_Senki"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yutaka Uemura",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1340
+    },
+    {
+        "names": [
+            {
+                "name": "Code Geass: Lelouch of the Rebellion",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Code_Geass"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gorō Taniguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1360
+    },
+    {
+        "names": [
+            {
+                "name": "Ascendance of a Bookworm",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yoshiki Watanabe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1380
+    },
+    {
+        "names": [
+            {
                 "name": "A Hunger Artist",
                 "language": "en"
             }
@@ -3164,6 +3394,121 @@
     {
         "names": [
             {
+                "name": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shinji Ishihira",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "Blame!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Blame!_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroyuki Seshita",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1420
+    },
+    {
+        "names": [
+            {
+                "name": "The Devil Is a Part-Timer!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Devil_Is_a_Part-Timer!"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoto Hosoda",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1440
+    },
+    {
+        "names": [
+            {
+                "name": "No Game No Life",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/No_Game_No_Life"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Atsuko Ishizuka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1460
+    },
+    {
+        "names": [
+            {
+                "name": "Plastic Memories",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Plastic_Memories"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Takashi Naoya",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1480
+    },
+    {
+        "names": [
+            {
                 "name": "BusyBeaver(6) is really quite large",
                 "language": "en",
                 "comment": "https://scottaaronson.blog/?p=8972"
@@ -3261,6 +3606,121 @@
     {
         "names": [
             {
+                "name": "Miss Kobayashi's Dragon Maid",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Miss_Kobayashi%27s_Dragon_Maid"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kyoto Animation",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1500
+    },
+    {
+        "names": [
+            {
+                "name": "Re:Monster",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Re:Monster"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shinichi Suzuki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1520
+    },
+    {
+        "names": [
+            {
+                "name": "Bleach: Thousand-Year Blood War – The Conflict",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Tomohisa Taguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1540
+    },
+    {
+        "names": [
+            {
+                "name": "Demon Lord 2099",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Demon_Lord_2099"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yūichi Tanaka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1560
+    },
+    {
+        "names": [
+            {
+                "name": "Tower of God",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Tower_of_God_(anime)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Takahiro Oba",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1580
+    },
+    {
+        "names": [
+            {
                 "name": "Марсианские хроники",
                 "language": "ru"
             }
@@ -3353,6 +3813,52 @@
             "nouvelle"
         ],
         "rating": 1600
+    },
+    {
+        "names": [
+            {
+                "name": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Magical_Revolution_of_the_Reincarnated_Princess_and_the_Genius_Young_Lady"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shingo Tamaki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1600
+    },
+    {
+        "names": [
+            {
+                "name": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Clevatess"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kiyotaka Taguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1620
     },
     {
         "names": [
