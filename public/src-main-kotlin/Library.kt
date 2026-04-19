@@ -1,3 +1,4 @@
+import UtilsAbsolute.dstTestDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -20,7 +21,15 @@ class Library {
     }
 
     @Serializable
-    data class Name(val name: String, val language: String, val comment: String? = null)
+    data class Database(val texts: List<Writing>)
+
+    @Serializable
+    data class Name(
+        val name: String,
+        val language: String,
+        val link: String? = null,
+        val comment: String? = null
+    )
 
     @Serializable
     data class Author(val names: LinkedHashSet<Name>) {
@@ -54,7 +63,9 @@ class Library {
 
     @Serializable
     data class WritingRecord(
-        val names: List<Name>, val authors: MutableList<String>, val tags: Set<String>,
+        val names: List<Name>,
+        val authors: MutableList<String>,
+        val tags: Set<String>,
         val rating: Int
     ) : FiltrableWriting {
         override fun containAnyOfTags(vararg tags: String): Boolean {
@@ -64,100 +75,6 @@ class Library {
     }
 
     val defaultLang = "en"
-
-    private fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
-        fun recommendationFilter(w: FiltrableWriting): Boolean {
-            return w.containAnyOfTags("recommendation", "visible") && !w.containAnyOfTags("invisible")
-        }
-        fun entertainingFilter(w: FiltrableWriting): Boolean {
-            return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
-        }
-        val b = StringBuilder()
-        val fullList = LinkedList<Writing>()
-        fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
-        fullList.addAll(writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating })
-        val currentList = LinkedList<Writing>()
-        fullList.forEach { w ->
-            if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
-                if (b.isNotEmpty()) {
-                    b.append(" ")
-                }
-                b.append(formatAuthors(currentList.first().authors, defaultLang))
-                b.append(formatWritings(currentList, defaultLang))
-                currentList.clear()
-            }
-            currentList.add(w)
-        }
-        if (currentList.isNotEmpty()) {
-            if (b.isNotEmpty()) {
-                b.append(" ")
-            }
-            b.append(formatAuthors(currentList.first().authors, defaultLang))
-            b.append(formatWritings(currentList, defaultLang))
-            currentList.clear()
-        }
-        b.append(" ")
-        b.append("Ещё я читал этих авторов. ")
-        val mainListAuthors = writingsIn.filter {
-            recommendationFilter(it) || entertainingFilter(it) || it.tags.contains("invisible")
-        }.groupBy { it.authors }.keys
-        val authorsList =
-            writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }
-                .groupBy { it.authors }.keys.toMutableList()
-        b.append(
-            authorsList.joinToString(
-                separator = ", ", prefix = "", postfix = ".", transform = {
-                    it.joinToString(
-                        separator = ", ",
-                        prefix = "",
-                        postfix = "",
-                        transform = { author ->
-                            author.names.first().name
-                        })
-                })
-        )
-        return b
-    }
-
-    private fun mainListMedium(writingsIn: MutableList<Writing>, predicate: (Writing) -> Boolean): StringBuilder {
-        val b = StringBuilder()
-        val list = writingsIn.filter { predicate(it) }.sortedBy { it.rating }
-        for (i in 0..9) {
-            val w = list[i]
-            if (b.isNotEmpty()) {
-                b.append(" ")
-            }
-            b.append(formatAuthors(w.authors, defaultLang))
-            b.append(formatWritings(listOf(w), defaultLang))
-        }
-        return b
-    }
-
-    private fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
-        val b = StringBuilder()
-        val list = writingsIn.filter { it.containAnyOfTags("recommendation", "visible") && !it.containAnyOfTags("invisible") }.sortedBy { it.rating }
-            .groupBy { it.authors }.keys.toList()
-        for (i in 0..9) {
-            if (i != 0) {
-                b.append(", ")
-            }
-            b.append(formatAuthors(list[i], defaultLang))
-        }
-        b.append(".")
-        return b
-    }
-
-    private fun mainListSummary(writingsIn: MutableList<Writing>): StringBuilder {
-        val b = StringBuilder()
-        val writingsCount = writingsIn.size
-        val authorsCount = writingsIn.groupBy { it.authors }.keys.size
-        b.append("Коллекция авторов, штуки которых я читал, авторов всего $authorsCount," +
-                " штук всего $writingsCount.")
-        b.append(" ")
-        b.append("Коллекция штук, прочитанных мной," +
-                " штук всего $writingsCount, авторов всего $authorsCount.")
-        return b
-    }
 
     private fun formatWritings(writings: List<Writing>, language: String): String {
         return writings.joinToString(
@@ -185,47 +102,36 @@ class Library {
     fun main() {
         val authors = loadAuthors(UtilsAbsolute.srcResDir)
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
-        val libraryOut = UtilsAbsolute.srcGenDir
+        testGeneration(writingsIn)
         val text = StringBuilder()
-        text.append(mainListSummary(writingsIn)).appendLine().appendLine()
-        //text.append(mainListShort(writingsIn)).appendLine().appendLine()
-        //text.append(mainListMedium(writingsIn) { recommendationFilter(it) }).append("\n\n")
-        //text.append(mainListMedium(writingsIn) { !it.containAnyOfTags("fiction") })
-        //text.appendLine().appendLine()
-        //text.append(mainListMedium(writingsIn) { it.containAnyOfTags("fiction") })
-        //text.appendLine().appendLine()
-        //text.append(mainListLong(writingsIn))
-        val b = StringBuilder()
         val fullList = LinkedList<Writing>()
         fullList.addAll(writingsIn.sortedBy { it.rating })
         val currentList = LinkedList<Writing>()
         fullList.forEach { w ->
             if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
-                if (b.isNotEmpty()) {
-                    b.append(" ")
+                if (text.isNotEmpty()) {
+                    text.append(" ")
                 }
-                b.append(formatAuthors(currentList.first().authors, defaultLang))
-                b.append(formatWritings(currentList, defaultLang))
+                text.append(formatAuthors(currentList.first().authors, defaultLang))
+                text.append(formatWritings(currentList, defaultLang))
                 currentList.clear()
             }
             currentList.add(w)
         }
         if (currentList.isNotEmpty()) {
-            if (b.isNotEmpty()) {
-                b.append(" ")
+            if (text.isNotEmpty()) {
+                text.append(" ")
             }
-            b.append(formatAuthors(currentList.first().authors, defaultLang))
-            b.append(formatWritings(currentList, defaultLang))
+            text.append(formatAuthors(currentList.first().authors, defaultLang))
+            text.append(formatWritings(currentList, defaultLang))
             currentList.clear()
         }
-        text.append(b)
+        val libraryOut = UtilsAbsolute.srcGenDir
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())
     }
 
     fun saveLibrary(
-        dst: Path,
-        authorsMap: MutableMap<String, Author>,
-        writingsIn: MutableList<Writing>
+        dst: Path, authorsMap: MutableMap<String, Author>, writingsIn: MutableList<Writing>
     ) {
         val format = Json { prettyPrint = true }
         val outAuthorsFile = dst.resolve("library-authors.json").toFile()
@@ -284,14 +190,127 @@ class Library {
             }
             writings.add(
                 Writing(
-                    writingRecord.names,
-                    authors,
-                    writingRecord.tags,
-                    writingRecord.rating
+                    writingRecord.names, authors, writingRecord.tags, writingRecord.rating
                 )
             )
         }
         saveLibrary(srcDir, authorsMap, writings)
         return writings
+    }
+
+    fun testGeneration(writingsIn: MutableList<Writing>) {
+        fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
+            fun recommendationFilter(w: FiltrableWriting): Boolean {
+                return w.containAnyOfTags(
+                    "recommendation", "visible"
+                ) && !w.containAnyOfTags("invisible")
+            }
+
+            fun entertainingFilter(w: FiltrableWriting): Boolean {
+                return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
+            }
+
+            val b = StringBuilder()
+            val fullList = LinkedList<Writing>()
+            fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
+            fullList.addAll(writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating })
+            val currentList = LinkedList<Writing>()
+            fullList.forEach { w ->
+                if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
+                    if (b.isNotEmpty()) {
+                        b.append(" ")
+                    }
+                    b.append(formatAuthors(currentList.first().authors, defaultLang))
+                    b.append(formatWritings(currentList, defaultLang))
+                    currentList.clear()
+                }
+                currentList.add(w)
+            }
+            if (currentList.isNotEmpty()) {
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(currentList.first().authors, defaultLang))
+                b.append(formatWritings(currentList, defaultLang))
+                currentList.clear()
+            }
+            b.append(" ")
+            b.append("Ещё я читал этих авторов. ")
+            val mainListAuthors = writingsIn.filter {
+                recommendationFilter(it) || entertainingFilter(it) || it.tags.contains("invisible")
+            }.groupBy { it.authors }.keys
+            val authorsList =
+                writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }
+                    .groupBy { it.authors }.keys.toMutableList()
+            b.append(
+                authorsList.joinToString(
+                    separator = ", ", prefix = "", postfix = ".", transform = {
+                        it.joinToString(
+                            separator = ", ", prefix = "", postfix = "", transform = { author ->
+                                author.names.first().name
+                            })
+                    })
+            )
+            return b
+        }
+
+        fun mainListMedium(
+            writingsIn: MutableList<Writing>, predicate: (Writing) -> Boolean
+        ): StringBuilder {
+            val b = StringBuilder()
+            val list = writingsIn.filter { predicate(it) }.sortedBy { it.rating }
+            for (i in 0..9) {
+                val w = list[i]
+                if (b.isNotEmpty()) {
+                    b.append(" ")
+                }
+                b.append(formatAuthors(w.authors, defaultLang))
+                b.append(formatWritings(listOf(w), defaultLang))
+            }
+            return b
+        }
+
+        fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
+            val b = StringBuilder()
+            val list = writingsIn.filter {
+                it.containAnyOfTags(
+                    "recommendation", "visible"
+                ) && !it.containAnyOfTags("invisible")
+            }.sortedBy { it.rating }.groupBy { it.authors }.keys.toList()
+            for (i in 0..9) {
+                if (i != 0) {
+                    b.append(", ")
+                }
+                b.append(formatAuthors(list[i], defaultLang))
+            }
+            b.append(".")
+            return b
+        }
+
+        fun mainListSummary(writingsIn: MutableList<Writing>): StringBuilder {
+            val b = StringBuilder()
+            val writingsCount = writingsIn.size
+            val authorsCount = writingsIn.groupBy { it.authors }.keys.size
+            b.append(
+                "Коллекция авторов, штуки которых я читал, авторов всего $authorsCount," + " штук всего $writingsCount."
+            )
+            b.append(" ")
+            b.append(
+                "Коллекция штук, прочитанных мной," + " штук всего $writingsCount, авторов всего $authorsCount."
+            )
+            return b
+        }
+
+        val text = StringBuilder()
+        text.append(mainListSummary(writingsIn)).appendLine().appendLine()
+        text.append(mainListShort(writingsIn)).appendLine().appendLine()
+        text.append(mainListMedium(writingsIn) { it.containAnyOfTags("recommendation") })
+            .appendLine().appendLine()
+        text.append(mainListMedium(writingsIn) { !it.containAnyOfTags("fiction") }).appendLine()
+            .appendLine()
+        text.append(mainListMedium(writingsIn) { it.containAnyOfTags("fiction") }).appendLine()
+            .appendLine()
+        text.append(mainListLong(writingsIn))
+        dstTestDir.resolve("library.txt").toFile().writeText(text.toString())
     }
 }

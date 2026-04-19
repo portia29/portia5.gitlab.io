@@ -1,4 +1,3 @@
-
 import UtilsAbsolute.testResDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
@@ -15,8 +14,10 @@ class LibraryTest {
     private val format = Json { prettyPrint = true }
 
     @Serializable
-    data class Name(val name: String, val language: String,
-                    val link: String? = null, val comment: String? = null)
+    data class Name(
+        val name: String, val language: String,
+        val link: String? = null, val comment: String? = null
+    )
 
     @Serializable
     data class Author(val names: LinkedHashSet<Name>) {
@@ -29,6 +30,7 @@ class LibraryTest {
                 names.first().name
             }
         }
+
         fun sort(): String {
             return id() + names.size
         }
@@ -81,8 +83,10 @@ class LibraryTest {
         val outChaosFile = dst.resolve("library-chaos.json").toFile()
         outChaosFile.writeText(format.encodeToString(chaosToSave))
 
-        val rest = writings.filter { !articlesFileFilter(it)
-                    && !otherFileFilter(it) && !chaosFileFilter(it) }
+        val rest = writings.filter {
+            !articlesFileFilter(it)
+                    && !otherFileFilter(it) && !chaosFileFilter(it)
+        }
         if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
@@ -107,14 +111,16 @@ class LibraryTest {
         //saveLibrary(pathOut, authorsMap, writings)
     }
 
-    @Test fun migration() {
+    @Test
+    fun migration() {
         //migration(resIn, resOut)
         //migration(UtilsAbsolute.srcResDir, UtilsAbsolute.srcResDir)
     }
 
     fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
         val authorsIn: List<Author> = Json.decodeFromString<List<Author>>(
-            srcDir.resolve("authors.json").toFile().readText())
+            srcDir.resolve("authors.json").toFile().readText()
+        )
         val authorsMap = mutableMapOf<String, Author>()
         authorsIn.forEach {
             authorsMap[it.id()] = it
@@ -158,7 +164,8 @@ class LibraryTest {
         return writings
     }
 
-    @Test fun migrationTest() {
+    @Test
+    fun migrationTest() {
         val authors = loadAuthors(resOut)
         val writings = loadWritings(resOut, authors)
         //saveLibrary(resOut, authors, writings)
