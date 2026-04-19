@@ -2,6 +2,190 @@
     {
         "names": [
             {
+                "name": "Münchhausen trilemma",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hans Albert",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 10
+    },
+    {
+        "names": [
+            {
+                "name": "Russell's paradox",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Bertrand Russell",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 11
+    },
+    {
+        "names": [
+            {
+                "name": "Kolmogorov complexity",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Andrey Kolmogorov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 12
+    },
+    {
+        "names": [
+            {
+                "name": "Inductive bias",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Inductive_bias"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Humanity",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 13
+    },
+    {
+        "names": [
+            {
+                "name": "Bayes' theorem",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Thomas Bayes",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 14
+    },
+    {
+        "names": [
+            {
+                "name": "Prisoner's dilemma",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Merrill Flood, Melvin Dresher",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 16
+    },
+    {
+        "names": [
+            {
+                "name": "Utility monster",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Utility_monster"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert Nozick",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 17
+    },
+    {
+        "names": [
+            {
+                "name": "Exploration–exploitation dilemma",
+                "language": "en",
+                "comment": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Humanity",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 18
+    },
+    {
+        "names": [
+            {
                 "name": "Conditions of Personhood",
                 "language": "en",
                 "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
@@ -30,7 +214,7 @@
             "essay",
             "recommendation"
         ],
-        "rating": 20
+        "rating": 40
     },
     {
         "names": [
