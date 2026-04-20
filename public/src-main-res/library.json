@@ -3270,6 +3270,57 @@
     {
         "names": [
             {
+                "name": "Code Geass: Lelouch of the Rebellion R2",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Code_Geass"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gorō Taniguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1361
+    },
+    {
+        "names": [
+            {
+                "name": "Code Geass: Lelouch of the Re;surrection",
+                "language": "en",
+                "link": "https://myanimelist.net/anime/34437/Code_Geass__Fukkatsu_no_Lelouch"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gorō Taniguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "movie",
+            "mecha",
+            "sci-fi",
+            "military",
+            "supernatural"
+        ],
+        "rating": 1362
+    },
+    {
+        "names": [
+            {
                 "name": "Ascendance of a Bookworm",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
@@ -3289,6 +3340,177 @@
             "anime"
         ],
         "rating": 1380
+    },
+    {
+        "names": [
+            {
+                "name": "Sayonara, Zetsubou-Sensei",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Sayonara,_Zetsubou-Sensei"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Akiyuki Shinbo, Naoyuki Tatsuwa",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "tv",
+            "comedy",
+            "satire",
+            "slice-of-life",
+            "seinen"
+        ],
+        "rating": 1390
+    },
+    {
+        "names": [
+            {
+                "name": "Shigurui: Death Frenzy",
+                "language": "en",
+                "link": "https://myanimelist.net/anime/2216/Shigurui"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroshi Hamasaki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "tv",
+            "samurai",
+            "historical",
+            "seinen",
+            "drama",
+            "gore"
+        ],
+        "rating": 1390
+    },
+    {
+        "names": [
+            {
+                "name": "Arcane",
+                "language": "en",
+                "link": "https://simple.wikipedia.org/wiki/Arcane_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Riot Games",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "animation",
+            "tv",
+            "netflix",
+            "action",
+            "adventure",
+            "fantasy",
+            "steampunk"
+        ],
+        "rating": 1390
+    },
+    {
+        "names": [
+            {
+                "name": "Deca-Dence",
+                "language": "en",
+                "link": "https://myanimelist.net/anime/40056/Deca-Dence"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yuzuru Tachikawa",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "tv",
+            "original",
+            "sci-fi",
+            "action",
+            "cyberpunk"
+        ],
+        "rating": 1390
+    },
+    {
+        "names": [
+            {
+                "name": "Drifters",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Drifters_(manga)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kenichi Suzuki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "tv",
+            "isekai",
+            "historical",
+            "seinen",
+            "action",
+            "fantasy"
+        ],
+        "rating": 1391
+    },
+    {
+        "names": [
+            {
+                "name": "Drifters: The Outlandish Knight",
+                "language": "en",
+                "link": "https://myanimelist.net/anime/38360/Drifters__The_Outlandish_Knight"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hitomi Ezoe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime",
+            "ova",
+            "isekai",
+            "historical",
+            "seinen",
+            "action"
+        ],
+        "rating": 1392
     },
     {
         "names": [
@@ -3615,7 +3837,7 @@
             {
                 "names": [
                     {
-                        "name": "Kyoto Animation",
+                        "name": "Yasuhiro Takemoto",
                         "language": "en"
                     }
                 ]
@@ -3652,7 +3874,30 @@
     {
         "names": [
             {
-                "name": "Bleach: Thousand-Year Blood War – The Conflict",
+                "name": "Bleach",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Bleach_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Noriyuki Abe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1540
+    },
+    {
+        "names": [
+            {
+                "name": "Bleach: Thousand-Year Blood War",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War"
             }
@@ -3661,7 +3906,7 @@
             {
                 "names": [
                     {
-                        "name": "Tomohisa Taguchi",
+                        "name": "Tomohisa Taguchi, Hikaru Murata, Mitsutoshi Satou, Chen Dali",
                         "language": "en"
                     }
                 ]
