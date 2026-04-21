@@ -640,29 +640,6 @@
     {
         "names": [
             {
-                "name": "Juni Taisen: Zodiac War",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Juni_Taisen:_Zodiac_War"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Naoto Hosoda",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
                 "name": "Носитель инфекции",
                 "language": "ru"
             },
@@ -986,29 +963,6 @@
     {
         "names": [
             {
-                "name": "Bokurano",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Bokurano:_Ours"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hiroyuki Morita",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 420
-    },
-    {
-        "names": [
-            {
                 "name": "Тебе нравится, что ты видишь?",
                 "language": "?"
             }
@@ -1059,52 +1013,6 @@
     {
         "names": [
             {
-                "name": "Claymore",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Claymore_(manga)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hiroyuki Tanaka",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 440
-    },
-    {
-        "names": [
-            {
-                "name": "World Trigger",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/World_Trigger"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Mitsuru Hongo",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 460
-    },
-    {
-        "names": [
-            {
                 "name": "Blame!",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Blame!"
@@ -1150,29 +1058,6 @@
             "novel"
         ],
         "rating": 490
-    },
-    {
-        "names": [
-            {
-                "name": "Made in Abyss",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Made_in_Abyss"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Masayuki Kojima",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 500
     },
     {
         "names": [
@@ -1301,6 +1186,121 @@
     {
         "names": [
             {
+                "name": "Juni Taisen: Zodiac War",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Juni_Taisen:_Zodiac_War"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoto Hosoda",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 534
+    },
+    {
+        "names": [
+            {
+                "name": "Bokurano",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Bokurano:_Ours"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroyuki Morita",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 535
+    },
+    {
+        "names": [
+            {
+                "name": "Claymore",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Claymore_(manga)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroyuki Tanaka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 536
+    },
+    {
+        "names": [
+            {
+                "name": "World Trigger",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/World_Trigger"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mitsuru Hongo",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 537
+    },
+    {
+        "names": [
+            {
+                "name": "Made in Abyss",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Made_in_Abyss"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Masayuki Kojima",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 538
+    },
+    {
+        "names": [
+            {
                 "name": "Ghost in the Shell",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
@@ -1319,7 +1319,7 @@
         "tags": [
             "anime"
         ],
-        "rating": 520
+        "rating": 539
     },
     {
         "names": [
@@ -1343,6 +1343,52 @@
             "anime"
         ],
         "rating": 540
+    },
+    {
+        "names": [
+            {
+                "name": "Fate/stay night",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yūji Yamaguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 541
+    },
+    {
+        "names": [
+            {
+                "name": "Puella Magi Madoka Magica",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 542
     },
     {
         "names": [
@@ -2897,29 +2943,6 @@
     {
         "names": [
             {
-                "name": "Fate/stay night",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Yūji Yamaguchi",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1200
-    },
-    {
-        "names": [
-            {
                 "name": "The War of the Worlds",
                 "language": "?"
             }
@@ -2966,25 +2989,98 @@
     {
         "names": [
             {
-                "name": "Puella Magi Madoka Magica",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
+                "name": "Смерть героя",
+                "language": "ru"
             }
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
+                        "name": "Ричард Олдингтон",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1204
+    },
+    {
+        "names": [
+            {
+                "name": "Мартин Иден",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Джек Лондон",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1206
+    },
+    {
+        "names": [
+            {
+                "name": "Seventh Victim",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
                         "language": "en"
                     }
                 ]
             }
         ],
         "tags": [
-            "anime"
+            "archive",
+            "nouvelle"
         ],
-        "rating": 1220
+        "rating": 1208
+    },
+    {
+        "names": [
+            {
+                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Chapman",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1210
     },
     {
         "names": [
@@ -3054,126 +3150,6 @@
             "anime"
         ],
         "rating": 1280
-    },
-    {
-        "names": [
-            {
-                "name": "Смерть героя",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ричард Олдингтон",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Мартин Иден",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Seventh Victim",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Selfless Dating",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Chapman",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1300
     },
     {
         "names": [
@@ -3698,6 +3674,30 @@
             "anime"
         ],
         "rating": 1480
+    },
+    {
+        "names": [
+            {
+                "name": "Selfless Dating",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1500
     },
     {
         "names": [
@@ -6349,7 +6349,7 @@
             "archive",
             "novel"
         ],
-        "rating": 7800
+        "rating": 7750
     },
     {
         "names": [
@@ -6376,7 +6376,7 @@
             "archive",
             "novel"
         ],
-        "rating": 7900
+        "rating": 7800
     },
     {
         "names": [
@@ -6400,7 +6400,7 @@
             "archive",
             "nouvelle"
         ],
-        "rating": 7990
+        "rating": 7890
     },
     {
         "names": [
@@ -6424,7 +6424,7 @@
             "archive",
             "novel"
         ],
-        "rating": 7990
+        "rating": 7890
     },
     {
         "names": [
@@ -6450,7 +6450,7 @@
             "space-western",
             "action"
         ],
-        "rating": 7995
+        "rating": 7895
     },
     {
         "names": [

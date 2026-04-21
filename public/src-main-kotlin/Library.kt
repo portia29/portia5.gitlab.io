@@ -110,6 +110,15 @@ class Library {
                     text.append(formatWritings(currentList, defaultLang))
                     currentList.clear()
                 }
+            } else if (first.hasAnyOfTags("anime")) {
+                if (w == null || !w.hasAnyOfTags("anime")) {
+                    if (text.isNotEmpty()) {
+                        text.append(" ")
+                    }
+                    text.append("Anime")
+                    text.append(formatWritings(currentList, defaultLang))
+                    currentList.clear()
+                }
             } else if (first.authors != w?.authors) {
                 if (text.isNotEmpty()) {
                     text.append(" ")
