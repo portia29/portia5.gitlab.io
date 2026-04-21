@@ -4085,9 +4085,10 @@
     {
         "names": [
             {
-                "name": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha",
+                "name": "Clevatess",
                 "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Clevatess"
+                "link": "https://en.wikipedia.org/wiki/Clevatess",
+                "comment": "Majuu no Ou to Akago to Shikabane no Yuusha"
             }
         ],
         "authors": [
@@ -6457,6 +6458,317 @@
     {
         "names": [
             {
+                "name": "Dexter",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Dexter_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James Manos Jr., Showtime Networks",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "crime",
+            "drama",
+            "thriller",
+            "serial-killer",
+            "neo-noir"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Star Trek",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Star_Trek"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gene Roddenberry, Paramount Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "space",
+            "adventure",
+            "franchise",
+            "classic"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Doctor Who",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Doctor_Who"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sydney Newman, BBC",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "time-travel",
+            "british",
+            "adventure",
+            "cult"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "The Big Bang Theory",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Chuck Lorre, Warner Bros. Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "comedy",
+            "sitcom",
+            "geek-culture",
+            "romance"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Hannibal",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Hannibal_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Bryan Fuller, NBC",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "thriller",
+            "horror",
+            "crime",
+            "psychological",
+            "drama"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Futurama",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Futurama"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Matt Groening, 20th Century Fox Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "animated-tv-series",
+            "comedy",
+            "sci-fi",
+            "sitcom",
+            "satire"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Приключения Шерлока Холмса и доктора Ватсона",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/Приключения_Шерлока_Холмса_и_доктора_Ватсона_(телесериал)"
+            },
+            {
+                "name": "The Adventures of Sherlock Holmes and Dr. Watson",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes_and_Dr._Watson"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Igor Maslennikov, Lenfilm",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "soviet",
+            "detective",
+            "mystery",
+            "classic"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Доктор Хаус",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/Доктор_Хаус"
+            },
+            {
+                "name": "House",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/House_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Shore, Fox Broadcasting Company",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "medical",
+            "drama",
+            "mystery",
+            "procedural"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Fringe",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Fringe_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "J.J. Abrams, Warner Bros. Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "mystery",
+            "thriller",
+            "procedural",
+            "parallel-universe"
+        ],
+        "rating": 8000
+    },
+    {
+        "names": [
+            {
+                "name": "Firefly",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Joss Whedon, 20th Century Fox Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "space-western",
+            "adventure",
+            "cult"
+        ],
+        "rating": 8002
+    },
+    {
+        "names": [
+            {
+                "name": "Serenity (2005)",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Serenity_(2005_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Joss Whedon, Universal Pictures",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "movie",
+            "sci-fi",
+            "space-western",
+            "action"
+        ],
+        "rating": 8003
+    },
+    {
+        "names": [
+            {
                 "name": "Why is Everything Liberal?",
                 "language": "en",
                 "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. https://www.richardhanania.com/p/why-is-everything-liberal"
@@ -6673,7 +6985,7 @@
         "names": [
             {
                 "name": "Carmen",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
