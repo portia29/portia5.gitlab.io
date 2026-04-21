@@ -3401,35 +3401,6 @@
     {
         "names": [
             {
-                "name": "Arcane",
-                "language": "en",
-                "link": "https://simple.wikipedia.org/wiki/Arcane_(TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Riot Games",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "animation",
-            "tv",
-            "netflix",
-            "action",
-            "adventure",
-            "fantasy",
-            "steampunk"
-        ],
-        "rating": 1390
-    },
-    {
-        "names": [
-            {
                 "name": "Deca-Dence",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/40056/Deca-Dence"
@@ -6429,7 +6400,7 @@
             "archive",
             "nouvelle"
         ],
-        "rating": 8000
+        "rating": 7990
     },
     {
         "names": [
@@ -6453,7 +6424,33 @@
             "archive",
             "novel"
         ],
-        "rating": 8000
+        "rating": 7990
+    },
+    {
+        "names": [
+            {
+                "name": "Serenity (2005)",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Serenity_(2005_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Joss Whedon, Universal Pictures",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "movie",
+            "sci-fi",
+            "space-western",
+            "action"
+        ],
+        "rating": 7995
     },
     {
         "names": [
@@ -6542,6 +6539,35 @@
     {
         "names": [
             {
+                "name": "Arcane",
+                "language": "en",
+                "link": "https://simple.wikipedia.org/wiki/Arcane_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Riot Games",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "animation",
+            "tv-series",
+            "netflix",
+            "action",
+            "adventure",
+            "fantasy",
+            "steampunk"
+        ],
+        "rating": 8010
+    },
+    {
+        "names": [
+            {
                 "name": "The Big Bang Theory",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
@@ -6564,7 +6590,7 @@
             "geek-culture",
             "romance"
         ],
-        "rating": 8000
+        "rating": 8010
     },
     {
         "names": [
@@ -6592,7 +6618,7 @@
             "psychological",
             "drama"
         ],
-        "rating": 8000
+        "rating": 8010
     },
     {
         "names": [
@@ -6613,13 +6639,14 @@
             }
         ],
         "tags": [
-            "animated-tv-series",
+            "animation",
+            "tv-series",
             "comedy",
             "sci-fi",
             "sitcom",
             "satire"
         ],
-        "rating": 8000
+        "rating": 8010
     },
     {
         "names": [
@@ -6651,7 +6678,7 @@
             "mystery",
             "classic"
         ],
-        "rating": 8000
+        "rating": 8010
     },
     {
         "names": [
@@ -6683,7 +6710,34 @@
             "mystery",
             "procedural"
         ],
-        "rating": 8000
+        "rating": 8010
+    },
+    {
+        "names": [
+            {
+                "name": "Firefly",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Joss Whedon, 20th Century Fox Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "space-western",
+            "adventure",
+            "cult"
+        ],
+        "rating": 8012
     },
     {
         "names": [
@@ -6711,60 +6765,7 @@
             "procedural",
             "parallel-universe"
         ],
-        "rating": 8000
-    },
-    {
-        "names": [
-            {
-                "name": "Firefly",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Joss Whedon, 20th Century Fox Television",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "tv-series",
-            "sci-fi",
-            "space-western",
-            "adventure",
-            "cult"
-        ],
-        "rating": 8002
-    },
-    {
-        "names": [
-            {
-                "name": "Serenity (2005)",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Serenity_(2005_film)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Joss Whedon, Universal Pictures",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "movie",
-            "sci-fi",
-            "space-western",
-            "action"
-        ],
-        "rating": 8003
+        "rating": 8020
     },
     {
         "names": [
@@ -6788,7 +6789,7 @@
             "essay",
             "invisible"
         ],
-        "rating": 8010
+        "rating": 8030
     },
     {
         "names": [
@@ -6937,6 +6938,30 @@
     {
         "names": [
             {
+                "name": "Manacled",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 8200
+    },
+    {
+        "names": [
+            {
                 "name": "Пересекая границы",
                 "language": "ru"
             }
@@ -7009,16 +7034,16 @@
     {
         "names": [
             {
-                "name": "Manacled",
-                "language": "?"
+                "name": "100 великих любовниц",
+                "language": "ru"
             }
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "SenLinYu",
-                        "language": "en"
+                        "name": "Муромов Игорь Анатольевич",
+                        "language": "ru"
                     }
                 ]
             }
@@ -7028,7 +7053,7 @@
             "chaos",
             "novel"
         ],
-        "rating": 8500
+        "rating": 8900
     },
     {
         "names": [
@@ -7066,7 +7091,7 @@
         "names": [
             {
                 "name": "Пятая гора",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -7074,78 +7099,6 @@
                 "names": [
                     {
                         "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
-    },
-    {
-        "names": [
-            {
-                "name": "Книга воина света",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
-    },
-    {
-        "names": [
-            {
-                "name": "Одиннадцать минут",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
-    },
-    {
-        "names": [
-            {
-                "name": "Роза Мира",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Даниил Андреев",
                         "language": "ru"
                     }
                 ]
@@ -7161,16 +7114,40 @@
     {
         "names": [
             {
-                "name": "Тайная доктрина",
-                "language": "?"
+                "name": "Книга воина света",
+                "language": "ru"
             }
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Елена Блаватская",
-                        "language": "?"
+                        "name": "Пауло Коэльо",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Одиннадцать минут",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "ru"
                     }
                 ]
             }
@@ -7194,7 +7171,7 @@
                 "names": [
                     {
                         "name": "Пауло Коэльо",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -7233,6 +7210,54 @@
     {
         "names": [
             {
+                "name": "Роза Мира",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Даниил Андреев",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9100
+    },
+    {
+        "names": [
+            {
+                "name": "Тайная доктрина",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Елена Блаватская",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9100
+    },
+    {
+        "names": [
+            {
                 "name": "Трактат о любви как ее понимает жуткий зануда",
                 "language": "ru"
             }
@@ -7252,30 +7277,6 @@
             "chaos",
             "novel"
         ],
-        "rating": 9000
-    },
-    {
-        "names": [
-            {
-                "name": "100 великих любовниц",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Муромов Игорь Анатольевич",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        "rating": 9100
     }
 ]

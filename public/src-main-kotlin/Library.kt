@@ -17,7 +17,7 @@ class Library {
     }
 
     interface FiltrableWriting {
-        fun containAnyOfTags(vararg tags: String): Boolean
+        fun hasAnyOfTags(vararg tags: String): Boolean
     }
 
     @Serializable
@@ -32,7 +32,7 @@ class Library {
     )
 
     @Serializable
-    data class Author(val names: LinkedHashSet<Name>) {
+    data class Author(val names: List<Name>) {
         fun id(): String {
             val nameEn = names.filter { it.language == "en" }
             require(nameEn.size < 2)
@@ -55,7 +55,7 @@ class Library {
         val tags: Set<String>,
         val rating: Int
     ) : FiltrableWriting {
-        override fun containAnyOfTags(vararg tags: String): Boolean {
+        override fun hasAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
             return false
         }
@@ -63,55 +63,74 @@ class Library {
 
     val defaultLang = "en"
 
+    private fun selectName(names: List<Name>, language: String): String {
+        var name = names.first().name
+        if (names.size > 1) {
+            names.forEach {
+                if (it.language == language) name = it.name
+            }
+        }
+        return name
+    }
+
     private fun formatWritings(writings: List<Writing>, language: String): String {
         return writings.joinToString(
             separator = "», «", prefix = ": «", postfix = "».", transform = {
-                var writingName = it.names[0].name
-                if (it.names.size > 1) {
-                    it.names.forEach { wn ->
-                        if (wn.language == language) writingName = wn.name
-                    }
-                }
-                writingName
+                selectName(it.names, language)
             })
     }
 
     private fun formatAuthors(authors: List<Author>, language: String): String {
-        var author = authors[0].names.first().name
-        if (authors[0].names.size > 1) {
-            authors[0].names.forEach {
-                if (it.language == language) author = it.name
-            }
-        }
-        return author
+        return selectName(authors[0].names, language)
     }
 
-    fun main() {
-        val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
-        testGeneration(writingsIn)
+    fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
         val text = StringBuilder()
         val fullList = LinkedList<Writing>()
         fullList.addAll(writingsIn.sortedBy { it.rating })
         val currentList = LinkedList<Writing>()
-        fullList.forEach { w ->
-            if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
+        fun genStep(w: Writing?) {
+            if (currentList.isEmpty()) {
+                return
+            }
+            val first = currentList.first()
+            if (first.hasAnyOfTags("concept")) {
                 if (text.isNotEmpty()) {
                     text.append(" ")
                 }
-                text.append(formatAuthors(currentList.first().authors, defaultLang))
+                text.append(selectName(first.names, defaultLang))
+                text.append(".")
+                currentList.clear()
+            } else if (first.hasAnyOfTags("tv-series")) {
+                if (w == null || !w.hasAnyOfTags("tv-series")) {
+                    if (text.isNotEmpty()) {
+                        text.append(" ")
+                    }
+                    text.append("Television series")
+                    text.append(formatWritings(currentList, defaultLang))
+                    currentList.clear()
+                }
+            } else if (first.authors != w?.authors) {
+                if (text.isNotEmpty()) {
+                    text.append(" ")
+                }
+                text.append(formatAuthors(first.authors, defaultLang))
                 text.append(formatWritings(currentList, defaultLang))
                 currentList.clear()
             }
+        }
+        fullList.forEach { w ->
+            genStep(w)
             currentList.add(w)
         }
-        if (currentList.isNotEmpty()) {
-            if (text.isNotEmpty()) {
-                text.append(" ")
-            }
-            text.append(formatAuthors(currentList.first().authors, defaultLang))
-            text.append(formatWritings(currentList, defaultLang))
-            currentList.clear()
-        }
+        genStep(null)
+        return text
+    }
+
+    fun main() {
+        val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
+        generateTest(writingsIn)
+        val text = generateText(writingsIn)
         val libraryOut = UtilsAbsolute.srcGenDir
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())
     }
@@ -130,16 +149,16 @@ class Library {
         return writings
     }
 
-    fun testGeneration(writingsIn: MutableList<Writing>) {
+    fun generateTest(writingsIn: MutableList<Writing>) {
         fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
             fun recommendationFilter(w: FiltrableWriting): Boolean {
-                return w.containAnyOfTags(
+                return w.hasAnyOfTags(
                     "recommendation", "visible"
-                ) && !w.containAnyOfTags("invisible")
+                ) && !w.hasAnyOfTags("invisible")
             }
 
             fun entertainingFilter(w: FiltrableWriting): Boolean {
-                return w.containAnyOfTags("entertaining") && !w.containAnyOfTags("invisible")
+                return w.hasAnyOfTags("entertaining") && !w.hasAnyOfTags("invisible")
             }
 
             val b = StringBuilder()
@@ -205,9 +224,9 @@ class Library {
         fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
             val b = StringBuilder()
             val list = writingsIn.filter {
-                it.containAnyOfTags(
+                it.hasAnyOfTags(
                     "recommendation", "visible"
-                ) && !it.containAnyOfTags("invisible")
+                ) && !it.hasAnyOfTags("invisible")
             }.sortedBy { it.rating }.groupBy { it.authors }.keys.toList()
             for (i in 0..9) {
                 if (i != 0) {
@@ -231,11 +250,11 @@ class Library {
         val text = StringBuilder()
         text.append(mainListSummary(writingsIn)).appendLine().appendLine()
         text.append(mainListShort(writingsIn)).appendLine().appendLine()
-        text.append(mainListMedium(writingsIn) { it.containAnyOfTags("recommendation") })
+        text.append(mainListMedium(writingsIn) { it.hasAnyOfTags("recommendation") })
             .appendLine().appendLine()
-        text.append(mainListMedium(writingsIn) { !it.containAnyOfTags("fiction") }).appendLine()
+        text.append(mainListMedium(writingsIn) { !it.hasAnyOfTags("fiction") }).appendLine()
             .appendLine()
-        text.append(mainListMedium(writingsIn) { it.containAnyOfTags("fiction") }).appendLine()
+        text.append(mainListMedium(writingsIn) { it.hasAnyOfTags("fiction") }).appendLine()
             .appendLine()
         text.append(mainListLong(writingsIn))
         dstTestDir.resolve("library.txt").toFile().writeText(text.toString())
