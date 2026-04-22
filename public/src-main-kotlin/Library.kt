@@ -53,7 +53,8 @@ class Library {
         val names: List<Name>,
         val authors: MutableList<Author>,
         val tags: Set<String>,
-        val rating: Int
+        val rating: Int,
+        val created: String? = null
     ) : FiltrableWriting {
         override fun hasAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true

@@ -6455,6 +6455,2102 @@
     {
         "names": [
             {
+                "name": "Contact",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Contact_(1997_American_film)"
+            },
+            {
+                "name": "Контакт",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert Zemeckis",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7900,
+        "created": "1997"
+    },
+    {
+        "names": [
+            {
+                "name": "Monty Python and the Holy Grail",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+            },
+            {
+                "name": "Монти Пайтон и Священный Грааль",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam, Terry Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7901,
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "The Hitchhiker's Guide to the Galaxy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
+            },
+            {
+                "name": "Автостопом по галактике",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Garth Jennings",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "rating": 7902,
+        "created": "2005"
+    },
+    {
+        "names": [
+            {
+                "name": "One Flew Over the Cuckoo's Nest",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/One_Flew_Over_the_Cuckoo%27s_Nest_(film)"
+            },
+            {
+                "name": "Пролетая над гнездом кукушки",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Miloš Forman",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "comedy"
+        ],
+        "rating": 7903,
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "Brazil",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+            },
+            {
+                "name": "Бразилия",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "black comedy"
+        ],
+        "rating": 7904,
+        "created": "1985"
+    },
+    {
+        "names": [
+            {
+                "name": "Sphere",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Sphere_(1998_film)"
+            },
+            {
+                "name": "Сфера",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Barry Levinson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "psychological thriller"
+        ],
+        "rating": 7905,
+        "created": "1998"
+    },
+    {
+        "names": [
+            {
+                "name": "Dead Man",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Dead_Man"
+            },
+            {
+                "name": "Мертвец",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jim Jarmusch",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "western",
+            "drama"
+        ],
+        "rating": 7906,
+        "created": "1995"
+    },
+    {
+        "names": [
+            {
+                "name": "Stalker",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Stalker_(1979_film)"
+            },
+            {
+                "name": "Сталкер",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Andrei Tarkovsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7907,
+        "created": "1979"
+    },
+    {
+        "names": [
+            {
+                "name": "Wag the Dog",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Wag_the_Dog"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Barry Levinson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "black comedy",
+            "political satire"
+        ],
+        "rating": 7908,
+        "created": "1997"
+    },
+    {
+        "names": [
+            {
+                "name": "God Bless America",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/God_Bless_America_(film)"
+            },
+            {
+                "name": "Боже, благослови Америку",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Bobcat Goldthwait",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "black comedy",
+            "satire"
+        ],
+        "rating": 7909,
+        "created": "2011"
+    },
+    {
+        "names": [
+            {
+                "name": "Watchmen",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Watchmen_(film)"
+            },
+            {
+                "name": "Хранители",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Zack Snyder",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "superhero",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7910,
+        "created": "2009"
+    },
+    {
+        "names": [
+            {
+                "name": "Kin-dza-dza!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Kin-dza-dza!"
+            },
+            {
+                "name": "Кин-дза-дза!",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Georgiy Daneliya",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "rating": 7911,
+        "created": "1986"
+    },
+    {
+        "names": [
+            {
+                "name": "Law Abiding Citizen",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Law_Abiding_Citizen"
+            },
+            {
+                "name": "Законопослушный гражданин",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "F. Gary Gray",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "thriller",
+            "action"
+        ],
+        "rating": 7912,
+        "created": "2009"
+    },
+    {
+        "names": [
+            {
+                "name": "Dogville",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Dogville"
+            },
+            {
+                "name": "Догвилль",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Lars von Trier",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7913,
+        "created": "2003"
+    },
+    {
+        "names": [
+            {
+                "name": "Blade Runner",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Blade_Runner"
+            },
+            {
+                "name": "Бегущий по лезвию",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ridley Scott",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "neo-noir"
+        ],
+        "rating": 7914,
+        "created": "1982"
+    },
+    {
+        "names": [
+            {
+                "name": "V for Vendetta",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/V_for_Vendetta_(film)"
+            },
+            {
+                "name": "V — значит вендетта",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James McTeigue",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "action",
+            "dystopian"
+        ],
+        "rating": 7915,
+        "created": "2005"
+    },
+    {
+        "names": [
+            {
+                "name": "The Devil Wears Prada",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film)"
+            },
+            {
+                "name": "Дьявол носит Prada",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Frankel",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy",
+            "drama"
+        ],
+        "rating": 7916,
+        "created": "2006"
+    },
+    {
+        "names": [
+            {
+                "name": "The Listening",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Listening_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Giacomo Martelli",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "crime",
+            "drama"
+        ],
+        "rating": 7917,
+        "created": "2006"
+    },
+    {
+        "names": [
+            {
+                "name": "The Silence of the Lambs",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)"
+            },
+            {
+                "name": "Молчание ягнят",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jonathan Demme",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "crime"
+        ],
+        "rating": 7918,
+        "created": "1991"
+    },
+    {
+        "names": [
+            {
+                "name": "Hannibal",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Hannibal_(2001_film)"
+            },
+            {
+                "name": "Ганнибал",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ridley Scott",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "crime"
+        ],
+        "rating": 7919,
+        "created": "2001"
+    },
+    {
+        "names": [
+            {
+                "name": "Andrei Rublev",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Andrei_Rublev_(film)"
+            },
+            {
+                "name": "Андрей Рублёв",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Andrei Tarkovsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "historical"
+        ],
+        "rating": 7920,
+        "created": "1966"
+    },
+    {
+        "names": [
+            {
+                "name": "Cargo 200",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Cargo_200_(film)"
+            },
+            {
+                "name": "Груз 200",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Aleksei Balabanov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "crime"
+        ],
+        "rating": 7921,
+        "created": "2007"
+    },
+    {
+        "names": [
+            {
+                "name": "The Stoker",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Stoker_(film)"
+            },
+            {
+                "name": "Кочегар",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Aleksei Balabanov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7922,
+        "created": "2010"
+    },
+    {
+        "names": [
+            {
+                "name": "Office Romance",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Office_Romance"
+            },
+            {
+                "name": "Служебный роман",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Eldar Ryazanov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "romantic comedy"
+        ],
+        "rating": 7923,
+        "created": "1977"
+    },
+    {
+        "names": [
+            {
+                "name": "An Ordinary Miracle",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/An_Ordinary_Miracle_(1978_film)"
+            },
+            {
+                "name": "Обыкновенное чудо",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mark Zakharov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "romantic comedy"
+        ],
+        "rating": 7924,
+        "created": "1978"
+    },
+    {
+        "names": [
+            {
+                "name": "Cruel Romance",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Cruel_Romance"
+            },
+            {
+                "name": "Жестокий романс",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Eldar Ryazanov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "romance"
+        ],
+        "rating": 7925,
+        "created": "1984"
+    },
+    {
+        "names": [
+            {
+                "name": "Burnt by the Sun",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Burnt_by_the_Sun"
+            },
+            {
+                "name": "Утомлённые солнцем",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Nikita Mikhalkov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "war"
+        ],
+        "rating": 7926,
+        "created": "1994"
+    },
+    {
+        "names": [
+            {
+                "name": "Beware of the Car",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Beware_of_the_Car"
+            },
+            {
+                "name": "Берегись автомобиля",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Eldar Ryazanov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy",
+            "crime"
+        ],
+        "rating": 7927,
+        "created": "1966"
+    },
+    {
+        "names": [
+            {
+                "name": "Mad Max: Fury Road",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "George Miller",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7928,
+        "created": "2015"
+    },
+    {
+        "names": [
+            {
+                "name": "The Heat",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Heat_(2013_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Paul Feig",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "action",
+            "comedy"
+        ],
+        "rating": 7929,
+        "created": "2013"
+    },
+    {
+        "names": [
+            {
+                "name": "Moscow Does Not Believe in Tears",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Moscow_Does_Not_Believe_in_Tears"
+            },
+            {
+                "name": "Москва слезам не верит",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Menshov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "romantic comedy",
+            "drama"
+        ],
+        "rating": 7930,
+        "created": "1979"
+    },
+    {
+        "names": [
+            {
+                "name": "Solaris",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Solaris_(1972_film)"
+            },
+            {
+                "name": "Солярис",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Andrei Tarkovsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7931,
+        "created": "1972"
+    },
+    {
+        "names": [
+            {
+                "name": "Moon",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Moon_(2009_film)"
+            },
+            {
+                "name": "Луна 2112",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Duncan Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7932,
+        "created": "2009"
+    },
+    {
+        "names": [
+            {
+                "name": "Minority Report",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Minority_Report_(film)"
+            },
+            {
+                "name": "Особое мнение",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Steven Spielberg",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7933,
+        "created": "2002"
+    },
+    {
+        "names": [
+            {
+                "name": "Edge of Tomorrow",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Edge_of_Tomorrow"
+            },
+            {
+                "name": "Грань будущего",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Doug Liman",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7934,
+        "created": "2014"
+    },
+    {
+        "names": [
+            {
+                "name": "The Green Mile",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Green_Mile_(film)"
+            },
+            {
+                "name": "Зелёная миля",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Frank Darabont",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "fantasy"
+        ],
+        "rating": 7935,
+        "created": "1999"
+    },
+    {
+        "names": [
+            {
+                "name": "99 Francs",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/99_Francs_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jan Kounen",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "satire"
+        ],
+        "rating": 7936,
+        "created": "2007"
+    },
+    {
+        "names": [
+            {
+                "name": "The Zero Theorem",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Zero_Theorem"
+            },
+            {
+                "name": "Теорема Зеро",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7937,
+        "created": "2013"
+    },
+    {
+        "names": [
+            {
+                "name": "Playing the Victim",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Playing_the_Victim_(film)"
+            },
+            {
+                "name": "Изображая жертву",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kirill Serebrennikov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "black comedy",
+            "drama"
+        ],
+        "rating": 7938,
+        "created": "2006"
+    },
+    {
+        "names": [
+            {
+                "name": "White Sun of the Desert",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/White_Sun_of_the_Desert"
+            },
+            {
+                "name": "Белое солнце пустыни",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Motyl",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "adventure",
+            "comedy"
+        ],
+        "rating": 7939,
+        "created": "1970"
+    },
+    {
+        "names": [
+            {
+                "name": "American Beauty",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/American_Beauty_(1999_film)"
+            },
+            {
+                "name": "Красота по-американски",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam Mendes",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama",
+            "black comedy"
+        ],
+        "rating": 7940,
+        "created": "1999"
+    },
+    {
+        "names": [
+            {
+                "name": "The Sixth Sense",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "M. Night Shyamalan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "drama"
+        ],
+        "rating": 7941,
+        "created": "1999"
+    },
+    {
+        "names": [
+            {
+                "name": "Tideland",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Tideland_(film)"
+            },
+            {
+                "name": "Страна приливов",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "drama"
+        ],
+        "rating": 7942,
+        "created": "2005"
+    },
+    {
+        "names": [
+            {
+                "name": "District 9",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/District_9"
+            },
+            {
+                "name": "Район №9",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Neill Blomkamp",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7943,
+        "created": "2009"
+    },
+    {
+        "names": [
+            {
+                "name": "Jacob's Ladder",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Jacob%27s_Ladder_(1990_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Adrian Lyne",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological horror",
+            "drama"
+        ],
+        "rating": 7944,
+        "created": "1990"
+    },
+    {
+        "names": [
+            {
+                "name": "The Thirteenth Floor",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Thirteenth_Floor"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Josef Rusnak",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "thriller"
+        ],
+        "rating": 7945,
+        "created": "1999"
+    },
+    {
+        "names": [
+            {
+                "name": "Love and Doves",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Love_and_Doves"
+            },
+            {
+                "name": "Любовь и голуби",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Menshov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "romantic comedy"
+        ],
+        "rating": 7946,
+        "created": "1984"
+    },
+    {
+        "names": [
+            {
+                "name": "Dredd",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Dredd"
+            },
+            {
+                "name": "Судья Дредд",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Pete Travis",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7947,
+        "created": "2012"
+    },
+    {
+        "names": [
+            {
+                "name": "Alien",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Alien_(film)"
+            },
+            {
+                "name": "Чужой",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ridley Scott",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "horror"
+        ],
+        "rating": 7948,
+        "created": "1979"
+    },
+    {
+        "names": [
+            {
+                "name": "The Ninth Gate",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Ninth_Gate"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Roman Polanski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "thriller",
+            "mystery"
+        ],
+        "rating": 7949,
+        "created": "1999"
+    },
+    {
+        "names": [
+            {
+                "name": "12 Monkeys",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/12_Monkeys"
+            },
+            {
+                "name": "12 обезьян",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "thriller"
+        ],
+        "rating": 7950,
+        "created": "1995"
+    },
+    {
+        "names": [
+            {
+                "name": "Equilibrium",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Equilibrium_(film)"
+            },
+            {
+                "name": "Эквилибриум",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kurt Wimmer",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7951,
+        "created": "2002"
+    },
+    {
+        "names": [
+            {
+                "name": "Event Horizon",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Event_Horizon_(film)"
+            },
+            {
+                "name": "Сквозь горизонт",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Paul W. S. Anderson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "horror"
+        ],
+        "rating": 7952,
+        "created": "1997"
+    },
+    {
+        "names": [
+            {
+                "name": "Pitch Black",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Pitch_Black_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Twohy",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7953,
+        "created": "2000"
+    },
+    {
+        "names": [
+            {
+                "name": "The Chronicles of Riddick",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Chronicles_of_Riddick_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Twohy",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7954,
+        "created": "2004"
+    },
+    {
+        "names": [
+            {
+                "name": "Predator",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Predator_(film)"
+            },
+            {
+                "name": "Хищник",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "John McTiernan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7955,
+        "created": "1987"
+    },
+    {
+        "names": [
+            {
+                "name": "Star Wars",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+            },
+            {
+                "name": "Звездные войны",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "George Lucas",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "adventure"
+        ],
+        "rating": 7956,
+        "created": "1977"
+    },
+    {
+        "names": [
+            {
+                "name": "Resident Evil",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Resident_Evil_(film)"
+            },
+            {
+                "name": "Обитель зла",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Paul W. S. Anderson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action",
+            "horror"
+        ],
+        "rating": 7957,
+        "created": "2002"
+    },
+    {
+        "names": [
+            {
+                "name": "Battle Royale",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Battle_Royale_(film)"
+            },
+            {
+                "name": "Batoru rowaiaru",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kinji Fukasaku",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "action",
+            "thriller"
+        ],
+        "rating": 7958,
+        "created": "2000"
+    },
+    {
+        "names": [
+            {
+                "name": "I Spit on Your Grave",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/I_Spit_on_Your_Grave_(2010_film)"
+            },
+            {
+                "name": "Я плюю на ваши могилы",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Steven R. Monroe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "horror",
+            "thriller"
+        ],
+        "rating": 7959,
+        "created": "2010"
+    },
+    {
+        "names": [
+            {
+                "name": "A Serbian Film",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/A_Serbian_Film"
+            },
+            {
+                "name": "Сербский фильм",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Srđan Spasojević",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "horror",
+            "thriller"
+        ],
+        "rating": 7960,
+        "created": "2010"
+    },
+    {
+        "names": [
+            {
+                "name": "Filth",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Filth_(film)"
+            },
+            {
+                "name": "Грязь",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jon S. Baird",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "black comedy",
+            "drama"
+        ],
+        "rating": 7961,
+        "created": "2013"
+    },
+    {
+        "names": [
+            {
+                "name": "Heart of a Dog",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Heart_of_a_Dog_(1988_film)"
+            },
+            {
+                "name": "Собачье сердце",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Bortko",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "satire",
+            "drama"
+        ],
+        "rating": 7962,
+        "created": "1988"
+    },
+    {
+        "names": [
+            {
+                "name": "The Twelve Chairs",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Twelve_Chairs_(1971_film)"
+            },
+            {
+                "name": "Двенадцать стульев",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Leonid Gaidai",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7963,
+        "created": "1971"
+    },
+    {
+        "names": [
+            {
+                "name": "The Golden Calf",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Golden_Calf_(1968_film)"
+            },
+            {
+                "name": "Золотой телёнок",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mikhail Schweitzer",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7964,
+        "created": "1968"
+    },
+    {
+        "names": [
+            {
+                "name": "Afonya",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Afonya"
+            },
+            {
+                "name": "Афоня",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Georgiy Daneliya",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy",
+            "drama"
+        ],
+        "rating": 7965,
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "The Day the Earth Stood Still",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Still"
+            },
+            {
+                "name": "День, когда Земля остановилась",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert Wise",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction"
+        ],
+        "rating": 7966,
+        "created": "1951"
+    },
+    {
+        "names": [
+            {
+                "name": "American Psycho",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mary Harron",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "black comedy"
+        ],
+        "rating": 7967,
+        "created": "2000"
+    },
+    {
+        "names": [
+            {
+                "name": "Ночные забавы",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/Ночные_забавы"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Krasnopolsky, Valery Uskov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7968,
+        "created": "1991"
+    },
+    {
+        "names": [
+            {
+                "name": "How to Train Your Dragon",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(2010_film)"
+            },
+            {
+                "name": "Как приручить дракона",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Dean DeBlois, Chris Sanders",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "animation",
+            "adventure"
+        ],
+        "rating": 7969,
+        "created": "2010"
+    },
+    {
+        "names": [
+            {
+                "name": "A Boy and His Dog",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/A_Boy_and_His_Dog_(1975_film)"
+            },
+            {
+                "name": "Парень и его собака",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "L. Q. Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7970,
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "Exam",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Exam_(2009_film)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Stuart Hazeldine",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological thriller"
+        ],
+        "rating": 7971,
+        "created": "2009"
+    },
+    {
+        "names": [
+            {
                 "name": "Dexter",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Dexter_(TV_series)"
@@ -6866,74 +8962,26 @@
     {
         "names": [
             {
-                "name": "The Based Ritual",
+                "name": "Schizophrenia and cortical blindness: protective effects and implications for language",
                 "language": "en",
-                "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет “Я реально знаю таких людей и всё действительно так плохо”, они считают что logical consistency is for cucks. https://www.richardhanania.com/p/the-based-ritual"
+                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/",
+                "comment": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014 Nov 28;8:940. doi: 10.3389/fnhum.2014.00940. PMID: 25506321; PMCID: PMC4246684. Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. “increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks”"
             }
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Richard Hanania",
+                        "name": "Leivada E, Boeckx C.",
                         "language": "en"
                     }
                 ]
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "recommendation"
         ],
         "rating": 8100
-    },
-    {
-        "names": [
-            {
-                "name": "This Way For a Shroud",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "James Hadley Chase",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 8100
-    },
-    {
-        "names": [
-            {
-                "name": "The Doomsters",
-                "language": "en"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ross Macdonald",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 8200
     },
     {
         "names": [
@@ -6957,7 +9005,79 @@
             "chaos",
             "novel"
         ],
-        "rating": 8200
+        "rating": 8101
+    },
+    {
+        "names": [
+            {
+                "name": "The Based Ritual",
+                "language": "en",
+                "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет “Я реально знаю таких людей и всё действительно так плохо”, они считают что logical consistency is for cucks. https://www.richardhanania.com/p/the-based-ritual"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Richard Hanania",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8102
+    },
+    {
+        "names": [
+            {
+                "name": "This Way For a Shroud",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James Hadley Chase",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 8104
+    },
+    {
+        "names": [
+            {
+                "name": "The Doomsters",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ross Macdonald",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 8204
     },
     {
         "names": [
