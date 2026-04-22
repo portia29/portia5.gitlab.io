@@ -6429,7 +6429,7 @@
     {
         "names": [
             {
-                "name": "Serenity (2005)",
+                "name": "Serenity",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Serenity_(2005_film)"
             }
@@ -6438,7 +6438,7 @@
             {
                 "names": [
                     {
-                        "name": "Joss Whedon, Universal Pictures",
+                        "name": "Joss Whedon",
                         "language": "en"
                     }
                 ]
@@ -6450,7 +6450,8 @@
             "space-western",
             "action"
         ],
-        "rating": 7895
+        "rating": 7895,
+        "created": "2005"
     },
     {
         "names": [
