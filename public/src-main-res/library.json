@@ -4739,7 +4739,7 @@
         "names": [
             {
                 "name": "Малахитовая шкатулка",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -4755,29 +4755,6 @@
         "tags": [
             "archive",
             "novel"
-        ],
-        "rating": 2500
-    },
-    {
-        "names": [
-            {
-                "name": "Рассказы о варваре Конане, вожде пиктов Бране Мак Морне и ирландце Чёрном Турлофе",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert E. Howard",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
         ],
         "rating": 2500
     },
@@ -6192,6 +6169,34 @@
     {
         "names": [
             {
+                "name": "We Are the God of the Gaps (a little poem)",
+                "language": "en",
+                "link": "https://scottaaronson.blog/?p=6534",
+                "comment": "First encounter date 2025-07-04"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Aaronson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "poem",
+            "essay",
+            "ai",
+            "philosophy",
+            "blogging"
+        ],
+        "rating": 7230
+    },
+    {
+        "names": [
+            {
                 "name": "Жёлтая стрела",
                 "language": "ru"
             }
@@ -6327,6 +6332,29 @@
     {
         "names": [
             {
+                "name": "The Dark Man",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert E. Howard",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 7740
+    },
+    {
+        "names": [
+            {
                 "name": "Цивилизация Статуса",
                 "language": "?"
             }
@@ -6445,7 +6473,7 @@
             }
         ],
         "tags": [
-            "movie",
+            "film",
             "sci-fi",
             "space-western",
             "action"
@@ -9059,6 +9087,34 @@
     {
         "names": [
             {
+                "name": "We found a stable Firefox identifier linking all your private Tor identities",
+                "language": "en",
+                "link": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+                "comment": "First encounter date 2026-04-23"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Dai Nguyen, Martin Bajanik",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "privacy",
+            "fingerprinting",
+            "browser",
+            "security",
+            "blogging"
+        ],
+        "rating": 8200
+    },
+    {
+        "names": [
+            {
                 "name": "The Doomsters",
                 "language": "en"
             }
@@ -9079,6 +9135,60 @@
             "novel"
         ],
         "rating": 8204
+    },
+    {
+        "names": [
+            {
+                "name": "Anthropic's Mythos Model Is Being Accessed by Unauthorized Users",
+                "language": "en",
+                "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users",
+                "comment": "First encounter date 2026-04-23, Rachel Metz"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Bloomberg",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "news",
+            "ai",
+            "anthropic",
+            "security"
+        ],
+        "rating": 8210
+    },
+    {
+        "names": [
+            {
+                "name": "The Technological Republic, in brief",
+                "language": "en",
+                "link": "https://x.com/PalantirTech/status/2045574398573453312",
+                "comment": "First encounter date 2026-04-23, Alexander C. Karp, Nicholas W. Zamiska"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Palantir Technologies",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "manifesto",
+            "politics",
+            "technology",
+            "social-media"
+        ],
+        "rating": 8220
     },
     {
         "names": [
