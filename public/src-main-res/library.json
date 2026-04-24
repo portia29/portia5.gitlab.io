@@ -7,6 +7,10 @@
                 "link": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 10,
         "authors": [
             {
                 "names": [
@@ -16,11 +20,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 10
+        ]
     },
     {
         "names": [
@@ -30,6 +30,10 @@
                 "link": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 11,
         "authors": [
             {
                 "names": [
@@ -39,11 +43,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 11
+        ]
     },
     {
         "names": [
@@ -53,6 +53,10 @@
                 "link": "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 12,
         "authors": [
             {
                 "names": [
@@ -62,11 +66,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 12
+        ]
     },
     {
         "names": [
@@ -76,6 +76,10 @@
                 "link": "https://en.wikipedia.org/wiki/Inductive_bias"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 13,
         "authors": [
             {
                 "names": [
@@ -85,11 +89,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 13
+        ]
     },
     {
         "names": [
@@ -99,6 +99,10 @@
                 "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 14,
         "authors": [
             {
                 "names": [
@@ -108,11 +112,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 14
+        ]
     },
     {
         "names": [
@@ -122,6 +122,10 @@
                 "link": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 16,
         "authors": [
             {
                 "names": [
@@ -131,11 +135,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 16
+        ]
     },
     {
         "names": [
@@ -145,6 +145,10 @@
                 "link": "https://en.wikipedia.org/wiki/Utility_monster"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 17,
         "authors": [
             {
                 "names": [
@@ -154,11 +158,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 17
+        ]
     },
     {
         "names": [
@@ -168,6 +168,10 @@
                 "link": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
             }
         ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 18,
         "authors": [
             {
                 "names": [
@@ -177,11 +181,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 18
+        ]
     },
     {
         "names": [
@@ -196,6 +196,11 @@
                 "link": "https://www.ruthenia.ru/logos/number/37/07.pdf"
             }
         ],
+        "tags": [
+            "essay",
+            "recommendation"
+        ],
+        "rating": 40,
         "authors": [
             {
                 "names": [
@@ -209,12 +214,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "recommendation"
-        ],
-        "rating": 40
+        ]
     },
     {
         "names": [
@@ -227,6 +227,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 50,
         "authors": [
             {
                 "names": [
@@ -240,12 +245,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 50
+        ]
     },
     {
         "names": [
@@ -255,6 +255,10 @@
                 "link": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 55,
         "authors": [
             {
                 "names": [
@@ -264,11 +268,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 55
+        ]
     },
     {
         "names": [
@@ -281,6 +281,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel",
+            "fiction"
+        ],
+        "rating": 60,
         "authors": [
             {
                 "names": [
@@ -294,13 +300,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel",
-            "fiction"
-        ],
-        "rating": 60
+        ]
     },
     {
         "names": [
@@ -314,6 +314,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 80,
         "authors": [
             {
                 "names": [
@@ -327,12 +332,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 80
+        ]
     },
     {
         "names": [
@@ -345,6 +345,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "visible",
+            "novel",
+            "fiction"
+        ],
+        "rating": 100,
         "authors": [
             {
                 "names": [
@@ -358,13 +364,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "visible",
-            "novel",
-            "fiction"
-        ],
-        "rating": 100
+        ]
     },
     {
         "names": [
@@ -377,6 +377,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel",
+            "fiction"
+        ],
+        "rating": 110,
         "authors": [
             {
                 "names": [
@@ -390,13 +396,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel",
-            "fiction"
-        ],
-        "rating": 110
+        ]
     },
     {
         "names": [
@@ -405,6 +405,10 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "visible"
+        ],
+        "rating": 250,
         "authors": [
             {
                 "names": [
@@ -414,11 +418,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "visible"
-        ],
-        "rating": 250
+        ]
     },
     {
         "names": [
@@ -427,6 +427,13 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "visible",
+            "blogging",
+            "essay",
+            "fiction"
+        ],
+        "rating": 255,
         "authors": [
             {
                 "names": [
@@ -436,14 +443,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "visible",
-            "blogging",
-            "essay",
-            "fiction"
-        ],
-        "rating": 255
+        ]
     },
     {
         "names": [
@@ -453,6 +453,12 @@
                 "link": "https://www.lesswrong.com/posts/hLzwNuPyEvR4mfAce/simulacra-levels-summary"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "visible"
+        ],
+        "rating": 260,
         "authors": [
             {
                 "names": [
@@ -462,13 +468,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "visible"
-        ],
-        "rating": 260
+        ]
     },
     {
         "names": [
@@ -478,6 +478,12 @@
                 "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
             }
         ],
+        "tags": [
+            "blogging",
+            "visible",
+            "fiction"
+        ],
+        "rating": 290,
         "authors": [
             {
                 "names": [
@@ -487,13 +493,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "visible",
-            "fiction"
-        ],
-        "rating": 290
+        ]
     },
     {
         "names": [
@@ -502,6 +502,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -511,13 +517,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 300
+        ]
     },
     {
         "names": [
@@ -530,6 +530,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel",
+            "fiction"
+        ],
+        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -543,13 +549,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel",
-            "fiction"
-        ],
-        "rating": 300
+        ]
     },
     {
         "names": [
@@ -562,6 +562,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel",
+            "fiction"
+        ],
+        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -575,13 +581,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel",
-            "fiction"
-        ],
-        "rating": 300
+        ]
     },
     {
         "names": [
@@ -591,6 +591,13 @@
                 "link": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
             }
         ],
+        "tags": [
+            "visible",
+            "blogging",
+            "essay",
+            "fiction"
+        ],
+        "rating": 320,
         "authors": [
             {
                 "names": [
@@ -600,14 +607,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "visible",
-            "blogging",
-            "essay",
-            "fiction"
-        ],
-        "rating": 320
+        ]
     },
     {
         "names": [
@@ -616,6 +616,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel",
+            "fiction"
+        ],
+        "rating": 350,
         "authors": [
             {
                 "names": [
@@ -629,13 +635,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel",
-            "fiction"
-        ],
-        "rating": 350
+        ]
     },
     {
         "names": [
@@ -648,6 +648,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -661,13 +667,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -680,6 +680,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -693,13 +699,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -708,6 +708,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -721,13 +727,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -736,6 +736,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -745,12 +750,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -759,6 +759,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -772,13 +778,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -787,6 +787,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -800,12 +805,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -814,6 +814,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -823,13 +829,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -838,6 +838,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -851,12 +856,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -865,6 +865,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel",
+            "fiction"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -874,13 +880,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel",
-            "fiction"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -889,6 +889,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -902,12 +907,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -916,6 +916,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -929,13 +935,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -944,6 +944,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -953,12 +958,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 400
+        ]
     },
     {
         "names": [
@@ -967,6 +967,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel",
+            "fiction"
+        ],
+        "rating": 420,
         "authors": [
             {
                 "names": [
@@ -976,13 +982,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel",
-            "fiction"
-        ],
-        "rating": 420
+        ]
     },
     {
         "names": [
@@ -992,6 +992,13 @@
                 "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining",
+            "fiction"
+        ],
+        "rating": 430,
         "authors": [
             {
                 "names": [
@@ -1001,14 +1008,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining",
-            "fiction"
-        ],
-        "rating": 430
+        ]
     },
     {
         "names": [
@@ -1018,6 +1018,10 @@
                 "link": "https://en.wikipedia.org/wiki/Blame!"
             }
         ],
+        "tags": [
+            "manga"
+        ],
+        "rating": 480,
         "authors": [
             {
                 "names": [
@@ -1027,11 +1031,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "manga"
-        ],
-        "rating": 480
+        ]
     },
     {
         "names": [
@@ -1040,6 +1040,10 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 490,
         "authors": [
             {
                 "names": [
@@ -1053,11 +1057,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 490
+        ]
     },
     {
         "names": [
@@ -1066,6 +1066,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 500,
         "authors": [
             {
                 "names": [
@@ -1079,12 +1084,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 500
+        ]
     },
     {
         "names": [
@@ -1093,6 +1093,8 @@
                 "language": "ru"
             }
         ],
+        "tags": [],
+        "rating": 500,
         "authors": [
             {
                 "names": [
@@ -1102,9 +1104,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [],
-        "rating": 500
+        ]
     },
     {
         "names": [
@@ -1113,6 +1113,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 500,
         "authors": [
             {
                 "names": [
@@ -1122,12 +1127,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 500
+        ]
     },
     {
         "names": [
@@ -1136,6 +1136,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "chaos",
+            "nouvelle"
+        ],
+        "rating": 500,
         "authors": [
             {
                 "names": [
@@ -1145,12 +1150,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "chaos",
-            "nouvelle"
-        ],
-        "rating": 500
+        ]
     },
     {
         "names": [
@@ -1163,6 +1163,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "visible",
+            "novel"
+        ],
+        "rating": 500,
         "authors": [
             {
                 "names": [
@@ -1176,12 +1181,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "visible",
-            "novel"
-        ],
-        "rating": 500
+        ]
     },
     {
         "names": [
@@ -1191,6 +1191,10 @@
                 "link": "https://en.wikipedia.org/wiki/Juni_Taisen:_Zodiac_War"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 534,
         "authors": [
             {
                 "names": [
@@ -1200,11 +1204,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 534
+        ]
     },
     {
         "names": [
@@ -1214,6 +1214,10 @@
                 "link": "https://en.wikipedia.org/wiki/Bokurano:_Ours"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 535,
         "authors": [
             {
                 "names": [
@@ -1223,11 +1227,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 535
+        ]
     },
     {
         "names": [
@@ -1237,6 +1237,10 @@
                 "link": "https://en.wikipedia.org/wiki/Claymore_(manga)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 536,
         "authors": [
             {
                 "names": [
@@ -1246,11 +1250,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 536
+        ]
     },
     {
         "names": [
@@ -1260,6 +1260,10 @@
                 "link": "https://en.wikipedia.org/wiki/World_Trigger"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 537,
         "authors": [
             {
                 "names": [
@@ -1269,11 +1273,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 537
+        ]
     },
     {
         "names": [
@@ -1283,6 +1283,10 @@
                 "link": "https://en.wikipedia.org/wiki/Made_in_Abyss"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 538,
         "authors": [
             {
                 "names": [
@@ -1292,11 +1296,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 538
+        ]
     },
     {
         "names": [
@@ -1306,6 +1306,10 @@
                 "link": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 539,
         "authors": [
             {
                 "names": [
@@ -1315,11 +1319,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 539
+        ]
     },
     {
         "names": [
@@ -1329,6 +1329,10 @@
                 "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 540,
         "authors": [
             {
                 "names": [
@@ -1338,11 +1342,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 540
+        ]
     },
     {
         "names": [
@@ -1352,6 +1352,10 @@
                 "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 541,
         "authors": [
             {
                 "names": [
@@ -1361,11 +1365,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 541
+        ]
     },
     {
         "names": [
@@ -1375,6 +1375,10 @@
                 "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 542,
         "authors": [
             {
                 "names": [
@@ -1384,11 +1388,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 542
+        ]
     },
     {
         "names": [
@@ -1398,6 +1398,11 @@
                 "comment": "2025, апрель, 20, воскресенье"
             }
         ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 560,
         "authors": [
             {
                 "names": [
@@ -1407,12 +1412,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 560
+        ]
     },
     {
         "names": [
@@ -1422,6 +1422,10 @@
                 "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf"
             }
         ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1431,11 +1435,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1445,6 +1445,10 @@
                 "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
             }
         ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1454,11 +1458,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "short story"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1468,6 +1468,11 @@
                 "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05."
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1489,12 +1494,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1503,6 +1503,10 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1516,11 +1520,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1529,6 +1529,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1538,12 +1543,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1552,6 +1552,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1561,12 +1566,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 600
+        ]
     },
     {
         "names": [
@@ -1576,6 +1576,11 @@
                 "comment": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1585,12 +1590,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 700
+        ]
     },
     {
         "names": [
@@ -1599,6 +1599,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1608,12 +1613,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 700
+        ]
     },
     {
         "names": [
@@ -1622,6 +1622,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1631,12 +1636,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 700
+        ]
     },
     {
         "names": [
@@ -1645,6 +1645,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1654,12 +1659,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 700
+        ]
     },
     {
         "names": [
@@ -1668,6 +1668,13 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1677,14 +1684,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos",
-            "rationality"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1693,6 +1693,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1702,13 +1708,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1717,6 +1717,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1726,13 +1732,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1741,6 +1741,13 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1750,14 +1757,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos",
-            "rationality"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1766,6 +1766,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1775,13 +1781,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1790,6 +1790,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1799,13 +1805,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1814,6 +1814,13 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1823,14 +1830,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos",
-            "rationality"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1839,6 +1839,13 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1848,14 +1855,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos",
-            "rationality"
-        ],
-        "rating": 750
+        ]
     },
     {
         "names": [
@@ -1864,6 +1864,10 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1877,11 +1881,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -1890,6 +1890,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1903,12 +1908,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -1918,6 +1918,11 @@
                 "comment": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7) Дочитано 2024-06-21."
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1927,12 +1932,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -1941,6 +1941,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1950,12 +1955,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -1964,6 +1964,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1973,12 +1978,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -1987,6 +1987,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1996,12 +2001,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 800
+        ]
     },
     {
         "names": [
@@ -2010,6 +2010,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2023,12 +2028,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2041,6 +2041,11 @@
                 "language": "fr"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2054,12 +2059,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2072,6 +2072,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2085,12 +2090,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2100,6 +2100,10 @@
                 "comment": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/ Дочитано 2024-10-03."
             }
         ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2109,11 +2113,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2122,6 +2122,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2135,12 +2140,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2153,6 +2153,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2166,12 +2171,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2180,6 +2180,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2189,12 +2194,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2204,6 +2204,12 @@
                 "comment": "https://www.paulgraham.com/identity.html"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2213,13 +2219,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2232,6 +2232,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2245,12 +2250,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 900
+        ]
     },
     {
         "names": [
@@ -2260,6 +2260,12 @@
                 "comment": "https://qntm.org/readin"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 970,
         "authors": [
             {
                 "names": [
@@ -2269,13 +2275,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 970
+        ]
     },
     {
         "names": [
@@ -2285,6 +2285,12 @@
                 "comment": "https://qntm.org/mmacevedo"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 975,
         "authors": [
             {
                 "names": [
@@ -2294,13 +2300,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 975
+        ]
     },
     {
         "names": [
@@ -2310,6 +2310,12 @@
                 "comment": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 980,
         "authors": [
             {
                 "names": [
@@ -2319,13 +2325,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 980
+        ]
     },
     {
         "names": [
@@ -2338,6 +2338,10 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "chaos"
+        ],
+        "rating": 980,
         "authors": [
             {
                 "names": [
@@ -2351,11 +2355,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "chaos"
-        ],
-        "rating": 980
+        ]
     },
     {
         "names": [
@@ -2365,6 +2365,11 @@
                 "comment": "https://x.com/ESYudkowsky/status/2043601524815716866"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2378,12 +2383,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2392,6 +2392,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2401,12 +2406,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2415,6 +2415,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2424,12 +2429,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2438,6 +2438,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2447,12 +2452,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2461,6 +2461,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2470,12 +2475,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2484,6 +2484,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2493,12 +2498,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2507,6 +2507,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2516,12 +2521,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
+        ]
     },
     {
         "names": [
@@ -2530,6 +2530,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1040,
         "authors": [
             {
                 "names": [
@@ -2539,12 +2544,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1040
+        ]
     },
     {
         "names": [
@@ -2553,6 +2553,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1050,
         "authors": [
             {
                 "names": [
@@ -2562,12 +2567,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1050
+        ]
     },
     {
         "names": [
@@ -2576,6 +2576,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1060,
         "authors": [
             {
                 "names": [
@@ -2585,12 +2590,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1060
+        ]
     },
     {
         "names": [
@@ -2599,6 +2599,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1060,
         "authors": [
             {
                 "names": [
@@ -2608,13 +2614,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 1060
+        ]
     },
     {
         "names": [
@@ -2623,6 +2623,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1061,
         "authors": [
             {
                 "names": [
@@ -2632,12 +2637,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1061
+        ]
     },
     {
         "names": [
@@ -2646,6 +2646,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1062,
         "authors": [
             {
                 "names": [
@@ -2655,12 +2660,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1062
+        ]
     },
     {
         "names": [
@@ -2669,6 +2669,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2678,12 +2683,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2692,6 +2692,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2701,12 +2706,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2715,6 +2715,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2724,12 +2729,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2738,6 +2738,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2747,12 +2752,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2761,6 +2761,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2770,13 +2776,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2785,6 +2785,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2794,12 +2799,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2808,6 +2808,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2817,12 +2822,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2831,6 +2831,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2840,12 +2845,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2854,6 +2854,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2863,12 +2868,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2877,6 +2877,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2886,12 +2891,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2900,6 +2900,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2909,13 +2915,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2924,6 +2924,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2933,12 +2938,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1200
+        ]
     },
     {
         "names": [
@@ -2947,6 +2947,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1201,
         "authors": [
             {
                 "names": [
@@ -2956,12 +2961,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1201
+        ]
     },
     {
         "names": [
@@ -2970,6 +2970,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1202,
         "authors": [
             {
                 "names": [
@@ -2979,12 +2984,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1202
+        ]
     },
     {
         "names": [
@@ -2993,6 +2993,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1204,
         "authors": [
             {
                 "names": [
@@ -3002,12 +3007,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1204
+        ]
     },
     {
         "names": [
@@ -3016,6 +3016,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1206,
         "authors": [
             {
                 "names": [
@@ -3025,12 +3030,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1206
+        ]
     },
     {
         "names": [
@@ -3039,6 +3039,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1208,
         "authors": [
             {
                 "names": [
@@ -3052,12 +3057,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1208
+        ]
     },
     {
         "names": [
@@ -3066,6 +3066,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1210,
         "authors": [
             {
                 "names": [
@@ -3075,12 +3080,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1210
+        ]
     },
     {
         "names": [
@@ -3090,6 +3090,10 @@
                 "link": "https://en.wikipedia.org/wiki/The_Promised_Neverland"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1240,
         "authors": [
             {
                 "names": [
@@ -3099,11 +3103,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1240
+        ]
     },
     {
         "names": [
@@ -3113,6 +3113,10 @@
                 "link": "https://en.wikipedia.org/wiki/So_I%27m_a_Spider,_So_What%3F"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1260,
         "authors": [
             {
                 "names": [
@@ -3122,11 +3126,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1260
+        ]
     },
     {
         "names": [
@@ -3136,6 +3136,10 @@
                 "link": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1280,
         "authors": [
             {
                 "names": [
@@ -3145,11 +3149,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1280
+        ]
     },
     {
         "names": [
@@ -3159,6 +3159,10 @@
                 "link": "https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1300,
         "authors": [
             {
                 "names": [
@@ -3168,11 +3172,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1300
+        ]
     },
     {
         "names": [
@@ -3182,6 +3182,10 @@
                 "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1320,
         "authors": [
             {
                 "names": [
@@ -3191,11 +3195,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1320
+        ]
     },
     {
         "names": [
@@ -3205,6 +3205,10 @@
                 "link": "https://en.wikipedia.org/wiki/Youjo_Senki"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1340,
         "authors": [
             {
                 "names": [
@@ -3214,11 +3218,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1340
+        ]
     },
     {
         "names": [
@@ -3228,6 +3228,10 @@
                 "link": "https://en.wikipedia.org/wiki/Code_Geass"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1360,
         "authors": [
             {
                 "names": [
@@ -3237,11 +3241,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1360
+        ]
     },
     {
         "names": [
@@ -3251,6 +3251,10 @@
                 "link": "https://en.wikipedia.org/wiki/Code_Geass"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1361,
         "authors": [
             {
                 "names": [
@@ -3260,11 +3264,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1361
+        ]
     },
     {
         "names": [
@@ -3272,16 +3272,6 @@
                 "name": "Code Geass: Lelouch of the Re;surrection",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/34437/Code_Geass__Fukkatsu_no_Lelouch"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gorō Taniguchi",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3292,7 +3282,17 @@
             "military",
             "supernatural"
         ],
-        "rating": 1362
+        "rating": 1362,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gorō Taniguchi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3302,6 +3302,10 @@
                 "link": "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1380,
         "authors": [
             {
                 "names": [
@@ -3311,11 +3315,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1380
+        ]
     },
     {
         "names": [
@@ -3323,16 +3323,6 @@
                 "name": "Sayonara, Zetsubou-Sensei",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Sayonara,_Zetsubou-Sensei"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Akiyuki Shinbo, Naoyuki Tatsuwa",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3343,7 +3333,17 @@
             "slice-of-life",
             "seinen"
         ],
-        "rating": 1390
+        "rating": 1390,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Akiyuki Shinbo, Naoyuki Tatsuwa",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3351,16 +3351,6 @@
                 "name": "Shigurui: Death Frenzy",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/2216/Shigurui"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hiroshi Hamasaki",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3372,7 +3362,17 @@
             "drama",
             "gore"
         ],
-        "rating": 1390
+        "rating": 1390,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hiroshi Hamasaki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3380,16 +3380,6 @@
                 "name": "Deca-Dence",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/40056/Deca-Dence"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Yuzuru Tachikawa",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3400,7 +3390,17 @@
             "action",
             "cyberpunk"
         ],
-        "rating": 1390
+        "rating": 1390,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yuzuru Tachikawa",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3408,16 +3408,6 @@
                 "name": "Drifters",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Drifters_(manga)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Kenichi Suzuki",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3429,7 +3419,17 @@
             "action",
             "fantasy"
         ],
-        "rating": 1391
+        "rating": 1391,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Kenichi Suzuki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3437,16 +3437,6 @@
                 "name": "Drifters: The Outlandish Knight",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/38360/Drifters__The_Outlandish_Knight"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hitomi Ezoe",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -3457,7 +3447,17 @@
             "seinen",
             "action"
         ],
-        "rating": 1392
+        "rating": 1392,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hitomi Ezoe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -3466,6 +3466,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3479,13 +3485,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 1400
+        ]
     },
     {
         "names": [
@@ -3494,6 +3494,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3503,12 +3508,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1400
+        ]
     },
     {
         "names": [
@@ -3517,6 +3517,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3530,12 +3535,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1400
+        ]
     },
     {
         "names": [
@@ -3544,6 +3544,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3553,12 +3558,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1400
+        ]
     },
     {
         "names": [
@@ -3568,6 +3568,10 @@
                 "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3577,11 +3581,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1400
+        ]
     },
     {
         "names": [
@@ -3591,6 +3591,10 @@
                 "link": "https://en.wikipedia.org/wiki/Blame!_(film)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1420,
         "authors": [
             {
                 "names": [
@@ -3600,11 +3604,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1420
+        ]
     },
     {
         "names": [
@@ -3614,6 +3614,10 @@
                 "link": "https://en.wikipedia.org/wiki/The_Devil_Is_a_Part-Timer!"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1440,
         "authors": [
             {
                 "names": [
@@ -3623,11 +3627,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1440
+        ]
     },
     {
         "names": [
@@ -3637,6 +3637,10 @@
                 "link": "https://en.wikipedia.org/wiki/No_Game_No_Life"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1460,
         "authors": [
             {
                 "names": [
@@ -3646,11 +3650,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1460
+        ]
     },
     {
         "names": [
@@ -3660,6 +3660,10 @@
                 "link": "https://en.wikipedia.org/wiki/Plastic_Memories"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1480,
         "authors": [
             {
                 "names": [
@@ -3669,11 +3673,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1480
+        ]
     },
     {
         "names": [
@@ -3682,6 +3682,12 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3691,13 +3697,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3707,6 +3707,11 @@
                 "comment": "https://scottaaronson.blog/?p=8972"
             }
         ],
+        "tags": [
+            "recommendation",
+            "math"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3716,12 +3721,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation",
-            "math"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3730,6 +3730,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3743,12 +3748,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3757,6 +3757,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3766,12 +3771,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3780,6 +3780,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3789,12 +3794,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3804,6 +3804,10 @@
                 "link": "https://en.wikipedia.org/wiki/Miss_Kobayashi%27s_Dragon_Maid"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3813,11 +3817,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1500
+        ]
     },
     {
         "names": [
@@ -3827,6 +3827,10 @@
                 "link": "https://en.wikipedia.org/wiki/Re:Monster"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1520,
         "authors": [
             {
                 "names": [
@@ -3836,11 +3840,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1520
+        ]
     },
     {
         "names": [
@@ -3850,6 +3850,10 @@
                 "link": "https://en.wikipedia.org/wiki/Bleach_(TV_series)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1540,
         "authors": [
             {
                 "names": [
@@ -3859,11 +3863,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1540
+        ]
     },
     {
         "names": [
@@ -3873,6 +3873,10 @@
                 "link": "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1540,
         "authors": [
             {
                 "names": [
@@ -3882,11 +3886,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1540
+        ]
     },
     {
         "names": [
@@ -3896,6 +3896,10 @@
                 "link": "https://en.wikipedia.org/wiki/Demon_Lord_2099"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1560,
         "authors": [
             {
                 "names": [
@@ -3905,11 +3909,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1560
+        ]
     },
     {
         "names": [
@@ -3919,6 +3919,10 @@
                 "link": "https://en.wikipedia.org/wiki/Tower_of_God_(anime)"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1580,
         "authors": [
             {
                 "names": [
@@ -3928,11 +3932,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1580
+        ]
     },
     {
         "names": [
@@ -3941,6 +3941,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3954,12 +3959,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1600
+        ]
     },
     {
         "names": [
@@ -3968,6 +3968,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3977,12 +3982,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1600
+        ]
     },
     {
         "names": [
@@ -3991,6 +3991,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -4000,12 +4005,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1600
+        ]
     },
     {
         "names": [
@@ -4014,6 +4014,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -4023,12 +4028,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1600
+        ]
     },
     {
         "names": [
@@ -4038,6 +4038,10 @@
                 "link": "https://en.wikipedia.org/wiki/The_Magical_Revolution_of_the_Reincarnated_Princess_and_the_Genius_Young_Lady"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -4047,11 +4051,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1600
+        ]
     },
     {
         "names": [
@@ -4062,6 +4062,10 @@
                 "comment": "Majuu no Ou to Akago to Shikabane no Yuusha"
             }
         ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1620,
         "authors": [
             {
                 "names": [
@@ -4071,11 +4075,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1620
+        ]
     },
     {
         "names": [
@@ -4084,6 +4084,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4097,12 +4102,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1700
+        ]
     },
     {
         "names": [
@@ -4111,6 +4111,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4120,12 +4125,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1700
+        ]
     },
     {
         "names": [
@@ -4134,6 +4134,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4143,12 +4148,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1700
+        ]
     },
     {
         "names": [
@@ -4157,6 +4157,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4170,12 +4175,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1800
+        ]
     },
     {
         "names": [
@@ -4184,6 +4184,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4193,12 +4198,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1800
+        ]
     },
     {
         "names": [
@@ -4207,6 +4207,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4216,12 +4221,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1800
+        ]
     },
     {
         "names": [
@@ -4230,6 +4230,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4239,12 +4244,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1800
+        ]
     },
     {
         "names": [
@@ -4253,6 +4253,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4262,12 +4267,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1900
+        ]
     },
     {
         "names": [
@@ -4276,6 +4276,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4285,12 +4290,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1900
+        ]
     },
     {
         "names": [
@@ -4299,6 +4299,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4308,12 +4313,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1900
+        ]
     },
     {
         "names": [
@@ -4322,6 +4322,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4331,12 +4336,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1900
+        ]
     },
     {
         "names": [
@@ -4346,6 +4346,12 @@
                 "comment": "https://www.mathnet.ru/rus/mp18"
             }
         ],
+        "tags": [
+            "invisible",
+            "blogging",
+            "essay"
+        ],
+        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4355,13 +4361,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "blogging",
-            "essay"
-        ],
-        "rating": 1900
+        ]
     },
     {
         "names": [
@@ -4370,6 +4370,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2000,
         "authors": [
             {
                 "names": [
@@ -4379,12 +4384,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2000
+        ]
     },
     {
         "names": [
@@ -4393,6 +4393,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2000,
         "authors": [
             {
                 "names": [
@@ -4402,12 +4407,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2000
+        ]
     },
     {
         "names": [
@@ -4416,6 +4416,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2100,
         "authors": [
             {
                 "names": [
@@ -4425,12 +4430,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2100
+        ]
     },
     {
         "names": [
@@ -4439,6 +4439,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2100,
         "authors": [
             {
                 "names": [
@@ -4448,12 +4453,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2100
+        ]
     },
     {
         "names": [
@@ -4462,6 +4462,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2100,
         "authors": [
             {
                 "names": [
@@ -4471,12 +4476,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2100
+        ]
     },
     {
         "names": [
@@ -4485,6 +4485,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4494,12 +4499,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2200
+        ]
     },
     {
         "names": [
@@ -4508,6 +4508,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4517,12 +4522,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2200
+        ]
     },
     {
         "names": [
@@ -4531,6 +4531,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4540,12 +4545,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2200
+        ]
     },
     {
         "names": [
@@ -4554,6 +4554,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4567,12 +4572,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2200
+        ]
     },
     {
         "names": [
@@ -4581,6 +4581,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4590,12 +4595,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2300
+        ]
     },
     {
         "names": [
@@ -4604,6 +4604,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4613,12 +4618,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2300
+        ]
     },
     {
         "names": [
@@ -4627,6 +4627,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4636,12 +4641,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2300
+        ]
     },
     {
         "names": [
@@ -4650,6 +4650,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4659,12 +4664,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2400
+        ]
     },
     {
         "names": [
@@ -4673,6 +4673,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4682,12 +4687,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2400
+        ]
     },
     {
         "names": [
@@ -4696,6 +4696,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4705,12 +4710,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2400
+        ]
     },
     {
         "names": [
@@ -4719,6 +4719,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2500,
         "authors": [
             {
                 "names": [
@@ -4728,12 +4733,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2500
+        ]
     },
     {
         "names": [
@@ -4742,6 +4742,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2500,
         "authors": [
             {
                 "names": [
@@ -4751,12 +4756,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2500
+        ]
     },
     {
         "names": [
@@ -4765,6 +4765,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2600,
         "authors": [
             {
                 "names": [
@@ -4774,12 +4779,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2600
+        ]
     },
     {
         "names": [
@@ -4788,6 +4788,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2600,
         "authors": [
             {
                 "names": [
@@ -4797,12 +4802,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2600
+        ]
     },
     {
         "names": [
@@ -4811,6 +4811,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2700,
         "authors": [
             {
                 "names": [
@@ -4820,12 +4825,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2700
+        ]
     },
     {
         "names": [
@@ -4834,6 +4834,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2700,
         "authors": [
             {
                 "names": [
@@ -4843,12 +4848,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2700
+        ]
     },
     {
         "names": [
@@ -4857,6 +4857,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2800,
         "authors": [
             {
                 "names": [
@@ -4866,12 +4871,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2800
+        ]
     },
     {
         "names": [
@@ -4880,6 +4880,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2800,
         "authors": [
             {
                 "names": [
@@ -4893,12 +4898,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2800
+        ]
     },
     {
         "names": [
@@ -4907,6 +4907,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2900,
         "authors": [
             {
                 "names": [
@@ -4916,12 +4921,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2900
+        ]
     },
     {
         "names": [
@@ -4934,6 +4934,8 @@
                 "language": "ru"
             }
         ],
+        "tags": [],
+        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -4947,9 +4949,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [],
-        "rating": 3000
+        ]
     },
     {
         "names": [
@@ -4958,6 +4958,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -4967,12 +4972,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3000
+        ]
     },
     {
         "names": [
@@ -4981,6 +4981,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -4990,12 +4995,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 3000
+        ]
     },
     {
         "names": [
@@ -5004,6 +5004,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3100,
         "authors": [
             {
                 "names": [
@@ -5013,12 +5018,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3100
+        ]
     },
     {
         "names": [
@@ -5027,6 +5027,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 3100,
         "authors": [
             {
                 "names": [
@@ -5040,12 +5045,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 3100
+        ]
     },
     {
         "names": [
@@ -5054,6 +5054,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3200,
         "authors": [
             {
                 "names": [
@@ -5063,12 +5068,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3200
+        ]
     },
     {
         "names": [
@@ -5077,6 +5077,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3300,
         "authors": [
             {
                 "names": [
@@ -5086,12 +5091,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3300
+        ]
     },
     {
         "names": [
@@ -5100,6 +5100,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3400,
         "authors": [
             {
                 "names": [
@@ -5109,12 +5114,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3400
+        ]
     },
     {
         "names": [
@@ -5123,6 +5123,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3500,
         "authors": [
             {
                 "names": [
@@ -5132,12 +5137,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3500
+        ]
     },
     {
         "names": [
@@ -5146,6 +5146,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3600,
         "authors": [
             {
                 "names": [
@@ -5155,12 +5160,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3600
+        ]
     },
     {
         "names": [
@@ -5169,6 +5169,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3700,
         "authors": [
             {
                 "names": [
@@ -5178,12 +5183,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3700
+        ]
     },
     {
         "names": [
@@ -5192,6 +5192,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3800,
         "authors": [
             {
                 "names": [
@@ -5201,12 +5206,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3800
+        ]
     },
     {
         "names": [
@@ -5215,6 +5215,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 3900,
         "authors": [
             {
                 "names": [
@@ -5224,12 +5229,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 3900
+        ]
     },
     {
         "names": [
@@ -5238,6 +5238,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4000,
         "authors": [
             {
                 "names": [
@@ -5247,12 +5252,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4000
+        ]
     },
     {
         "names": [
@@ -5265,6 +5265,10 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 4000,
         "authors": [
             {
                 "names": [
@@ -5278,11 +5282,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "short story"
-        ],
-        "rating": 4000
+        ]
     },
     {
         "names": [
@@ -5291,6 +5291,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4100,
         "authors": [
             {
                 "names": [
@@ -5300,12 +5305,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4100
+        ]
     },
     {
         "names": [
@@ -5314,6 +5314,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4200,
         "authors": [
             {
                 "names": [
@@ -5323,12 +5328,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4200
+        ]
     },
     {
         "names": [
@@ -5337,6 +5337,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4300,
         "authors": [
             {
                 "names": [
@@ -5346,12 +5351,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4300
+        ]
     },
     {
         "names": [
@@ -5360,6 +5360,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4400,
         "authors": [
             {
                 "names": [
@@ -5369,12 +5374,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4400
+        ]
     },
     {
         "names": [
@@ -5383,6 +5383,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4500,
         "authors": [
             {
                 "names": [
@@ -5392,12 +5397,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4500
+        ]
     },
     {
         "names": [
@@ -5407,6 +5407,11 @@
                 "comment": "Примерно: “У нас сейчас куча людей начнёт верить в наличие сознания у LLM, что мы с этим будем делать?” Один из десятка взглядов из обзора взглядов: “Nobody supposes that the computational model of rainstorms in London will leave us all wet. But they make the mistake of supposing that the computational model of consciousness is somehow conscious”, Searle, 2002. Из заключения: “While noting the impossibility of ever directly knowing that other humans are conscious, Turing spoke of the “polite convention” we extend to others in assuming they have minds like ours.” https://www.polytropolis.com/p/behaviourisms-revenge"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 4500,
         "authors": [
             {
                 "names": [
@@ -5416,12 +5421,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 4500
+        ]
     },
     {
         "names": [
@@ -5430,6 +5430,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4600,
         "authors": [
             {
                 "names": [
@@ -5439,12 +5444,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4600
+        ]
     },
     {
         "names": [
@@ -5453,6 +5453,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4700,
         "authors": [
             {
                 "names": [
@@ -5462,12 +5467,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4700
+        ]
     },
     {
         "names": [
@@ -5476,6 +5476,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4800,
         "authors": [
             {
                 "names": [
@@ -5485,12 +5490,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4800
+        ]
     },
     {
         "names": [
@@ -5499,6 +5499,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 4900,
         "authors": [
             {
                 "names": [
@@ -5508,12 +5513,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 4900
+        ]
     },
     {
         "names": [
@@ -5522,6 +5522,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5000,
         "authors": [
             {
                 "names": [
@@ -5531,12 +5536,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5000
+        ]
     },
     {
         "names": [
@@ -5545,6 +5545,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5000,
         "authors": [
             {
                 "names": [
@@ -5554,12 +5559,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5000
+        ]
     },
     {
         "names": [
@@ -5568,6 +5568,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5100,
         "authors": [
             {
                 "names": [
@@ -5577,12 +5582,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5100
+        ]
     },
     {
         "names": [
@@ -5591,6 +5591,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5200,
         "authors": [
             {
                 "names": [
@@ -5600,12 +5605,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5200
+        ]
     },
     {
         "names": [
@@ -5614,6 +5614,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5300,
         "authors": [
             {
                 "names": [
@@ -5623,12 +5628,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5300
+        ]
     },
     {
         "names": [
@@ -5638,6 +5638,8 @@
                 "comment": "https://meduza.io/feature/2026/04/18/slyshali-chto-duhi-s-feromonami-privlekayut-okruzhayuschih-no-vozmozhno-li-eto-s-tochki-zreniya-nauki-i-est-li-voobsche-u-cheloveka-feromony / В порядке увеличения числа нейронов в обонятельной луковице: мужчина, мышь, хомяк, морская свинка, женщина, макака, крыса. У всего разнообразия исследованных млекопитающих, 24 вида, включая грызунов, приматов, насекомоядных, зайцеобразных и шерстокрылов, количество нейронов в луковицах всегда оставалось в пределах 10 миллионов, что удивительно учитывая разницу в массе тела в пять тысяч раз. / Женщины с естественным менструальным циклом предпочитают запахи мужчин, максимально непохожих на них по вариантам MHC. У женщин, принимающих гормональные контрацептивы, эффект был обратный."
             }
         ],
+        "tags": [],
+        "rating": 5400,
         "authors": [
             {
                 "names": [
@@ -5647,9 +5649,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [],
-        "rating": 5400
+        ]
     },
     {
         "names": [
@@ -5658,6 +5658,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5400,
         "authors": [
             {
                 "names": [
@@ -5667,12 +5672,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5400
+        ]
     },
     {
         "names": [
@@ -5681,6 +5681,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5500,
         "authors": [
             {
                 "names": [
@@ -5690,12 +5695,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5500
+        ]
     },
     {
         "names": [
@@ -5704,6 +5704,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5600,
         "authors": [
             {
                 "names": [
@@ -5713,12 +5718,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5600
+        ]
     },
     {
         "names": [
@@ -5727,6 +5727,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5700,
         "authors": [
             {
                 "names": [
@@ -5736,12 +5741,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5700
+        ]
     },
     {
         "names": [
@@ -5750,6 +5750,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5800,
         "authors": [
             {
                 "names": [
@@ -5759,12 +5764,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5800
+        ]
     },
     {
         "names": [
@@ -5773,6 +5773,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 5900,
         "authors": [
             {
                 "names": [
@@ -5782,12 +5787,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 5900
+        ]
     },
     {
         "names": [
@@ -5796,6 +5796,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 6000,
         "authors": [
             {
                 "names": [
@@ -5805,12 +5810,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 6000
+        ]
     },
     {
         "names": [
@@ -5819,6 +5819,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6000,
         "authors": [
             {
                 "names": [
@@ -5828,12 +5833,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6000
+        ]
     },
     {
         "names": [
@@ -5842,6 +5842,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6100,
         "authors": [
             {
                 "names": [
@@ -5851,12 +5856,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6100
+        ]
     },
     {
         "names": [
@@ -5865,6 +5865,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6200,
         "authors": [
             {
                 "names": [
@@ -5874,12 +5879,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6200
+        ]
     },
     {
         "names": [
@@ -5888,6 +5888,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6300,
         "authors": [
             {
                 "names": [
@@ -5897,12 +5902,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6300
+        ]
     },
     {
         "names": [
@@ -5911,6 +5911,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6400,
         "authors": [
             {
                 "names": [
@@ -5920,12 +5925,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6400
+        ]
     },
     {
         "names": [
@@ -5934,6 +5934,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6600,
         "authors": [
             {
                 "names": [
@@ -5947,12 +5952,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6600
+        ]
     },
     {
         "names": [
@@ -5961,6 +5961,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6700,
         "authors": [
             {
                 "names": [
@@ -5974,12 +5979,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6700
+        ]
     },
     {
         "names": [
@@ -5988,6 +5988,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6800,
         "authors": [
             {
                 "names": [
@@ -6001,12 +6006,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6800
+        ]
     },
     {
         "names": [
@@ -6015,6 +6015,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 6900,
         "authors": [
             {
                 "names": [
@@ -6028,12 +6033,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 6900
+        ]
     },
     {
         "names": [
@@ -6042,6 +6042,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7000,
         "authors": [
             {
                 "names": [
@@ -6055,12 +6060,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7000
+        ]
     },
     {
         "names": [
@@ -6073,6 +6073,10 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 7000,
         "authors": [
             {
                 "names": [
@@ -6082,11 +6086,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "short story"
-        ],
-        "rating": 7000
+        ]
     },
     {
         "names": [
@@ -6096,6 +6096,11 @@
                 "comment": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 7000,
         "authors": [
             {
                 "names": [
@@ -6105,12 +6110,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 7000
+        ]
     },
     {
         "names": [
@@ -6119,6 +6119,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7100,
         "authors": [
             {
                 "names": [
@@ -6132,12 +6137,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7100
+        ]
     },
     {
         "names": [
@@ -6146,6 +6146,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7200,
         "authors": [
             {
                 "names": [
@@ -6159,12 +6164,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7200
+        ]
     },
     {
         "names": [
@@ -6175,6 +6175,14 @@
                 "comment": "First encounter date 2025-07-04"
             }
         ],
+        "tags": [
+            "poem",
+            "essay",
+            "ai",
+            "philosophy",
+            "blogging"
+        ],
+        "rating": 7230,
         "authors": [
             {
                 "names": [
@@ -6184,15 +6192,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "poem",
-            "essay",
-            "ai",
-            "philosophy",
-            "blogging"
-        ],
-        "rating": 7230
+        ]
     },
     {
         "names": [
@@ -6201,6 +6201,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7300,
         "authors": [
             {
                 "names": [
@@ -6214,12 +6219,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7300
+        ]
     },
     {
         "names": [
@@ -6228,6 +6228,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7400,
         "authors": [
             {
                 "names": [
@@ -6241,12 +6246,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7400
+        ]
     },
     {
         "names": [
@@ -6255,6 +6255,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7500,
         "authors": [
             {
                 "names": [
@@ -6268,12 +6273,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7500
+        ]
     },
     {
         "names": [
@@ -6282,6 +6282,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7600,
         "authors": [
             {
                 "names": [
@@ -6295,12 +6300,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7600
+        ]
     },
     {
         "names": [
@@ -6309,6 +6309,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7700,
         "authors": [
             {
                 "names": [
@@ -6322,12 +6327,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7700
+        ]
     },
     {
         "names": [
@@ -6336,6 +6336,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 7740,
         "authors": [
             {
                 "names": [
@@ -6345,12 +6350,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 7740
+        ]
     },
     {
         "names": [
@@ -6359,6 +6359,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7750,
         "authors": [
             {
                 "names": [
@@ -6372,12 +6377,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7750
+        ]
     },
     {
         "names": [
@@ -6386,6 +6386,11 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 7800,
         "authors": [
             {
                 "names": [
@@ -6399,12 +6404,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 7800
+        ]
     },
     {
         "names": [
@@ -6413,6 +6413,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 7890,
         "authors": [
             {
                 "names": [
@@ -6422,13 +6428,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 7890
+        ]
     },
     {
         "names": [
@@ -6437,6 +6437,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 7890,
         "authors": [
             {
                 "names": [
@@ -6446,13 +6452,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 7890
+        ]
     },
     {
         "names": [
@@ -6462,6 +6462,13 @@
                 "link": "https://en.wikipedia.org/wiki/Serenity_(2005_film)"
             }
         ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "space-western",
+            "action"
+        ],
+        "rating": 7895,
         "authors": [
             {
                 "names": [
@@ -6472,13 +6479,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "sci-fi",
-            "space-western",
-            "action"
-        ],
-        "rating": 7895,
         "created": "2005"
     },
     {
@@ -6493,6 +6493,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7900,
         "authors": [
             {
                 "names": [
@@ -6503,12 +6509,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7900,
         "created": "1997"
     },
     {
@@ -6523,6 +6523,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7901,
         "authors": [
             {
                 "names": [
@@ -6533,11 +6538,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "rating": 7901,
         "created": "1975"
     },
     {
@@ -6552,6 +6552,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "rating": 7902,
         "authors": [
             {
                 "names": [
@@ -6562,12 +6568,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "comedy"
-        ],
-        "rating": 7902,
         "created": "2005"
     },
     {
@@ -6582,6 +6582,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "comedy"
+        ],
+        "rating": 7903,
         "authors": [
             {
                 "names": [
@@ -6592,12 +6598,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "comedy"
-        ],
-        "rating": 7903,
         "created": "1975"
     },
     {
@@ -6612,6 +6612,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "black comedy"
+        ],
+        "rating": 7904,
         "authors": [
             {
                 "names": [
@@ -6622,12 +6628,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "black comedy"
-        ],
-        "rating": 7904,
         "created": "1985"
     },
     {
@@ -6642,6 +6642,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "psychological thriller"
+        ],
+        "rating": 7905,
         "authors": [
             {
                 "names": [
@@ -6652,12 +6658,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "psychological thriller"
-        ],
-        "rating": 7905,
         "created": "1998"
     },
     {
@@ -6672,6 +6672,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "western",
+            "drama"
+        ],
+        "rating": 7906,
         "authors": [
             {
                 "names": [
@@ -6682,12 +6688,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "western",
-            "drama"
-        ],
-        "rating": 7906,
         "created": "1995"
     },
     {
@@ -6702,6 +6702,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7907,
         "authors": [
             {
                 "names": [
@@ -6712,12 +6718,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7907,
         "created": "1979"
     },
     {
@@ -6728,6 +6728,12 @@
                 "link": "https://en.wikipedia.org/wiki/Wag_the_Dog"
             }
         ],
+        "tags": [
+            "film",
+            "black comedy",
+            "political satire"
+        ],
+        "rating": 7908,
         "authors": [
             {
                 "names": [
@@ -6738,12 +6744,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "black comedy",
-            "political satire"
-        ],
-        "rating": 7908,
         "created": "1997"
     },
     {
@@ -6758,6 +6758,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "black comedy",
+            "satire"
+        ],
+        "rating": 7909,
         "authors": [
             {
                 "names": [
@@ -6768,12 +6774,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "black comedy",
-            "satire"
-        ],
-        "rating": 7909,
         "created": "2011"
     },
     {
@@ -6788,6 +6788,13 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "superhero",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7910,
         "authors": [
             {
                 "names": [
@@ -6798,13 +6805,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "superhero",
-            "action",
-            "science fiction"
-        ],
-        "rating": 7910,
         "created": "2009"
     },
     {
@@ -6819,6 +6819,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "rating": 7911,
         "authors": [
             {
                 "names": [
@@ -6829,12 +6835,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "comedy"
-        ],
-        "rating": 7911,
         "created": "1986"
     },
     {
@@ -6849,6 +6849,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "thriller",
+            "action"
+        ],
+        "rating": 7912,
         "authors": [
             {
                 "names": [
@@ -6859,12 +6865,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "thriller",
-            "action"
-        ],
-        "rating": 7912,
         "created": "2009"
     },
     {
@@ -6879,6 +6879,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7913,
         "authors": [
             {
                 "names": [
@@ -6889,11 +6894,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama"
-        ],
-        "rating": 7913,
         "created": "2003"
     },
     {
@@ -6908,6 +6908,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "neo-noir"
+        ],
+        "rating": 7914,
         "authors": [
             {
                 "names": [
@@ -6918,12 +6924,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "neo-noir"
-        ],
-        "rating": 7914,
         "created": "1982"
     },
     {
@@ -6938,6 +6938,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "action",
+            "dystopian"
+        ],
+        "rating": 7915,
         "authors": [
             {
                 "names": [
@@ -6948,12 +6954,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "action",
-            "dystopian"
-        ],
-        "rating": 7915,
         "created": "2005"
     },
     {
@@ -6968,6 +6968,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy",
+            "drama"
+        ],
+        "rating": 7916,
         "authors": [
             {
                 "names": [
@@ -6978,12 +6984,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy",
-            "drama"
-        ],
-        "rating": 7916,
         "created": "2006"
     },
     {
@@ -6994,6 +6994,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Listening_(film)"
             }
         ],
+        "tags": [
+            "film",
+            "crime",
+            "drama"
+        ],
+        "rating": 7917,
         "authors": [
             {
                 "names": [
@@ -7004,12 +7010,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "crime",
-            "drama"
-        ],
-        "rating": 7917,
         "created": "2006"
     },
     {
@@ -7024,6 +7024,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "crime"
+        ],
+        "rating": 7918,
         "authors": [
             {
                 "names": [
@@ -7034,12 +7040,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological thriller",
-            "crime"
-        ],
-        "rating": 7918,
         "created": "1991"
     },
     {
@@ -7054,6 +7054,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "crime"
+        ],
+        "rating": 7919,
         "authors": [
             {
                 "names": [
@@ -7064,12 +7070,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological thriller",
-            "crime"
-        ],
-        "rating": 7919,
         "created": "2001"
     },
     {
@@ -7084,6 +7084,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "historical"
+        ],
+        "rating": 7920,
         "authors": [
             {
                 "names": [
@@ -7094,12 +7100,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "historical"
-        ],
-        "rating": 7920,
         "created": "1966"
     },
     {
@@ -7114,6 +7114,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "crime"
+        ],
+        "rating": 7921,
         "authors": [
             {
                 "names": [
@@ -7124,12 +7130,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "crime"
-        ],
-        "rating": 7921,
         "created": "2007"
     },
     {
@@ -7144,6 +7144,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7922,
         "authors": [
             {
                 "names": [
@@ -7154,11 +7159,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama"
-        ],
-        "rating": 7922,
         "created": "2010"
     },
     {
@@ -7173,6 +7173,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "romantic comedy"
+        ],
+        "rating": 7923,
         "authors": [
             {
                 "names": [
@@ -7183,11 +7188,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "romantic comedy"
-        ],
-        "rating": 7923,
         "created": "1977"
     },
     {
@@ -7202,6 +7202,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "fantasy",
+            "romantic comedy"
+        ],
+        "rating": 7924,
         "authors": [
             {
                 "names": [
@@ -7212,12 +7218,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "fantasy",
-            "romantic comedy"
-        ],
-        "rating": 7924,
         "created": "1978"
     },
     {
@@ -7232,6 +7232,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "romance"
+        ],
+        "rating": 7925,
         "authors": [
             {
                 "names": [
@@ -7242,12 +7248,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "romance"
-        ],
-        "rating": 7925,
         "created": "1984"
     },
     {
@@ -7262,6 +7262,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "war"
+        ],
+        "rating": 7926,
         "authors": [
             {
                 "names": [
@@ -7272,12 +7278,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "war"
-        ],
-        "rating": 7926,
         "created": "1994"
     },
     {
@@ -7292,6 +7292,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy",
+            "crime"
+        ],
+        "rating": 7927,
         "authors": [
             {
                 "names": [
@@ -7302,12 +7308,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy",
-            "crime"
-        ],
-        "rating": 7927,
         "created": "1966"
     },
     {
@@ -7318,6 +7318,12 @@
                 "link": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
             }
         ],
+        "tags": [
+            "film",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7928,
         "authors": [
             {
                 "names": [
@@ -7328,12 +7334,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "action",
-            "science fiction"
-        ],
-        "rating": 7928,
         "created": "2015"
     },
     {
@@ -7344,6 +7344,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Heat_(2013_film)"
             }
         ],
+        "tags": [
+            "film",
+            "action",
+            "comedy"
+        ],
+        "rating": 7929,
         "authors": [
             {
                 "names": [
@@ -7354,12 +7360,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "action",
-            "comedy"
-        ],
-        "rating": 7929,
         "created": "2013"
     },
     {
@@ -7374,6 +7374,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "romantic comedy",
+            "drama"
+        ],
+        "rating": 7930,
         "authors": [
             {
                 "names": [
@@ -7384,12 +7390,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "romantic comedy",
-            "drama"
-        ],
-        "rating": 7930,
         "created": "1979"
     },
     {
@@ -7404,6 +7404,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7931,
         "authors": [
             {
                 "names": [
@@ -7414,12 +7420,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7931,
         "created": "1972"
     },
     {
@@ -7434,6 +7434,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7932,
         "authors": [
             {
                 "names": [
@@ -7444,12 +7450,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7932,
         "created": "2009"
     },
     {
@@ -7464,6 +7464,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7933,
         "authors": [
             {
                 "names": [
@@ -7474,12 +7480,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7933,
         "created": "2002"
     },
     {
@@ -7494,6 +7494,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7934,
         "authors": [
             {
                 "names": [
@@ -7504,12 +7510,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7934,
         "created": "2014"
     },
     {
@@ -7524,6 +7524,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "fantasy"
+        ],
+        "rating": 7935,
         "authors": [
             {
                 "names": [
@@ -7534,12 +7540,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "fantasy"
-        ],
-        "rating": 7935,
         "created": "1999"
     },
     {
@@ -7550,6 +7550,12 @@
                 "link": "https://en.wikipedia.org/wiki/99_Francs_(film)"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "satire"
+        ],
+        "rating": 7936,
         "authors": [
             {
                 "names": [
@@ -7560,12 +7566,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "satire"
-        ],
-        "rating": 7936,
         "created": "2007"
     },
     {
@@ -7580,6 +7580,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7937,
         "authors": [
             {
                 "names": [
@@ -7590,12 +7596,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7937,
         "created": "2013"
     },
     {
@@ -7610,6 +7610,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "black comedy",
+            "drama"
+        ],
+        "rating": 7938,
         "authors": [
             {
                 "names": [
@@ -7620,12 +7626,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "black comedy",
-            "drama"
-        ],
-        "rating": 7938,
         "created": "2006"
     },
     {
@@ -7640,6 +7640,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "adventure",
+            "comedy"
+        ],
+        "rating": 7939,
         "authors": [
             {
                 "names": [
@@ -7650,12 +7656,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "adventure",
-            "comedy"
-        ],
-        "rating": 7939,
         "created": "1970"
     },
     {
@@ -7670,6 +7670,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "drama",
+            "black comedy"
+        ],
+        "rating": 7940,
         "authors": [
             {
                 "names": [
@@ -7680,12 +7686,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama",
-            "black comedy"
-        ],
-        "rating": 7940,
         "created": "1999"
     },
     {
@@ -7696,6 +7696,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
             }
         ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "drama"
+        ],
+        "rating": 7941,
         "authors": [
             {
                 "names": [
@@ -7706,12 +7712,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological thriller",
-            "drama"
-        ],
-        "rating": 7941,
         "created": "1999"
     },
     {
@@ -7726,6 +7726,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "fantasy",
+            "drama"
+        ],
+        "rating": 7942,
         "authors": [
             {
                 "names": [
@@ -7736,12 +7742,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "fantasy",
-            "drama"
-        ],
-        "rating": 7942,
         "created": "2005"
     },
     {
@@ -7756,6 +7756,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7943,
         "authors": [
             {
                 "names": [
@@ -7766,12 +7772,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7943,
         "created": "2009"
     },
     {
@@ -7782,6 +7782,12 @@
                 "link": "https://en.wikipedia.org/wiki/Jacob%27s_Ladder_(1990_film)"
             }
         ],
+        "tags": [
+            "film",
+            "psychological horror",
+            "drama"
+        ],
+        "rating": 7944,
         "authors": [
             {
                 "names": [
@@ -7792,12 +7798,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological horror",
-            "drama"
-        ],
-        "rating": 7944,
         "created": "1990"
     },
     {
@@ -7808,6 +7808,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Thirteenth_Floor"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "thriller"
+        ],
+        "rating": 7945,
         "authors": [
             {
                 "names": [
@@ -7818,12 +7824,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "thriller"
-        ],
-        "rating": 7945,
         "created": "1999"
     },
     {
@@ -7838,6 +7838,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "romantic comedy"
+        ],
+        "rating": 7946,
         "authors": [
             {
                 "names": [
@@ -7848,11 +7853,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "romantic comedy"
-        ],
-        "rating": 7946,
         "created": "1984"
     },
     {
@@ -7867,6 +7867,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "action",
+            "science fiction"
+        ],
+        "rating": 7947,
         "authors": [
             {
                 "names": [
@@ -7877,12 +7883,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "action",
-            "science fiction"
-        ],
-        "rating": 7947,
         "created": "2012"
     },
     {
@@ -7897,6 +7897,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "horror"
+        ],
+        "rating": 7948,
         "authors": [
             {
                 "names": [
@@ -7907,12 +7913,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "horror"
-        ],
-        "rating": 7948,
         "created": "1979"
     },
     {
@@ -7923,6 +7923,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Ninth_Gate"
             }
         ],
+        "tags": [
+            "film",
+            "thriller",
+            "mystery"
+        ],
+        "rating": 7949,
         "authors": [
             {
                 "names": [
@@ -7933,12 +7939,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "thriller",
-            "mystery"
-        ],
-        "rating": 7949,
         "created": "1999"
     },
     {
@@ -7953,6 +7953,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "thriller"
+        ],
+        "rating": 7950,
         "authors": [
             {
                 "names": [
@@ -7963,12 +7969,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "thriller"
-        ],
-        "rating": 7950,
         "created": "1995"
     },
     {
@@ -7983,6 +7983,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7951,
         "authors": [
             {
                 "names": [
@@ -7993,12 +7999,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7951,
         "created": "2002"
     },
     {
@@ -8013,6 +8013,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "horror"
+        ],
+        "rating": 7952,
         "authors": [
             {
                 "names": [
@@ -8023,12 +8029,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "horror"
-        ],
-        "rating": 7952,
         "created": "1997"
     },
     {
@@ -8039,6 +8039,12 @@
                 "link": "https://en.wikipedia.org/wiki/Pitch_Black_(film)"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7953,
         "authors": [
             {
                 "names": [
@@ -8049,12 +8055,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7953,
         "created": "2000"
     },
     {
@@ -8065,6 +8065,12 @@
                 "link": "https://en.wikipedia.org/wiki/The_Chronicles_of_Riddick_(film)"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7954,
         "authors": [
             {
                 "names": [
@@ -8075,12 +8081,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7954,
         "created": "2004"
     },
     {
@@ -8095,6 +8095,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 7955,
         "authors": [
             {
                 "names": [
@@ -8105,12 +8111,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7955,
         "created": "1987"
     },
     {
@@ -8125,6 +8125,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "adventure"
+        ],
+        "rating": 7956,
         "authors": [
             {
                 "names": [
@@ -8135,12 +8141,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "adventure"
-        ],
-        "rating": 7956,
         "created": "1977"
     },
     {
@@ -8155,6 +8155,13 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action",
+            "horror"
+        ],
+        "rating": 7957,
         "authors": [
             {
                 "names": [
@@ -8165,13 +8172,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action",
-            "horror"
-        ],
-        "rating": 7957,
         "created": "2002"
     },
     {
@@ -8186,6 +8186,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "film",
+            "action",
+            "thriller"
+        ],
+        "rating": 7958,
         "authors": [
             {
                 "names": [
@@ -8196,12 +8202,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "action",
-            "thriller"
-        ],
-        "rating": 7958,
         "created": "2000"
     },
     {
@@ -8216,6 +8216,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "horror",
+            "thriller"
+        ],
+        "rating": 7959,
         "authors": [
             {
                 "names": [
@@ -8226,12 +8232,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "horror",
-            "thriller"
-        ],
-        "rating": 7959,
         "created": "2010"
     },
     {
@@ -8246,6 +8246,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "horror",
+            "thriller"
+        ],
+        "rating": 7960,
         "authors": [
             {
                 "names": [
@@ -8256,12 +8262,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "horror",
-            "thriller"
-        ],
-        "rating": 7960,
         "created": "2010"
     },
     {
@@ -8276,6 +8276,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "black comedy",
+            "drama"
+        ],
+        "rating": 7961,
         "authors": [
             {
                 "names": [
@@ -8286,12 +8292,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "black comedy",
-            "drama"
-        ],
-        "rating": 7961,
         "created": "2013"
     },
     {
@@ -8306,6 +8306,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "satire",
+            "drama"
+        ],
+        "rating": 7962,
         "authors": [
             {
                 "names": [
@@ -8316,12 +8322,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "satire",
-            "drama"
-        ],
-        "rating": 7962,
         "created": "1988"
     },
     {
@@ -8336,6 +8336,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7963,
         "authors": [
             {
                 "names": [
@@ -8346,11 +8351,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "rating": 7963,
         "created": "1971"
     },
     {
@@ -8365,6 +8365,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 7964,
         "authors": [
             {
                 "names": [
@@ -8375,11 +8380,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "rating": 7964,
         "created": "1968"
     },
     {
@@ -8394,6 +8394,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "comedy",
+            "drama"
+        ],
+        "rating": 7965,
         "authors": [
             {
                 "names": [
@@ -8404,12 +8410,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "comedy",
-            "drama"
-        ],
-        "rating": 7965,
         "created": "1975"
     },
     {
@@ -8424,6 +8424,11 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction"
+        ],
+        "rating": 7966,
         "authors": [
             {
                 "names": [
@@ -8434,11 +8439,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction"
-        ],
-        "rating": 7966,
         "created": "1951"
     },
     {
@@ -8449,6 +8449,12 @@
                 "link": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
             }
         ],
+        "tags": [
+            "film",
+            "psychological thriller",
+            "black comedy"
+        ],
+        "rating": 7967,
         "authors": [
             {
                 "names": [
@@ -8459,12 +8465,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological thriller",
-            "black comedy"
-        ],
-        "rating": 7967,
         "created": "2000"
     },
     {
@@ -8475,6 +8475,11 @@
                 "link": "https://ru.wikipedia.org/wiki/Ночные_забавы"
             }
         ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 7968,
         "authors": [
             {
                 "names": [
@@ -8485,11 +8490,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "drama"
-        ],
-        "rating": 7968,
         "created": "1991"
     },
     {
@@ -8504,6 +8504,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "animation",
+            "adventure"
+        ],
+        "rating": 7969,
         "authors": [
             {
                 "names": [
@@ -8514,12 +8520,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "animation",
-            "adventure"
-        ],
-        "rating": 7969,
         "created": "2010"
     },
     {
@@ -8534,6 +8534,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 7970,
         "authors": [
             {
                 "names": [
@@ -8544,12 +8550,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7970,
         "created": "1975"
     },
     {
@@ -8560,6 +8560,11 @@
                 "link": "https://en.wikipedia.org/wiki/Exam_(2009_film)"
             }
         ],
+        "tags": [
+            "film",
+            "psychological thriller"
+        ],
+        "rating": 7971,
         "authors": [
             {
                 "names": [
@@ -8570,11 +8575,6 @@
                 ]
             }
         ],
-        "tags": [
-            "film",
-            "psychological thriller"
-        ],
-        "rating": 7971,
         "created": "2009"
     },
     {
@@ -8585,6 +8585,15 @@
                 "link": "https://en.wikipedia.org/wiki/Dexter_(TV_series)"
             }
         ],
+        "tags": [
+            "tv-series",
+            "crime",
+            "drama",
+            "thriller",
+            "serial-killer",
+            "neo-noir"
+        ],
+        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8594,16 +8603,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "tv-series",
-            "crime",
-            "drama",
-            "thriller",
-            "serial-killer",
-            "neo-noir"
-        ],
-        "rating": 8000
+        ]
     },
     {
         "names": [
@@ -8611,16 +8611,6 @@
                 "name": "Star Trek",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Star_Trek"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gene Roddenberry, Paramount Television",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8631,7 +8621,17 @@
             "franchise",
             "classic"
         ],
-        "rating": 8000
+        "rating": 8000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gene Roddenberry, Paramount Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -8639,16 +8639,6 @@
                 "name": "Doctor Who",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Doctor_Who"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sydney Newman, BBC",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8659,7 +8649,17 @@
             "adventure",
             "cult"
         ],
-        "rating": 8000
+        "rating": 8000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sydney Newman, BBC",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -8667,16 +8667,6 @@
                 "name": "Arcane",
                 "language": "en",
                 "link": "https://simple.wikipedia.org/wiki/Arcane_(TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Riot Games",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8688,7 +8678,17 @@
             "fantasy",
             "steampunk"
         ],
-        "rating": 8010
+        "rating": 8010,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Riot Games",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -8698,6 +8698,14 @@
                 "link": "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
             }
         ],
+        "tags": [
+            "tv-series",
+            "comedy",
+            "sitcom",
+            "geek-culture",
+            "romance"
+        ],
+        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8707,15 +8715,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "tv-series",
-            "comedy",
-            "sitcom",
-            "geek-culture",
-            "romance"
-        ],
-        "rating": 8010
+        ]
     },
     {
         "names": [
@@ -8723,16 +8723,6 @@
                 "name": "Hannibal",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Hannibal_(TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Bryan Fuller, NBC",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8743,7 +8733,17 @@
             "psychological",
             "drama"
         ],
-        "rating": 8010
+        "rating": 8010,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Bryan Fuller, NBC",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -8751,16 +8751,6 @@
                 "name": "Futurama",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Futurama"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Matt Groening, 20th Century Fox Television",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8771,7 +8761,17 @@
             "sitcom",
             "satire"
         ],
-        "rating": 8010
+        "rating": 8010,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Matt Groening, 20th Century Fox Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -8786,6 +8786,14 @@
                 "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes_and_Dr._Watson"
             }
         ],
+        "tags": [
+            "tv-series",
+            "soviet",
+            "detective",
+            "mystery",
+            "classic"
+        ],
+        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8795,15 +8803,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "tv-series",
-            "soviet",
-            "detective",
-            "mystery",
-            "classic"
-        ],
-        "rating": 8010
+        ]
     },
     {
         "names": [
@@ -8818,6 +8818,14 @@
                 "link": "https://en.wikipedia.org/wiki/House_(TV_series)"
             }
         ],
+        "tags": [
+            "tv-series",
+            "medical",
+            "drama",
+            "mystery",
+            "procedural"
+        ],
+        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8827,15 +8835,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "tv-series",
-            "medical",
-            "drama",
-            "mystery",
-            "procedural"
-        ],
-        "rating": 8010
+        ]
     },
     {
         "names": [
@@ -8845,6 +8845,14 @@
                 "link": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
             }
         ],
+        "tags": [
+            "tv-series",
+            "sci-fi",
+            "space-western",
+            "adventure",
+            "cult"
+        ],
+        "rating": 8012,
         "authors": [
             {
                 "names": [
@@ -8854,15 +8862,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "tv-series",
-            "sci-fi",
-            "space-western",
-            "adventure",
-            "cult"
-        ],
-        "rating": 8012
+        ]
     },
     {
         "names": [
@@ -8870,16 +8870,6 @@
                 "name": "Fringe",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Fringe_(TV_series)"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "J.J. Abrams, Warner Bros. Television",
-                        "language": "en"
-                    }
-                ]
             }
         ],
         "tags": [
@@ -8890,7 +8880,42 @@
             "procedural",
             "parallel-universe"
         ],
-        "rating": 8020
+        "rating": 8020,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "J.J. Abrams, Warner Bros. Television",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Tatakau Shisho: The Book of Bantorra",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Tatakau_Shisho",
+                "comment": "Просмотрено 4 эпизода."
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 8020,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Toshiya Shinohara",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2026-04-24"
     },
     {
         "names": [
@@ -8900,6 +8925,11 @@
                 "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. https://www.richardhanania.com/p/why-is-everything-liberal"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8030,
         "authors": [
             {
                 "names": [
@@ -8909,12 +8939,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 8030
+        ]
     },
     {
         "names": [
@@ -8924,6 +8949,11 @@
                 "comment": "https://www.richardhanania.com/p/stop-trying-to-make-heterosexuals"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8050,
         "authors": [
             {
                 "names": [
@@ -8933,12 +8963,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 8050
+        ]
     },
     {
         "names": [
@@ -8948,6 +8973,11 @@
                 "comment": "https://www.richardhanania.com/p/yes-sydney-sweeneys-boobs-are-anti"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -8957,12 +8987,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 8100
+        ]
     },
     {
         "names": [
@@ -8972,6 +8997,11 @@
                 "comment": "https://www.richardhanania.com/p/womens-tears-win-in-the-marketplace"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -8981,12 +9011,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 8100
+        ]
     },
     {
         "names": [
@@ -8997,6 +9022,10 @@
                 "comment": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014 Nov 28;8:940. doi: 10.3389/fnhum.2014.00940. PMID: 25506321; PMCID: PMC4246684. Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. “increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks”"
             }
         ],
+        "tags": [
+            "recommendation"
+        ],
+        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -9006,11 +9035,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "recommendation"
-        ],
-        "rating": 8100
+        ]
     },
     {
         "names": [
@@ -9019,6 +9044,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 8101,
         "authors": [
             {
                 "names": [
@@ -9028,13 +9059,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 8101
+        ]
     },
     {
         "names": [
@@ -9044,6 +9069,11 @@
                 "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет “Я реально знаю таких людей и всё действительно так плохо”, они считают что logical consistency is for cucks. https://www.richardhanania.com/p/the-based-ritual"
             }
         ],
+        "tags": [
+            "essay",
+            "invisible"
+        ],
+        "rating": 8102,
         "authors": [
             {
                 "names": [
@@ -9053,12 +9083,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "essay",
-            "invisible"
-        ],
-        "rating": 8102
+        ]
     },
     {
         "names": [
@@ -9067,6 +9092,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 8104,
         "authors": [
             {
                 "names": [
@@ -9076,13 +9107,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 8104
+        ]
     },
     {
         "names": [
@@ -9093,6 +9118,14 @@
                 "comment": "First encounter date 2026-04-23"
             }
         ],
+        "tags": [
+            "privacy",
+            "fingerprinting",
+            "browser",
+            "security",
+            "blogging"
+        ],
+        "rating": 8200,
         "authors": [
             {
                 "names": [
@@ -9102,15 +9135,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "privacy",
-            "fingerprinting",
-            "browser",
-            "security",
-            "blogging"
-        ],
-        "rating": 8200
+        ]
     },
     {
         "names": [
@@ -9119,6 +9144,12 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 8204,
         "authors": [
             {
                 "names": [
@@ -9128,13 +9159,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 8204
+        ]
     },
     {
         "names": [
@@ -9145,6 +9170,13 @@
                 "comment": "First encounter date 2026-04-23, Rachel Metz"
             }
         ],
+        "tags": [
+            "news",
+            "ai",
+            "anthropic",
+            "security"
+        ],
+        "rating": 8210,
         "authors": [
             {
                 "names": [
@@ -9154,14 +9186,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "news",
-            "ai",
-            "anthropic",
-            "security"
-        ],
-        "rating": 8210
+        ]
     },
     {
         "names": [
@@ -9172,6 +9197,13 @@
                 "comment": "First encounter date 2026-04-23, Alexander C. Karp, Nicholas W. Zamiska"
             }
         ],
+        "tags": [
+            "manifesto",
+            "politics",
+            "technology",
+            "social-media"
+        ],
+        "rating": 8220,
         "authors": [
             {
                 "names": [
@@ -9181,14 +9213,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "manifesto",
-            "politics",
-            "technology",
-            "social-media"
-        ],
-        "rating": 8220
+        ]
     },
     {
         "names": [
@@ -9197,6 +9222,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel"
+        ],
+        "rating": 8300,
         "authors": [
             {
                 "names": [
@@ -9206,13 +9237,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel"
-        ],
-        "rating": 8300
+        ]
     },
     {
         "names": [
@@ -9221,6 +9246,11 @@
                 "language": "?"
             }
         ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 8400,
         "authors": [
             {
                 "names": [
@@ -9230,12 +9260,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 8400
+        ]
     },
     {
         "names": [
@@ -9244,6 +9269,13 @@
                 "language": "en"
             }
         ],
+        "tags": [
+            "invisible",
+            "archive",
+            "novel",
+            "chaos"
+        ],
+        "rating": 8500,
         "authors": [
             {
                 "names": [
@@ -9253,14 +9285,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "archive",
-            "novel",
-            "chaos"
-        ],
-        "rating": 8500
+        ]
     },
     {
         "names": [
@@ -9269,6 +9294,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 8900,
         "authors": [
             {
                 "names": [
@@ -9278,13 +9309,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 8900
+        ]
     },
     {
         "names": [
@@ -9297,6 +9322,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "short story",
+            "chaos"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9310,13 +9341,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "short story",
-            "chaos"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9325,6 +9350,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9334,13 +9365,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9349,6 +9374,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9358,13 +9389,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9373,6 +9398,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9382,13 +9413,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9397,6 +9422,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9406,13 +9437,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9421,6 +9446,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9430,13 +9461,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9000
+        ]
     },
     {
         "names": [
@@ -9445,6 +9470,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9454,13 +9485,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9100
+        ]
     },
     {
         "names": [
@@ -9469,6 +9494,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9478,13 +9509,7 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9100
+        ]
     },
     {
         "names": [
@@ -9493,6 +9518,12 @@
                 "language": "ru"
             }
         ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9502,12 +9533,6 @@
                     }
                 ]
             }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 9100
+        ]
     }
 ]

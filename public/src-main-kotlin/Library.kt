@@ -51,9 +51,9 @@ class Library {
     @Serializable
     data class Writing(
         val names: List<Name>,
-        val authors: MutableList<Author>,
         val tags: Set<String>,
         val rating: Int,
+        val authors: MutableList<Author> = mutableListOf(),
         val created: String? = null
     ) : FiltrableWriting {
         override fun hasAnyOfTags(vararg tags: String): Boolean {
