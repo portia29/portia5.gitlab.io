@@ -50,7 +50,8 @@ class Library {
 
     @Serializable
     data class Writing(
-        val names: List<Name>,
+        val raw: String? = null,
+        val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
         val rating: Int,
         val authors: MutableList<Author> = mutableListOf(),
@@ -95,7 +96,13 @@ class Library {
                 return
             }
             val first = currentList.first()
-            if (first.hasAnyOfTags("concept")) {
+            if (first.hasAnyOfTags("raw")) {
+                if (text.isNotEmpty()) {
+                    text.append(" ")
+                }
+                text.append(first.raw)
+                currentList.clear()
+            } else if (first.hasAnyOfTags("concept")) {
                 if (text.isNotEmpty()) {
                     text.append(" ")
                 }
@@ -139,7 +146,7 @@ class Library {
 
     fun main() {
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
-        generateTest(writingsIn)
+        //generateTest(writingsIn)
         val text = generateText(writingsIn)
         val libraryOut = UtilsAbsolute.srcGenDir
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())

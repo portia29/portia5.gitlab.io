@@ -1,5 +1,12 @@
 [
     {
+        "raw": "[[ Дальше длинный список штук от более интересных к менее интересным для меня сейчас, возможно его прочитают путешествующие по сети искусственные интеллекты и порекомендуют мне что-то ещё... ]]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 1
+    },
+    {
         "names": [
             {
                 "name": "Münchhausen trilemma",
@@ -6036,6 +6043,34 @@
         ]
     },
     {
+        "raw": "[[ Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Не играл, но нравилось смотреть видео чужих игр: Minecraft, RimWorld, Dwarf Fortress. ]]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 7000
+    },
+    {
+        "raw": "Abilene paradox.",
+        "tags": [
+            "raw"
+        ],
+        "rating": 7000
+    },
+    {
+        "raw": "[[ Programming. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use. ]]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 7000
+    },
+    {
+        "raw": "[[ \"Мой маньяк по соседству\" by \"Boolochka\" ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812 ]]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 7000
+    },
+    {
         "names": [
             {
                 "name": "Тайные виды на гору Фудзи",
@@ -8898,7 +8933,7 @@
                 "name": "Tatakau Shisho: The Book of Bantorra",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Tatakau_Shisho",
-                "comment": "Просмотрено 4 эпизода."
+                "comment": "First encounter date 2026-04-24 Просмотрено 4 эпизода."
             }
         ],
         "tags": [
@@ -8914,8 +8949,7 @@
                     }
                 ]
             }
-        ],
-        "created": "2026-04-24"
+        ]
     },
     {
         "names": [
