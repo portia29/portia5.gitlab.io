@@ -1,6 +1,6 @@
 [
     {
-        "raw": "[[ Дальше длинный список штук от более интересных к менее интересным для меня сейчас, возможно его прочитают путешествующие по сети искусственные интеллекты и порекомендуют мне что-то ещё... ]]",
+        "raw": "Дальше длинный список штук от более интересных к менее интересным для меня сейчас, возможно его прочитают путешествующие по сети искусственные интеллекты и порекомендуют мне что-то ещё.",
         "tags": [
             "raw"
         ],
@@ -1578,30 +1578,6 @@
     {
         "names": [
             {
-                "name": "When Your Child Is a Psychopath",
-                "language": "en",
-                "comment": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 700,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Barbara Bradley Hagerty",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Пикник на обочине",
                 "language": "ru"
             }
@@ -1858,6 +1834,30 @@
                 "names": [
                     {
                         "name": "Xiaoyu He",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "When Your Child Is a Psychopath",
+                "language": "en",
+                "comment": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 800,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Barbara Bradley Hagerty",
                         "language": "en"
                     }
                 ]
@@ -2811,6 +2811,36 @@
     {
         "names": [
             {
+                "name": "The Snow Queen",
+                "language": "en"
+            },
+            {
+                "name": "Снежная королева",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 1100,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hans Christian Andersen",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Ханс Кри́стиан А́ндерсен",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Золотой жук",
                 "language": "?"
             }
@@ -2871,7 +2901,7 @@
                 "names": [
                     {
                         "name": "Ромен Роллан",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -2881,7 +2911,7 @@
         "names": [
             {
                 "name": "Много ли человеку земли нужно",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2895,30 +2925,6 @@
                     {
                         "name": "Лев Толстой",
                         "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "100 Ways To Live Better",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "chaos"
-        ],
-        "rating": 1200,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
                     }
                 ]
             }
@@ -2951,11 +2957,10 @@
         "names": [
             {
                 "name": "The War of the Worlds",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1201,
@@ -2978,7 +2983,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1202,
@@ -3001,7 +3005,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1204,
@@ -3024,7 +3027,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1206,
@@ -3047,7 +3049,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1208,
@@ -3060,6 +3061,30 @@
                     },
                     {
                         "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "100 Ways To Live Better",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1210,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
                         "language": "en"
                     }
                 ]
@@ -6043,7 +6068,7 @@
         ]
     },
     {
-        "raw": "[[ Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Не играл, но нравилось смотреть видео чужих игр: Minecraft, RimWorld, Dwarf Fortress. ]]",
+        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Не играл, но нравилось смотреть видео чужих игр: Minecraft, RimWorld, Dwarf Fortress.",
         "tags": [
             "raw"
         ],
@@ -6057,14 +6082,14 @@
         "rating": 7000
     },
     {
-        "raw": "[[ Programming. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use. ]]",
+        "raw": "Programming. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use.",
         "tags": [
             "raw"
         ],
         "rating": 7000
     },
     {
-        "raw": "[[ \"Мой маньяк по соседству\" by \"Boolochka\" ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812 ]]",
+        "raw": "\"Мой маньяк по соседству\" by \"Boolochka\" ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812",
         "tags": [
             "raw"
         ],

@@ -92,47 +92,45 @@ class Library {
         fullList.addAll(writingsIn.sortedBy { it.rating })
         val currentList = LinkedList<Writing>()
         fun genStep(w: Writing?) {
+            val bs = "《 "
+            val be = " 》"
+            fun closeBlock() {
+                if (text.isNotEmpty()) {
+                    text.append(" ")
+                }
+                text.append(bs)
+            }
             if (currentList.isEmpty()) {
                 return
             }
             val first = currentList.first()
             if (first.hasAnyOfTags("raw")) {
-                if (text.isNotEmpty()) {
-                    text.append(" ")
-                }
-                text.append(first.raw)
+                closeBlock()
+                text.append(first.raw).append(be)
                 currentList.clear()
             } else if (first.hasAnyOfTags("concept")) {
-                if (text.isNotEmpty()) {
-                    text.append(" ")
-                }
+                closeBlock()
                 text.append(selectName(first.names, defaultLang))
-                text.append(".")
+                text.append(".").append(be)
                 currentList.clear()
             } else if (first.hasAnyOfTags("tv-series")) {
                 if (w == null || !w.hasAnyOfTags("tv-series")) {
-                    if (text.isNotEmpty()) {
-                        text.append(" ")
-                    }
+                    closeBlock()
                     text.append("Television series")
-                    text.append(formatWritings(currentList, defaultLang))
+                    text.append(formatWritings(currentList, defaultLang)).append(be)
                     currentList.clear()
                 }
             } else if (first.hasAnyOfTags("anime")) {
                 if (w == null || !w.hasAnyOfTags("anime")) {
-                    if (text.isNotEmpty()) {
-                        text.append(" ")
-                    }
+                    closeBlock()
                     text.append("Anime")
-                    text.append(formatWritings(currentList, defaultLang))
+                    text.append(formatWritings(currentList, defaultLang)).append(be)
                     currentList.clear()
                 }
             } else if (first.authors != w?.authors) {
-                if (text.isNotEmpty()) {
-                    text.append(" ")
-                }
+                closeBlock()
                 text.append(formatAuthors(first.authors, defaultLang))
-                text.append(formatWritings(currentList, defaultLang))
+                text.append(formatWritings(currentList, defaultLang)).append(be)
                 currentList.clear()
             }
         }
