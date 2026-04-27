@@ -92,8 +92,8 @@ class Library {
         fullList.addAll(writingsIn.sortedBy { it.rating })
         val currentList = LinkedList<Writing>()
         fun genStep(w: Writing?) {
-            val bs = "《 "
-            val be = " 》"
+            val bs = "《"
+            val be = "》"
             fun closeBlock() {
                 if (text.isNotEmpty()) {
                     text.append(" ")
@@ -109,10 +109,17 @@ class Library {
                 text.append(first.raw).append(be)
                 currentList.clear()
             } else if (first.hasAnyOfTags("concept")) {
-                closeBlock()
-                text.append(selectName(first.names, defaultLang))
-                text.append(".").append(be)
-                currentList.clear()
+                if (w == null || !w.hasAnyOfTags("concept")) {
+                    closeBlock()
+                    val t = StringBuilder()
+                    currentList.forEach {
+                        if (t.isNotEmpty()) t.append(" ")
+                        t.append(selectName(it.names, defaultLang))
+                        t.append(".")
+                    }
+                    text.append(t).append(be)
+                    currentList.clear()
+                }
             } else if (first.hasAnyOfTags("tv-series")) {
                 if (w == null || !w.hasAnyOfTags("tv-series")) {
                     closeBlock()
