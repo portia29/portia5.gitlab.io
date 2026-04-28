@@ -1364,27 +1364,13 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials",
-                "language": "en",
-                "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf"
-            }
-        ],
+        "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
+        "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
         "tags": [
-            "recommendation"
+            "raw",
+            "academic"
         ],
-        "rating": 600,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gordon C S Smith, Jill P Pell",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
+        "rating": 600
     },
     {
         "names": [
@@ -6068,15 +6054,61 @@
         ]
     },
     {
-        "raw": "Abilene paradox.",
+        "names": [
+            {
+                "name": "Abilene paradox",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 6910,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jerry B. Harvey",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Just-world fallacy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 6911,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sextus Empiricus",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon.",
         "tags": [
             "raw"
         ],
-        "rating": 6910
+        "rating": 7000
     },
     {
-        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Minecraft. RimWorld. Dwarf Fortress.",
-        "comment": "Minecraft, RimWorld, Dwarf Fortress - не играл, но нравилось смотреть видео чужих игр.",
+        "raw": "Vidya. Minecraft. RimWorld. Dwarf Fortress.",
+        "comment": "Не играл, но нравилось смотреть видео чужих игр.",
         "tags": [
             "raw"
         ],
@@ -6090,11 +6122,25 @@
         "rating": 7000
     },
     {
-        "raw": "\"Мой маньяк по соседству\" by \"Boolochka\" ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812",
-        "tags": [
-            "raw"
+        "names": [
+            {
+                "name": "Мой маньяк по соседству",
+                "language": "ru",
+                "link": "https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812"
+            }
         ],
-        "rating": 7000
+        "tags": [],
+        "rating": 7000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Boolochka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -6104,7 +6150,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7000,
@@ -8637,6 +8682,22 @@
             }
         ],
         "created": "2009"
+    },
+    {
+        "raw": "Calzada-Reyes A, Alvarez-Amador A, Galán-García L, Valdés-Sosa M. EEG abnormalities in psychopath and non-psychopath violent offenders. J Forensic Leg Med. 2013 Jan;20(1):19-26. doi: 10.1016/j.jflm.2012.04.027. Epub 2012 May 16. PMID: 23217372.",
+        "tags": [
+            "raw",
+            "academic"
+        ],
+        "rating": 8000
+    },
+    {
+        "raw": "Yousefzadeh MJ, Zhu Y, McGowan SJ, et al. Fisetin is a senotherapeutic that extends health and lifespan. EBioMedicine. 2018;36:18-28. doi:10.1016/j.ebiom.2018.09.015",
+        "tags": [
+            "raw",
+            "academic"
+        ],
+        "rating": 8000
     },
     {
         "names": [
