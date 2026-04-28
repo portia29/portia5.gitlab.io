@@ -51,6 +51,7 @@ class Library {
     @Serializable
     data class Writing(
         val raw: String? = null,
+        val comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
         val rating: Int,
@@ -88,12 +89,13 @@ class Library {
 
     fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
         val text = StringBuilder()
+        text.append("Коллекция штук от более интересных к менее интересным для меня сейчас.")
         val fullList = LinkedList<Writing>()
         fullList.addAll(writingsIn.sortedBy { it.rating })
         val currentList = LinkedList<Writing>()
         fun genStep(w: Writing?) {
-            val bs = "《"
-            val be = "》"
+            val bs = "⟨"
+            val be = "⟩"
             fun closeBlock() {
                 if (text.isNotEmpty()) {
                     text.append(" ")

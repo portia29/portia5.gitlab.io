@@ -1,12 +1,5 @@
 [
     {
-        "raw": "Коллекция штук от более интересных к менее интересным для меня сейчас.",
-        "tags": [
-            "raw"
-        ],
-        "rating": 1
-    },
-    {
         "names": [
             {
                 "name": "Münchhausen trilemma",
@@ -960,32 +953,6 @@
     {
         "names": [
             {
-                "name": "Травмированный",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 480,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Blame!",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Blame!"
@@ -1590,6 +1557,36 @@
                 "names": [
                     {
                         "name": "Lewis Carroll",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Травмированный",
+                "language": "ru"
+            },
+            {
+                "name": "The Impacted Man",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 680,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
                         "language": "en"
                     }
                 ]
@@ -4392,6 +4389,13 @@
         ]
     },
     {
+        "raw": "Francisco Goya: Los caprichos",
+        "tags": [
+            "raw"
+        ],
+        "rating": 1910
+    },
+    {
         "names": [
             {
                 "name": "Записки на манжетах",
@@ -6064,14 +6068,15 @@
         ]
     },
     {
-        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Не играл, но нравилось смотреть видео чужих игр: Minecraft, RimWorld, Dwarf Fortress.",
+        "raw": "Abilene paradox.",
         "tags": [
             "raw"
         ],
-        "rating": 7000
+        "rating": 6910
     },
     {
-        "raw": "Abilene paradox.",
+        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. И ещё в... Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Minecraft. RimWorld. Dwarf Fortress.",
+        "comment": "Minecraft, RimWorld, Dwarf Fortress - не играл, но нравилось смотреть видео чужих игр.",
         "tags": [
             "raw"
         ],
@@ -9023,6 +9028,30 @@
     {
         "names": [
             {
+                "name": "Manacled",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "invisible",
+            "chaos",
+            "novel"
+        ],
+        "rating": 8091,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Yes, Sydney Sweeney's Boobs Are Anti-Woke",
                 "language": "en",
                 "comment": "https://www.richardhanania.com/p/yes-sydney-sweeneys-boobs-are-anti"
@@ -9069,52 +9098,13 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Schizophrenia and cortical blindness: protective effects and implications for language",
-                "language": "en",
-                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/",
-                "comment": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014 Nov 28;8:940. doi: 10.3389/fnhum.2014.00940. PMID: 25506321; PMCID: PMC4246684. Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё “increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks”"
-            }
-        ],
+        "raw": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014;8:940. Published 2014 Nov 28. doi:10.3389/fnhum.2014.00940",
+        "comment": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/ Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё “increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks”",
         "tags": [
-            "recommendation"
+            "raw",
+            "academic"
         ],
-        "rating": 8100,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Leivada E, Boeckx C.",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Manacled",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "invisible",
-            "chaos",
-            "novel"
-        ],
-        "rating": 8101,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "SenLinYu",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
+        "rating": 8100
     },
     {
         "names": [
