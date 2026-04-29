@@ -19,7 +19,7 @@ class HtmlTransform(
     private val hyperlink = "(http\\S+)".toRegex()
     val footnote = "(\\S+\\[\\d+])".toRegex()
     private val wbrBeforeUrl = "([/~.,\\-_?#%])".toRegex()
-    private val wbrBeforeWord = "([=~.,\\-_?#%])".toRegex()
+    private val wbrBeforeWord = "([=~,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val htmlTemplate
@@ -29,12 +29,7 @@ class HtmlTransform(
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
 
-    private val bottomNavigationDinkus = """<p class="dinkus">⁂ ⁂ ⁂</p>"""
-    private val bottomNavigationHome = """<p>🏠 <a href="/">$HOST_NAME</a></p>"""
-    private val bottomNavigationHtml = "    $bottomNavigationDinkus" +
-            "\n\n    $bottomNavigationHome"
-
-    fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
+    fun htmlPage(title: String, body: String): String {
         return htmlTemplate
             .replace("<!--TITLE-->", title)
             .replace("<!--DATA-->", body)
@@ -91,7 +86,7 @@ class HtmlTransform(
         return word.split(base).joinToString("$base$wbrElement") { part ->
             // Insert a word break opportunity after a colon
             part.replace(wbrAfter, "\$1$wbrElement")
-                // Before a single slash, tilde, period, comma, hyphen, underline,
+                // Before a equals sign, tilde, period, comma, hyphen, underline,
                 // question mark, number sign, or percent symbol.
                 .replace(wbrBeforeWord, "$wbrElement\$1")
         }

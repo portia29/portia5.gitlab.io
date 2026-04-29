@@ -485,6 +485,95 @@
     {
         "names": [
             {
+                "name": "Mindswap",
+                "language": "en"
+            },
+            {
+                "name": "Обмен разумов",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD_%D1%80%D0%B0%D0%B7%D1%83%D0%BC%D0%BE%D0%B2"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 292,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Солярис",
+                "language": "ru"
+            },
+            {
+                "name": "Solaris",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel",
+            "fiction"
+        ],
+        "rating": 294,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Станислав Лем",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Stanisław Lem",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Metamorphosis",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 296,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Franz Kafka",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Франц Ка́фка",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "The Virtue of Silence",
                 "language": "en"
             }
@@ -812,56 +901,6 @@
     {
         "names": [
             {
-                "name": "Солярис",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel",
-            "fiction"
-        ],
-        "rating": 400,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Станислав Лем",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Metamorphosis",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 400,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Franz Kafka",
-                        "language": "en"
-                    },
-                    {
-                        "name": "Франц Ка́фка",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Talents Part 2: Attitude vs. Altitude",
                 "language": "en"
             }
@@ -1014,32 +1053,6 @@
     {
         "names": [
             {
-                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 500,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "?"
-                    },
-                    {
-                        "name": "Emily Nagoski",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
                 "language": "ru"
             }
@@ -1074,6 +1087,32 @@
             "novel"
         ],
         "rating": 500,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 501,
         "authors": [
             {
                 "names": [
@@ -1918,32 +1957,6 @@
                 "names": [
                     {
                         "name": "Zvi Mowshowitz",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Обмен разумов",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 900,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
                         "language": "en"
                     }
                 ]
@@ -3435,7 +3448,7 @@
         "names": [
             {
                 "name": "Лолита",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -3447,7 +3460,7 @@
                 "names": [
                     {
                         "name": "Владимир Набоков",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -3980,6 +3993,29 @@
                 "names": [
                     {
                         "name": "Shingo Tamaki",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Rokka: Braves of the Six Flowers",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Rokka:_Braves_of_the_Six_Flowers"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1600,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Takeo Takahashi",
                         "language": "en"
                     }
                 ]
@@ -5487,6 +5523,34 @@
     {
         "names": [
             {
+                "name": "We Are the God of the Gaps (a little poem)",
+                "language": "en",
+                "link": "https://scottaaronson.blog/?p=6534",
+                "comment": "First encounter date 2025-07-04"
+            }
+        ],
+        "tags": [
+            "poem",
+            "essay",
+            "ai",
+            "philosophy",
+            "blogging"
+        ],
+        "rating": 5230,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Aaronson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Время жить и время умирать",
                 "language": "?"
             }
@@ -5597,7 +5661,7 @@
         "names": [
             {
                 "name": "Таинственный остров",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5609,7 +5673,7 @@
                 "names": [
                     {
                         "name": "Жюль Верн",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5619,7 +5683,7 @@
         "names": [
             {
                 "name": "Двадцать тысяч лье под водой",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5631,7 +5695,7 @@
                 "names": [
                     {
                         "name": "Жюль Верн",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5641,7 +5705,7 @@
         "names": [
             {
                 "name": "Чёрная Индия",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5653,29 +5717,7 @@
                 "names": [
                     {
                         "name": "Жюль Верн",
-                        "language": "?"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Маттео Фальконе",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 6000,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "en"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5685,7 +5727,7 @@
         "names": [
             {
                 "name": "Записки сумасшедшего",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5707,7 +5749,7 @@
         "names": [
             {
                 "name": "Нос",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5728,30 +5770,8 @@
     {
         "names": [
             {
-                "name": "Портрет",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 6200,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Гоголь",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Шинель",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5772,30 +5792,8 @@
     {
         "names": [
             {
-                "name": "Лезвие бритвы",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 6400,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Иван Ефремов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Empire V",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5821,7 +5819,7 @@
         "names": [
             {
                 "name": "Бэтман Аполло",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5987,32 +5985,6 @@
     {
         "names": [
             {
-                "name": "Тайные виды на гору Фудзи",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7000,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "The Gift of the Magi",
                 "language": "en"
             },
@@ -6030,109 +6002,6 @@
                 "names": [
                     {
                         "name": "O. Henry",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "No one owes you supply-chain security",
-                "language": "en",
-                "comment": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
-            }
-        ],
-        "tags": [
-            "essay"
-        ],
-        "rating": 7000,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Alisa Sireneva",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Любовь к трём цукербринам",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7100,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Принц Госплана",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7200,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "We Are the God of the Gaps (a little poem)",
-                "language": "en",
-                "link": "https://scottaaronson.blog/?p=6534",
-                "comment": "First encounter date 2025-07-04"
-            }
-        ],
-        "tags": [
-            "poem",
-            "essay",
-            "ai",
-            "philosophy",
-            "blogging"
-        ],
-        "rating": 7230,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Aaronson",
                         "language": "en"
                     }
                 ]
@@ -6168,6 +6037,28 @@
     {
         "names": [
             {
+                "name": "Лезвие бритвы",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 7400,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Иван Ефремов",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Generation 'П'",
                 "language": "ru"
             }
@@ -6194,98 +6085,31 @@
     {
         "names": [
             {
-                "name": "Числа",
+                "name": "Chrysalis",
+                "language": "en"
+            },
+            {
+                "name": "Превращение",
                 "language": "ru"
             }
         ],
         "tags": [
-            "novel"
+            "short-story",
+            "science-fiction",
+            "transformation",
+            "mutation"
         ],
         "rating": 7500,
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
+                        "name": "Ray Bradbury",
+                        "language": "en"
                     },
                     {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Жизнь насекомых",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7600,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
+                        "name": "Рэй Брэдбери",
                         "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Шлем ужаса: Креатифф о Тесее и Минотавре",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7700,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Dark Man",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 7740,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert E. Howard",
-                        "language": "en"
                     }
                 ]
             }
@@ -6311,6 +6135,32 @@
                     },
                     {
                         "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Жизнь насекомых",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 7800,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
                         "language": "en"
                     }
                 ]
@@ -6413,6 +6263,32 @@
             }
         ],
         "created": "2005"
+    },
+    {
+        "names": [
+            {
+                "name": "Числа",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 7900,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -7736,32 +7612,6 @@
     {
         "names": [
             {
-                "name": "The Thirteenth Floor",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Thirteenth_Floor"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "thriller"
-        ],
-        "rating": 7945,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Josef Rusnak",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1999"
-    },
-    {
-        "names": [
-            {
                 "name": "Love and Doves",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Love_and_Doves"
@@ -7963,118 +7813,6 @@
             }
         ],
         "created": "1997"
-    },
-    {
-        "names": [
-            {
-                "name": "Pitch Black",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Pitch_Black_(film)"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7953,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Twohy",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "2000"
-    },
-    {
-        "names": [
-            {
-                "name": "The Chronicles of Riddick",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Chronicles_of_Riddick_(film)"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7954,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Twohy",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "2004"
-    },
-    {
-        "names": [
-            {
-                "name": "Predator",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Predator_(film)"
-            },
-            {
-                "name": "Хищник",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "action"
-        ],
-        "rating": 7955,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "John McTiernan",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1987"
-    },
-    {
-        "names": [
-            {
-                "name": "Star Wars",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
-            },
-            {
-                "name": "Звездные войны",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "adventure"
-        ],
-        "rating": 7956,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "George Lucas",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1977"
     },
     {
         "names": [
@@ -8403,31 +8141,6 @@
     {
         "names": [
             {
-                "name": "Ночные забавы",
-                "language": "ru",
-                "link": "https://ru.wikipedia.org/wiki/Ночные_забавы"
-            }
-        ],
-        "tags": [
-            "film",
-            "drama"
-        ],
-        "rating": 7968,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Vladimir Krasnopolsky, Valery Uskov",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1991"
-    },
-    {
-        "names": [
-            {
                 "name": "How to Train Your Dragon",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(2010_film)"
@@ -8458,36 +8171,6 @@
     {
         "names": [
             {
-                "name": "A Boy and His Dog",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/A_Boy_and_His_Dog_(1975_film)"
-            },
-            {
-                "name": "Парень и его собака",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7970,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "L. Q. Jones",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1975"
-    },
-    {
-        "names": [
-            {
                 "name": "Exam",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Exam_(2009_film)"
@@ -8509,6 +8192,77 @@
             }
         ],
         "created": "2009"
+    },
+    {
+        "names": [
+            {
+                "name": "Маттео Фальконе",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 8000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Prosper Merimee",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Тайные виды на гору Фудзи",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "No one owes you supply-chain security",
+                "language": "en",
+                "comment": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
+            }
+        ],
+        "tags": [
+            "essay"
+        ],
+        "rating": 8000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Alisa Sireneva",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "raw": "Calzada-Reyes A, Alvarez-Amador A, Galán-García L, Valdés-Sosa M. EEG abnormalities in psychopath and non-psychopath violent offenders. J Forensic Leg Med. 2013 Jan;20(1):19-26. doi: 10.1016/j.jflm.2012.04.027. Epub 2012 May 16. PMID: 23217372.",
@@ -8609,6 +8363,15 @@
                 ]
             }
         ]
+    },
+    {
+        "raw": "Honkai: Star Rail \"Hark! There's Revelry Atop the Divine Mountain\"",
+        "comment": "\"My wish? My wish is to fulfill everyone else's wishes. If I can't fulfill them... Then send them on to tomorrow\". Animated Short \"Hark! There's Revelry Atop the Divine Mountain\" | Honkai: Star Rail https://youtu.be/xQbetWZS-zs?si=TalwfNzXO9P2RK_x",
+        "tags": [
+            "raw",
+            "animation"
+        ],
+        "rating": 8000
     },
     {
         "names": [
@@ -8914,6 +8677,66 @@
     {
         "names": [
             {
+                "name": "Star Wars",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+            },
+            {
+                "name": "Звездные войны",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "adventure"
+        ],
+        "rating": 8056,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "George Lucas",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1977"
+    },
+    {
+        "names": [
+            {
+                "name": "A Boy and His Dog",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/A_Boy_and_His_Dog_(1975_film)"
+            },
+            {
+                "name": "Парень и его собака",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 8070,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "L. Q. Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
                 "name": "Manacled",
                 "language": "en"
             }
@@ -8927,6 +8750,32 @@
                 "names": [
                     {
                         "name": "SenLinYu",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Любовь к трём цукербринам",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8100,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
                         "language": "en"
                     }
                 ]
@@ -9014,19 +8863,71 @@
     {
         "names": [
             {
-                "name": "This Way For a Shroud",
-                "language": "en"
+                "name": "Портрет",
+                "language": "ru"
             }
         ],
         "tags": [
             "novel"
         ],
-        "rating": 8104,
+        "rating": 8200,
         "authors": [
             {
                 "names": [
                     {
-                        "name": "James Hadley Chase",
+                        "name": "Николай Гоголь",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Принц Госплана",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8200,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Шлем ужаса: Креатифф о Тесее и Минотавре",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8200,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
                         "language": "en"
                     }
                 ]
@@ -9055,28 +8956,6 @@
                 "names": [
                     {
                         "name": "Dai Nguyen, Martin Bajanik",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Doomsters",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 8204,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ross Macdonald",
                         "language": "en"
                     }
                 ]
@@ -9140,6 +9019,80 @@
     {
         "names": [
             {
+                "name": "The Dark Man",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 8240,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert E. Howard",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Pitch Black",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Pitch_Black_(film)"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 8253,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Twohy",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2000"
+    },
+    {
+        "names": [
+            {
+                "name": "The Chronicles of Riddick",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Chronicles_of_Riddick_(film)"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 8254,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Twohy",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2004"
+    },
+    {
+        "names": [
+            {
                 "name": "Пересекая границы",
                 "language": "ru"
             }
@@ -9162,8 +9115,43 @@
     {
         "names": [
             {
+                "name": "The Thirteenth Floor",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Thirteenth_Floor"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "thriller"
+        ],
+        "rating": 8345,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Josef Rusnak",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1999"
+    },
+    {
+        "raw": "Фильм “Крёстный отец”. Anime: Kill la Kill, Monogatari, Kekkai Sensen, Black Clover.",
+        "tags": [
+            "raw",
+            "anime",
+            "film"
+        ],
+        "rating": 8400
+    },
+    {
+        "names": [
+            {
                 "name": "Сердца трёх",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -9206,6 +9194,36 @@
     {
         "names": [
             {
+                "name": "Predator",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Predator_(film)"
+            },
+            {
+                "name": "Хищник",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "action"
+        ],
+        "rating": 8555,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "John McTiernan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1987"
+    },
+    {
+        "names": [
+            {
                 "name": "100 великих любовниц",
                 "language": "ru"
             }
@@ -9224,6 +9242,31 @@
                 ]
             }
         ]
+    },
+    {
+        "names": [
+            {
+                "name": "Ночные забавы",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/Ночные_забавы"
+            }
+        ],
+        "tags": [
+            "film",
+            "drama"
+        ],
+        "rating": 8968,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Krasnopolsky, Valery Uskov",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1991"
     },
     {
         "names": [
@@ -9360,6 +9403,50 @@
                     {
                         "name": "Андрей Ломачинский",
                         "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "This Way For a Shroud",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 9004,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James Hadley Chase",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Doomsters",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 9004,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ross Macdonald",
+                        "language": "en"
                     }
                 ]
             }

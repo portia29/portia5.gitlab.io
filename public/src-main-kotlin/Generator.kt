@@ -48,7 +48,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
         val htmlFile = page.dstAbsolutePath.toFile()
         htmlFile.parentFile.mkdirs()
-        htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml, page.navigation))
+        htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml))
     }
 
     private fun main() {
