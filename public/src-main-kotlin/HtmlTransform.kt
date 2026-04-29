@@ -18,7 +18,8 @@ class HtmlTransform(
     // "<a href=\"$1\">\$1</a>"
     private val hyperlink = "(http\\S+)".toRegex()
     val footnote = "(\\S+\\[\\d+])".toRegex()
-    private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
+    private val wbrBeforeUrl = "([/~.,\\-_?#%])".toRegex()
+    private val wbrBeforeWord = "([=~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val htmlTemplate
@@ -67,45 +68,37 @@ class HtmlTransform(
 
     private fun longUrlLineBreaks(url: String): String {
         // https://css-tricks.com/better-line-breaks-for-long-urls/
-        val newUrl = url.split("//").joinToString("//<wbr>") { part ->
+        return url.split("//").joinToString("//$wbrElement") { part ->
             // Insert a word break opportunity after a colon
-            part.replace(wbrAfter, "\$1<wbr>")
+            part.replace(wbrAfter, "\$1$wbrElement")
                 // Before a single slash, tilde, period, comma, hyphen, underline,
                 // question mark, number sign, or percent symbol.
-                .replace(wbrBefore, "<wbr>\$1")
+                .replace(wbrBeforeUrl, "$wbrElement\$1")
                 // Before and after an equals sign or ampersand
-                .replace(wbrBeforeAfter, "<wbr>\$1<wbr>")
-        }
-        return if (xhmtlCompatibleVoidElements) {
-            newUrl.replace("<wbr>", "<wbr/>")
-        } else {
-            newUrl
+                .replace(wbrBeforeAfter, "$wbrElement\$1$wbrElement")
         }
     }
 
     @Suppress("RegExpSimplifiable")
-    private val longWordLineBreaks = "((.{$maxUnwrappedWordLenght})|(.+))".toRegex()
+    private val longWordLineBreaks = "((\\w{$maxUnwrappedWordLenght})|(.+))".toRegex()
 
     private fun longWordLineBreaksTwo(word: String): String {
         // TODO "&shy;" vs wbrElement
-        return longWordLineBreaks.findAll(word).map { it.value }.joinToString(wbrElement)
+        return longWordLineBreaks.findAll(word).joinToString(wbrElement) { it.value }
     }
 
-    private fun longWordLineBreaks(word: String): String {
-        val result = StringBuilder()
-        word.split('-').forEach {
-            if (result.isNotEmpty()) result.append('-')
-            if (it.length > maxUnwrappedWordLenght) {
-                setOfLongWords.add(word)
-                result.append(longWordLineBreaksTwo(it))
-            } else {
-                result.append(it)
-            }
+    private fun longWordLineBreaks(word: String, base: String = "-"): String {
+        return word.split(base).joinToString("$base$wbrElement") { part ->
+            // Insert a word break opportunity after a colon
+            part.replace(wbrAfter, "\$1$wbrElement")
+                // Before a single slash, tilde, period, comma, hyphen, underline,
+                // question mark, number sign, or percent symbol.
+                .replace(wbrBeforeWord, "$wbrElement\$1")
         }
-        return result.toString()
     }
 
     private fun transformLink(url: RatUrl, link: String): String {
+        //println("transformLink: $link")
         setOfLinks.add(link)
         if (link.startsWith(HOST_NAME)) {
             var links = mapOfLinks[url.absoluteUrl]
@@ -134,13 +127,16 @@ class HtmlTransform(
     }
 
     fun transformWord(url: RatUrl, word: String): String {
+        //println("transformWord 1: $word")
         if (UtilsAbsolute.isHyperlink(word)) {
             return transformLink(url, word)
         }
+        //println("transformWord 2: $word")
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         //.replace("\"", "&quot;").replace("'", "&apos;")
         if (newWord.length > maxUnwrappedWordLenght) {
+            setOfLongWords.add(newWord)
             newWord = longWordLineBreaks(newWord)
         } else {
             if (newWord.contains('-')) {

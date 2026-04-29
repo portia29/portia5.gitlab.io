@@ -197,8 +197,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "recommendation"
+            "essay"
         ],
         "rating": 40,
         "authors": [
@@ -228,7 +227,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 50,
@@ -286,9 +284,7 @@
                 "link": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
-        "tags": [
-            "recommendation"
-        ],
+        "tags": [],
         "rating": 55,
         "authors": [
             {
@@ -314,7 +310,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 80,
@@ -345,7 +340,6 @@
             }
         ],
         "tags": [
-            "visible",
             "novel",
             "fiction"
         ],
@@ -377,7 +371,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "novel",
             "fiction"
         ],
@@ -404,9 +397,7 @@
                 "language": "en"
             }
         ],
-        "tags": [
-            "visible"
-        ],
+        "tags": [],
         "rating": 250,
         "authors": [
             {
@@ -427,7 +418,6 @@
             }
         ],
         "tags": [
-            "visible",
             "blogging",
             "essay",
             "fiction"
@@ -454,8 +444,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "visible"
+            "essay"
         ],
         "rating": 260,
         "authors": [
@@ -479,7 +468,6 @@
         ],
         "tags": [
             "blogging",
-            "visible",
             "fiction"
         ],
         "rating": 290,
@@ -530,7 +518,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "novel",
             "fiction"
         ],
@@ -562,7 +549,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel",
             "fiction"
         ],
@@ -646,7 +632,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle",
             "fiction"
         ],
@@ -678,7 +663,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle",
             "fiction"
         ],
@@ -730,8 +714,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 400,
         "authors": [
@@ -785,8 +768,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 400,
         "authors": [
@@ -858,7 +840,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle",
             "fiction"
         ],
@@ -985,7 +966,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle",
             "fiction"
         ],
@@ -1039,7 +1019,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 500,
@@ -1066,7 +1045,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 500,
@@ -1093,7 +1071,6 @@
             }
         ],
         "tags": [
-            "visible",
             "novel"
         ],
         "rating": 500,
@@ -1348,7 +1325,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "novel"
         ],
         "rating": 560,
@@ -1404,7 +1380,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 600,
@@ -1465,7 +1440,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 600,
@@ -1511,7 +1485,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 600,
@@ -1534,7 +1507,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 600,
@@ -1587,7 +1559,6 @@
             }
         ],
         "tags": [
-            "chaos",
             "nouvelle"
         ],
         "rating": 700,
@@ -1610,7 +1581,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 700,
@@ -1633,7 +1603,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 700,
@@ -1658,7 +1627,6 @@
         "tags": [
             "blogging",
             "essay",
-            "chaos",
             "rationality"
         ],
         "rating": 750,
@@ -1682,8 +1650,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 750,
         "authors": [
@@ -1707,7 +1674,6 @@
         "tags": [
             "blogging",
             "essay",
-            "chaos",
             "rationality"
         ],
         "rating": 750,
@@ -1731,8 +1697,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 750,
         "authors": [
@@ -1755,8 +1720,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 750,
         "authors": [
@@ -1780,7 +1744,6 @@
         "tags": [
             "blogging",
             "essay",
-            "chaos",
             "rationality"
         ],
         "rating": 750,
@@ -1853,7 +1816,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 800,
@@ -1881,7 +1843,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 800,
@@ -1904,7 +1865,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 800,
@@ -1927,7 +1887,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 800,
@@ -1973,7 +1932,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 900,
@@ -2004,7 +1962,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 900,
@@ -2035,7 +1992,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 900,
@@ -2085,7 +2041,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 900,
@@ -2164,7 +2119,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 900,
@@ -2221,7 +2175,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 900,
@@ -2245,8 +2198,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 950,
         "authors": [
@@ -2270,7 +2222,6 @@
         "tags": [
             "blogging",
             "essay",
-            "chaos",
             "rationality"
         ],
         "rating": 950,
@@ -2295,8 +2246,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 970,
         "authors": [
@@ -2375,8 +2325,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 980,
         "authors": [
@@ -2401,9 +2350,7 @@
                 "language": "en"
             }
         ],
-        "tags": [
-            "chaos"
-        ],
+        "tags": [],
         "rating": 980,
         "authors": [
             {
@@ -2456,7 +2403,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1000,
@@ -2479,7 +2425,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1000,
@@ -2502,7 +2447,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1000,
@@ -2548,7 +2492,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1000,
@@ -2709,7 +2652,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1100,
@@ -2732,7 +2674,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1100,
@@ -2755,7 +2696,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1100,
@@ -2778,7 +2718,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1100,
@@ -2802,8 +2741,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 1100,
         "authors": [
@@ -2848,7 +2786,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1200,
@@ -2871,7 +2808,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1200,
@@ -2894,7 +2830,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1200,
@@ -3055,8 +2990,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 1210,
         "authors": [
@@ -3478,7 +3412,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle",
             "fiction"
         ],
@@ -3506,7 +3439,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1400,
@@ -3529,7 +3461,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1400,
@@ -3695,8 +3626,7 @@
         ],
         "tags": [
             "blogging",
-            "essay",
-            "chaos"
+            "essay"
         ],
         "rating": 1500,
         "authors": [
@@ -3719,7 +3649,6 @@
             }
         ],
         "tags": [
-            "recommendation",
             "math"
         ],
         "rating": 1500,
@@ -3742,7 +3671,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1500,
@@ -3769,7 +3697,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1500,
@@ -3792,7 +3719,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1500,
@@ -3953,7 +3879,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1600,
@@ -3980,7 +3905,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1600,
@@ -4003,7 +3927,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1600,
@@ -4026,7 +3949,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1600,
@@ -4096,7 +4018,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1700,
@@ -4123,7 +4044,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1700,
@@ -4146,7 +4066,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1700,
@@ -4169,7 +4088,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1800,
@@ -4196,7 +4114,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1800,
@@ -4219,7 +4136,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1800,
@@ -4242,7 +4158,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1800,
@@ -4265,7 +4180,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1900,
@@ -4288,7 +4202,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1900,
@@ -4311,7 +4224,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 1900,
@@ -4334,7 +4246,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 1900,
@@ -4358,7 +4269,6 @@
             }
         ],
         "tags": [
-            "invisible",
             "blogging",
             "essay"
         ],
@@ -4389,7 +4299,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2000,
@@ -4412,7 +4321,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2000,
@@ -4435,7 +4343,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2100,
@@ -4458,7 +4365,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2100,
@@ -4481,7 +4387,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2100,
@@ -4504,7 +4409,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2200,
@@ -4527,7 +4431,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2200,
@@ -4550,7 +4453,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2200,
@@ -4573,7 +4475,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2200,
@@ -4600,7 +4501,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2300,
@@ -4623,7 +4523,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2300,
@@ -4646,7 +4545,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2300,
@@ -4669,7 +4567,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2400,
@@ -4692,7 +4589,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2400,
@@ -4715,7 +4611,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2400,
@@ -4738,7 +4633,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2500,
@@ -4761,7 +4655,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2500,
@@ -4784,7 +4677,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2600,
@@ -4807,7 +4699,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2600,
@@ -4830,7 +4721,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2700,
@@ -4853,7 +4743,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2700,
@@ -4876,7 +4765,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2800,
@@ -4899,7 +4787,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 2800,
@@ -4926,7 +4813,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 2900,
@@ -4977,7 +4863,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3000,
@@ -5000,7 +4885,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 3000,
@@ -5023,7 +4907,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3100,
@@ -5046,7 +4929,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 3100,
@@ -5073,7 +4955,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3200,
@@ -5096,7 +4977,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3300,
@@ -5119,7 +4999,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3400,
@@ -5142,7 +5021,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3500,
@@ -5165,7 +5043,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3600,
@@ -5188,7 +5065,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3700,
@@ -5211,7 +5087,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3800,
@@ -5234,7 +5109,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 3900,
@@ -5257,7 +5131,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4000,
@@ -5310,7 +5183,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4100,
@@ -5333,7 +5205,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4200,
@@ -5356,7 +5227,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4300,
@@ -5379,7 +5249,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4400,
@@ -5402,7 +5271,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4500,
@@ -5426,8 +5294,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 4500,
         "authors": [
@@ -5449,7 +5316,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4600,
@@ -5472,7 +5338,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4700,
@@ -5495,7 +5360,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4800,
@@ -5518,7 +5382,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 4900,
@@ -5541,7 +5404,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5000,
@@ -5564,7 +5426,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5000,
@@ -5587,7 +5448,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5100,
@@ -5610,7 +5470,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5200,
@@ -5633,7 +5492,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5300,
@@ -5677,7 +5535,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5400,
@@ -5700,7 +5557,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5500,
@@ -5723,7 +5579,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5600,
@@ -5746,7 +5601,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5700,
@@ -5769,7 +5623,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5800,
@@ -5792,7 +5645,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 5900,
@@ -5815,7 +5667,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 6000,
@@ -5838,7 +5689,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6000,
@@ -5861,7 +5711,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6100,
@@ -5884,7 +5733,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6200,
@@ -5907,7 +5755,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6300,
@@ -5930,7 +5777,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6400,
@@ -5953,7 +5799,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6600,
@@ -5980,7 +5825,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6700,
@@ -6007,7 +5851,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6800,
@@ -6034,7 +5877,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 6900,
@@ -6203,8 +6045,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 7000,
         "authors": [
@@ -6226,7 +6067,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7100,
@@ -6253,7 +6093,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7200,
@@ -6308,7 +6147,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7300,
@@ -6335,7 +6173,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7400,
@@ -6358,11 +6195,10 @@
         "names": [
             {
                 "name": "Числа",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7500,
@@ -6385,11 +6221,10 @@
         "names": [
             {
                 "name": "Жизнь насекомых",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7600,
@@ -6412,11 +6247,10 @@
         "names": [
             {
                 "name": "Шлем ужаса: Креатифф о Тесее и Минотавре",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7700,
@@ -6443,7 +6277,6 @@
             }
         ],
         "tags": [
-            "archive",
             "nouvelle"
         ],
         "rating": 7740,
@@ -6462,11 +6295,10 @@
         "names": [
             {
                 "name": "Цивилизация Статуса",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7750,
@@ -6493,7 +6325,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 7800,
@@ -6520,8 +6351,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
             "nouvelle"
         ],
         "rating": 7890,
@@ -6544,8 +6373,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
             "novel"
         ],
         "rating": 7890,
@@ -9047,8 +8874,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 8030,
         "authors": [
@@ -9071,8 +8897,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 8050,
         "authors": [
@@ -9094,8 +8919,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 8091,
@@ -9119,8 +8942,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 8100,
         "authors": [
@@ -9143,8 +8965,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 8100,
         "authors": [
@@ -9176,8 +8997,7 @@
             }
         ],
         "tags": [
-            "essay",
-            "invisible"
+            "essay"
         ],
         "rating": 8102,
         "authors": [
@@ -9199,8 +9019,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
             "novel"
         ],
         "rating": 8104,
@@ -9251,8 +9069,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
             "novel"
         ],
         "rating": 8204,
@@ -9329,8 +9145,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
             "novel"
         ],
         "rating": 8300,
@@ -9353,7 +9167,6 @@
             }
         ],
         "tags": [
-            "archive",
             "novel"
         ],
         "rating": 8400,
@@ -9376,10 +9189,7 @@
             }
         ],
         "tags": [
-            "invisible",
-            "archive",
-            "novel",
-            "chaos"
+            "novel"
         ],
         "rating": 8500,
         "authors": [
@@ -9401,8 +9211,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 8900,
@@ -9429,9 +9237,7 @@
             }
         ],
         "tags": [
-            "invisible",
-            "short story",
-            "chaos"
+            "short story"
         ],
         "rating": 9000,
         "authors": [
@@ -9457,8 +9263,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9000,
@@ -9481,8 +9285,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9000,
@@ -9505,8 +9307,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9000,
@@ -9529,8 +9329,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9000,
@@ -9553,8 +9351,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9000,
@@ -9577,8 +9373,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9100,
@@ -9601,8 +9395,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9100,
@@ -9625,8 +9417,6 @@
             }
         ],
         "tags": [
-            "invisible",
-            "chaos",
             "novel"
         ],
         "rating": 9100,

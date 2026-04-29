@@ -8,7 +8,6 @@ class HtmlTransformTest {
 
     @Test
     fun transformLine() {
-
         var lineIn = "\"The Map of Mathematics\" by Domain of Science:"
         var lineOut = lineIn
         assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
@@ -27,6 +26,10 @@ class HtmlTransformTest {
         lineIn = "    — https://youtu.be/OJ4BLKJIRGKSHDKFSHAG"
         lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4BLKJIRGKSHDKFSHAG\">" +
                 "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OJ4BLKJIRGKSHDKFSHAG</a>"
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+
+        lineIn = "<///><///><///><///><///><///>"
+        lineOut = "&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;"
         assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
     }
 
@@ -58,7 +61,6 @@ class HtmlTransformTest {
 
     @Test
     fun transformParagraph() {
-
         val paragraphIn = "\"The Map of Mathematics\" by Domain of Science:" +
                 "\n" +
                 " — https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
