@@ -753,6 +753,11 @@
             {
                 "name": "S.N.U.F.F.",
                 "language": "ru"
+            },
+            {
+                "name": "S.N.U.F.F.",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/S.N.U.F.F."
             }
         ],
         "tags": [
@@ -1072,6 +1077,11 @@
             {
                 "name": "Эхопраксия",
                 "language": "ru"
+            },
+            {
+                "name": "Echopraxia",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Echopraxia_(novel)"
             }
         ],
         "tags": [
@@ -1098,6 +1108,12 @@
             {
                 "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
                 "language": "ru"
+            },
+            {
+                "name": "The Dragons of Eden: Speculations on the Evolution of Human Intelligence",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Dragons_of_Eden",
+                "comment": "Pulitzer Prize winner 1978"
             }
         ],
         "tags": [
@@ -1109,7 +1125,11 @@
                 "names": [
                     {
                         "name": "Карл Саган",
-                        "language": "?"
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Carl Sagan",
+                        "language": "en"
                     }
                 ]
             }
@@ -1403,7 +1423,8 @@
     },
     {
         "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
-        "comment": "https://doi.org/10.1136/bmj.327.7429.1459 PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
+        "link": "https://doi.org/10.1136/bmj.327.7429.1459",
+        "comment": "PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
         "tags": [
             "raw",
             "academic"
@@ -1415,7 +1436,7 @@
             {
                 "name": "They're Made Out of Meat",
                 "language": "en",
-                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
             }
         ],
         "tags": [
@@ -1439,6 +1460,11 @@
                 "name": "Москва - Петушки. С комментариями Эдуарда Власова",
                 "language": "ru",
                 "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05."
+            },
+            {
+                "name": "Moscow-Petushki",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Moscow-Petushki"
             }
         ],
         "tags": [
