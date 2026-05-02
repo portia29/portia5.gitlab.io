@@ -332,7 +332,8 @@
         "names": [
             {
                 "name": "Чапаев и Пустота",
-                "language": "ru"
+                "language": "ru",
+                "comment": "— Эх, Петька, Петька, — сказал Чапаев, — знавал я одного китайского коммуниста по имени Цзе Чжуан. Ему часто снился один сон — что он красная бабочка, летающая среди травы. И когда он просыпался, он часто не мог взять в толк, то ли это бабочке приснилось, что она занимается революционной работой, то ли это подпольщик видел сон, в котором он порхал среди цветов. Так вот, когда этого Цзе Чжуана арестовали в Монголии за саботаж, он на допросе так и сказал, что он на самом деле бабочка, которой все это снится. Поскольку допрашивал его сам барон Юнгерн, а он человек с большим пониманием, следующий вопрос был о том, почему эта бабочка за коммунистов. А он сказал, что она вовсе не за коммунистов. Тогда его спросили, почему в таком случае бабочка занимается подрывной деятельностью. А он ответил, что все, чем занимаются люди, настолько безобразно, что нет никакой разницы, на чьей ты стороне.\n— И что с ним случилось?\n— Ничего. Поставили его к стенке и разбудили.\n— А он?\nЧапаев пожал плечами.\n— Дальше полетел, надо полагать.\n— Понимаю, Василий Иванович, понимаю, — сказал я задумчиво."
             },
             {
                 "name": "Chapayev and Void",
@@ -461,6 +462,35 @@
     {
         "names": [
             {
+                "name": "Chattel Childhood",
+                "language": "en",
+                "link": "https://aella.substack.com/p/chattel-childhood",
+                "comment": "First encounter date 2026-05-02 / Expanded title: Chattel Childhood | and the way we treat children as property"
+            }
+        ],
+        "tags": [
+            "essay",
+            "philosophy",
+            "children",
+            "agency",
+            "anthropology",
+            "blogging"
+        ],
+        "rating": 270,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Aella",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "There Is No Antimemetics Division",
                 "language": "en",
                 "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
@@ -539,6 +569,42 @@
                     {
                         "name": "Stanisław Lem",
                         "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Liking What You See: A Documentary",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Liking_What_You_See:_A_Documentary"
+            },
+            {
+                "name": "Тебе нравится, что ты видишь?",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel",
+            "fiction",
+            "short-story",
+            "science-fiction",
+            "perception",
+            "technology"
+        ],
+        "rating": 295,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ted Chiang",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Тед Чан",
+                        "language": "ru"
                     }
                 ]
             }
@@ -924,29 +990,6 @@
     {
         "names": [
             {
-                "name": "Тебе нравится, что ты видишь?",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel",
-            "fiction"
-        ],
-        "rating": 420,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Тед Чан",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Coding Machines",
                 "language": "en",
                 "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
@@ -1269,49 +1312,6 @@
     {
         "names": [
             {
-                "name": "Сексуальные преступления и симбиотические отношения",
-                "language": "ru"
-            }
-        ],
-        "tags": [],
-        "rating": 540,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Карола Ленэке",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Psycho-Pass",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 540,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Naoyoshi Shiotani, Katsuyuki Motohiro",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Fate/stay night",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
@@ -1372,6 +1372,29 @@
                 "names": [
                     {
                         "name": "Gillian Anderson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Psycho-Pass",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 580,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoyoshi Shiotani, Katsuyuki Motohiro",
                         "language": "en"
                     }
                 ]
@@ -1555,6 +1578,26 @@
                     {
                         "name": "Lewis Carroll",
                         "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Сексуальные преступления и симбиотические отношения",
+                "language": "ru"
+            }
+        ],
+        "tags": [],
+        "rating": 640,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Карола Ленэке",
+                        "language": "ru"
                     }
                 ]
             }
@@ -2205,31 +2248,8 @@
     {
         "names": [
             {
-                "name": "Intentionally Making Close Friends",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 950,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Neel Nanda",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Hammertime Day 7: Aversion Factoring",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -2374,6 +2394,35 @@
                     },
                     {
                         "name": "Andrew S. Tanenbaum",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Joy Is Not Optional",
+                "language": "en",
+                "link": "https://aella.substack.com/p/the-joy-is-not-optional",
+                "comment": "First encounter date 2026-05-02 / Expanded title: The Joy Is Not Optional | The Growing Kids God's Way protocol"
+            }
+        ],
+        "tags": [
+            "essay",
+            "childhood",
+            "religion",
+            "parenting",
+            "trauma",
+            "blogging"
+        ],
+        "rating": 1000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Aella",
                         "language": "en"
                     }
                 ]
@@ -4330,6 +4379,29 @@
     {
         "names": [
             {
+                "name": "Intentionally Making Close Friends",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1950,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Neel Nanda",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Записки на манжетах",
                 "language": "?"
             }
@@ -5585,7 +5657,7 @@
                 "names": [
                     {
                         "name": "Meduza",
-                        "language": "?"
+                        "language": "en"
                     }
                 ]
             }
@@ -6037,6 +6109,38 @@
     {
         "names": [
             {
+                "name": "Will you heed my warnings NOW?",
+                "language": "en",
+                "link": "https://scottaaronson.blog/?p=9718",
+                "comment": "First encounter date 2026-05-02"
+            }
+        ],
+        "tags": [
+            "quantum-computing",
+            "cryptography",
+            "ai",
+            "essay",
+            "blogging"
+        ],
+        "rating": 7340,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Aaronson",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Скотт Ааронсон",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Лезвие бритвы",
                 "language": "ru"
             }
@@ -6076,6 +6180,34 @@
                     },
                     {
                         "name": "Victor Pelevin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "First encounter date 2026-05-02",
+        "names": [
+            {
+                "name": "Simbari people",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Simbari_people"
+            }
+        ],
+        "tags": [
+            "anthropology",
+            "papua-new-guinea",
+            "ethnic-group",
+            "ritual",
+            "wikipedia"
+        ],
+        "rating": 7500,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Humanity",
                         "language": "en"
                     }
                 ]
@@ -6136,6 +6268,32 @@
                     {
                         "name": "Robert Sheckley",
                         "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Флейта",
+                "language": "ru",
+                "link": "https://www.youtube.com/watch?v=69icQwqS2O4"
+            }
+        ],
+        "tags": [
+            "music",
+            "folk-rock",
+            "russian-music",
+            "youtube"
+        ],
+        "rating": 7800,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ольга Арефьева и Ковчег",
+                        "language": "ru"
                     }
                 ]
             }
@@ -9107,6 +9265,62 @@
                     {
                         "name": "Оксана Панкеева",
                         "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Contempt for Innocent Men",
+                "language": "en",
+                "link": "https://phenoatypical.substack.com/p/contempt-for-innocent-men",
+                "comment": "First encounter date 2026-05-02"
+            }
+        ],
+        "tags": [
+            "essay",
+            "dating",
+            "evolutionary-psychology",
+            "gender",
+            "blogging"
+        ],
+        "rating": 8320,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Neoma",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Where the goblins came from",
+                "language": "en",
+                "link": "https://openai.com/index/where-the-goblins-came-from/",
+                "comment": "First encounter date 2026-05-02"
+            }
+        ],
+        "tags": [
+            "ai",
+            "research",
+            "rlhf",
+            "model-behavior",
+            "blogging"
+        ],
+        "rating": 8330,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "OpenAI",
+                        "language": "en"
                     }
                 ]
             }
