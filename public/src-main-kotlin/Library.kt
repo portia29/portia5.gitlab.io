@@ -51,6 +51,7 @@ class Library {
     @Serializable
     data class Writing(
         val raw: String? = null,
+        val link: String? = null,
         val comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,

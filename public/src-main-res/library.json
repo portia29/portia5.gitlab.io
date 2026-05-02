@@ -465,7 +465,7 @@
                 "name": "Chattel Childhood",
                 "language": "en",
                 "link": "https://aella.substack.com/p/chattel-childhood",
-                "comment": "First encounter date 2026-05-02 / Expanded title: Chattel Childhood | and the way we treat children as property"
+                "comment": "First encounter date 2026-05-02 / Expanded title: Chattel Childhood | and the way we treat children as property / Пример племени Simbari в котором всех мальчиков в возрасте 7 лет насильно забирали у матерей, подвергали ритуалам вроде втыкания в нос палки для того, чтобы началось кровотечение, а потом эти допубертатные мальчики в течении 3 лет должны были регулярно делать минеты мальчикам пубертатного возраста. Ещё есть идея о том, что травма это не столько о силе насилия или о том, сексуальное это насилие или нет, сколько о нарушении агентности, когда человека заставляют что-то делать против его воли. Что можно представить будущее, в котором принуждать детей просыпаться утром в школу будет восприниматься как что-то столь же неприемлимое как с точки зрения нашей культуры неприемлимы ритуалы Simbari."
             }
         ],
         "tags": [
@@ -1021,6 +1021,36 @@
     {
         "names": [
             {
+                "name": "Как хочет женщина. Мастер-класс по науке секса",
+                "language": "ru"
+            },
+            {
+                "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 460,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Blame!",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Blame!"
@@ -1035,37 +1065,6 @@
                 "names": [
                     {
                         "name": "Tsutomu Nihei",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Билет на планету Транай",
-                "language": "ru"
-            },
-            {
-                "name": "A Ticket to Tranai",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle",
-            "fiction"
-        ],
-        "rating": 490,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
                         "language": "en"
                     }
                 ]
@@ -1104,6 +1103,26 @@
         ]
     },
     {
+        "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
+        "link": "https://doi.org/10.1136/bmj.327.7429.1459",
+        "comment": "PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
+        "tags": [
+            "raw",
+            "academic"
+        ],
+        "rating": 490
+    },
+    {
+        "raw": "\"Pale Blue Dot\", the photograph itself and commentary by Carl Sagan.",
+        "link": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
+        "comment": " ",
+        "tags": [
+            "raw",
+            "wikipedia"
+        ],
+        "rating": 490
+    },
+    {
         "names": [
             {
                 "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
@@ -1119,7 +1138,7 @@
         "tags": [
             "novel"
         ],
-        "rating": 500,
+        "rating": 530,
         "authors": [
             {
                 "names": [
@@ -1129,62 +1148,6 @@
                     },
                     {
                         "name": "Carl Sagan",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Как хочет женщина. Мастер-класс по науке секса",
-                "language": "ru"
-            },
-            {
-                "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 500,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Emily Nagoski",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 501,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Emily Nagoski",
                         "language": "en"
                     }
                 ]
@@ -1420,16 +1383,6 @@
                 ]
             }
         ]
-    },
-    {
-        "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
-        "link": "https://doi.org/10.1136/bmj.327.7429.1459",
-        "comment": "PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
-        "tags": [
-            "raw",
-            "academic"
-        ],
-        "rating": 600
     },
     {
         "names": [
@@ -1719,6 +1672,32 @@
                 "names": [
                     {
                         "name": "Gustav Meyrink",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 701,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
                         "language": "en"
                     }
                 ]
@@ -2026,6 +2005,37 @@
                 "names": [
                     {
                         "name": "Zvi Mowshowitz",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Билет на планету Транай",
+                "language": "ru"
+            },
+            {
+                "name": "A Ticket to Tranai",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle",
+            "fiction"
+        ],
+        "rating": 890,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
                         "language": "en"
                     }
                 ]
@@ -2432,7 +2442,7 @@
                 "name": "The Joy Is Not Optional",
                 "language": "en",
                 "link": "https://aella.substack.com/p/the-joy-is-not-optional",
-                "comment": "First encounter date 2026-05-02 / Expanded title: The Joy Is Not Optional | The Growing Kids God's Way protocol"
+                "comment": "First encounter date 2026-05-02 / Expanded title: The Joy Is Not Optional | The Growing Kids God's Way protocol / Аэлла росла в семье которая решила воспитывать детей согласно популярной релизиозной книге у последователей которой применялись методы воспитания вроде приковывания цепью к кровати и избиений до состояния абсолютного послушания когда избиваемый радостно благодарит за то, что его бьют, домашнее обучение Аэлла если что поддерживает."
             }
         ],
         "tags": [
@@ -8378,10 +8388,16 @@
         "created": "2009"
     },
     {
+        "comment": "Short story, 1829",
         "names": [
             {
                 "name": "Маттео Фальконе",
                 "language": "ru"
+            },
+            {
+                "name": "Mateo Falcone",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Mateo_Falcone"
             }
         ],
         "tags": [
@@ -8430,7 +8446,7 @@
             {
                 "name": "No one owes you supply-chain security",
                 "language": "en",
-                "comment": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
+                "link": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
             }
         ],
         "tags": [
@@ -8817,7 +8833,8 @@
             {
                 "name": "Why is Everything Liberal?",
                 "language": "en",
-                "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. https://www.richardhanania.com/p/why-is-everything-liberal"
+                "link": "https://www.richardhanania.com/p/why-is-everything-liberal",
+                "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. Essay on political ideology clusters."
             }
         ],
         "tags": [
@@ -8840,7 +8857,7 @@
             {
                 "name": "Stop Trying to Make Heterosexuals into Lesbians",
                 "language": "en",
-                "comment": "https://www.richardhanania.com/p/stop-trying-to-make-heterosexuals"
+                "link": "https://www.richardhanania.com/p/stop-trying-to-make-heterosexuals"
             }
         ],
         "tags": [
@@ -8971,7 +8988,7 @@
             {
                 "name": "Yes, Sydney Sweeney's Boobs Are Anti-Woke",
                 "language": "en",
-                "comment": "https://www.richardhanania.com/p/yes-sydney-sweeneys-boobs-are-anti"
+                "link": "https://www.richardhanania.com/p/yes-sydney-sweeneys-boobs-are-anti"
             }
         ],
         "tags": [
@@ -8994,7 +9011,7 @@
             {
                 "name": "Women's Tears Win in the Marketplace of Ideas",
                 "language": "en",
-                "comment": "https://www.richardhanania.com/p/womens-tears-win-in-the-marketplace"
+                "link": "https://www.richardhanania.com/p/womens-tears-win-in-the-marketplace"
             }
         ],
         "tags": [
@@ -9014,7 +9031,8 @@
     },
     {
         "raw": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014;8:940. Published 2014 Nov 28. doi:10.3389/fnhum.2014.00940",
-        "comment": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/ Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё “increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks”",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/",
+        "comment": "Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё \"increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks\"",
         "tags": [
             "raw",
             "academic"
@@ -9026,7 +9044,8 @@
             {
                 "name": "The Based Ritual",
                 "language": "en",
-                "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет “Я реально знаю таких людей и всё действительно так плохо”, они считают что logical consistency is for cucks. https://www.richardhanania.com/p/the-based-ritual"
+                "link": "https://www.richardhanania.com/p/the-based-ritual",
+                "comment": "Описывается общение MAGA приближенных к элитам, бесконечное соревнование в том кто более базирован, базированность это расизм, сексизм, гомофобия и возвращение к феодализму, автор пишет \"Я реально знаю таких людей и всё действительно так плохо\", они считают что logical consistency is for cucks."
             }
         ],
         "tags": [
@@ -9045,10 +9064,16 @@
         ]
     },
     {
+        "comment": "Short story, 1835, from Arabesques collection",
         "names": [
             {
                 "name": "Портрет",
                 "language": "ru"
+            },
+            {
+                "name": "The Portrait",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Portrait_(short_story)"
             }
         ],
         "tags": [
@@ -9061,6 +9086,10 @@
                     {
                         "name": "Николай Гоголь",
                         "language": "ru"
+                    },
+                    {
+                        "name": "Nikolai Gogol",
+                        "language": "en"
                     }
                 ]
             }
@@ -9097,6 +9126,11 @@
             {
                 "name": "Шлем ужаса: Креатифф о Тесее и Минотавре",
                 "language": "ru"
+            },
+            {
+                "name": "The Helmet of Horror",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Helmet_of_Horror"
             }
         ],
         "tags": [
@@ -9379,7 +9413,7 @@
         "created": "1999"
     },
     {
-        "raw": "Фильм “Крёстный отец”. Anime: Kill la Kill, Monogatari, Kekkai Sensen, Black Clover.",
+        "raw": "Фильм \"Крёстный отец\". Anime: Kill la Kill, Monogatari, Kekkai Sensen, Black Clover.",
         "tags": [
             "raw",
             "anime",
@@ -9392,6 +9426,12 @@
             {
                 "name": "Сердца трёх",
                 "language": "ru"
+            },
+            {
+                "name": "Hearts of Three",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Hearts_of_Three",
+                "comment": "Adventure novel, published posthumously 1920"
             }
         ],
         "tags": [
@@ -9539,10 +9579,16 @@
         ]
     },
     {
+        "comment": "Historical fiction about prophet Elijah, 1996",
         "names": [
             {
                 "name": "Пятая гора",
                 "language": "ru"
+            },
+            {
+                "name": "The Fifth Mountain",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Fifth_Mountain"
             }
         ],
         "tags": [
@@ -9583,10 +9629,16 @@
         ]
     },
     {
+        "comment": "Original: Onze Minutos, 2003",
         "names": [
             {
                 "name": "Одиннадцать минут",
                 "language": "ru"
+            },
+            {
+                "name": "Eleven Minutes",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Eleven_Minutes"
             }
         ],
         "tags": [
@@ -9605,10 +9657,16 @@
         ]
     },
     {
+        "comment": "Original: O Alquimista, 1988. International bestseller.",
         "names": [
             {
                 "name": "Алхимик",
                 "language": "ru"
+            },
+            {
+                "name": "The Alchemist",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)"
             }
         ],
         "tags": [
@@ -9693,10 +9751,16 @@
         ]
     },
     {
+        "comment": "Religious and mystical work written in Vladimir Prison",
         "names": [
             {
                 "name": "Роза Мира",
                 "language": "ru"
+            },
+            {
+                "name": "Rose of the World",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Rose_of_the_World_(1991_book)"
             }
         ],
         "tags": [
@@ -9715,6 +9779,7 @@
         ]
     },
     {
+        "comment": "Original: The Secret Doctrine, 1888. Foundational work of Theosophy.",
         "names": [
             {
                 "name": "Тайная доктрина",
