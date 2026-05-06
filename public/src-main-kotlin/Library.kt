@@ -4,6 +4,7 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
 import java.util.*
+import java.util.function.Predicate
 
 /**
  * Novel - роман.
@@ -84,132 +85,75 @@ class Library {
         return selectName(authors[0].names, language)
     }
 
-    /*
-    fun notesGrouped(ws: List<Writing>): List<String> {
+    fun notesGrouped(notes: List<Writing>): List<String> {
         val result = mutableListOf<String>()
-        val currentList = LinkedList<Writing>()
-        ws.forEach { w: Writing ->
-            if (currentList.isEmpty()) {
-                currentList.add(w)
-                return@forEach
-            }
-            fun closeBlock() {
-                if (text.isNotEmpty()) {
-                    text.append(" ")
+        val length = notes.size
+        var index = 0
+        fun drain(s: StringBuilder, p: Predicate<Writing>): LinkedList<Writing> {
+            s.append("").append(result.size + 1).append(". ")
+            val list = LinkedList<Writing>()
+            while (index < length) {
+                val n = notes[index]
+                if (!p.test(n)) {
+                    break
                 }
+                list.add(n)
+                index++
             }
-            val first = currentList.first()
-            if (first.hasAnyOfTags("raw")) {
-                closeBlock()
-                text.append(first.raw).append(be)
-                currentList.clear()
-            } else if (first.hasAnyOfTags("concept")) {
-                if (w == null || !w.hasAnyOfTags("concept")) {
-                    closeBlock()
+            return list
+        }
+        while (index < length) {
+            val n = notes[index]
+            index++
+            val text = StringBuilder()
+            if (n.hasAnyOfTags("raw")) {
+                drain(text, p = { t -> false })
+                text.append(n.raw)
+            } else {
+                if (n.hasAnyOfTags("concept")) {
+                    val list = drain(text, p = { t -> t.hasAnyOfTags("concept") })
+                    list.addFirst(n)
                     val t = StringBuilder()
-                    currentList.forEach {
+                    list.forEach {
                         if (t.isNotEmpty()) t.append(" ")
                         t.append(selectName(it.names, defaultLang))
                         t.append(".")
                     }
-                    text.append(t).append(be)
-                    currentList.clear()
-                }
-            } else if (first.hasAnyOfTags("tv-series")) {
-                if (w == null || !w.hasAnyOfTags("tv-series")) {
-                    closeBlock()
+                    text.append(t)
+                } else if (n.hasAnyOfTags("tv-series")) {
+                    val list = drain(text, p = { t -> t.hasAnyOfTags("tv-series") })
+                    list.addFirst(n)
                     text.append("Television series")
-                    text.append(formatWritings(currentList, defaultLang)).append(be)
-                    currentList.clear()
-                }
-            } else if (first.hasAnyOfTags("anime")) {
-                if (w == null || !w.hasAnyOfTags("anime")) {
-                    closeBlock()
+                    text.append(formatWritings(list, defaultLang))
+                } else if (n.hasAnyOfTags("anime")) {
+                    val list = drain(text, p = { t -> t.hasAnyOfTags("anime") })
+                    list.addFirst(n)
                     text.append("Anime")
-                    text.append(formatWritings(currentList, defaultLang)).append(be)
-                    currentList.clear()
+                    text.append(formatWritings(list, defaultLang))
+                } else {
+                    val list = drain(text, p = { t -> t.authors == n.authors })
+                    list.addFirst(n)
+                    text.append(formatAuthors(list[0].authors, defaultLang))
+                    text.append(formatWritings(list, defaultLang))
                 }
-            } else if (first.authors != w?.authors) {
-                closeBlock()
-                text.append(formatAuthors(first.authors, defaultLang))
-                text.append(formatWritings(currentList, defaultLang)).append(be)
-                currentList.clear()
             }
+            result.add(text.toString())
         }
         return result
     }
-    */
 
     fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
         val text = StringBuilder()
-        text.append("Коллекция заметок, часть №1.")
-        val fullList = LinkedList<Writing>()
-        fullList.addAll(writingsIn.sortedBy { it.rating })
-        val currentList = LinkedList<Writing>()
-        var count = 0
-        fun genStep(w: Writing?) {
-            if (currentList.isEmpty()) {
-                return
-            }
-            val bs = "⟨"
-            val be = "⟩"
-            fun closeBlock() {
-                count++
-                if (text.isNotEmpty()) {
-                    text.append(" ")
-                }
-                text.append(bs)
-                text.append(count).append(". ")
-            }
-            val first = currentList.first()
-            if (first.hasAnyOfTags("raw")) {
-                closeBlock()
-                text.append(first.raw).append(be)
-                currentList.clear()
-            } else if (first.hasAnyOfTags("concept")) {
-                if (w == null || !w.hasAnyOfTags("concept")) {
-                    closeBlock()
-                    val t = StringBuilder()
-                    currentList.forEach {
-                        if (t.isNotEmpty()) t.append(" ")
-                        t.append(selectName(it.names, defaultLang))
-                        t.append(".")
-                    }
-                    text.append(t).append(be)
-                    currentList.clear()
-                }
-            } else if (first.hasAnyOfTags("tv-series")) {
-                if (w == null || !w.hasAnyOfTags("tv-series")) {
-                    closeBlock()
-                    text.append("Television series")
-                    text.append(formatWritings(currentList, defaultLang)).append(be)
-                    currentList.clear()
-                }
-            } else if (first.hasAnyOfTags("anime")) {
-                if (w == null || !w.hasAnyOfTags("anime")) {
-                    closeBlock()
-                    text.append("Anime")
-                    text.append(formatWritings(currentList, defaultLang)).append(be)
-                    currentList.clear()
-                }
-            } else if (first.authors != w?.authors) {
-                closeBlock()
-                text.append(formatAuthors(first.authors, defaultLang))
-                text.append(formatWritings(currentList, defaultLang)).append(be)
-                currentList.clear()
-            }
-        }
-        fullList.forEach { w ->
-            genStep(w)
-            currentList.add(w)
-        }
-        genStep(null)
+        text.append("Коллекция заметок, часть № 1. ")
+        val notes = notesGrouped(writingsIn.sortedBy { it.rating })
+        val bs = "⟨"
+        val be = "⟩"
+        text.append(notes.joinToString("⟩ ⟨", "⟨", "⟩"))
         return text
     }
 
     fun main() {
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
-        //generateTest(writingsIn)
         val text = generateText(writingsIn)
         val libraryOut = UtilsAbsolute.srcGenDir
         libraryOut.resolve("library.txt").toFile().writeText(text.toString())
