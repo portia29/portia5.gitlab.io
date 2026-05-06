@@ -21,9 +21,6 @@ class Library {
     }
 
     @Serializable
-    data class Database(val texts: List<Writing>)
-
-    @Serializable
     data class Name(
         val name: String,
         val language: String,
@@ -51,7 +48,6 @@ class Library {
     @Serializable
     data class Writing(
         val raw: String? = null,
-        val link: String? = null,
         val comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
@@ -88,23 +84,82 @@ class Library {
         return selectName(authors[0].names, language)
     }
 
-    fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
-        val text = StringBuilder()
-        text.append("Коллекция штук от более интересных к менее интересным для меня сейчас.")
-        val fullList = LinkedList<Writing>()
-        fullList.addAll(writingsIn.sortedBy { it.rating })
+    /*
+    fun notesGrouped(ws: List<Writing>): List<String> {
+        val result = mutableListOf<String>()
         val currentList = LinkedList<Writing>()
-        fun genStep(w: Writing?) {
-            val bs = "⟨"
-            val be = "⟩"
+        ws.forEach { w: Writing ->
+            if (currentList.isEmpty()) {
+                currentList.add(w)
+                return@forEach
+            }
             fun closeBlock() {
                 if (text.isNotEmpty()) {
                     text.append(" ")
                 }
-                text.append(bs)
             }
+            val first = currentList.first()
+            if (first.hasAnyOfTags("raw")) {
+                closeBlock()
+                text.append(first.raw).append(be)
+                currentList.clear()
+            } else if (first.hasAnyOfTags("concept")) {
+                if (w == null || !w.hasAnyOfTags("concept")) {
+                    closeBlock()
+                    val t = StringBuilder()
+                    currentList.forEach {
+                        if (t.isNotEmpty()) t.append(" ")
+                        t.append(selectName(it.names, defaultLang))
+                        t.append(".")
+                    }
+                    text.append(t).append(be)
+                    currentList.clear()
+                }
+            } else if (first.hasAnyOfTags("tv-series")) {
+                if (w == null || !w.hasAnyOfTags("tv-series")) {
+                    closeBlock()
+                    text.append("Television series")
+                    text.append(formatWritings(currentList, defaultLang)).append(be)
+                    currentList.clear()
+                }
+            } else if (first.hasAnyOfTags("anime")) {
+                if (w == null || !w.hasAnyOfTags("anime")) {
+                    closeBlock()
+                    text.append("Anime")
+                    text.append(formatWritings(currentList, defaultLang)).append(be)
+                    currentList.clear()
+                }
+            } else if (first.authors != w?.authors) {
+                closeBlock()
+                text.append(formatAuthors(first.authors, defaultLang))
+                text.append(formatWritings(currentList, defaultLang)).append(be)
+                currentList.clear()
+            }
+        }
+        return result
+    }
+    */
+
+    fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
+        val text = StringBuilder()
+        text.append("Коллекция заметок, часть №1.")
+        val fullList = LinkedList<Writing>()
+        fullList.addAll(writingsIn.sortedBy { it.rating })
+        val currentList = LinkedList<Writing>()
+        var count = 0
+        fun genStep(w: Writing?) {
             if (currentList.isEmpty()) {
                 return
+            }
+            val bs = "⟨"
+            val be = "⟩"
+            fun closeBlock() {
+                count++
+                if (text.isNotEmpty()) {
+                    text.append(" ")
+                }
+                text.append(bs)
+                text.append(count).append(". ")
             }
             val first = currentList.first()
             if (first.hasAnyOfTags("raw")) {

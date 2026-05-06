@@ -1104,8 +1104,7 @@
     },
     {
         "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
-        "link": "https://doi.org/10.1136/bmj.327.7429.1459",
-        "comment": "PDF: https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
+        "comment": "https://doi.org/10.1136/bmj.327.7429.1459 https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
         "tags": [
             "raw",
             "academic"
@@ -1114,8 +1113,7 @@
     },
     {
         "raw": "\"Pale Blue Dot\", the photograph itself and commentary by Carl Sagan.",
-        "link": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
-        "comment": " ",
+        "comment": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
         "tags": [
             "raw",
             "wikipedia"
@@ -2519,7 +2517,7 @@
         "names": [
             {
                 "name": "Преступление и наказание",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2531,7 +2529,7 @@
                 "names": [
                     {
                         "name": "Фёдор Достоевский",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -2541,7 +2539,7 @@
         "names": [
             {
                 "name": "Камера обскура",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2553,7 +2551,7 @@
                 "names": [
                     {
                         "name": "Владимир Набоков",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -2790,7 +2788,7 @@
         "names": [
             {
                 "name": "Бесы",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2802,7 +2800,7 @@
                 "names": [
                     {
                         "name": "Фёдор Достоевский",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -2812,7 +2810,7 @@
         "names": [
             {
                 "name": "Цирюльник",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2834,7 +2832,7 @@
         "names": [
             {
                 "name": "Masculine Virtues",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -6048,6 +6046,14 @@
         ]
     },
     {
+        "raw": "\"An Unfortunate Dualist\" from This Book Needs No Title by Raymond M. Smullyan.",
+        "comment": "First encounter date 2026-05-05 / 1980 by Raymond M. Smullyan. Published by Prentice-Hall, Inc., Englewood Cliffs, N J. https://web.ics.purdue.edu/~drkelly/SmullyanUnfortunateDualist1980.pdf https://x.com/psychiel/status/2051228666030338272",
+        "tags": [
+            "raw"
+        ],
+        "rating": 7000
+    },
+    {
         "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon.",
         "tags": [
             "raw"
@@ -9031,8 +9037,7 @@
     },
     {
         "raw": "Leivada E, Boeckx C. Schizophrenia and cortical blindness: protective effects and implications for language. Front Hum Neurosci. 2014;8:940. Published 2014 Nov 28. doi:10.3389/fnhum.2014.00940",
-        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/",
-        "comment": "Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё \"increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks\"",
+        "comment": "Нет известных случаев сочетания у человека congenital cortical blindness и schizophrenia. Ещё \"increased use of second person pronouns in schizophrenia that (Watson et al., 2012) report could be due to perturbations in non-egocentric referencing which are demonstrated in non-linguistic tasks\" https://pmc.ncbi.nlm.nih.gov/articles/PMC4246684/",
         "tags": [
             "raw",
             "academic"
@@ -9822,5 +9827,19 @@
                 ]
             }
         ]
+    },
+    {
+        "raw": "Коллекция личных воспоминаний. Дошкольное время, горячее летнее солнце, фиолетовые тени на асфальте, во дворе забивают свинью, спускают в эмалированное ведро кровь, осмаливают паяльной лампой; у нас живёт человек скрывающийся от полиции и употребляющий наркотики, на его голени незаживающая гноящаяся рана, по ночам мы с ним смотрим зарубежные фильмы. Школьное время, кличка «Маугли», полученная за хаотичное перебегание дороги и смуглый цвет кожи, весёлые игры на городских свалках и заброшенных стройках, несколько случаев переживания ощущения своей смертности, пачка историй о драках дома, в школе и во дворе, плохое понимание, что чувствую я и что чувствуют другие люди, возможно наследственное, отец в молодости вместо трибунала получил диагноз психопатии, биологические родители матери оставили её младенцем на вокзале. Потеря сознания от передозировки, потеря сознания после нескольких суток бессонной работы, хождение полностью голым по улице.",
+        "tags": [
+            "raw"
+        ],
+        "rating": 10000
+    },
+    {
+        "raw": "#Mantra1 #MakeArchive Вместо “Memento mori” можно переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое.",
+        "tags": [
+            "raw"
+        ],
+        "rating": 10000
     }
 ]

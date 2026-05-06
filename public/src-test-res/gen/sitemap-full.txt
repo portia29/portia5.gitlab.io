@@ -37,6 +37,7 @@
 [3] /map-order[.html]
 [3] /p1[.html]
 [3] /p2[.html]
+[3] /p3[.html]
 [3] /test/bullet[.html]
 [3] /test/emoji-font[.html]
 [3] /test/favicon-oneliner[.html]
