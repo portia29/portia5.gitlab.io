@@ -142,21 +142,26 @@ class Library {
         return result
     }
 
-    fun generateText(writingsIn: MutableList<Writing>): StringBuilder {
-        val text = StringBuilder()
-        text.append("Коллекция заметок, часть № 1. ")
-        val notes = notesGrouped(writingsIn.sortedBy { it.rating })
-        val bs = "⟨"
-        val be = "⟩"
-        text.append(notes.joinToString("⟩ ⟨", "⟨", "⟩"))
-        return text
-    }
-
     fun main() {
         val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
-        val text = generateText(writingsIn)
         val libraryOut = UtilsAbsolute.srcGenDir
-        libraryOut.resolve("library.txt").toFile().writeText(text.toString())
+        val notes = notesGrouped(writingsIn.sortedBy { it.rating })
+        val partSize = 100
+        var partCount = 0
+        var partIndex = 0
+        while (partIndex < notes.size) {
+            partCount++
+            partIndex += partSize
+            val text = StringBuilder()
+            text.append("Коллекция заметок, часть № $partCount")
+            text.append(", заметки с ${partIndex - partSize + 1} по $partIndex, заметок всего ${notes.size}. ")
+            val fromIndex = partIndex - partSize
+            val toIndex = if (partIndex < notes.size) partIndex else notes.size
+            val bs = "⟨"
+            val be = "⟩"
+            text.append(notes.subList(fromIndex, toIndex).joinToString("$be $bs", bs, be))
+            libraryOut.resolve("library$partCount.txt").toFile().writeText(text.toString())
+        }
     }
 
     fun saveLibrary(dst: Path, writingsIn: MutableList<Writing>) {
