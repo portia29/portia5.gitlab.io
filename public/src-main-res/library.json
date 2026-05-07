@@ -1316,29 +1316,6 @@
     {
         "names": [
             {
-                "name": "Puella Magi Madoka Magica",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 542,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Want: Sexual Fantasies by Anonymous",
                 "language": "en",
                 "comment": "2025, апрель, 20, воскресенье"
@@ -1353,52 +1330,6 @@
                 "names": [
                     {
                         "name": "Gillian Anderson",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Psycho-Pass",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 580,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Naoyoshi Shiotani, Katsuyuki Motohiro",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "They're Made Out of Meat",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
-            }
-        ],
-        "tags": [
-            "short story"
-        ],
-        "rating": 600,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Terry Bisson",
                         "language": "en"
                     }
                 ]
@@ -1474,51 +1405,6 @@
     {
         "names": [
             {
-                "name": "The Star-Child",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 600,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Oscar Wilde",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Schelling fences on slippery slopes",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 600,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Пикник на обочине",
                 "language": "ru"
             }
@@ -1554,78 +1440,6 @@
                 "names": [
                     {
                         "name": "Lewis Carroll",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Сексуальные преступления и симбиотические отношения",
-                "language": "ru"
-            }
-        ],
-        "tags": [],
-        "rating": 640,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Карола Ленэке",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Травмированный",
-                "language": "ru"
-            },
-            {
-                "name": "The Impacted Man",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 680,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "…And I Show You How Deep the Rabbit Hole Goes",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "rating": 700,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
                         "language": "en"
                     }
                 ]
@@ -1705,8 +1519,31 @@
     {
         "names": [
             {
+                "name": "Puella Magi Madoka Magica",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 742,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "16 types of useful predictions",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -1720,76 +1557,6 @@
                 "names": [
                     {
                         "name": "Julia Galef",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Negative Feedback and Simulacra",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 750,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Elizabeth Van Nostrand",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "In praise of fake frameworks",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "rationality"
-        ],
-        "rating": 750,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Michael Smith",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Are You Living in a Computer Simulation?",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 750,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Nick Bostrom",
                         "language": "en"
                     }
                 ]
@@ -2043,6 +1810,51 @@
     {
         "names": [
             {
+                "name": "The Star-Child",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 900,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Oscar Wilde",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Schelling fences on slippery slopes",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 900,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Рождение знаменитости",
                 "language": "ru"
             },
@@ -2282,21 +2094,20 @@
     {
         "names": [
             {
-                "name": "Hammertime Day 7: Aversion Factoring",
+                "name": "Are You Living in a Computer Simulation?",
                 "language": "en"
             }
         ],
         "tags": [
             "blogging",
-            "essay",
-            "rationality"
+            "essay"
         ],
         "rating": 950,
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Xiaoyu He",
+                        "name": "Nick Bostrom",
                         "language": "en"
                     }
                 ]
@@ -2307,7 +2118,7 @@
         "names": [
             {
                 "name": "If You Are Reading This",
-                "language": "?",
+                "language": "en",
                 "comment": "https://qntm.org/readin"
             }
         ],
@@ -2603,19 +2414,30 @@
         ]
     },
     {
+        "comment": "Historical novel set in 16th-century Burgundy, first published 1919. Told in first person by a woodcarver named Colas Breugnon. Main link EN: https://en.wikipedia.org/wiki/Colas_Breugnon",
         "names": [
+            {
+                "name": "Colas Breugnon",
+                "language": "en"
+            },
             {
                 "name": "Кола Брюньон",
                 "language": "ru"
             }
         ],
         "tags": [
-            "novel"
+            "novel",
+            "historical-fiction",
+            "burgundy"
         ],
         "rating": 1000,
         "authors": [
             {
                 "names": [
+                    {
+                        "name": "Romain Rolland",
+                        "language": "en"
+                    },
                     {
                         "name": "Ромен Роллан",
                         "language": "ru"
@@ -2765,6 +2587,29 @@
     {
         "names": [
             {
+                "name": "They're Made Out of Meat",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+            }
+        ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 1100,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Bisson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Война и Мир",
                 "language": "ru"
             }
@@ -2874,6 +2719,14 @@
         ]
     },
     {
+        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Terraria. Minecraft. RimWorld. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\".",
+        "comment": "[Minecraft, RimWorld - не играл, но нравилось смотреть видео чужих игр.]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 1100
+    },
+    {
         "names": [
             {
                 "name": "Золотой жук",
@@ -2960,6 +2813,62 @@
                 "names": [
                     {
                         "name": "Ольга Арефьева и Ковчег",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Manacled",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 1200,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "First encounter date 2026-05-07 [Autobiographical novel, first published 1934 in Paris by Obelisk Press. Notorious for its candid sexuality; banned in the US until 1964. Set in Paris during the late 1920s–early 1930s.] Main link EN: https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel) “Tropic of Cancer” is an autobiographical novel by Henry Miller that is best known as \"notorious for its candid sexuality\", with the resulting social controversy considered responsible for the \"free speech that we now take for granted in literature\". Прочитал, книга была запрещена в Америке с 1930 по 1960. В конце книги автор описывает европейцев как взрослых холодных эгоистичных и рациональных, а американцев как детей, религиозных фанатиков или стадо зашоренных лошадей мчащихся к обрыву, автор говорит, что этот чрезмерный хаотичный действенный оптимизм американцев погубит мир. [Я часто думал, слушая филморовские панегирики Франции, свободе и прочему дерьму, что сказал бы обыкновенный француз, если б понял его слова. Недаром они считают нас чокнутыми. Действительно, для них мы чокнутые. Глупые дети. Престарелые идиоты. То, что мы называем жизнью, – это просто романтика, купленная в дешевой лавчонке. И этот наш энтузиазм… Что это? Грошовый оптимизм, от которого европейца начинает мутить. Пустая иллюзия. Нет, «иллюзия» – слишком хорошее слово для этого. Это не иллюзия. Это – недомыслие. Чистое недомыслие, и все. Мы точно табун диких лошадей с шорами на глазах. Несемся в сумасшедшем галопе. К краю пропасти – и вниз. Нам все равно – нам нужно бешеное движение и смятение чувств. Вперед, вперед! Все равно куда. Мы мчимся – и пена выступает у нас на губах. Мы орем: «Аллилуйя!» Аллилуйя! Почему? Зачем? Бог знает. Это у нас в крови. Это в нашем климате. Это – и многое другое. И это – конец. Мы рушим весь мир. Но не знаем, зачем и для чего. Это наша судьба. Все остальное – ерунда…] Могу запостить пару отрывков сексуальных сцен за котоорые книга была запрещена, но мне кажется это уровень непристойности порнографического фанфика с Фикбука и сексуальных сцен там не больше 10% от текста книги, и это типа карикатура высмеивающая один из типов мужского отношения к женщинам в целом и к сексу в частности. [О Таня, где сейчас твоя теплая пизденка, твои широкие подвязки, твои мягкие полные ляжки? В моей палице кость длиной шесть дюймов. Я разглажу все складки и складочки между твоих ног, моя разбухшая от семени Таня… Я пошлю тебя домой к твоему Сильвестру с болью внизу живота и вывернутой наизнанку маткой… Твой Сильвестр! Он знает, как развести огонь, а я знаю, как заставить его гореть. Я вливаю в тебя горячие струи, Таня, я заряжаю твои яичники белым огнем. Твой Сильвестр немного ревнует тебя? Он что-то заподозрил? Что-то чувствует? Он чувствует в тебе, Таня, следы моего большого члена. Я разутюжил твои бедра, разгладил все морщинки между ногами. После меня ты можешь свободно совокупляться с жеребцами, быками, баранами, селезнями, сенбернарами. Ты можешь засовывать лягушек, летучих мышей и ящериц в задний проход. Ты можешь срать, точно играть арпеджио, а на пупок натягивать струны цитры. Когда я ебу тебя, Таня, я делаю это всерьез и надолго. И если ты стесняешься публики, то мы опустим занавес. Но несколько волосков с твоей пизденки я наклею на подбородок Бориса. И я вгрызусь в твой секель и буду сплевывать двухфранковые монеты…][Вот Илона – это просто воплощенная манда. Я знаю это, потому что она прислала нам несколько волосков с нее. Илона – дикая ослица, вынюхивающая наслаждения. На каждом холме она разыгрывала блудницу, а иногда и в телефонных будках и в клозетах. Она купила кровать для короля Карола и кружку для бритья с его инициалами. Она лежала в Лондоне на Тоттенхем-Корт-роуд и, задрав юбку, дрочила. В ход шло все – свечи, шутихи, дверные ручки. Во всей стране не было ни одного фаллоса, который подошел бы ей по размерам… Ни одного. Мужчины влезали в нее целиком и сворачивались калачиком. Ей нужны были раздвижные фаллосы – не фаллосы, а самовзрывающиеся ракеты, кипящее масло с сургучом и креозотом. Она бы отрезала тебе член и оставила его в себе навсегда, если б ты ей только позволил. Это была одна пизда из миллиона, эта Илона! Лабораторный экземпляр – и вряд ли на свете найдется лакмусовая бумага, с помощью которой можно было бы воспроизвести ее цвет. К тому же она была врунья. Она никогда не покупала кровать своему королю Каролу. Она короновала его бутылкой из-под виски по голове, и ее глотка была полна лжи и фальшивых обещаний. Бедный Карол… он мог только свернуться калачиком внутри нее и помереть там. Она вздохнула – и он выпал оттуда, как дохлый моллюск.][Но ведь мы уезжаем в Америку завтра утром! Я говорил это каждой встречной бабе – уезжаем завтра утром! Я говорил это блондинке с агатовыми глазами. А пока я это говорил, она взяла мою руку и зажала ее между своими ляжками. В уборной я стою над писсуаром с монументальной эрекцией, и мой фаллос кажется мне одновременно и тяжелым и легким, как кусок свинца с крыльями. И пока я вот так стою, вваливаются две американки. Я вежливо приветствую их с членом в руке. Они подмигивают мне и выходят. Уже в умывальной, застегивая ширинку, я снова вижу одну из них, поджидающую свою подругу, которая еще в уборной. Из зала доносятся звуки музыки, и каждую минуту может появиться Мона, чтобы за брать меня, или Боровский со своей тростью с золотым набалдашником, но я уже в руках этой женщины, она меня держит, и мне все равно, что произойдет дальше. Мы заползаем в клозет, я ставлю ее у стены и пытаюсь засунуть ей, но у нас ничего не получается. Мы садимся на стульчак, пытаемся устроиться таким способом, – и опять безуспешно. Как мы ни стараемся, ничего не выходит. Все это время она сжимает мой член в руке, как якорь спасения, но тщетно – мы слишком возбуждены. Музыка продолжает играть, мы вальсируем с ней из клозета в умывальную и танцуем там, и вдруг я спускаю прямо ей на платье, и она приходит от этого в ярость. Пошатываясь, я возвращаюсь к столу, а там сидят румяный Боровский и Мона, которая встречает меня строгим взглядом. Боровский говорит: «Слушайте, едем все завтра в Брюссель!» Мы соглашаемся. Когда я вернулся в отель, у меня началась рвота. Я заблевал все – кровать, умывальник, костюмы и платья, галоши, нетронутые записные книжки и холодные мертвые рукописи.][В \"Tropic of Cancer\" один из персонажей использует такой способ мастурбации как берём яблоко, вырезаем в нём отверстие и смазываем отверстие изнутри кольдекремом. Это странно, яблоко твёрдое же.]",
+        "names": [
+            {
+                "name": "Tropic of Cancer",
+                "language": "en"
+            },
+            {
+                "name": "Тропик Рака",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel",
+            "autobiographical",
+            "fiction",
+            "expatriate-literature"
+        ],
+        "rating": 1200,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Henry Miller",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Генри Миллер",
                         "language": "ru"
                     }
                 ]
@@ -3070,52 +2979,6 @@
     {
         "names": [
             {
-                "name": "100 Ways To Live Better",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1210,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Promised Neverland",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Promised_Neverland"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1240,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Mamoru Kanbe",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "So I'm a Spider, So What?",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/So_I%27m_a_Spider,_So_What%3F"
@@ -3130,75 +2993,6 @@
                 "names": [
                     {
                         "name": "Shinji Itō",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Akame ga Kill!",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1280,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Tomoki Kobayashi",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "That Time I Got Reincarnated as a Slime",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1300,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Yasuhito Kikuchi",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The King's Avatar",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "rating": 1320,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hao Lin",
                         "language": "en"
                     }
                 ]
@@ -3591,6 +3385,51 @@
     {
         "names": [
             {
+                "name": "Поликушка",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 1400,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The King's Avatar",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1420,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hao Lin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Blame!",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Blame!_(film)"
@@ -3605,6 +3444,29 @@
                 "names": [
                     {
                         "name": "Hiroyuki Seshita",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Promised Neverland",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Promised_Neverland"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1440,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mamoru Kanbe",
                         "language": "en"
                     }
                 ]
@@ -3708,7 +3570,7 @@
             {
                 "name": "BusyBeaver(6) is really quite large",
                 "language": "en",
-                "comment": "https://scottaaronson.blog/?p=8972"
+                "comment": "First encounter date 2025-06-29 https://scottaaronson.blog/?p=8972"
             }
         ],
         "tags": [
@@ -3914,6 +3776,29 @@
     {
         "names": [
             {
+                "name": "Psycho-Pass",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Psycho-Pass"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1580,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Naoyoshi Shiotani, Katsuyuki Motohiro",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Tower of God",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Tower_of_God_(anime)"
@@ -3928,6 +3813,29 @@
                 "names": [
                     {
                         "name": "Takahiro Oba",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "That Time I Got Reincarnated as a Slime",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1600,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yasuhito Kikuchi",
                         "language": "en"
                     }
                 ]
@@ -4099,6 +4007,101 @@
     {
         "names": [
             {
+                "name": "Сексуальные преступления и симбиотические отношения",
+                "language": "ru"
+            }
+        ],
+        "tags": [],
+        "rating": 1640,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Карола Ленэке",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Травмированный",
+                "language": "ru"
+            },
+            {
+                "name": "The Impacted Man",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 1680,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Akame ga Kill!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "rating": 1680,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Tomoki Kobayashi",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "…And I Show You How Deep the Rabbit Hole Goes",
+                "language": "?"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "rating": 1700,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Вино из одуванчиков",
                 "language": "?"
             }
@@ -4169,6 +4172,52 @@
     {
         "names": [
             {
+                "name": "100 Ways To Live Better",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1710,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Negative Feedback and Simulacra",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1750,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Elizabeth Van Nostrand",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Маленький принц",
                 "language": "?"
             }
@@ -4195,30 +4244,8 @@
     {
         "names": [
             {
-                "name": "Поликушка",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 1800,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Воспламеняющая взглядом",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4240,7 +4267,7 @@
         "names": [
             {
                 "name": "Человек в футляре",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4257,6 +4284,13 @@
                 ]
             }
         ]
+    },
+    {
+        "raw": "Programming. Git. Kotlin. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use.",
+        "tags": [
+            "raw"
+        ],
+        "rating": 1800
     },
     {
         "names": [
@@ -4371,11 +4405,94 @@
         ]
     },
     {
+        "names": [
+            {
+                "name": "Monty Python and the Holy Grail",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+            },
+            {
+                "name": "Монти Пайтон и Священный Грааль",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "rating": 1901,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam, Terry Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "The Hitchhiker's Guide to the Galaxy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
+            },
+            {
+                "name": "Автостопом по галактике",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "rating": 1902,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Garth Jennings",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2005"
+    },
+    {
         "raw": "Francisco Goya: Los caprichos",
         "tags": [
             "raw"
         ],
         "rating": 1910
+    },
+    {
+        "names": [
+            {
+                "name": "Hammertime Day 7: Aversion Factoring",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "rationality"
+        ],
+        "rating": 1950,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Xiaoyu He",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     },
     {
         "names": [
@@ -4439,6 +4556,27 @@
                     {
                         "name": "Гарсиа Маркес",
                         "language": "?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Мой маньяк по соседству",
+                "language": "ru",
+                "link": "https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812"
+            }
+        ],
+        "tags": [],
+        "rating": 2000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Boolochka",
+                        "language": "en"
                     }
                 ]
             }
@@ -4869,6 +5007,30 @@
     {
         "names": [
             {
+                "name": "In praise of fake frameworks",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "rationality"
+        ],
+        "rating": 2750,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Michael Smith",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Палата № 6",
                 "language": "ru"
             }
@@ -4935,6 +5097,36 @@
                 ]
             }
         ]
+    },
+    {
+        "names": [
+            {
+                "name": "Contact",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Contact_(1997_American_film)"
+            },
+            {
+                "name": "Контакт",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "drama"
+        ],
+        "rating": 2900,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert Zemeckis",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1997"
     },
     {
         "names": [
@@ -5214,6 +5406,32 @@
     {
         "names": [
             {
+                "name": "Цивилизация Статуса",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 3750,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Повесть о настоящем человеке",
                 "language": "?"
             }
@@ -5249,6 +5467,52 @@
                 "names": [
                     {
                         "name": "Robert Bloch",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Abilene paradox",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 3910,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jerry B. Harvey",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Just-world fallacy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "rating": 3911,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sextus Empiricus",
                         "language": "en"
                     }
                 ]
@@ -5571,6 +5835,14 @@
                 ]
             }
         ]
+    },
+    {
+        "raw": "Vidya. Path of Exile. DotA, Dota 2. League of Legends. Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon. Dwarf Fortress.",
+        "comment": "[Dwarf Fortress - не играл, но почитать о ней было интересно.]",
+        "tags": [
+            "raw"
+        ],
+        "rating": 5100
     },
     {
         "names": [
@@ -5990,101 +6262,12 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Abilene paradox",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 6910,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jerry B. Harvey",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Just-world fallacy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "rating": 6911,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sextus Empiricus",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "raw": "\"An Unfortunate Dualist\" from This Book Needs No Title by Raymond M. Smullyan.",
         "comment": "First encounter date 2026-05-05 / 1980 by Raymond M. Smullyan. Published by Prentice-Hall, Inc., Englewood Cliffs, N J. https://web.ics.purdue.edu/~drkelly/SmullyanUnfortunateDualist1980.pdf https://x.com/psychiel/status/2051228666030338272",
         "tags": [
             "raw"
         ],
         "rating": 7000
-    },
-    {
-        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Path of Exile. Terraria. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\". DotA, Dota 2. League of Legends. Heroes of the Storm. Heroes of Newerth. Warcraft III. American Conquest. Sacred. Torchlight. Titan Quest. Fable. Commandos 2: Men of Courage. Chronicon.",
-        "tags": [
-            "raw"
-        ],
-        "rating": 7000
-    },
-    {
-        "raw": "Vidya. Minecraft. RimWorld. Dwarf Fortress.",
-        "comment": "Не играл, но нравилось смотреть видео чужих игр.",
-        "tags": [
-            "raw"
-        ],
-        "rating": 7000
-    },
-    {
-        "raw": "Programming. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use.",
-        "tags": [
-            "raw"
-        ],
-        "rating": 7000
-    },
-    {
-        "names": [
-            {
-                "name": "Мой маньяк по соседству",
-                "language": "ru",
-                "link": "https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812"
-            }
-        ],
-        "tags": [],
-        "rating": 7000,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Boolochka",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
     },
     {
         "names": [
@@ -6282,32 +6465,6 @@
     {
         "names": [
             {
-                "name": "Цивилизация Статуса",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 7750,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Жизнь насекомых",
                 "language": "ru"
             }
@@ -6453,95 +6610,6 @@
                 ]
             }
         ]
-    },
-    {
-        "names": [
-            {
-                "name": "Contact",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Contact_(1997_American_film)"
-            },
-            {
-                "name": "Контакт",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "drama"
-        ],
-        "rating": 7900,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert Zemeckis",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1997"
-    },
-    {
-        "names": [
-            {
-                "name": "Monty Python and the Holy Grail",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
-            },
-            {
-                "name": "Монти Пайтон и Священный Грааль",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "rating": 7901,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Terry Gilliam, Terry Jones",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1975"
-    },
-    {
-        "names": [
-            {
-                "name": "The Hitchhiker's Guide to the Galaxy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
-            },
-            {
-                "name": "Автостопом по галактике",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "comedy"
-        ],
-        "rating": 7902,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Garth Jennings",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "2005"
     },
     {
         "names": [
@@ -8904,28 +8972,6 @@
             }
         ],
         "created": "1975"
-    },
-    {
-        "names": [
-            {
-                "name": "Manacled",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 8091,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "SenLinYu",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
     },
     {
         "names": [
