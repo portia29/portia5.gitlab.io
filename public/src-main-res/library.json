@@ -2605,6 +2605,28 @@
     {
         "names": [
             {
+                "name": "Кола Брюньон",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 1000,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ромен Роллан",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Precommitment: Intentionally Limiting Your Future Options",
                 "language": "?"
             }
@@ -2698,7 +2720,7 @@
         "names": [
             {
                 "name": "The Egocentric Bias: Why It’s Hard to See Things from a Different Perspective",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -2721,7 +2743,7 @@
         "names": [
             {
                 "name": "Self-Distancing: What It Is and How You Can Use It to Make Better Decisions",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -2744,7 +2766,7 @@
         "names": [
             {
                 "name": "Война и Мир",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2766,7 +2788,7 @@
         "names": [
             {
                 "name": "Финансист",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2831,29 +2853,6 @@
     {
         "names": [
             {
-                "name": "Masculine Virtues",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1100,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Double Crux — A Strategy for Mutual Understanding",
                 "language": "en"
             }
@@ -2878,7 +2877,7 @@
         "names": [
             {
                 "name": "Золотой жук",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2890,7 +2889,7 @@
                 "names": [
                     {
                         "name": "Эдгар По",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -2900,7 +2899,7 @@
         "names": [
             {
                 "name": "Анна Каренина",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2912,28 +2911,6 @@
                 "names": [
                     {
                         "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Кола Брюньон",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 1200,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ромен Роллан",
                         "language": "ru"
                     }
                 ]
@@ -2966,42 +2943,24 @@
     {
         "names": [
             {
-                "name": "The War of the Worlds",
-                "language": "en"
+                "name": "Флейта",
+                "language": "ru",
+                "link": "https://www.youtube.com/watch?v=69icQwqS2O4"
             }
         ],
         "tags": [
-            "novel"
+            "music",
+            "folk-rock",
+            "russian-music",
+            "youtube"
         ],
-        "rating": 1201,
+        "rating": 1200,
         "authors": [
             {
                 "names": [
                     {
-                        "name": "H. G. Wells",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Invisible Man",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "rating": 1202,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. G. Wells",
-                        "language": "en"
+                        "name": "Ольга Арефьева и Ковчег",
+                        "language": "ru"
                     }
                 ]
             }
@@ -3012,6 +2971,10 @@
             {
                 "name": "Смерть героя",
                 "language": "ru"
+            },
+            {
+                "name": "Death of a Hero",
+                "language": "en"
             }
         ],
         "tags": [
@@ -3024,6 +2987,33 @@
                     {
                         "name": "Ричард Олдингтон",
                         "language": "ru"
+                    },
+                    {
+                        "name": "Richard Aldington",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1205,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Chapman",
+                        "language": "en"
                     }
                 ]
             }
@@ -3094,29 +3084,6 @@
                 "names": [
                     {
                         "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 1210,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Chapman",
                         "language": "en"
                     }
                 ]
@@ -4503,7 +4470,7 @@
         "names": [
             {
                 "name": "Луна и грош",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4525,7 +4492,7 @@
         "names": [
             {
                 "name": "Caliph Stork",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -4547,7 +4514,7 @@
         "names": [
             {
                 "name": "Гойя, или Тяжкий путь познания",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4569,7 +4536,7 @@
         "names": [
             {
                 "name": "99 франков",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4581,7 +4548,7 @@
                 "names": [
                     {
                         "name": "Фредерик Бегбедер",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4591,7 +4558,7 @@
         "names": [
             {
                 "name": "Посещение И. Г. Оберейтом пиявок уничтожающих время",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4639,7 +4606,7 @@
         "names": [
             {
                 "name": "Двенадцать стульев",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4651,7 +4618,7 @@
                 "names": [
                     {
                         "name": "Ильф и Петров",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4661,7 +4628,7 @@
         "names": [
             {
                 "name": "Случай Чарльза Декстера Варда",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4683,7 +4650,7 @@
         "names": [
             {
                 "name": "Овцеглобин",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4705,7 +4672,7 @@
         "names": [
             {
                 "name": "Золотой телёнок",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4717,7 +4684,7 @@
                 "names": [
                     {
                         "name": "Ильф и Петров",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4727,7 +4694,7 @@
         "names": [
             {
                 "name": "Себастиан и тролль",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4739,7 +4706,7 @@
                 "names": [
                     {
                         "name": "Фредрик Бакман",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4749,7 +4716,7 @@
         "names": [
             {
                 "name": "Рассказы о пилоте Пирксе",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4771,7 +4738,7 @@
         "names": [
             {
                 "name": "Норвежский лес",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4783,7 +4750,7 @@
                 "names": [
                     {
                         "name": "Харуки Мураками",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4815,7 +4782,7 @@
         "names": [
             {
                 "name": "Приключения Тома Сойера",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4837,7 +4804,7 @@
         "names": [
             {
                 "name": "Пышка",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4859,7 +4826,7 @@
         "names": [
             {
                 "name": "Приключения Гекльберри Финна",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4903,7 +4870,7 @@
         "names": [
             {
                 "name": "Палата № 6",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4925,7 +4892,7 @@
         "names": [
             {
                 "name": "Ребятки! Выращивайте гигантские грибы у себя в подвалах!",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5035,6 +5002,29 @@
                 "names": [
                     {
                         "name": "Prosper Merimee",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Masculine Virtues",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 3100,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
                         "language": "en"
                     }
                 ]
@@ -6310,32 +6300,6 @@
                     {
                         "name": "Robert Sheckley",
                         "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Флейта",
-                "language": "ru",
-                "link": "https://www.youtube.com/watch?v=69icQwqS2O4"
-            }
-        ],
-        "tags": [
-            "music",
-            "folk-rock",
-            "russian-music",
-            "youtube"
-        ],
-        "rating": 7800,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ольга Арефьева и Ковчег",
-                        "language": "ru"
                     }
                 ]
             }
@@ -9179,6 +9143,50 @@
                 "names": [
                     {
                         "name": "Dai Nguyen, Martin Bajanik",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The War of the Worlds",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8201,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "H. G. Wells",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Invisible Man",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 8202,
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "H. G. Wells",
                         "language": "en"
                     }
                 ]
