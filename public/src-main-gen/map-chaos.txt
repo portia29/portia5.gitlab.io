@@ -1,7 +1,4 @@
-https://portia5.gitlab.io/library1
-https://portia5.gitlab.io/library2
-https://portia5.gitlab.io/library3
-https://portia5.gitlab.io/library4
+https://portia5.gitlab.io/library-preview
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/p1

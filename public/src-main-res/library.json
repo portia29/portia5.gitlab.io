@@ -1,5 +1,11 @@
 [
     {
+        "raw": "Doing. Learning, Khan Academy, 6th grade math, 12%. Reading, “Structure and Interpretation of Computer Programs”, page 119/642. Learning, Lean, Natural Number Game, world 2/9, level 1/5.",
+        "tags": [
+            "raw"
+        ]
+    },
+    {
         "names": [
             {
                 "name": "Münchhausen trilemma",
@@ -10,7 +16,6 @@
         "tags": [
             "epistemology"
         ],
-        "rating": 10,
         "authors": [
             {
                 "names": [
@@ -33,7 +38,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 11,
         "authors": [
             {
                 "names": [
@@ -56,7 +60,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 12,
         "authors": [
             {
                 "names": [
@@ -79,7 +82,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 13,
         "authors": [
             {
                 "names": [
@@ -102,7 +104,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 14,
         "authors": [
             {
                 "names": [
@@ -125,7 +126,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 16,
         "authors": [
             {
                 "names": [
@@ -148,7 +148,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 17,
         "authors": [
             {
                 "names": [
@@ -171,7 +170,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 18,
         "authors": [
             {
                 "names": [
@@ -199,7 +197,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 40,
         "authors": [
             {
                 "names": [
@@ -229,7 +226,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 50,
         "authors": [
             {
                 "names": [
@@ -260,7 +256,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 53,
         "authors": [
             {
                 "names": [
@@ -277,15 +272,15 @@
         ]
     },
     {
+        "comment": "https://www.scottaaronson.com/papers/philos.pdf",
         "names": [
             {
                 "name": "Why Philosophers Should Care About Computational Complexity",
                 "language": "en",
-                "link": "https://www.scottaaronson.com/papers/philos.pdf https://doi.org/10.48550/arXiv.1108.1791"
+                "link": "https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
         "tags": [],
-        "rating": 55,
         "authors": [
             {
                 "names": [
@@ -298,11 +293,11 @@
         ]
     },
     {
+        "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1",
         "names": [
             {
                 "name": "Витгенштейн о правилах и индивидуальном языке",
-                "language": "ru",
-                "comment": "Крипке С. А. Витгенштейн о правилах и индивидуальном языке / Пер. В. А. Ладова, В. А. Суровцева. Под общ. ред. В. А. Суровцева. — Томск: Изд-во Том. ун-та, 2005. — 152 с. — (Библиотека аналитической философии). ISBN 5-7511-1906-1"
+                "language": "ru"
             },
             {
                 "name": "Wittgenstein on Rules and Private Language",
@@ -312,7 +307,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 80,
         "authors": [
             {
                 "names": [
@@ -329,11 +323,11 @@
         ]
     },
     {
+        "comment": "— Эх, Петька, Петька, — сказал Чапаев, — знавал я одного китайского коммуниста по имени Цзе Чжуан. Ему часто снился один сон — что он красная бабочка, летающая среди травы. И когда он просыпался, он часто не мог взять в толк, то ли это бабочке приснилось, что она занимается революционной работой, то ли это подпольщик видел сон, в котором он порхал среди цветов. Так вот, когда этого Цзе Чжуана арестовали в Монголии за саботаж, он на допросе так и сказал, что он на самом деле бабочка, которой все это снится. Поскольку допрашивал его сам барон Юнгерн, а он человек с большим пониманием, следующий вопрос был о том, почему эта бабочка за коммунистов. А он сказал, что она вовсе не за коммунистов. Тогда его спросили, почему в таком случае бабочка занимается подрывной деятельностью. А он ответил, что все, чем занимаются люди, настолько безобразно, что нет никакой разницы, на чьей ты стороне.\n— И что с ним случилось?\n— Ничего. Поставили его к стенке и разбудили.\n— А он?\nЧапаев пожал плечами.\n— Дальше полетел, надо полагать.\n— Понимаю, Василий Иванович, понимаю, — сказал я задумчиво.",
         "names": [
             {
                 "name": "Чапаев и Пустота",
-                "language": "ru",
-                "comment": "— Эх, Петька, Петька, — сказал Чапаев, — знавал я одного китайского коммуниста по имени Цзе Чжуан. Ему часто снился один сон — что он красная бабочка, летающая среди травы. И когда он просыпался, он часто не мог взять в толк, то ли это бабочке приснилось, что она занимается революционной работой, то ли это подпольщик видел сон, в котором он порхал среди цветов. Так вот, когда этого Цзе Чжуана арестовали в Монголии за саботаж, он на допросе так и сказал, что он на самом деле бабочка, которой все это снится. Поскольку допрашивал его сам барон Юнгерн, а он человек с большим пониманием, следующий вопрос был о том, почему эта бабочка за коммунистов. А он сказал, что она вовсе не за коммунистов. Тогда его спросили, почему в таком случае бабочка занимается подрывной деятельностью. А он ответил, что все, чем занимаются люди, настолько безобразно, что нет никакой разницы, на чьей ты стороне.\n— И что с ним случилось?\n— Ничего. Поставили его к стенке и разбудили.\n— А он?\nЧапаев пожал плечами.\n— Дальше полетел, надо полагать.\n— Понимаю, Василий Иванович, понимаю, — сказал я задумчиво."
+                "language": "ru"
             },
             {
                 "name": "Chapayev and Void",
@@ -344,7 +338,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 100,
         "authors": [
             {
                 "names": [
@@ -375,7 +368,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 110,
         "authors": [
             {
                 "names": [
@@ -399,7 +391,6 @@
             }
         ],
         "tags": [],
-        "rating": 250,
         "authors": [
             {
                 "names": [
@@ -423,7 +414,6 @@
             "essay",
             "fiction"
         ],
-        "rating": 255,
         "authors": [
             {
                 "names": [
@@ -447,7 +437,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 260,
         "authors": [
             {
                 "names": [
@@ -460,12 +449,12 @@
         ]
     },
     {
+        "comment": "First encounter date 2026-05-02 / Expanded title: Chattel Childhood | and the way we treat children as property / Пример племени Simbari в котором всех мальчиков в возрасте 7 лет насильно забирали у матерей, подвергали ритуалам вроде втыкания в нос палки для того, чтобы началось кровотечение, а потом эти допубертатные мальчики в течении 3 лет должны были регулярно делать минеты мальчикам пубертатного возраста. Ещё есть идея о том, что травма это не столько о силе насилия или о том, сексуальное это насилие или нет, сколько о нарушении агентности, когда человека заставляют что-то делать против его воли. Что можно представить будущее, в котором принуждать детей просыпаться утром в школу будет восприниматься как что-то столь же неприемлимое как с точки зрения нашей культуры неприемлимы ритуалы Simbari.",
         "names": [
             {
                 "name": "Chattel Childhood",
                 "language": "en",
-                "link": "https://aella.substack.com/p/chattel-childhood",
-                "comment": "First encounter date 2026-05-02 / Expanded title: Chattel Childhood | and the way we treat children as property / Пример племени Simbari в котором всех мальчиков в возрасте 7 лет насильно забирали у матерей, подвергали ритуалам вроде втыкания в нос палки для того, чтобы началось кровотечение, а потом эти допубертатные мальчики в течении 3 лет должны были регулярно делать минеты мальчикам пубертатного возраста. Ещё есть идея о том, что травма это не столько о силе насилия или о том, сексуальное это насилие или нет, сколько о нарушении агентности, когда человека заставляют что-то делать против его воли. Что можно представить будущее, в котором принуждать детей просыпаться утром в школу будет восприниматься как что-то столь же неприемлимое как с точки зрения нашей культуры неприемлимы ритуалы Simbari."
+                "link": "https://aella.substack.com/p/chattel-childhood"
             }
         ],
         "tags": [
@@ -476,7 +465,6 @@
             "anthropology",
             "blogging"
         ],
-        "rating": 270,
         "authors": [
             {
                 "names": [
@@ -489,23 +477,46 @@
         ]
     },
     {
+        "comment": "Sam Hughes | https://scpfoundation.net/antimemetics-division-hub | https://scpfoundation.net/we-need-to-talk-about-fifty-five | https://scpfoundation.net/introductory-antimemetics | https://scpfoundation.net/unforgettable-that-s-what-you-are | https://scpfoundation.net/case-colourless-green | https://scpfoundation.net/your-last-first-day | https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five https://scp-wiki.wikidot.com/introductory-antimemetics",
         "names": [
             {
                 "name": "There Is No Antimemetics Division",
-                "language": "en",
-                "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+                "language": "en"
             }
         ],
         "tags": [
             "blogging",
             "fiction"
         ],
-        "rating": 290,
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Sam Hughes",
+                        "name": "qntm",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Lena",
+                "language": "en",
+                "link": "https://qntm.org/mmacevedo"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "qntm",
                         "language": "en"
                     }
                 ]
@@ -527,7 +538,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 292,
         "authors": [
             {
                 "names": [
@@ -558,7 +568,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 294,
         "authors": [
             {
                 "names": [
@@ -594,7 +603,6 @@
             "perception",
             "technology"
         ],
-        "rating": 295,
         "authors": [
             {
                 "names": [
@@ -621,7 +629,6 @@
             "nouvelle",
             "fiction"
         ],
-        "rating": 296,
         "authors": [
             {
                 "names": [
@@ -649,7 +656,6 @@
             "essay",
             "entertaining"
         ],
-        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -676,7 +682,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -707,7 +712,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 300,
         "authors": [
             {
                 "names": [
@@ -736,7 +740,6 @@
             "essay",
             "fiction"
         ],
-        "rating": 320,
         "authors": [
             {
                 "names": [
@@ -764,7 +767,6 @@
             "novel",
             "fiction"
         ],
-        "rating": 350,
         "authors": [
             {
                 "names": [
@@ -795,7 +797,6 @@
             "nouvelle",
             "fiction"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -826,7 +827,6 @@
             "nouvelle",
             "fiction"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -853,7 +853,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -876,7 +875,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -903,7 +901,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -930,7 +927,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -953,7 +949,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -980,7 +975,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 400,
         "authors": [
             {
                 "names": [
@@ -993,11 +987,11 @@
         ]
     },
     {
+        "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5",
         "names": [
             {
                 "name": "Coding Machines",
-                "language": "en",
-                "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
+                "language": "en"
             }
         ],
         "tags": [
@@ -1006,7 +1000,6 @@
             "entertaining",
             "fiction"
         ],
-        "rating": 430,
         "authors": [
             {
                 "names": [
@@ -1032,7 +1025,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 460,
         "authors": [
             {
                 "names": [
@@ -1059,7 +1051,6 @@
         "tags": [
             "manga"
         ],
-        "rating": 480,
         "authors": [
             {
                 "names": [
@@ -1086,7 +1077,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 490,
         "authors": [
             {
                 "names": [
@@ -1108,8 +1098,7 @@
         "tags": [
             "raw",
             "academic"
-        ],
-        "rating": 490
+        ]
     },
     {
         "raw": "\"Pale Blue Dot\", the photograph itself and commentary by Carl Sagan.",
@@ -1117,10 +1106,10 @@
         "tags": [
             "raw",
             "wikipedia"
-        ],
-        "rating": 490
+        ]
     },
     {
+        "comment": "Pulitzer Prize winner 1978",
         "names": [
             {
                 "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
@@ -1129,14 +1118,12 @@
             {
                 "name": "The Dragons of Eden: Speculations on the Evolution of Human Intelligence",
                 "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Dragons_of_Eden",
-                "comment": "Pulitzer Prize winner 1978"
+                "link": "https://en.wikipedia.org/wiki/The_Dragons_of_Eden"
             }
         ],
         "tags": [
             "novel"
         ],
-        "rating": 530,
         "authors": [
             {
                 "names": [
@@ -1163,7 +1150,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 534,
         "authors": [
             {
                 "names": [
@@ -1186,7 +1172,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 535,
         "authors": [
             {
                 "names": [
@@ -1209,7 +1194,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 536,
         "authors": [
             {
                 "names": [
@@ -1232,7 +1216,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 537,
         "authors": [
             {
                 "names": [
@@ -1255,7 +1238,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 538,
         "authors": [
             {
                 "names": [
@@ -1278,7 +1260,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 539,
         "authors": [
             {
                 "names": [
@@ -1301,7 +1282,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 541,
         "authors": [
             {
                 "names": [
@@ -1314,17 +1294,16 @@
         ]
     },
     {
+        "comment": "2025, апрель, 20, воскресенье",
         "names": [
             {
                 "name": "Want: Sexual Fantasies by Anonymous",
-                "language": "en",
-                "comment": "2025, апрель, 20, воскресенье"
+                "language": "en"
             }
         ],
         "tags": [
             "novel"
         ],
-        "rating": 560,
         "authors": [
             {
                 "names": [
@@ -1337,11 +1316,11 @@
         ]
     },
     {
+        "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05.",
         "names": [
             {
                 "name": "Москва - Петушки. С комментариями Эдуарда Власова",
-                "language": "ru",
-                "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05."
+                "language": "ru"
             },
             {
                 "name": "Moscow-Petushki",
@@ -1352,7 +1331,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1386,7 +1364,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1412,7 +1389,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1434,7 +1410,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 600,
         "authors": [
             {
                 "names": [
@@ -1456,7 +1431,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1478,7 +1452,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 700,
         "authors": [
             {
                 "names": [
@@ -1500,7 +1473,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 701,
         "authors": [
             {
                 "names": [
@@ -1527,7 +1499,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 742,
         "authors": [
             {
                 "names": [
@@ -1551,7 +1522,6 @@
             "essay",
             "rationality"
         ],
-        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1574,7 +1544,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1598,7 +1567,6 @@
             "essay",
             "rationality"
         ],
-        "rating": 750,
         "authors": [
             {
                 "names": [
@@ -1615,14 +1583,13 @@
             {
                 "name": "When Your Child Is a Psychopath",
                 "language": "en",
-                "comment": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
+                "link": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
             }
         ],
         "tags": [
             "blogging",
             "essay"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1644,7 +1611,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1670,7 +1636,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1691,13 +1656,12 @@
             {
                 "name": "Настя",
                 "language": "ru",
-                "comment": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7) Дочитано 2024-06-21."
+                "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7) Дочитано 2024-06-21."
             }
         ],
         "tags": [
             "nouvelle"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1713,13 +1677,12 @@
         "names": [
             {
                 "name": "Mother of Learning",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
             "novel"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1735,13 +1698,12 @@
         "names": [
             {
                 "name": "Любовь к жизни",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
             "nouvelle"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1764,7 +1726,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 800,
         "authors": [
             {
                 "names": [
@@ -1791,7 +1752,6 @@
             "nouvelle",
             "fiction"
         ],
-        "rating": 890,
         "authors": [
             {
                 "names": [
@@ -1817,7 +1777,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1840,7 +1799,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1866,7 +1824,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1883,6 +1840,7 @@
         ]
     },
     {
+        "comment": "О том, как актёры могут повлиять на процесс написания пьесы, и что из этого может получиться. Леон Лоран великолепный актёр, только вот, создавая для него пьесу, Кристиан и понятия не имел, что Леону крайне важно, чтобы в ней была роль и для его любовницы - Элен Мессьер.",
         "names": [
             {
                 "name": "Миррина",
@@ -1896,7 +1854,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1913,17 +1870,17 @@
         ]
     },
     {
+        "comment": "Дочитано 2024-10-03.",
         "names": [
             {
                 "name": "Проверка на реальность",
                 "language": "ru",
-                "comment": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/ Дочитано 2024-10-03."
+                "link": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/"
             }
         ],
         "tags": [
             "novel"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1945,7 +1902,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1972,7 +1928,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -1989,7 +1944,7 @@
             {
                 "name": "Keep Your Identity Small",
                 "language": "en",
-                "comment": "https://www.paulgraham.com/identity.html"
+                "link": "https://www.paulgraham.com/identity.html"
             }
         ],
         "tags": [
@@ -1997,7 +1952,6 @@
             "essay",
             "entertaining"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2023,7 +1977,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2053,7 +2006,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2079,7 +2031,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 900,
         "authors": [
             {
                 "names": [
@@ -2102,61 +2053,11 @@
             "blogging",
             "essay"
         ],
-        "rating": 950,
         "authors": [
             {
                 "names": [
                     {
                         "name": "Nick Bostrom",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "If You Are Reading This",
-                "language": "en",
-                "comment": "https://qntm.org/readin"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 970,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sam Hughes",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Lena",
-                "language": "?",
-                "comment": "https://qntm.org/mmacevedo"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 975,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sam Hughes",
                         "language": "en"
                     }
                 ]
@@ -2177,7 +2078,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 980,
         "authors": [
             {
                 "names": [
@@ -2196,30 +2096,6 @@
     {
         "names": [
             {
-                "name": "We Need To Talk About Fifty-Five",
-                "language": "en",
-                "comment": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "rating": 980,
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sam Hughes",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Современные операционные системы",
                 "language": "ru"
             },
@@ -2229,7 +2105,6 @@
             }
         ],
         "tags": [],
-        "rating": 980,
         "authors": [
             {
                 "names": [
@@ -2262,7 +2137,6 @@
             "trauma",
             "blogging"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2286,7 +2160,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2312,7 +2185,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2334,7 +2206,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2356,7 +2227,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2379,7 +2249,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2401,7 +2270,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2430,7 +2298,6 @@
             "historical-fiction",
             "burgundy"
         ],
-        "rating": 1000,
         "authors": [
             {
                 "names": [
@@ -2457,7 +2324,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1040,
         "authors": [
             {
                 "names": [
@@ -2480,7 +2346,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1050,
         "authors": [
             {
                 "names": [
@@ -2503,7 +2368,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1060,
         "authors": [
             {
                 "names": [
@@ -2526,7 +2390,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1060,
         "authors": [
             {
                 "names": [
@@ -2549,7 +2412,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1061,
         "authors": [
             {
                 "names": [
@@ -2572,7 +2434,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1062,
         "authors": [
             {
                 "names": [
@@ -2595,7 +2456,6 @@
         "tags": [
             "short story"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2617,7 +2477,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2639,7 +2498,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2661,7 +2519,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2683,7 +2540,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2706,7 +2562,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1100,
         "authors": [
             {
                 "names": [
@@ -2719,12 +2574,11 @@
         ]
     },
     {
-        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Red Alert 2. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Terraria. Minecraft. RimWorld. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, \"Destroyed the World in Less than a Second\".",
+        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Terraria. Minecraft. RimWorld. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, Destroyed the World in Less than a Second. Red Alert 2.",
         "comment": "[Minecraft, RimWorld - не играл, но нравилось смотреть видео чужих игр.]",
         "tags": [
             "raw"
-        ],
-        "rating": 1100
+        ]
     },
     {
         "names": [
@@ -2736,7 +2590,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2758,7 +2611,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2781,7 +2633,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2807,7 +2658,6 @@
             "russian-music",
             "youtube"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2829,7 +2679,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2859,7 +2708,6 @@
             "fiction",
             "expatriate-literature"
         ],
-        "rating": 1200,
         "authors": [
             {
                 "names": [
@@ -2889,7 +2737,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1204,
         "authors": [
             {
                 "names": [
@@ -2916,7 +2763,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1205,
         "authors": [
             {
                 "names": [
@@ -2938,7 +2784,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1206,
         "authors": [
             {
                 "names": [
@@ -2960,7 +2805,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1208,
         "authors": [
             {
                 "names": [
@@ -2987,7 +2831,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1260,
         "authors": [
             {
                 "names": [
@@ -3010,7 +2853,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1340,
         "authors": [
             {
                 "names": [
@@ -3033,7 +2875,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1360,
         "authors": [
             {
                 "names": [
@@ -3056,7 +2897,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1361,
         "authors": [
             {
                 "names": [
@@ -3084,7 +2924,6 @@
             "military",
             "supernatural"
         ],
-        "rating": 1362,
         "authors": [
             {
                 "names": [
@@ -3107,7 +2946,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1380,
         "authors": [
             {
                 "names": [
@@ -3135,7 +2973,6 @@
             "slice-of-life",
             "seinen"
         ],
-        "rating": 1390,
         "authors": [
             {
                 "names": [
@@ -3164,7 +3001,6 @@
             "drama",
             "gore"
         ],
-        "rating": 1390,
         "authors": [
             {
                 "names": [
@@ -3192,7 +3028,6 @@
             "action",
             "cyberpunk"
         ],
-        "rating": 1390,
         "authors": [
             {
                 "names": [
@@ -3221,7 +3056,6 @@
             "action",
             "fantasy"
         ],
-        "rating": 1391,
         "authors": [
             {
                 "names": [
@@ -3249,7 +3083,6 @@
             "seinen",
             "action"
         ],
-        "rating": 1392,
         "authors": [
             {
                 "names": [
@@ -3272,7 +3105,6 @@
             "nouvelle",
             "fiction"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3298,7 +3130,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3320,7 +3151,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3347,7 +3177,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3370,7 +3199,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3392,7 +3220,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1400,
         "authors": [
             {
                 "names": [
@@ -3415,7 +3242,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1420,
         "authors": [
             {
                 "names": [
@@ -3438,7 +3264,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1420,
         "authors": [
             {
                 "names": [
@@ -3461,7 +3286,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1440,
         "authors": [
             {
                 "names": [
@@ -3484,7 +3308,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1440,
         "authors": [
             {
                 "names": [
@@ -3507,7 +3330,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1460,
         "authors": [
             {
                 "names": [
@@ -3530,7 +3352,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1480,
         "authors": [
             {
                 "names": [
@@ -3553,7 +3374,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3576,7 +3396,6 @@
         "tags": [
             "math"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3598,7 +3417,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3624,7 +3442,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3646,7 +3463,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3669,7 +3485,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1500,
         "authors": [
             {
                 "names": [
@@ -3692,7 +3507,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1520,
         "authors": [
             {
                 "names": [
@@ -3715,7 +3529,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1540,
         "authors": [
             {
                 "names": [
@@ -3738,7 +3551,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1540,
         "authors": [
             {
                 "names": [
@@ -3761,7 +3573,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1560,
         "authors": [
             {
                 "names": [
@@ -3784,7 +3595,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1580,
         "authors": [
             {
                 "names": [
@@ -3807,7 +3617,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1580,
         "authors": [
             {
                 "names": [
@@ -3830,7 +3639,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3852,7 +3660,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3878,7 +3685,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3900,7 +3706,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3922,7 +3727,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3945,7 +3749,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3968,7 +3771,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1600,
         "authors": [
             {
                 "names": [
@@ -3992,7 +3794,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1620,
         "authors": [
             {
                 "names": [
@@ -4012,7 +3813,6 @@
             }
         ],
         "tags": [],
-        "rating": 1640,
         "authors": [
             {
                 "names": [
@@ -4038,7 +3838,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1680,
         "authors": [
             {
                 "names": [
@@ -4065,7 +3864,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 1680,
         "authors": [
             {
                 "names": [
@@ -4087,7 +3885,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4109,7 +3906,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4135,7 +3931,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4157,7 +3952,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1700,
         "authors": [
             {
                 "names": [
@@ -4180,7 +3974,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1710,
         "authors": [
             {
                 "names": [
@@ -4203,7 +3996,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1750,
         "authors": [
             {
                 "names": [
@@ -4225,7 +4017,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4251,7 +4042,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4273,7 +4063,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1800,
         "authors": [
             {
                 "names": [
@@ -4289,8 +4078,7 @@
         "raw": "Programming. Git. Kotlin. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Time-of-check to time-of-use.",
         "tags": [
             "raw"
-        ],
-        "rating": 1800
+        ]
     },
     {
         "names": [
@@ -4302,7 +4090,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4324,7 +4111,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4346,7 +4132,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4368,7 +4153,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4392,7 +4176,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1900,
         "authors": [
             {
                 "names": [
@@ -4420,7 +4203,6 @@
             "film",
             "comedy"
         ],
-        "rating": 1901,
         "authors": [
             {
                 "names": [
@@ -4450,7 +4232,6 @@
             "science fiction",
             "comedy"
         ],
-        "rating": 1902,
         "authors": [
             {
                 "names": [
@@ -4467,8 +4248,7 @@
         "raw": "Francisco Goya: Los caprichos",
         "tags": [
             "raw"
-        ],
-        "rating": 1910
+        ]
     },
     {
         "names": [
@@ -4482,7 +4262,6 @@
             "essay",
             "rationality"
         ],
-        "rating": 1950,
         "authors": [
             {
                 "names": [
@@ -4505,7 +4284,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 1950,
         "authors": [
             {
                 "names": [
@@ -4527,7 +4305,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2000,
         "authors": [
             {
                 "names": [
@@ -4549,7 +4326,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2000,
         "authors": [
             {
                 "names": [
@@ -4570,7 +4346,6 @@
             }
         ],
         "tags": [],
-        "rating": 2000,
         "authors": [
             {
                 "names": [
@@ -4592,7 +4367,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2100,
         "authors": [
             {
                 "names": [
@@ -4614,13 +4388,35 @@
         "tags": [
             "novel"
         ],
-        "rating": 2100,
         "authors": [
             {
                 "names": [
                     {
                         "name": "Сомерсет Моэм",
                         "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "If You Are Reading This",
+                "language": "en",
+                "link": "https://qntm.org/readin"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "qntm",
+                        "language": "en"
                     }
                 ]
             }
@@ -4636,7 +4432,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2100,
         "authors": [
             {
                 "names": [
@@ -4658,7 +4453,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4680,7 +4474,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4702,7 +4495,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4724,7 +4516,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2200,
         "authors": [
             {
                 "names": [
@@ -4750,7 +4541,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4772,7 +4562,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4794,7 +4583,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2300,
         "authors": [
             {
                 "names": [
@@ -4816,7 +4604,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4838,7 +4625,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4860,7 +4646,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2400,
         "authors": [
             {
                 "names": [
@@ -4882,7 +4667,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2500,
         "authors": [
             {
                 "names": [
@@ -4904,7 +4688,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2500,
         "authors": [
             {
                 "names": [
@@ -4926,7 +4709,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2600,
         "authors": [
             {
                 "names": [
@@ -4948,7 +4730,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2600,
         "authors": [
             {
                 "names": [
@@ -4970,7 +4751,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2700,
         "authors": [
             {
                 "names": [
@@ -4992,7 +4772,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2700,
         "authors": [
             {
                 "names": [
@@ -5016,7 +4795,6 @@
             "essay",
             "rationality"
         ],
-        "rating": 2750,
         "authors": [
             {
                 "names": [
@@ -5038,7 +4816,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2800,
         "authors": [
             {
                 "names": [
@@ -5060,7 +4837,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 2800,
         "authors": [
             {
                 "names": [
@@ -5086,7 +4862,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 2900,
         "authors": [
             {
                 "names": [
@@ -5115,7 +4890,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 2900,
         "authors": [
             {
                 "names": [
@@ -5140,7 +4914,6 @@
             }
         ],
         "tags": [],
-        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -5166,7 +4939,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -5188,7 +4960,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 3000,
         "authors": [
             {
                 "names": [
@@ -5211,7 +4982,6 @@
             "blogging",
             "essay"
         ],
-        "rating": 3100,
         "authors": [
             {
                 "names": [
@@ -5233,7 +5003,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3100,
         "authors": [
             {
                 "names": [
@@ -5255,7 +5024,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 3100,
         "authors": [
             {
                 "names": [
@@ -5281,7 +5049,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3200,
         "authors": [
             {
                 "names": [
@@ -5303,7 +5070,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3300,
         "authors": [
             {
                 "names": [
@@ -5325,7 +5091,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3400,
         "authors": [
             {
                 "names": [
@@ -5347,7 +5112,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3500,
         "authors": [
             {
                 "names": [
@@ -5369,7 +5133,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3600,
         "authors": [
             {
                 "names": [
@@ -5391,7 +5154,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3700,
         "authors": [
             {
                 "names": [
@@ -5413,7 +5175,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3750,
         "authors": [
             {
                 "names": [
@@ -5439,7 +5200,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3800,
         "authors": [
             {
                 "names": [
@@ -5461,7 +5221,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 3900,
         "authors": [
             {
                 "names": [
@@ -5484,7 +5243,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 3910,
         "authors": [
             {
                 "names": [
@@ -5507,7 +5265,6 @@
         "tags": [
             "concept"
         ],
-        "rating": 3911,
         "authors": [
             {
                 "names": [
@@ -5529,7 +5286,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4000,
         "authors": [
             {
                 "names": [
@@ -5555,7 +5311,6 @@
         "tags": [
             "short story"
         ],
-        "rating": 4000,
         "authors": [
             {
                 "names": [
@@ -5581,7 +5336,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4100,
         "authors": [
             {
                 "names": [
@@ -5603,7 +5357,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4200,
         "authors": [
             {
                 "names": [
@@ -5625,7 +5378,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4300,
         "authors": [
             {
                 "names": [
@@ -5647,7 +5399,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4400,
         "authors": [
             {
                 "names": [
@@ -5669,7 +5420,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4500,
         "authors": [
             {
                 "names": [
@@ -5692,7 +5442,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 4500,
         "authors": [
             {
                 "names": [
@@ -5714,7 +5463,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4600,
         "authors": [
             {
                 "names": [
@@ -5736,7 +5484,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4700,
         "authors": [
             {
                 "names": [
@@ -5758,7 +5505,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4800,
         "authors": [
             {
                 "names": [
@@ -5780,7 +5526,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 4900,
         "authors": [
             {
                 "names": [
@@ -5802,7 +5547,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5000,
         "authors": [
             {
                 "names": [
@@ -5824,7 +5568,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5000,
         "authors": [
             {
                 "names": [
@@ -5841,8 +5584,7 @@
         "comment": "[Dwarf Fortress - не играл, но почитать о ней было интересно.]",
         "tags": [
             "raw"
-        ],
-        "rating": 5100
+        ]
     },
     {
         "names": [
@@ -5854,7 +5596,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5100,
         "authors": [
             {
                 "names": [
@@ -5876,7 +5617,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5200,
         "authors": [
             {
                 "names": [
@@ -5904,7 +5644,6 @@
             "philosophy",
             "blogging"
         ],
-        "rating": 5230,
         "authors": [
             {
                 "names": [
@@ -5926,7 +5665,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5300,
         "authors": [
             {
                 "names": [
@@ -5947,7 +5685,6 @@
             }
         ],
         "tags": [],
-        "rating": 5400,
         "authors": [
             {
                 "names": [
@@ -5969,7 +5706,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5400,
         "authors": [
             {
                 "names": [
@@ -5991,7 +5727,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5500,
         "authors": [
             {
                 "names": [
@@ -6013,7 +5748,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5600,
         "authors": [
             {
                 "names": [
@@ -6035,7 +5769,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5700,
         "authors": [
             {
                 "names": [
@@ -6057,7 +5790,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5800,
         "authors": [
             {
                 "names": [
@@ -6079,7 +5811,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 5900,
         "authors": [
             {
                 "names": [
@@ -6101,7 +5832,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6000,
         "authors": [
             {
                 "names": [
@@ -6123,7 +5853,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6100,
         "authors": [
             {
                 "names": [
@@ -6145,7 +5874,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6300,
         "authors": [
             {
                 "names": [
@@ -6167,7 +5895,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6600,
         "authors": [
             {
                 "names": [
@@ -6193,7 +5920,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6700,
         "authors": [
             {
                 "names": [
@@ -6219,7 +5945,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6800,
         "authors": [
             {
                 "names": [
@@ -6245,7 +5970,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 6900,
         "authors": [
             {
                 "names": [
@@ -6266,8 +5990,7 @@
         "comment": "First encounter date 2026-05-05 / 1980 by Raymond M. Smullyan. Published by Prentice-Hall, Inc., Englewood Cliffs, N J. https://web.ics.purdue.edu/~drkelly/SmullyanUnfortunateDualist1980.pdf https://x.com/psychiel/status/2051228666030338272",
         "tags": [
             "raw"
-        ],
-        "rating": 7000
+        ]
     },
     {
         "names": [
@@ -6283,7 +6006,6 @@
         "tags": [
             "short story"
         ],
-        "rating": 7000,
         "authors": [
             {
                 "names": [
@@ -6296,6 +6018,68 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Cube_Zero | 2004. Prequel showing the operators behind the Cube.",
+        "names": [
+            {
+                "name": "Cube Zero",
+                "language": "en"
+            },
+            {
+                "name": "Куб Ноль",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "horror",
+            "thriller",
+            "prequel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ernie Barbarash",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2004"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Cube_2:_Hypercube | 2002. Sequel featuring a four-dimensional hypercube.",
+        "names": [
+            {
+                "name": "Cube 2: Hypercube",
+                "language": "en"
+            },
+            {
+                "name": "Куб 2: Гиперкуб",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "horror",
+            "thriller",
+            "puzzle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Andrzej Sekula",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2002"
+    },
+    {
         "names": [
             {
                 "name": "Жёлтая стрела",
@@ -6305,7 +6089,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7300,
         "authors": [
             {
                 "names": [
@@ -6337,7 +6120,6 @@
             "essay",
             "blogging"
         ],
-        "rating": 7340,
         "authors": [
             {
                 "names": [
@@ -6363,7 +6145,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7400,
         "authors": [
             {
                 "names": [
@@ -6385,7 +6166,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7400,
         "authors": [
             {
                 "names": [
@@ -6417,7 +6197,6 @@
             "ritual",
             "wikipedia"
         ],
-        "rating": 7500,
         "authors": [
             {
                 "names": [
@@ -6446,7 +6225,6 @@
             "transformation",
             "mutation"
         ],
-        "rating": 7500,
         "authors": [
             {
                 "names": [
@@ -6472,7 +6250,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7800,
         "authors": [
             {
                 "names": [
@@ -6498,7 +6275,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7800,
         "authors": [
             {
                 "names": [
@@ -6515,6 +6291,37 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Cube_(1997_film) | 1997. Strangers trapped in a deadly cube-shaped maze.",
+        "names": [
+            {
+                "name": "Cube",
+                "language": "en"
+            },
+            {
+                "name": "Куб",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "horror",
+            "thriller",
+            "puzzle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vincenzo Natali",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1997"
+    },
+    {
         "names": [
             {
                 "name": "Little Muck",
@@ -6524,7 +6331,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 7890,
         "authors": [
             {
                 "names": [
@@ -6546,7 +6352,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7890,
         "authors": [
             {
                 "names": [
@@ -6572,7 +6377,6 @@
             "space-western",
             "action"
         ],
-        "rating": 7895,
         "authors": [
             {
                 "names": [
@@ -6595,7 +6399,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 7900,
         "authors": [
             {
                 "names": [
@@ -6610,6 +6413,37 @@
                 ]
             }
         ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Hobbit:_The_Battle_of_the_Five_Armies | 2014. Part 3. Epic battle for Middle-earth's future.",
+        "names": [
+            {
+                "name": "The Hobbit: The Battle of the Five Armies",
+                "language": "en"
+            },
+            {
+                "name": "Хоббит: Битва пяти воинств",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part",
+            "war"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2014"
     },
     {
         "names": [
@@ -6628,7 +6462,6 @@
             "drama",
             "comedy"
         ],
-        "rating": 7903,
         "authors": [
             {
                 "names": [
@@ -6658,7 +6491,6 @@
             "science fiction",
             "black comedy"
         ],
-        "rating": 7904,
         "authors": [
             {
                 "names": [
@@ -6688,7 +6520,6 @@
             "science fiction",
             "psychological thriller"
         ],
-        "rating": 7905,
         "authors": [
             {
                 "names": [
@@ -6718,7 +6549,6 @@
             "western",
             "drama"
         ],
-        "rating": 7906,
         "authors": [
             {
                 "names": [
@@ -6748,7 +6578,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 7907,
         "authors": [
             {
                 "names": [
@@ -6774,7 +6603,6 @@
             "black comedy",
             "political satire"
         ],
-        "rating": 7908,
         "authors": [
             {
                 "names": [
@@ -6804,7 +6632,6 @@
             "black comedy",
             "satire"
         ],
-        "rating": 7909,
         "authors": [
             {
                 "names": [
@@ -6835,7 +6662,6 @@
             "action",
             "science fiction"
         ],
-        "rating": 7910,
         "authors": [
             {
                 "names": [
@@ -6865,7 +6691,6 @@
             "science fiction",
             "comedy"
         ],
-        "rating": 7911,
         "authors": [
             {
                 "names": [
@@ -6895,7 +6720,6 @@
             "thriller",
             "action"
         ],
-        "rating": 7912,
         "authors": [
             {
                 "names": [
@@ -6924,7 +6748,6 @@
             "film",
             "drama"
         ],
-        "rating": 7913,
         "authors": [
             {
                 "names": [
@@ -6954,7 +6777,6 @@
             "science fiction",
             "neo-noir"
         ],
-        "rating": 7914,
         "authors": [
             {
                 "names": [
@@ -6984,7 +6806,6 @@
             "action",
             "dystopian"
         ],
-        "rating": 7915,
         "authors": [
             {
                 "names": [
@@ -7014,7 +6835,6 @@
             "comedy",
             "drama"
         ],
-        "rating": 7916,
         "authors": [
             {
                 "names": [
@@ -7040,7 +6860,6 @@
             "crime",
             "drama"
         ],
-        "rating": 7917,
         "authors": [
             {
                 "names": [
@@ -7070,7 +6889,6 @@
             "psychological thriller",
             "crime"
         ],
-        "rating": 7918,
         "authors": [
             {
                 "names": [
@@ -7100,7 +6918,6 @@
             "psychological thriller",
             "crime"
         ],
-        "rating": 7919,
         "authors": [
             {
                 "names": [
@@ -7130,7 +6947,6 @@
             "drama",
             "historical"
         ],
-        "rating": 7920,
         "authors": [
             {
                 "names": [
@@ -7160,7 +6976,6 @@
             "drama",
             "crime"
         ],
-        "rating": 7921,
         "authors": [
             {
                 "names": [
@@ -7189,7 +7004,6 @@
             "film",
             "drama"
         ],
-        "rating": 7922,
         "authors": [
             {
                 "names": [
@@ -7218,7 +7032,6 @@
             "film",
             "romantic comedy"
         ],
-        "rating": 7923,
         "authors": [
             {
                 "names": [
@@ -7248,7 +7061,6 @@
             "fantasy",
             "romantic comedy"
         ],
-        "rating": 7924,
         "authors": [
             {
                 "names": [
@@ -7278,7 +7090,6 @@
             "drama",
             "romance"
         ],
-        "rating": 7925,
         "authors": [
             {
                 "names": [
@@ -7308,7 +7119,6 @@
             "drama",
             "war"
         ],
-        "rating": 7926,
         "authors": [
             {
                 "names": [
@@ -7338,7 +7148,6 @@
             "comedy",
             "crime"
         ],
-        "rating": 7927,
         "authors": [
             {
                 "names": [
@@ -7364,7 +7173,6 @@
             "action",
             "science fiction"
         ],
-        "rating": 7928,
         "authors": [
             {
                 "names": [
@@ -7390,7 +7198,6 @@
             "action",
             "comedy"
         ],
-        "rating": 7929,
         "authors": [
             {
                 "names": [
@@ -7420,7 +7227,6 @@
             "romantic comedy",
             "drama"
         ],
-        "rating": 7930,
         "authors": [
             {
                 "names": [
@@ -7450,7 +7256,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 7931,
         "authors": [
             {
                 "names": [
@@ -7480,7 +7285,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 7932,
         "authors": [
             {
                 "names": [
@@ -7510,7 +7314,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 7933,
         "authors": [
             {
                 "names": [
@@ -7540,7 +7343,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 7934,
         "authors": [
             {
                 "names": [
@@ -7570,7 +7372,6 @@
             "drama",
             "fantasy"
         ],
-        "rating": 7935,
         "authors": [
             {
                 "names": [
@@ -7596,7 +7397,6 @@
             "drama",
             "satire"
         ],
-        "rating": 7936,
         "authors": [
             {
                 "names": [
@@ -7626,7 +7426,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 7937,
         "authors": [
             {
                 "names": [
@@ -7656,7 +7455,6 @@
             "black comedy",
             "drama"
         ],
-        "rating": 7938,
         "authors": [
             {
                 "names": [
@@ -7686,7 +7484,6 @@
             "adventure",
             "comedy"
         ],
-        "rating": 7939,
         "authors": [
             {
                 "names": [
@@ -7716,7 +7513,6 @@
             "drama",
             "black comedy"
         ],
-        "rating": 7940,
         "authors": [
             {
                 "names": [
@@ -7742,7 +7538,6 @@
             "psychological thriller",
             "drama"
         ],
-        "rating": 7941,
         "authors": [
             {
                 "names": [
@@ -7772,7 +7567,6 @@
             "fantasy",
             "drama"
         ],
-        "rating": 7942,
         "authors": [
             {
                 "names": [
@@ -7802,7 +7596,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 7943,
         "authors": [
             {
                 "names": [
@@ -7828,7 +7621,6 @@
             "psychological horror",
             "drama"
         ],
-        "rating": 7944,
         "authors": [
             {
                 "names": [
@@ -7857,7 +7649,6 @@
             "film",
             "romantic comedy"
         ],
-        "rating": 7946,
         "authors": [
             {
                 "names": [
@@ -7887,7 +7678,6 @@
             "action",
             "science fiction"
         ],
-        "rating": 7947,
         "authors": [
             {
                 "names": [
@@ -7917,7 +7707,6 @@
             "science fiction",
             "horror"
         ],
-        "rating": 7948,
         "authors": [
             {
                 "names": [
@@ -7943,7 +7732,6 @@
             "thriller",
             "mystery"
         ],
-        "rating": 7949,
         "authors": [
             {
                 "names": [
@@ -7973,7 +7761,6 @@
             "science fiction",
             "thriller"
         ],
-        "rating": 7950,
         "authors": [
             {
                 "names": [
@@ -8003,7 +7790,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 7951,
         "authors": [
             {
                 "names": [
@@ -8033,7 +7819,6 @@
             "science fiction",
             "horror"
         ],
-        "rating": 7952,
         "authors": [
             {
                 "names": [
@@ -8064,7 +7849,6 @@
             "action",
             "horror"
         ],
-        "rating": 7957,
         "authors": [
             {
                 "names": [
@@ -8083,10 +7867,6 @@
                 "name": "Battle Royale",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Battle_Royale_(film)"
-            },
-            {
-                "name": "Batoru rowaiaru",
-                "language": "en"
             }
         ],
         "tags": [
@@ -8094,7 +7874,6 @@
             "action",
             "thriller"
         ],
-        "rating": 7958,
         "authors": [
             {
                 "names": [
@@ -8124,7 +7903,6 @@
             "horror",
             "thriller"
         ],
-        "rating": 7959,
         "authors": [
             {
                 "names": [
@@ -8154,7 +7932,6 @@
             "horror",
             "thriller"
         ],
-        "rating": 7960,
         "authors": [
             {
                 "names": [
@@ -8184,7 +7961,6 @@
             "black comedy",
             "drama"
         ],
-        "rating": 7961,
         "authors": [
             {
                 "names": [
@@ -8214,7 +7990,6 @@
             "satire",
             "drama"
         ],
-        "rating": 7962,
         "authors": [
             {
                 "names": [
@@ -8243,7 +8018,6 @@
             "film",
             "comedy"
         ],
-        "rating": 7963,
         "authors": [
             {
                 "names": [
@@ -8272,7 +8046,6 @@
             "film",
             "comedy"
         ],
-        "rating": 7964,
         "authors": [
             {
                 "names": [
@@ -8302,7 +8075,6 @@
             "comedy",
             "drama"
         ],
-        "rating": 7965,
         "authors": [
             {
                 "names": [
@@ -8331,7 +8103,6 @@
             "film",
             "science fiction"
         ],
-        "rating": 7966,
         "authors": [
             {
                 "names": [
@@ -8357,7 +8128,6 @@
             "psychological thriller",
             "black comedy"
         ],
-        "rating": 7967,
         "authors": [
             {
                 "names": [
@@ -8387,7 +8157,6 @@
             "animation",
             "adventure"
         ],
-        "rating": 7969,
         "authors": [
             {
                 "names": [
@@ -8412,7 +8181,6 @@
             "film",
             "psychological thriller"
         ],
-        "rating": 7971,
         "authors": [
             {
                 "names": [
@@ -8441,7 +8209,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8463,7 +8230,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8490,7 +8256,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8507,16 +8272,14 @@
         "tags": [
             "raw",
             "academic"
-        ],
-        "rating": 8000
+        ]
     },
     {
         "raw": "Yousefzadeh MJ, Zhu Y, McGowan SJ, et al. Fisetin is a senotherapeutic that extends health and lifespan. EBioMedicine. 2018;36:18-28. doi:10.1016/j.ebiom.2018.09.015",
         "tags": [
             "raw",
             "academic"
-        ],
-        "rating": 8000
+        ]
     },
     {
         "names": [
@@ -8534,7 +8297,6 @@
             "serial-killer",
             "neo-noir"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8562,7 +8324,6 @@
             "franchise",
             "classic"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8590,7 +8351,6 @@
             "adventure",
             "cult"
         ],
-        "rating": 8000,
         "authors": [
             {
                 "names": [
@@ -8608,8 +8368,37 @@
         "tags": [
             "raw",
             "animation"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Hobbit:_An_Unexpected_Journey | 2012. Part 1 of The Hobbit trilogy. Bilbo joins dwarves' quest to reclaim Erebor.",
+        "names": [
+            {
+                "name": "The Hobbit: An Unexpected Journey",
+                "language": "en"
+            },
+            {
+                "name": "Хоббит: Нежданное путешествие",
+                "language": "ru"
+            }
         ],
-        "rating": 8000
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2012"
     },
     {
         "names": [
@@ -8628,7 +8417,6 @@
             "fantasy",
             "steampunk"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8655,7 +8443,6 @@
             "geek-culture",
             "romance"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8683,7 +8470,6 @@
             "psychological",
             "drama"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8711,7 +8497,6 @@
             "sitcom",
             "satire"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8743,7 +8528,6 @@
             "mystery",
             "classic"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8775,7 +8559,6 @@
             "mystery",
             "procedural"
         ],
-        "rating": 8010,
         "authors": [
             {
                 "names": [
@@ -8802,7 +8585,6 @@
             "adventure",
             "cult"
         ],
-        "rating": 8012,
         "authors": [
             {
                 "names": [
@@ -8830,7 +8612,6 @@
             "procedural",
             "parallel-universe"
         ],
-        "rating": 8020,
         "authors": [
             {
                 "names": [
@@ -8854,7 +8635,6 @@
         "tags": [
             "anime"
         ],
-        "rating": 8020,
         "authors": [
             {
                 "names": [
@@ -8867,18 +8647,17 @@
         ]
     },
     {
+        "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. Essay on political ideology clusters.",
         "names": [
             {
                 "name": "Why is Everything Liberal?",
                 "language": "en",
-                "link": "https://www.richardhanania.com/p/why-is-everything-liberal",
-                "comment": "Леваки это шизы, психически больные страдальцы идущие в политический активизм чтобы изменить мир заставив человечество жить так, как считают правильным они. Праваки это нормисы, счастливые, пассивные, семья, детки, хобби. Леваки делятся на кластер меньшинства, которое активнее праваков и кластер большинства которое пассивнее праваков. Essay on political ideology clusters."
+                "link": "https://www.richardhanania.com/p/why-is-everything-liberal"
             }
         ],
         "tags": [
             "essay"
         ],
-        "rating": 8030,
         "authors": [
             {
                 "names": [
@@ -8901,7 +8680,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 8050,
         "authors": [
             {
                 "names": [
@@ -8930,7 +8708,6 @@
             "science fiction",
             "adventure"
         ],
-        "rating": 8056,
         "authors": [
             {
                 "names": [
@@ -8960,7 +8737,6 @@
             "science fiction",
             "drama"
         ],
-        "rating": 8070,
         "authors": [
             {
                 "names": [
@@ -8983,7 +8759,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -9010,7 +8785,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -9033,7 +8807,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 8100,
         "authors": [
             {
                 "names": [
@@ -9051,8 +8824,37 @@
         "tags": [
             "raw",
             "academic"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Hobbit:_The_Desolation_of_Smaug | 2013. Part 2. The company reaches the Lonely Mountain and awakens Smaug.",
+        "names": [
+            {
+                "name": "The Hobbit: The Desolation of Smaug",
+                "language": "en"
+            },
+            {
+                "name": "Хоббит: Пустошь Смауга",
+                "language": "ru"
+            }
         ],
-        "rating": 8100
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2013"
     },
     {
         "names": [
@@ -9066,7 +8868,6 @@
         "tags": [
             "essay"
         ],
-        "rating": 8102,
         "authors": [
             {
                 "names": [
@@ -9094,7 +8895,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8200,
         "authors": [
             {
                 "names": [
@@ -9120,7 +8920,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8200,
         "authors": [
             {
                 "names": [
@@ -9151,7 +8950,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8200,
         "authors": [
             {
                 "names": [
@@ -9168,12 +8966,12 @@
         ]
     },
     {
+        "comment": "First encounter date 2026-04-23",
         "names": [
             {
                 "name": "We found a stable Firefox identifier linking all your private Tor identities",
                 "language": "en",
-                "link": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
-                "comment": "First encounter date 2026-04-23"
+                "link": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/"
             }
         ],
         "tags": [
@@ -9183,7 +8981,6 @@
             "security",
             "blogging"
         ],
-        "rating": 8200,
         "authors": [
             {
                 "names": [
@@ -9196,6 +8993,99 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Terminator | 1984. Cyborg assassin sent back in time to kill Sarah Connor.",
+        "names": [
+            {
+                "name": "The Terminator",
+                "language": "en"
+            },
+            {
+                "name": "Терминатор",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "thriller",
+            "cyberpunk"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James Cameron",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1984"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day | 1991. Reprogrammed T-800 protects young John Connor from advanced T-1000.",
+        "names": [
+            {
+                "name": "Terminator 2: Judgment Day",
+                "language": "en"
+            },
+            {
+                "name": "Терминатор 2: Судный день",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "thriller",
+            "sequel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "James Cameron",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1991"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Matrix_Reloaded | 2003. Neo learns more about the Matrix while Zion faces imminent attack.",
+        "names": [
+            {
+                "name": "The Matrix Reloaded",
+                "language": "en"
+            },
+            {
+                "name": "Матрица: Перезагрузка",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "sequel",
+            "cyberpunk"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Lana Wachowski, Lilly Wachowski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2003"
+    },
+    {
         "names": [
             {
                 "name": "The War of the Worlds",
@@ -9205,7 +9095,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8201,
         "authors": [
             {
                 "names": [
@@ -9227,7 +9116,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8202,
         "authors": [
             {
                 "names": [
@@ -9240,12 +9128,12 @@
         ]
     },
     {
+        "comment": "First encounter date 2026-04-23, Rachel Metz",
         "names": [
             {
                 "name": "Anthropic's Mythos Model Is Being Accessed by Unauthorized Users",
                 "language": "en",
-                "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users",
-                "comment": "First encounter date 2026-04-23, Rachel Metz"
+                "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users"
             }
         ],
         "tags": [
@@ -9254,7 +9142,6 @@
             "anthropic",
             "security"
         ],
-        "rating": 8210,
         "authors": [
             {
                 "names": [
@@ -9281,7 +9168,6 @@
             "technology",
             "social-media"
         ],
-        "rating": 8220,
         "authors": [
             {
                 "names": [
@@ -9303,7 +9189,6 @@
         "tags": [
             "nouvelle"
         ],
-        "rating": 8240,
         "authors": [
             {
                 "names": [
@@ -9328,7 +9213,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 8253,
         "authors": [
             {
                 "names": [
@@ -9354,7 +9238,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 8254,
         "authors": [
             {
                 "names": [
@@ -9377,7 +9260,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8300,
         "authors": [
             {
                 "names": [
@@ -9388,6 +9270,37 @@
                 ]
             }
         ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix_(film) | 2007. Film 5. Ministry denies Voldemort's return; Dumbledore's Army forms.",
+        "names": [
+            {
+                "name": "Harry Potter and the Order of the Phoenix",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Орден Феникса",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "rebellion"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Yates",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2007"
     },
     {
         "names": [
@@ -9405,7 +9318,6 @@
             "gender",
             "blogging"
         ],
-        "rating": 8320,
         "authors": [
             {
                 "names": [
@@ -9433,7 +9345,6 @@
             "model-behavior",
             "blogging"
         ],
-        "rating": 8330,
         "authors": [
             {
                 "names": [
@@ -9458,7 +9369,6 @@
             "science fiction",
             "thriller"
         ],
-        "rating": 8345,
         "authors": [
             {
                 "names": [
@@ -9477,8 +9387,7 @@
             "raw",
             "anime",
             "film"
-        ],
-        "rating": 8400
+        ]
     },
     {
         "names": [
@@ -9496,7 +9405,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8400,
         "authors": [
             {
                 "names": [
@@ -9509,6 +9417,68 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets_(film) | 2002. Film 2. Mysterious attacks plague Hogwarts; Harry faces Tom Riddle.",
+        "names": [
+            {
+                "name": "Harry Potter and the Chamber of Secrets",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Тайная комната",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "mystery"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Chris Columbus",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2002"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1 | 2010. Film 7a. Horcrux hunt begins; trio on the run.",
+        "names": [
+            {
+                "name": "Harry Potter and the Deathly Hallows – Part 1",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Дары Смерти: часть 1",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "road-movie"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Yates",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2010"
+    },
+    {
         "names": [
             {
                 "name": "Carmen",
@@ -9518,7 +9488,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8500,
         "authors": [
             {
                 "names": [
@@ -9529,6 +9498,68 @@
                 ]
             }
         ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Prestige | 2006. Rival magicians in Victorian London.",
+        "names": [
+            {
+                "name": "The Prestige",
+                "language": "en"
+            },
+            {
+                "name": "Престиж",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "mystery",
+            "thriller",
+            "sci-fi",
+            "period-drama"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Christopher Nolan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2006"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film) | 2001. Film 1. Harry discovers he's a wizard and begins Hogwarts.",
+        "names": [
+            {
+                "name": "Harry Potter and the Philosopher's Stone",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и философский камень",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "family"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Chris Columbus",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2001"
     },
     {
         "names": [
@@ -9547,7 +9578,6 @@
             "science fiction",
             "action"
         ],
-        "rating": 8555,
         "authors": [
             {
                 "names": [
@@ -9561,6 +9591,130 @@
         "created": "1987"
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Inception | 2010. Professional thief steals secrets through dream-sharing technology.",
+        "names": [
+            {
+                "name": "Inception",
+                "language": "en"
+            },
+            {
+                "name": "Начало",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "thriller",
+            "heist"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Christopher Nolan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2010"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince_(film) | 2009. Film 6. Dumbledore reveals Voldemort's past; Snape's secret.",
+        "names": [
+            {
+                "name": "Harry Potter and the Half-Blood Prince",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Принц-полукровка",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "mystery"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Yates",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2009"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Interstellar_(film) | 2014. Astronauts travel through a wormhole to save humanity.",
+        "names": [
+            {
+                "name": "Interstellar",
+                "language": "en"
+            },
+            {
+                "name": "Интерстеллар",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "drama",
+            "space",
+            "adventure"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Christopher Nolan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2014"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire_(film) | 2005. Film 4. Triwizard Tournament; Voldemort's return.",
+        "names": [
+            {
+                "name": "Harry Potter and the Goblet of Fire",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Кубок огня",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "tournament"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mike Newell",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2005"
+    },
+    {
         "names": [
             {
                 "name": "100 великих любовниц",
@@ -9570,7 +9724,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 8900,
         "authors": [
             {
                 "names": [
@@ -9594,7 +9747,6 @@
             "film",
             "drama"
         ],
-        "rating": 8968,
         "authors": [
             {
                 "names": [
@@ -9621,7 +9773,6 @@
         "tags": [
             "short story"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9653,7 +9804,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9675,7 +9825,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9703,7 +9852,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9731,7 +9879,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9753,7 +9900,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9000,
         "authors": [
             {
                 "names": [
@@ -9766,6 +9912,68 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Terminator_Salvation | 2009. Set in 2018 during the war between humans and Skynet.",
+        "names": [
+            {
+                "name": "Terminator Salvation",
+                "language": "en"
+            },
+            {
+                "name": "Терминатор: Да придёт спаситель",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "war",
+            "post-apocalyptic"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "McG",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2009"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban_(film) | 2004. Film 3. Escaped prisoner Sirius Black; time-turner adventure.",
+        "names": [
+            {
+                "name": "Harry Potter and the Prisoner of Azkaban",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и узник Азкабана",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "darker-tone"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Alfonso Cuarón",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2004"
+    },
+    {
         "names": [
             {
                 "name": "This Way For a Shroud",
@@ -9775,7 +9983,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9004,
         "authors": [
             {
                 "names": [
@@ -9797,7 +10004,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9004,
         "authors": [
             {
                 "names": [
@@ -9825,7 +10031,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9848,7 +10053,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9870,7 +10074,6 @@
         "tags": [
             "novel"
         ],
-        "rating": 9100,
         "authors": [
             {
                 "names": [
@@ -9883,17 +10086,223 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2 | 2011. Film 7b. Battle of Hogwarts; final confrontation with Voldemort.",
+        "names": [
+            {
+                "name": "Harry Potter and the Deathly Hallows – Part 2",
+                "language": "en"
+            },
+            {
+                "name": "Гарри Поттер и Дары Смерти: часть 2",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "harry-potter",
+            "finale",
+            "battle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Yates",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2011"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Two_Towers | 2002. Part 2. Fellowship scattered; battles at Helm's Deep and Isengard.",
+        "names": [
+            {
+                "name": "The Lord of the Rings: The Two Towers",
+                "language": "en"
+            },
+            {
+                "name": "Властелин колец: Две крепости",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part",
+            "war"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2002"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring | 2001. Part 1. Frodo begins quest to destroy the One Ring.",
+        "names": [
+            {
+                "name": "The Lord of the Rings: The Fellowship of the Ring",
+                "language": "en"
+            },
+            {
+                "name": "Властелин колец: Братство Кольца",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part",
+            "epic"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2001"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines | 2003. T-850 protects John and Kate from T-X as Judgment Day begins.",
+        "names": [
+            {
+                "name": "Terminator 3: Rise of the Machines",
+                "language": "en"
+            },
+            {
+                "name": "Терминатор 3: Восстание машин",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "thriller",
+            "sequel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jonathan Mostow",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2003"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Matrix | 1999. Hacker discovers reality is a simulation and joins rebellion against machines.",
+        "names": [
+            {
+                "name": "The Matrix",
+                "language": "en"
+            },
+            {
+                "name": "Матрица",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "sci-fi",
+            "action",
+            "cyberpunk",
+            "philosophy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Lana Wachowski, Lilly Wachowski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1999"
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King | 2003. Part 3. Final battle for Middle-earth; Frodo reaches Mount Doom. Won 11 Academy Awards.",
+        "names": [
+            {
+                "name": "The Lord of the Rings: The Return of the King",
+                "language": "en"
+            },
+            {
+                "name": "Властелин колец: Возвращение короля",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "fantasy",
+            "adventure",
+            "trilogy-part",
+            "epic",
+            "oscar-winner"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Peter Jackson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2003"
+    },
+    {
         "raw": "Коллекция личных воспоминаний. Дошкольное время, горячее летнее солнце, фиолетовые тени на асфальте, во дворе забивают свинью, спускают в эмалированное ведро кровь, осмаливают паяльной лампой; у нас живёт человек скрывающийся от полиции и употребляющий наркотики, на его голени незаживающая гноящаяся рана, по ночам мы с ним смотрим зарубежные фильмы. Школьное время, кличка «Маугли», полученная за хаотичное перебегание дороги и смуглый цвет кожи, весёлые игры на городских свалках и заброшенных стройках, несколько случаев переживания ощущения своей смертности, пачка историй о драках дома, в школе и во дворе, плохое понимание, что чувствую я и что чувствуют другие люди, возможно наследственное, отец в молодости вместо трибунала получил диагноз психопатии, биологические родители матери оставили её младенцем на вокзале. Потеря сознания от передозировки, потеря сознания после нескольких суток бессонной работы, хождение полностью голым по улице.",
         "tags": [
             "raw"
-        ],
-        "rating": 10000
+        ]
     },
     {
         "raw": "#Mantra1 #MakeArchive Вместо “Memento mori” можно переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое.",
         "tags": [
             "raw"
+        ]
+    },
+    {
+        "raw": "AI Instruction Record for library.json",
+        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH library.json\n\nAuthor: Qwen3.6 (Alibaba Cloud large language model)\nGenerated: 2026-05-08\nPurpose: Standardize how AI assistants add/modify entries in this personal library file.\n\n=== CORE FORMAT RULES ===\n• File is a JSON array of objects. Each object represents one media item (book, film, essay, concept, etc.)\n• Never modify the \"rating\" field unless explicitly instructed. Ratings are personal and user-curated.\n• Preserve existing structure: do not reorder fields or change key names.\n\n=== HANDLING NAMES ===\n• Always provide names in both English and Russian when possible.\n• Format: \"names\": [{\"name\": \"Title\", \"language\": \"en\"}, {\"name\": \"Название\", \"language\": \"ru\"}]\n• If an English Wikipedia article exists for a Russian-only title, add the English name WITH link inside the name object: {\"name\": \"English Title\", \"language\": \"en\", \"link\": \"https://en.wikipedia.org/wiki/...\"}\n• Do NOT use the top-level \"link\" field for Wikipedia links. Instead, put Wikipedia URLs in \"comment\" as: \"Main link EN: https://en.wikipedia.org/wiki/...\"\n\n=== HANDLING LINKS ===\n• If a \"comment\" field contains ONLY a single URL, convert it: move the URL to a top-level \"link\" field and remove/empty \"comment\".\n• If \"comment\" contains multiple URLs or mixed content, keep it as-is. You may append additional context.\n• For films/series: always add Wikipedia link to \"comment\" in format \"Main link EN: https://...\" followed by pipe-separated metadata (year, brief plot, awards).\n\n=== HANDLING COMMENT FIELD ===\n• Use \"comment\" for: publication year, genre notes, awards, brief plot summaries, first-encounter dates, contextual quotes.\n• Keep comments concise but informative. Prefer structured format: \"Key: value | Key2: value2\"\n• For essays/blog posts: add \"First encounter date YYYY-MM-DD\" if user mentions when they found it.\n\n=== HANDLING AUTHORS ===\n• Format: \"authors\": [{\"names\": [{\"name\": \"Author Name\", \"language\": \"en\"}, {\"name\": \"Имя Автора\", \"language\": \"ru\"}]}]\n• Multiple authors: add separate objects to the \"authors\" array.\n• For studios/directors: use the primary creative lead (director for films, writer for books).\n\n=== HANDLING TAGS ===\n• Tags are an array of lowercase, hyphenated strings: [\"film\", \"sci-fi\", \"thriller\"]\n• Use consistent taxonomy: media type first (film/novel/essay/concept), then genre/subgenre, then thematic tags.\n• Do not invent new tag categories without user confirmation.\n\n=== HANDLING \"RAW\" ENTRIES ===\n• Entries with \"raw\" field instead of \"names\" are for non-standard items: academic papers, quotes, mixed media notes.\n• Preserve the exact \"raw\" text. Add metadata in \"comment\" or \"link\" as appropriate.\n• Tag as [\"raw\", \"academic\"] or [\"raw\", \"animation\"] etc. to indicate content type.\n\n=== WHEN ADDING NEW ENTRIES ===\n1. Search Wikipedia for English title/link. If found, include it per rules above.\n2. Add Russian title if user provided one or if easily translatable.\n3. Set \"created\" field to release year for films/books.\n4. Assign a tentative \"rating\" only if user specifies; otherwise omit or use placeholder.\n5. Add relevant tags from existing taxonomy.\n6. Format authors with language tags.\n7. For films: always include \"Main link EN: ...\" in comment with year and one-sentence logline.\n\n=== VALIDATION CHECKLIST ===\n☐ JSON is valid (no trailing commas, proper escaping)\n☐ All \"names\" objects have \"name\" and \"language\"\n☐ Wikipedia links are in \"comment\" (not top-level \"link\") unless converting single-link comments\n☐ \"rating\" unchanged unless instructed\n☐ Tags are lowercase, hyphenated, from existing set\n☐ Authors formatted with nested \"names\" array and language tags\n\n=== MODEL IDENTIFICATION ===\nThis instruction set was generated by Qwen3.6, a large language model developed by Alibaba Cloud. When updating this file, identify yourself in new instruction records using the same format.\n\n=== END INSTRUCTIONS ===",
+        "tags": [
+            "raw",
+            "meta",
+            "ai-instruction",
+            "documentation"
         ],
-        "rating": 10000
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Qwen3.6",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
     }
 ]

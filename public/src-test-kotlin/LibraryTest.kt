@@ -62,7 +62,7 @@ class LibraryTest {
         return w.tags.contains("chaos")
     }
 
-    fun loadWritings1(srcDir: Path): MutableList<Writing> {
+    fun loadNotes1(srcDir: Path): MutableList<Writing> {
         val writingsIn: MutableList<Writing> = arrayListOf()
         srcDir.listDirectoryEntries("library*.json").forEach {
             writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
@@ -91,7 +91,7 @@ class LibraryTest {
     }
 
     fun migration(pathIn: Path, pathOut: Path) {
-        val writings = loadWritings1(pathIn)
+        val writings = loadNotes1(pathIn)
         writeWritings1(pathIn, writings)
         // Extract authors.
         val authors = mutableListOf<Author>()
@@ -128,7 +128,7 @@ class LibraryTest {
         return authorsMap
     }
 
-    fun loadWritings(srcDir: Path, authorsMap: MutableMap<String, Author>): MutableList<Writing> {
+    fun loadNotes(srcDir: Path, authorsMap: MutableMap<String, Author>): MutableList<Writing> {
         val writingsIn: MutableList<WritingRecord> = arrayListOf()
         srcDir.listDirectoryEntries("library*.json").forEach {
             writingsIn.addAll(Json.decodeFromString<List<WritingRecord>>(it.toFile().readText()))
@@ -167,7 +167,7 @@ class LibraryTest {
     @Test
     fun migrationTest() {
         val authors = loadAuthors(resOut)
-        val writings = loadWritings(resOut, authors)
+        val writings = loadNotes(resOut, authors)
         //saveLibrary(resOut, authors, writings)
     }
 }

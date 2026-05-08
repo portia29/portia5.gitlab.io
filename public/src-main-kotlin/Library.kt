@@ -52,7 +52,6 @@ class Library {
         val comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
-        val rating: Int,
         val authors: MutableList<Author> = mutableListOf(),
         val created: String? = null
     ) : FiltrableWriting {
@@ -85,12 +84,14 @@ class Library {
         return selectName(authors[0].names, language)
     }
 
+    @Suppress("unused")
     fun notesGrouped(notes: List<Writing>): List<String> {
         val result = mutableListOf<String>()
         val length = notes.size
         var index = 0
+        val addNoteNumber = false
         fun drain(s: StringBuilder, p: Predicate<Writing>): LinkedList<Writing> {
-            s.append("").append(result.size + 1).append(". ")
+            if (addNoteNumber) s.append("").append(result.size + 1).append(". ")
             val list = LinkedList<Writing>()
             while (index < length) {
                 val n = notes[index]
@@ -143,42 +144,32 @@ class Library {
     }
 
     fun main() {
-        val writingsIn = loadWritings(UtilsAbsolute.srcResDir)
+        val writingsIn = loadNotes(UtilsAbsolute.srcResDir)
         val libraryOut = UtilsAbsolute.srcGenDir
-        val notes = notesGrouped(writingsIn.sortedBy { it.rating })
-        val partSize = 100
-        var partCount = 0
-        var partIndex = 0
-        while (partIndex < notes.size) {
-            partCount++
-            partIndex += partSize
-            val text = StringBuilder()
-            text.append("Коллекция заметок, часть № $partCount")
-            text.append(", заметки с ${partIndex - partSize + 1} по $partIndex, заметок всего ${notes.size}. ")
-            val fromIndex = partIndex - partSize
-            val toIndex = if (partIndex < notes.size) partIndex else notes.size
-            val bs = "⟨"
-            val be = "⟩"
-            text.append(notes.subList(fromIndex, toIndex).joinToString("$be $bs", bs, be))
-            libraryOut.resolve("library$partCount.txt").toFile().writeText(text.toString())
-        }
+        val notes = notesGrouped(writingsIn)
+        val text = StringBuilder()
+        text.append("Коллекция заметок, здесь первая сотня, всего заметок ${notes.size}. ")
+        val bs = "█ "
+        val be = ""
+        text.append(notes.subList(0, 100).joinToString("$be $bs", bs, be))
+        libraryOut.resolve("library-preview.txt").toFile().writeText(text.toString())
     }
 
-    fun saveLibrary(dst: Path, writingsIn: MutableList<Writing>) {
+    fun saveNotes(dst: Path, writingsIn: MutableList<Writing>) {
         val format = Json { prettyPrint = true }
-        val writingsToSave = writingsIn.sortedBy { it.rating }
         val outWritingsFile = dst.resolve("library.json").toFile()
-        outWritingsFile.writeText(format.encodeToString(writingsToSave))
+        outWritingsFile.writeText(format.encodeToString(writingsIn))
     }
 
-    fun loadWritings(srcDir: Path): MutableList<Writing> {
+    fun loadNotes(srcDir: Path): MutableList<Writing> {
         val writingsFile = srcDir.resolve("library.json").toFile()
         val writings = Json.decodeFromString<MutableList<Writing>>(writingsFile.readText())
-        saveLibrary(srcDir, writings)
+        saveNotes(srcDir, writings)
         return writings
     }
 
-    fun generateTest(writingsIn: MutableList<Writing>) {
+    @Suppress("unused")
+    fun archivedCode(writingsIn: MutableList<Writing>) {
         fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
             fun recommendationFilter(w: FiltrableWriting): Boolean {
                 return w.hasAnyOfTags(
@@ -192,8 +183,8 @@ class Library {
 
             val b = StringBuilder()
             val fullList = LinkedList<Writing>()
-            fullList.addAll(writingsIn.filter { recommendationFilter(it) }.sortedBy { it.rating })
-            fullList.addAll(writingsIn.filter { entertainingFilter(it) }.sortedBy { it.rating })
+            fullList.addAll(writingsIn.filter { recommendationFilter(it) })
+            fullList.addAll(writingsIn.filter { entertainingFilter(it) })
             val currentList = LinkedList<Writing>()
             fullList.forEach { w ->
                 if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
@@ -220,7 +211,7 @@ class Library {
                 recommendationFilter(it) || entertainingFilter(it) || it.tags.contains("invisible")
             }.groupBy { it.authors }.keys
             val authorsList =
-                writingsIn.filter { !mainListAuthors.contains(it.authors) }.sortedBy { it.rating }
+                writingsIn.filter { !mainListAuthors.contains(it.authors) }
                     .groupBy { it.authors }.keys.toMutableList()
             b.append(
                 authorsList.joinToString(
@@ -233,12 +224,11 @@ class Library {
             )
             return b
         }
-
         fun mainListMedium(
             writingsIn: MutableList<Writing>, predicate: (Writing) -> Boolean
         ): StringBuilder {
             val b = StringBuilder()
-            val list = writingsIn.filter { predicate(it) }.sortedBy { it.rating }
+            val list = writingsIn.filter { predicate(it) }
             for (i in 0..9) {
                 val w = list[i]
                 if (b.isNotEmpty()) {
@@ -249,14 +239,13 @@ class Library {
             }
             return b
         }
-
         fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
             val b = StringBuilder()
             val list = writingsIn.filter {
                 it.hasAnyOfTags(
                     "recommendation", "visible"
                 ) && !it.hasAnyOfTags("invisible")
-            }.sortedBy { it.rating }.groupBy { it.authors }.keys.toList()
+            }.groupBy { it.authors }.keys.toList()
             for (i in 0..9) {
                 if (i != 0) {
                     b.append(", ")
@@ -266,7 +255,6 @@ class Library {
             b.append(".")
             return b
         }
-
         fun mainListSummary(writingsIn: MutableList<Writing>): StringBuilder {
             val b = StringBuilder()
             val writingsCount = writingsIn.size
@@ -275,7 +263,6 @@ class Library {
             b.append(" штук всего $writingsCount, авторов всего $authorsCount.")
             return b
         }
-
         val text = StringBuilder()
         text.append(mainListSummary(writingsIn)).appendLine().appendLine()
         text.append(mainListShort(writingsIn)).appendLine().appendLine()
@@ -287,5 +274,26 @@ class Library {
             .appendLine()
         text.append(mainListLong(writingsIn))
         dstTestDir.resolve("library.txt").toFile().writeText(text.toString())
+        fun generateListSplitByParts() {
+            val writingsIn = loadNotes(UtilsAbsolute.srcResDir)
+            val libraryOut = UtilsAbsolute.srcGenDir
+            val notes = notesGrouped(writingsIn)
+            val partSize = 100
+            var partCount = 0
+            var partIndex = 0
+            while (partIndex < notes.size) {
+                partCount++
+                partIndex += partSize
+                val text = StringBuilder()
+                text.append("Коллекция заметок, часть № $partCount")
+                text.append(", заметки с ${partIndex - partSize + 1} по $partIndex, заметок всего ${notes.size}. ")
+                val fromIndex = partIndex - partSize
+                val toIndex = if (partIndex < notes.size) partIndex else notes.size
+                val bs = "⟨"
+                val be = "⟩"
+                text.append(notes.subList(fromIndex, toIndex).joinToString("$be $bs", bs, be))
+                libraryOut.resolve("library$partCount.txt").toFile().writeText(text.toString())
+            }
+        }
     }
 }
