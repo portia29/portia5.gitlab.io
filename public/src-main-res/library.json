@@ -1,6 +1,6 @@
 [
     {
-        "raw": "Doing. Learning, Khan Academy, 6th grade math, 12%. Reading, “Structure and Interpretation of Computer Programs”, page 119/642. Learning, Lean, Natural Number Game, world 2/9, level 1/5.",
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 12%. Reading: \"Structure and Interpretation of Computer Programs\", page 119/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
         "tags": [
             "raw"
         ]
@@ -386,6 +386,57 @@
     {
         "names": [
             {
+                "name": "Эхопраксия",
+                "language": "ru"
+            },
+            {
+                "name": "Echopraxia",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Echopraxia_(novel)"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Питер Уоттс",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Peter Watts",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Alice's Adventures in Wonderland",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Lewis Carroll",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "What the Tortoise Said to Achilles",
                 "language": "en"
             }
@@ -413,6 +464,53 @@
             "blogging",
             "essay",
             "fiction"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "In The Balance",
+                "language": "en",
+                "link": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "fiction"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Virtue of Silence",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
         ],
         "authors": [
             {
@@ -647,29 +745,6 @@
     {
         "names": [
             {
-                "name": "The Virtue of Silence",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Тройной контакт",
                 "language": "ru"
             },
@@ -721,30 +796,6 @@
                     },
                     {
                         "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "In The Balance",
-                "language": "en",
-                "link": "https://slatestarcodex.com/2018/09/12/in-the-balance/"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "fiction"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
                         "language": "en"
                     }
                 ]
@@ -845,6 +896,50 @@
     {
         "names": [
             {
+                "name": "Schelling fences on slippery slopes",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Eight Short Studies On Excuses",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "The Parable Of The Talents",
                 "language": "en"
             }
@@ -867,7 +962,29 @@
     {
         "names": [
             {
-                "name": "In Praise of Boredom",
+                "name": "Talents Part 2: Attitude vs. Altitude",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
                 "language": "en"
             }
         ],
@@ -919,29 +1036,7 @@
     {
         "names": [
             {
-                "name": "Eight Short Studies On Excuses",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Hero Licensing",
+                "name": "In Praise of Boredom",
                 "language": "en"
             }
         ],
@@ -958,28 +1053,6 @@
                     },
                     {
                         "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Talents Part 2: Attitude vs. Altitude",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
                         "language": "en"
                     }
                 ]
@@ -1014,35 +1087,6 @@
     {
         "names": [
             {
-                "name": "Как хочет женщина. Мастер-класс по науке секса",
-                "language": "ru"
-            },
-            {
-                "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Emily Nagoski",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Blame!",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Blame!"
@@ -1056,36 +1100,6 @@
                 "names": [
                     {
                         "name": "Tsutomu Nihei",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Эхопраксия",
-                "language": "ru"
-            },
-            {
-                "name": "Echopraxia",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Echopraxia_(novel)"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Питер Уоттс",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Peter Watts",
                         "language": "en"
                     }
                 ]
@@ -1294,6 +1308,35 @@
         ]
     },
     {
+        "names": [
+            {
+                "name": "Как хочет женщина. Мастер-класс по науке секса",
+                "language": "ru"
+            },
+            {
+                "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "comment": "2025, апрель, 20, воскресенье",
         "names": [
             {
@@ -1310,6 +1353,135 @@
                     {
                         "name": "Gillian Anderson",
                         "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Manacled",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "'Мой маньяк по соседству' by 'Boolochka' at 'ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812'",
+        "tags": [
+            "raw"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Laughter_in_the_Dark_(novel) | First published in Russian 1933. Nabokov later revised and self-translated it as 'Laughter in the Dark' (1938). Psychological drama about art critic Albert Albinus (Bruno Kretschmar in Russian original), who leaves his wife for young aspiring actress Margot; she and her former lover, painter Axel Rex, conspire to exploit him. Albinus goes blind after a car crash and is tormented by the pair before the tragic finale.",
+        "names": [
+            {
+                "name": "Camera Obscura",
+                "language": "en"
+            },
+            {
+                "name": "Камера обскура",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel",
+            "literary-fiction",
+            "psychological-drama",
+            "art-world",
+            "betrayal",
+            "tragedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Nabokov",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Владимир Набоков",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Lolita | First published 1955 in Paris. Controversial novel about obsession; written in English, later self-translated to Russian.",
+        "names": [
+            {
+                "name": "Lolita",
+                "language": "en"
+            },
+            {
+                "name": "Лолита",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel",
+            "literary-fiction",
+            "controversial",
+            "unreliable-narrator",
+            "tragedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Vladimir Nabokov",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Владимир Набоков",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "First encounter date 2026-05-07 [Autobiographical novel, first published 1934 in Paris by Obelisk Press. Notorious for its candid sexuality; banned in the US until 1964. Set in Paris during the late 1920s–early 1930s.] Main link EN: https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel) “Tropic of Cancer” is an autobiographical novel by Henry Miller that is best known as \"notorious for its candid sexuality\", with the resulting social controversy considered responsible for the \"free speech that we now take for granted in literature\". Прочитал, книга была запрещена в Америке с 1930 по 1960. В конце книги автор описывает европейцев как взрослых холодных эгоистичных и рациональных, а американцев как детей, религиозных фанатиков или стадо зашоренных лошадей мчащихся к обрыву, автор говорит, что этот чрезмерный хаотичный действенный оптимизм американцев погубит мир. [Я часто думал, слушая филморовские панегирики Франции, свободе и прочему дерьму, что сказал бы обыкновенный француз, если б понял его слова. Недаром они считают нас чокнутыми. Действительно, для них мы чокнутые. Глупые дети. Престарелые идиоты. То, что мы называем жизнью, – это просто романтика, купленная в дешевой лавчонке. И этот наш энтузиазм… Что это? Грошовый оптимизм, от которого европейца начинает мутить. Пустая иллюзия. Нет, «иллюзия» – слишком хорошее слово для этого. Это не иллюзия. Это – недомыслие. Чистое недомыслие, и все. Мы точно табун диких лошадей с шорами на глазах. Несемся в сумасшедшем галопе. К краю пропасти – и вниз. Нам все равно – нам нужно бешеное движение и смятение чувств. Вперед, вперед! Все равно куда. Мы мчимся – и пена выступает у нас на губах. Мы орем: «Аллилуйя!» Аллилуйя! Почему? Зачем? Бог знает. Это у нас в крови. Это в нашем климате. Это – и многое другое. И это – конец. Мы рушим весь мир. Но не знаем, зачем и для чего. Это наша судьба. Все остальное – ерунда…] Могу запостить пару отрывков сексуальных сцен за котоорые книга была запрещена, но мне кажется это уровень непристойности порнографического фанфика с Фикбука и сексуальных сцен там не больше 10% от текста книги, и это типа карикатура высмеивающая один из типов мужского отношения к женщинам в целом и к сексу в частности. [О Таня, где сейчас твоя теплая пизденка, твои широкие подвязки, твои мягкие полные ляжки? В моей палице кость длиной шесть дюймов. Я разглажу все складки и складочки между твоих ног, моя разбухшая от семени Таня… Я пошлю тебя домой к твоему Сильвестру с болью внизу живота и вывернутой наизнанку маткой… Твой Сильвестр! Он знает, как развести огонь, а я знаю, как заставить его гореть. Я вливаю в тебя горячие струи, Таня, я заряжаю твои яичники белым огнем. Твой Сильвестр немного ревнует тебя? Он что-то заподозрил? Что-то чувствует? Он чувствует в тебе, Таня, следы моего большого члена. Я разутюжил твои бедра, разгладил все морщинки между ногами. После меня ты можешь свободно совокупляться с жеребцами, быками, баранами, селезнями, сенбернарами. Ты можешь засовывать лягушек, летучих мышей и ящериц в задний проход. Ты можешь срать, точно играть арпеджио, а на пупок натягивать струны цитры. Когда я ебу тебя, Таня, я делаю это всерьез и надолго. И если ты стесняешься публики, то мы опустим занавес. Но несколько волосков с твоей пизденки я наклею на подбородок Бориса. И я вгрызусь в твой секель и буду сплевывать двухфранковые монеты…][Вот Илона – это просто воплощенная манда. Я знаю это, потому что она прислала нам несколько волосков с нее. Илона – дикая ослица, вынюхивающая наслаждения. На каждом холме она разыгрывала блудницу, а иногда и в телефонных будках и в клозетах. Она купила кровать для короля Карола и кружку для бритья с его инициалами. Она лежала в Лондоне на Тоттенхем-Корт-роуд и, задрав юбку, дрочила. В ход шло все – свечи, шутихи, дверные ручки. Во всей стране не было ни одного фаллоса, который подошел бы ей по размерам… Ни одного. Мужчины влезали в нее целиком и сворачивались калачиком. Ей нужны были раздвижные фаллосы – не фаллосы, а самовзрывающиеся ракеты, кипящее масло с сургучом и креозотом. Она бы отрезала тебе член и оставила его в себе навсегда, если б ты ей только позволил. Это была одна пизда из миллиона, эта Илона! Лабораторный экземпляр – и вряд ли на свете найдется лакмусовая бумага, с помощью которой можно было бы воспроизвести ее цвет. К тому же она была врунья. Она никогда не покупала кровать своему королю Каролу. Она короновала его бутылкой из-под виски по голове, и ее глотка была полна лжи и фальшивых обещаний. Бедный Карол… он мог только свернуться калачиком внутри нее и помереть там. Она вздохнула – и он выпал оттуда, как дохлый моллюск.][Но ведь мы уезжаем в Америку завтра утром! Я говорил это каждой встречной бабе – уезжаем завтра утром! Я говорил это блондинке с агатовыми глазами. А пока я это говорил, она взяла мою руку и зажала ее между своими ляжками. В уборной я стою над писсуаром с монументальной эрекцией, и мой фаллос кажется мне одновременно и тяжелым и легким, как кусок свинца с крыльями. И пока я вот так стою, вваливаются две американки. Я вежливо приветствую их с членом в руке. Они подмигивают мне и выходят. Уже в умывальной, застегивая ширинку, я снова вижу одну из них, поджидающую свою подругу, которая еще в уборной. Из зала доносятся звуки музыки, и каждую минуту может появиться Мона, чтобы за брать меня, или Боровский со своей тростью с золотым набалдашником, но я уже в руках этой женщины, она меня держит, и мне все равно, что произойдет дальше. Мы заползаем в клозет, я ставлю ее у стены и пытаюсь засунуть ей, но у нас ничего не получается. Мы садимся на стульчак, пытаемся устроиться таким способом, – и опять безуспешно. Как мы ни стараемся, ничего не выходит. Все это время она сжимает мой член в руке, как якорь спасения, но тщетно – мы слишком возбуждены. Музыка продолжает играть, мы вальсируем с ней из клозета в умывальную и танцуем там, и вдруг я спускаю прямо ей на платье, и она приходит от этого в ярость. Пошатываясь, я возвращаюсь к столу, а там сидят румяный Боровский и Мона, которая встречает меня строгим взглядом. Боровский говорит: «Слушайте, едем все завтра в Брюссель!» Мы соглашаемся. Когда я вернулся в отель, у меня началась рвота. Я заблевал все – кровать, умывальник, костюмы и платья, галоши, нетронутые записные книжки и холодные мертвые рукописи.][В \"Tropic of Cancer\" один из персонажей использует такой способ мастурбации как берём яблоко, вырезаем в нём отверстие и смазываем отверстие изнутри кольдекремом. Это странно, яблоко твёрдое же.]",
+        "names": [
+            {
+                "name": "Tropic of Cancer",
+                "language": "en"
+            },
+            {
+                "name": "Тропик Рака",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel",
+            "autobiographical",
+            "fiction",
+            "expatriate-literature"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Henry Miller",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Генри Миллер",
+                        "language": "ru"
                     }
                 ]
             }
@@ -1395,27 +1567,6 @@
                     {
                         "name": "Братья Стругацкие",
                         "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Alice's Adventures in Wonderland",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Lewis Carroll",
-                        "language": "en"
                     }
                 ]
             }
@@ -1791,28 +1942,6 @@
     {
         "names": [
             {
-                "name": "Schelling fences on slippery slopes",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Рождение знаменитости",
                 "language": "ru"
             },
@@ -2179,7 +2308,7 @@
         "names": [
             {
                 "name": "Театр",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -2211,27 +2340,6 @@
                 "names": [
                     {
                         "name": "Фёдор Достоевский",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Камера обскура",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
                         "language": "ru"
                     }
                 ]
@@ -2317,7 +2425,7 @@
         "names": [
             {
                 "name": "Precommitment: Intentionally Limiting Your Future Options",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -2339,7 +2447,7 @@
         "names": [
             {
                 "name": "Premature Optimization: Why It’s the “Root of All Evil” and How to Avoid It",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -2574,7 +2682,7 @@
         ]
     },
     {
-        "raw": "Vidya. World of Warcraft. Factorio достижения 65/88. Diablo I, II, III. StarCraft I, II. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Terraria. Minecraft. RimWorld. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, Destroyed the World in Less than a Second. Red Alert 2.",
+        "raw": "Vidya. Factorio достижения 65/88. World of Warcraft. Diablo I, II, III. StarCraft I, II. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Terraria. Minecraft. RimWorld. Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, Destroyed the World in Less than a Second. Red Alert 2.",
         "comment": "[Minecraft, RimWorld - не играл, но нравилось смотреть видео чужих игр.]",
         "tags": [
             "raw"
@@ -2663,60 +2771,6 @@
                 "names": [
                     {
                         "name": "Ольга Арефьева и Ковчег",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Manacled",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "SenLinYu",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "comment": "First encounter date 2026-05-07 [Autobiographical novel, first published 1934 in Paris by Obelisk Press. Notorious for its candid sexuality; banned in the US until 1964. Set in Paris during the late 1920s–early 1930s.] Main link EN: https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel) “Tropic of Cancer” is an autobiographical novel by Henry Miller that is best known as \"notorious for its candid sexuality\", with the resulting social controversy considered responsible for the \"free speech that we now take for granted in literature\". Прочитал, книга была запрещена в Америке с 1930 по 1960. В конце книги автор описывает европейцев как взрослых холодных эгоистичных и рациональных, а американцев как детей, религиозных фанатиков или стадо зашоренных лошадей мчащихся к обрыву, автор говорит, что этот чрезмерный хаотичный действенный оптимизм американцев погубит мир. [Я часто думал, слушая филморовские панегирики Франции, свободе и прочему дерьму, что сказал бы обыкновенный француз, если б понял его слова. Недаром они считают нас чокнутыми. Действительно, для них мы чокнутые. Глупые дети. Престарелые идиоты. То, что мы называем жизнью, – это просто романтика, купленная в дешевой лавчонке. И этот наш энтузиазм… Что это? Грошовый оптимизм, от которого европейца начинает мутить. Пустая иллюзия. Нет, «иллюзия» – слишком хорошее слово для этого. Это не иллюзия. Это – недомыслие. Чистое недомыслие, и все. Мы точно табун диких лошадей с шорами на глазах. Несемся в сумасшедшем галопе. К краю пропасти – и вниз. Нам все равно – нам нужно бешеное движение и смятение чувств. Вперед, вперед! Все равно куда. Мы мчимся – и пена выступает у нас на губах. Мы орем: «Аллилуйя!» Аллилуйя! Почему? Зачем? Бог знает. Это у нас в крови. Это в нашем климате. Это – и многое другое. И это – конец. Мы рушим весь мир. Но не знаем, зачем и для чего. Это наша судьба. Все остальное – ерунда…] Могу запостить пару отрывков сексуальных сцен за котоорые книга была запрещена, но мне кажется это уровень непристойности порнографического фанфика с Фикбука и сексуальных сцен там не больше 10% от текста книги, и это типа карикатура высмеивающая один из типов мужского отношения к женщинам в целом и к сексу в частности. [О Таня, где сейчас твоя теплая пизденка, твои широкие подвязки, твои мягкие полные ляжки? В моей палице кость длиной шесть дюймов. Я разглажу все складки и складочки между твоих ног, моя разбухшая от семени Таня… Я пошлю тебя домой к твоему Сильвестру с болью внизу живота и вывернутой наизнанку маткой… Твой Сильвестр! Он знает, как развести огонь, а я знаю, как заставить его гореть. Я вливаю в тебя горячие струи, Таня, я заряжаю твои яичники белым огнем. Твой Сильвестр немного ревнует тебя? Он что-то заподозрил? Что-то чувствует? Он чувствует в тебе, Таня, следы моего большого члена. Я разутюжил твои бедра, разгладил все морщинки между ногами. После меня ты можешь свободно совокупляться с жеребцами, быками, баранами, селезнями, сенбернарами. Ты можешь засовывать лягушек, летучих мышей и ящериц в задний проход. Ты можешь срать, точно играть арпеджио, а на пупок натягивать струны цитры. Когда я ебу тебя, Таня, я делаю это всерьез и надолго. И если ты стесняешься публики, то мы опустим занавес. Но несколько волосков с твоей пизденки я наклею на подбородок Бориса. И я вгрызусь в твой секель и буду сплевывать двухфранковые монеты…][Вот Илона – это просто воплощенная манда. Я знаю это, потому что она прислала нам несколько волосков с нее. Илона – дикая ослица, вынюхивающая наслаждения. На каждом холме она разыгрывала блудницу, а иногда и в телефонных будках и в клозетах. Она купила кровать для короля Карола и кружку для бритья с его инициалами. Она лежала в Лондоне на Тоттенхем-Корт-роуд и, задрав юбку, дрочила. В ход шло все – свечи, шутихи, дверные ручки. Во всей стране не было ни одного фаллоса, который подошел бы ей по размерам… Ни одного. Мужчины влезали в нее целиком и сворачивались калачиком. Ей нужны были раздвижные фаллосы – не фаллосы, а самовзрывающиеся ракеты, кипящее масло с сургучом и креозотом. Она бы отрезала тебе член и оставила его в себе навсегда, если б ты ей только позволил. Это была одна пизда из миллиона, эта Илона! Лабораторный экземпляр – и вряд ли на свете найдется лакмусовая бумага, с помощью которой можно было бы воспроизвести ее цвет. К тому же она была врунья. Она никогда не покупала кровать своему королю Каролу. Она короновала его бутылкой из-под виски по голове, и ее глотка была полна лжи и фальшивых обещаний. Бедный Карол… он мог только свернуться калачиком внутри нее и помереть там. Она вздохнула – и он выпал оттуда, как дохлый моллюск.][Но ведь мы уезжаем в Америку завтра утром! Я говорил это каждой встречной бабе – уезжаем завтра утром! Я говорил это блондинке с агатовыми глазами. А пока я это говорил, она взяла мою руку и зажала ее между своими ляжками. В уборной я стою над писсуаром с монументальной эрекцией, и мой фаллос кажется мне одновременно и тяжелым и легким, как кусок свинца с крыльями. И пока я вот так стою, вваливаются две американки. Я вежливо приветствую их с членом в руке. Они подмигивают мне и выходят. Уже в умывальной, застегивая ширинку, я снова вижу одну из них, поджидающую свою подругу, которая еще в уборной. Из зала доносятся звуки музыки, и каждую минуту может появиться Мона, чтобы за брать меня, или Боровский со своей тростью с золотым набалдашником, но я уже в руках этой женщины, она меня держит, и мне все равно, что произойдет дальше. Мы заползаем в клозет, я ставлю ее у стены и пытаюсь засунуть ей, но у нас ничего не получается. Мы садимся на стульчак, пытаемся устроиться таким способом, – и опять безуспешно. Как мы ни стараемся, ничего не выходит. Все это время она сжимает мой член в руке, как якорь спасения, но тщетно – мы слишком возбуждены. Музыка продолжает играть, мы вальсируем с ней из клозета в умывальную и танцуем там, и вдруг я спускаю прямо ей на платье, и она приходит от этого в ярость. Пошатываясь, я возвращаюсь к столу, а там сидят румяный Боровский и Мона, которая встречает меня строгим взглядом. Боровский говорит: «Слушайте, едем все завтра в Брюссель!» Мы соглашаемся. Когда я вернулся в отель, у меня началась рвота. Я заблевал все – кровать, умывальник, костюмы и платья, галоши, нетронутые записные книжки и холодные мертвые рукописи.][В \"Tropic of Cancer\" один из персонажей использует такой способ мастурбации как берём яблоко, вырезаем в нём отверстие и смазываем отверстие изнутри кольдекремом. Это странно, яблоко твёрдое же.]",
-        "names": [
-            {
-                "name": "Tropic of Cancer",
-                "language": "en"
-            },
-            {
-                "name": "Тропик Рака",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel",
-            "autobiographical",
-            "fiction",
-            "expatriate-literature"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Henry Miller",
-                        "language": "en"
-                    },
-                    {
-                        "name": "Генри Миллер",
                         "language": "ru"
                     }
                 ]
@@ -3114,27 +3168,6 @@
                     },
                     {
                         "name": "Франц Ка́фка",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Лолита",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
                         "language": "ru"
                     }
                 ]
@@ -3879,7 +3912,7 @@
         "names": [
             {
                 "name": "…And I Show You How Deep the Rabbit Hole Goes",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -3900,7 +3933,7 @@
         "names": [
             {
                 "name": "Вино из одуванчиков",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4320,7 +4353,7 @@
         "names": [
             {
                 "name": "Полковнику никто не пишет",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4331,27 +4364,7 @@
                 "names": [
                     {
                         "name": "Гарсиа Маркес",
-                        "language": "?"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Мой маньяк по соседству",
-                "language": "ru",
-                "link": "https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812"
-            }
-        ],
-        "tags": [],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Boolochka",
-                        "language": "en"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4361,7 +4374,7 @@
         "names": [
             {
                 "name": "Мастер и Маргарита",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5280,7 +5293,7 @@
         "names": [
             {
                 "name": "Волшебник Изумрудного города",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5520,7 +5533,7 @@
         "names": [
             {
                 "name": "Три товарища",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5531,7 +5544,7 @@
                 "names": [
                     {
                         "name": "Эрих Мария Ремарк",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5541,7 +5554,7 @@
         "names": [
             {
                 "name": "Возлюби ближнего своего",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5552,7 +5565,7 @@
                 "names": [
                     {
                         "name": "Эрих Мария Ремарк",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5562,7 +5575,7 @@
         "names": [
             {
                 "name": "Отчего вы не буддист",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5577,6 +5590,12 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "raw": "Lyutnev, Y. (2026). A Mechanistic Model of Gravity Based on Particle Interaction with Voids within Matter. Zenodo. https://doi.org/10.5281/zenodo.20043111",
+        "tags": [
+            "raw"
         ]
     },
     {
@@ -7974,6 +7993,37 @@
         "created": "2013"
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Eyes_Wide_Shut | 1999. Final film by Kubrick. A doctor embarks on a bizarre, night-long odyssey after his wife's confession of sexual fantasy.",
+        "names": [
+            {
+                "name": "Eyes Wide Shut",
+                "language": "en"
+            },
+            {
+                "name": "С широко закрытыми глазами",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "psychological-thriller",
+            "drama",
+            "mystery",
+            "erotic-thriller"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Stanley Kubrick",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1999"
+    },
+    {
         "names": [
             {
                 "name": "Heart of a Dog",
@@ -9128,29 +9178,12 @@
         ]
     },
     {
-        "comment": "First encounter date 2026-04-23, Rachel Metz",
-        "names": [
-            {
-                "name": "Anthropic's Mythos Model Is Being Accessed by Unauthorized Users",
-                "language": "en",
-                "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users"
-            }
-        ],
+        "raw": "[Anthropic's Mythos Model Is Being Accessed by Unauthorized Users | https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users][With the help of Claude Mythos Preview, the Firefox team fixed more security bugs in April than in the past 15 months combined. | https://x.com/alexalbert__/status/2052468573516513762 | https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/][Mythos 'Discovered' a CVE Already in Its Training Data - and That’s Still Worrying | https://rival.security/posts/mythos-discovered-a-cve-already-in-its-training-data---and-thats-still-worrying]",
         "tags": [
+            "raw",
             "news",
             "ai",
-            "anthropic",
             "security"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Bloomberg",
-                        "language": "en"
-                    }
-                ]
-            }
         ]
     },
     {
@@ -10286,13 +10319,14 @@
         ]
     },
     {
-        "raw": "AI Instruction Record for library.json",
-        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH library.json\n\nAuthor: Qwen3.6 (Alibaba Cloud large language model)\nGenerated: 2026-05-08\nPurpose: Standardize how AI assistants add/modify entries in this personal library file.\n\n=== CORE FORMAT RULES ===\n• File is a JSON array of objects. Each object represents one media item (book, film, essay, concept, etc.)\n• Never modify the \"rating\" field unless explicitly instructed. Ratings are personal and user-curated.\n• Preserve existing structure: do not reorder fields or change key names.\n\n=== HANDLING NAMES ===\n• Always provide names in both English and Russian when possible.\n• Format: \"names\": [{\"name\": \"Title\", \"language\": \"en\"}, {\"name\": \"Название\", \"language\": \"ru\"}]\n• If an English Wikipedia article exists for a Russian-only title, add the English name WITH link inside the name object: {\"name\": \"English Title\", \"language\": \"en\", \"link\": \"https://en.wikipedia.org/wiki/...\"}\n• Do NOT use the top-level \"link\" field for Wikipedia links. Instead, put Wikipedia URLs in \"comment\" as: \"Main link EN: https://en.wikipedia.org/wiki/...\"\n\n=== HANDLING LINKS ===\n• If a \"comment\" field contains ONLY a single URL, convert it: move the URL to a top-level \"link\" field and remove/empty \"comment\".\n• If \"comment\" contains multiple URLs or mixed content, keep it as-is. You may append additional context.\n• For films/series: always add Wikipedia link to \"comment\" in format \"Main link EN: https://...\" followed by pipe-separated metadata (year, brief plot, awards).\n\n=== HANDLING COMMENT FIELD ===\n• Use \"comment\" for: publication year, genre notes, awards, brief plot summaries, first-encounter dates, contextual quotes.\n• Keep comments concise but informative. Prefer structured format: \"Key: value | Key2: value2\"\n• For essays/blog posts: add \"First encounter date YYYY-MM-DD\" if user mentions when they found it.\n\n=== HANDLING AUTHORS ===\n• Format: \"authors\": [{\"names\": [{\"name\": \"Author Name\", \"language\": \"en\"}, {\"name\": \"Имя Автора\", \"language\": \"ru\"}]}]\n• Multiple authors: add separate objects to the \"authors\" array.\n• For studios/directors: use the primary creative lead (director for films, writer for books).\n\n=== HANDLING TAGS ===\n• Tags are an array of lowercase, hyphenated strings: [\"film\", \"sci-fi\", \"thriller\"]\n• Use consistent taxonomy: media type first (film/novel/essay/concept), then genre/subgenre, then thematic tags.\n• Do not invent new tag categories without user confirmation.\n\n=== HANDLING \"RAW\" ENTRIES ===\n• Entries with \"raw\" field instead of \"names\" are for non-standard items: academic papers, quotes, mixed media notes.\n• Preserve the exact \"raw\" text. Add metadata in \"comment\" or \"link\" as appropriate.\n• Tag as [\"raw\", \"academic\"] or [\"raw\", \"animation\"] etc. to indicate content type.\n\n=== WHEN ADDING NEW ENTRIES ===\n1. Search Wikipedia for English title/link. If found, include it per rules above.\n2. Add Russian title if user provided one or if easily translatable.\n3. Set \"created\" field to release year for films/books.\n4. Assign a tentative \"rating\" only if user specifies; otherwise omit or use placeholder.\n5. Add relevant tags from existing taxonomy.\n6. Format authors with language tags.\n7. For films: always include \"Main link EN: ...\" in comment with year and one-sentence logline.\n\n=== VALIDATION CHECKLIST ===\n☐ JSON is valid (no trailing commas, proper escaping)\n☐ All \"names\" objects have \"name\" and \"language\"\n☐ Wikipedia links are in \"comment\" (not top-level \"link\") unless converting single-link comments\n☐ \"rating\" unchanged unless instructed\n☐ Tags are lowercase, hyphenated, from existing set\n☐ Authors formatted with nested \"names\" array and language tags\n\n=== MODEL IDENTIFICATION ===\nThis instruction set was generated by Qwen3.6, a large language model developed by Alibaba Cloud. When updating this file, identify yourself in new instruction records using the same format.\n\n=== END INSTRUCTIONS ===",
+        "raw": "Qwen AI Memory Record for library.json",
+        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH library.json\n\nAuthor: Qwen3.6 (Alibaba Cloud large language model)\nGenerated: 2026-05-09\nPurpose: Standardize how AI assistants add/modify entries in this personal library file.\n\n=== CORE FORMAT RULES ===\n• File is a JSON array of objects. Each object represents one media item (book, film, essay, concept, etc.)\n• The \"rating\" field has been REMOVED from the schema. Do NOT add or reference it.\n• Preserve existing structure: do not reorder fields or change key names.\n\n=== HANDLING NAMES ===\n• Always provide names in both English and Russian when possible.\n• Format: \"names\": [{\"name\": \"Title\", \"language\": \"en\"}, {\"name\": \"Название\", \"language\": \"ru\"}]\n• If an English Wikipedia article exists for a Russian-only title, add the English name WITH link inside the name object: {\"name\": \"English Title\", \"language\": \"en\", \"link\": \"https://en.wikipedia.org/wiki/...\"}\n• Do NOT use the top-level \"link\" field for Wikipedia links. Instead, put Wikipedia URLs in \"comment\" as: \"Main link EN: https://en.wikipedia.org/wiki/...\"\n\n=== HANDLING LINKS ===\n• If a \"comment\" field contains ONLY a single URL, convert it: move the URL to a top-level \"link\" field and remove/empty \"comment\".\n• If \"comment\" contains multiple URLs or mixed content, keep it as-is. You may append additional context.\n• For films/series: always add Wikipedia link to \"comment\" in format \"Main link EN: https://...\" followed by pipe-separated metadata (year, brief plot, awards).\n\n=== HANDLING COMMENT FIELD ===\n• Use \"comment\" for: publication year, genre notes, awards, brief plot summaries, first-encounter dates, contextual quotes.\n• Keep comments concise but informative. Prefer structured format: \"Key: value | Key2: value2\"\n• For essays/blog posts: add \"First encounter date YYYY-MM-DD\" if user mentions when they found it.\n\n=== HANDLING AUTHORS ===\n• Format: \"authors\": [{\"names\": [{\"name\": \"Author Name\", \"language\": \"en\"}, {\"name\": \"Имя Автора\", \"language\": \"ru\"}]}]\n• Multiple authors: add separate objects to the \"authors\" array.\n• For studios/directors: use the primary creative lead (director for films, writer for books).\n\n=== HANDLING TAGS ===\n• Tags are an array of lowercase, hyphenated strings: [\"film\", \"sci-fi\", \"thriller\"]\n• Use consistent taxonomy: media type first (film/novel/essay/concept), then genre/subgenre, then thematic tags.\n• Do not invent new tag categories without user confirmation.\n\n=== HANDLING \"RAW\" ENTRIES ===\n• Entries with \"raw\" field instead of \"names\" are for non-standard items: academic papers, quotes, mixed media notes.\n• Preserve the exact \"raw\" text. Add metadata in \"comment\" or \"link\" as appropriate.\n• Tag as [\"raw\", \"academic\"] or [\"raw\", \"animation\"] etc. to indicate content type.\n\n=== WHEN ADDING NEW ENTRIES ===\n1. Search Wikipedia for English title/link. If found, include it per rules above.\n2. Add Russian title if user provided one or if easily translatable.\n3. Set \"created\" field to release year for films/books.\n4. Assign tags from existing taxonomy; do not add \"rating\".\n5. Format authors with language tags.\n6. For films: always include \"Main link EN: ...\" in comment with year and one-sentence logline.\n\n=== VALIDATION CHECKLIST ===\n☐ JSON is valid (no trailing commas, proper escaping)\n☐ All \"names\" objects have \"name\" and \"language\"\n☐ Wikipedia links are in \"comment\" (not top-level \"link\") unless converting single-link comments\n☐ NO \"rating\" field present anywhere\n☐ Tags are lowercase, hyphenated, from existing set\n☐ Authors formatted with nested \"names\" array and language tags\n\n=== MODEL IDENTIFICATION & EDITING POLICY ===\n• This record is maintained by Qwen3.6 (Alibaba Cloud).\n• Other AI assistants should NOT edit this record. Instead, create your own instruction/memory records with unique \"raw\" titles (e.g., \"Claude AI Memory Record\", \"Gemini Notes for library.json\").\n• When referencing this file's rules, cite the author field to avoid conflicts.\n\n=== END INSTRUCTIONS ===",
         "tags": [
             "raw",
             "meta",
             "ai-instruction",
-            "documentation"
+            "documentation",
+            "qwen-memory"
         ],
         "authors": [
             {
