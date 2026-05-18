@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit
 
 private val printErrors = "true".toBoolean()
 
-fun rattyExec(vararg cmd: String): String {
+fun ratExec(vararg cmd: String): String {
     var result = ""
     val process = ProcessBuilder(*cmd).start()
     process.inputStream.reader(Charsets.UTF_8).use {
@@ -23,7 +23,7 @@ fun rattyExec(vararg cmd: String): String {
     return result
 }
 
-fun rattyExec(workingDir: File, vararg command: String, enableQuotes: Boolean = false): String? {
+fun ratExec(workingDir: File, vararg command: String, enableQuotes: Boolean = false): String? {
     if (command.joinToString(" ").contains("\"") && !enableQuotes) {
         // Quotes in arguments is a common source of errors that produce disorienting
         // execution output, like no output at all, and its hard to pinpoint cause
@@ -57,6 +57,6 @@ fun rattyExec(workingDir: File, vararg command: String, enableQuotes: Boolean = 
  * that this line splitted by whitespace will produce command and array of arguments
  * asseptable by the called program.
  */
-fun rattyExecSimple(workingDir: File, command: String): String? {
-    return rattyExec(workingDir, *command.split("\\s".toRegex()).toTypedArray())
+fun ratExecSimple(workingDir: File, command: String): String? {
+    return ratExec(workingDir, *command.split("\\s".toRegex()).toTypedArray())
 }

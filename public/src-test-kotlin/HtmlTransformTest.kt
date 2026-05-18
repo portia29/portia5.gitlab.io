@@ -60,6 +60,36 @@ class HtmlTransformTest {
     }
 
     @Test
+    fun longUrlLineBreaks() {
+        val linkIn = "https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
+        // xhmtlCompatibleVoidElements = false
+        var linkOut = "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OmJ<wbr>-4B<wbr>-mS<wbr>-Y<wbr>" +
+                "?si<wbr>=<wbr>bBWOSbdlpQ7kV9Bz"
+        assertEquals(linkOut, HtmlTransform(false).longUrlLineBreaks(linkIn))
+        // xhmtlCompatibleVoidElements = true
+        linkOut = "https:<wbr/>//<wbr/>youtu<wbr/>.be<wbr/>/OmJ<wbr/>-4B<wbr/>-mS<wbr/>-Y<wbr/>" +
+                "?si<wbr/>=<wbr/>bBWOSbdlpQ7kV9Bz"
+        assertEquals(linkOut, HtmlTransform(true).longUrlLineBreaks(linkIn))
+    }
+
+    @Test
+    fun transformLink() {
+        val linkIn = "https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
+
+        // xhmtlCompatibleVoidElements = false
+        var linkOut = "<a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
+                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OmJ<wbr>-4B<wbr>-mS<wbr>-Y<wbr>" +
+                "?si<wbr>=<wbr>bBWOSbdlpQ7kV9Bz</a>"
+        assertEquals(linkOut, HtmlTransform(false).transformLink(TestUtils.url, linkIn))
+
+        // xhmtlCompatibleVoidElements = true
+        linkOut = "<a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
+                "https:<wbr/>//<wbr/>youtu<wbr/>.be<wbr/>/OmJ<wbr/>-4B<wbr/>-mS<wbr/>-Y<wbr/>" +
+                "?si<wbr/>=<wbr/>bBWOSbdlpQ7kV9Bz</a>"
+        assertEquals(linkOut, HtmlTransform(true).transformLink(TestUtils.url, linkIn))
+    }
+
+    @Test
     fun transformParagraph() {
         val paragraphIn = "\"The Map of Mathematics\" by Domain of Science:" +
                 "\n" +
@@ -71,7 +101,6 @@ class HtmlTransformTest {
                 "        <br>&nbsp;— <a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
                 "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OmJ<wbr>-4B<wbr>-mS<wbr>-Y<wbr>" +
                 "?si<wbr>=<wbr>bBWOSbdlpQ7kV9Bz</a></p>"
-        // Test.
         assertEquals(paragraphOut, HtmlTransform(false).transformParagraph(TestUtils.url, paragraphIn))
 
         // xhmtlCompatibleVoidElements = true
@@ -80,14 +109,13 @@ class HtmlTransformTest {
                 "        <br/>&nbsp;— <a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
                 "https:<wbr/>//<wbr/>youtu<wbr/>.be<wbr/>/OmJ<wbr/>-4B<wbr/>-mS<wbr/>-Y<wbr/>" +
                 "?si<wbr/>=<wbr/>bBWOSbdlpQ7kV9Bz</a></p>"
-        // Test.
         assertEquals(paragraphOut, HtmlTransform(true).transformParagraph(TestUtils.url, paragraphIn))
     }
 
     @Test
     fun textToHtml() {
         /*
-        val resourcesDir = Paths.get("src/test/resources")
+        val resourcesDir = Paths.get("src-test-res")
         assert(resourcesDir.exists())
         val srcRelPath = Path.of("test1.txt")
         val srcAbsPath = resourcesDir.resolve(srcRelPath)

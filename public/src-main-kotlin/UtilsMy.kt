@@ -1,8 +1,15 @@
 
 import java.nio.file.Path
 
-object UtilsAbsolute {
+object UtilsMy {
     const val HOST_NAME = "https://portia5.gitlab.io"
+    /**
+     * Value: "/"
+     */
+    const val ROOT_RELATIVE_URL = "/"
+    const val MAP_RELATIVE_URL = "/map"
+    const val MAP_ORDER_RELATIVE_PATH = "map-order.txt"
+    const val MAP_CHAOS_RELATIVE_PATH = "map-chaos.txt"
 
     val currentPath: Path = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
 
@@ -17,6 +24,18 @@ object UtilsAbsolute {
 
     val testResDir: Path = projectDir.resolve("src-test-res")
     val dstTestDir: Path = projectDir.resolve("src-test-res/gen")
+
+    const val includeShort = "short"
+    const val includeLink = "link"
+    const val includeParag = "paragraph"
+    const val includeSection = "section"
+    const val includeTag = "#include "
+    const val abstractSeparatorTemp = "<<< * * * >>>"
+    const val abstractSeparator = "\n\n$abstractSeparatorTemp\n\n"
+    const val sectionSeparator = "\n\n* * *\n\n"
+    const val paragSeparator = "\n\n"
+    const val textRawStart = "#text-raw-start"
+    const val textRawEnd = "#text-raw-end"
 
     fun splitToParagraphs(text: String): MutableList<String> {
         return text.split("\n\n").toMutableList()

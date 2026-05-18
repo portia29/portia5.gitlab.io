@@ -12,8 +12,8 @@ class SimpleServer {
     }
 
     class UrlsMap {
-        private val redirect = mutableMapOf<String, RatUrl>()
-        private val serve: Map<String, RatUrl>
+        private val redirect = mutableMapOf<String, UrlMy>()
+        private val serve: Map<String, UrlMy>
 
         init {
             val sitemap = Sitemap(Context())
@@ -69,7 +69,7 @@ class SimpleServer {
             exchange.responseBody.close()
         }
         server.executor = null
-        println("Home is '${UtilsAbsolute.dstMainDir}'," +
+        println("Home is '${UtilsMy.dstMainDir}'," +
                 " listening at http${if (secure) "s" else ""}://localhost:$port/")
         server.start()
     }

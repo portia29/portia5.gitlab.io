@@ -1,5 +1,4 @@
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
 import kotlin.io.path.absolutePathString
@@ -20,12 +19,12 @@ class Favicon {
     @Serializable
     data class BuildInfo(val lastModifiedSvg: Long, val lastModifiedKt: Long)
 
-    val ktSrc = UtilsAbsolute.projectDir.resolve("src-main-kotlin/Favicon.kt")
-    val svgSrc = UtilsAbsolute.srcRawDir.resolve("favicon.svg")
-    val jsonFile = UtilsAbsolute.srcResDir.resolve("favicon.json").toFile()
+    val ktSrc = UtilsMy.projectDir.resolve("src-main-kotlin/Favicon.kt")
+    val svgSrc = UtilsMy.srcRawDir.resolve("favicon.svg")
+    val jsonFile = UtilsMy.srcResDir.resolve("favicon.json").toFile()
 
     private fun svgToPng(src: Path, dst: Path, size: Int) {
-        val output = rattyExec(
+        val output = ratExec(
             "inkscape",
             "--export-type=png",
             "--export-width=$size",
@@ -57,19 +56,19 @@ class Favicon {
     fun main() {
         if (!generationRequired()) return
         println("Generating favicon.")
-        val tmpPng = UtilsAbsolute.srcRawDir.resolve("favicon-temp.png")
-        val icoDst = UtilsAbsolute.srcRawDir.resolve("favicon.ico")
+        val tmpPng = UtilsMy.srcRawDir.resolve("favicon-temp.png")
+        val icoDst = UtilsMy.srcRawDir.resolve("favicon.ico")
         svgToPng(svgSrc, tmpPng, 32)
-        val output = rattyExec(
+        val output = ratExec(
             "convert", tmpPng.absolutePathString(), icoDst.absolutePathString()
         )
         if (output.isNotEmpty()) {
             println(output)
         }
         tmpPng.toFile().delete()
-        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("icon-512.png"), 512)
-        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("icon-192.png"), 192)
-        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("apple-touch-icon.png"), 180)
+        svgToPng(svgSrc, UtilsMy.srcRawDir.resolve("icon-512.png"), 512)
+        svgToPng(svgSrc, UtilsMy.srcRawDir.resolve("icon-192.png"), 192)
+        svgToPng(svgSrc, UtilsMy.srcRawDir.resolve("apple-touch-icon.png"), 180)
         generationCompleted()
     }
 }

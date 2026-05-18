@@ -1,6 +1,6 @@
 import java.nio.file.Path
 
-interface RatUrlInterface {
+interface UrlMyInterface {
     val srcAbsolutePath: Path
     val srcRelativePath: Path
     val dstDirPath: Path

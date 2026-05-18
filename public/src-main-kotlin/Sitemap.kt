@@ -4,7 +4,7 @@ import java.util.*
 
 class Sitemap(c: ContextInterface) : ContextInterface by c {
     private val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
-    val urls: MutableList<RatUrl> = mutableListOf()
+    val urls: MutableList<UrlMy> = mutableListOf()
     val srcPages: MutableMap<String, Page> = mutableMapOf()
     private var _map: Page? = null
     fun getMap(): Page? { return _map }
@@ -19,7 +19,7 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
         srcDirsPaths.forEach { srcDirPath ->
             Files.walk(srcDirPath).use { stream ->
                 stream.filter(Files::isRegularFile).forEach {
-                    urls.add(RatUrl(it, srcDirPath.relativize(it), dstMainDir))
+                    urls.add(UrlMy(it, srcDirPath.relativize(it), dstMainDir))
                 }
             }
         }
@@ -53,20 +53,20 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
     fun updateMaps(mapOfLinks: SortedMap<String, TreeSet<String>>) {
         parsedMap = mapOfLinks
         // Recreate map page to allow it regeneration in reflective phase.
-        val mapUrl = urls.find { it.relativeUrl == UtilsRelative.MAP_RELATIVE_URL }
+        val mapUrl = urls.find { it.relativeUrl == UtilsMy.MAP_RELATIVE_URL }
         if (mapUrl != null) {
             _map = Page(mapUrl)
-            srcPages[UtilsRelative.MAP_RELATIVE_URL] = getMap()!!
+            srcPages[UtilsMy.MAP_RELATIVE_URL] = getMap()!!
         }
 
-        val mapOrderSrcRelativePath = Path.of(UtilsRelative.MAP_ORDER_RELATIVE_PATH)
+        val mapOrderSrcRelativePath = Path.of(UtilsMy.MAP_ORDER_RELATIVE_PATH)
         val mapOrderSrcAbsolutePath: Path = srcGenDir.resolve(mapOrderSrcRelativePath)
-        val mapOrderUri = RatUrl(mapOrderSrcAbsolutePath, mapOrderSrcRelativePath, dstMainDir)
+        val mapOrderUri = UrlMy(mapOrderSrcAbsolutePath, mapOrderSrcRelativePath, dstMainDir)
         if (urls.contains(mapOrderUri)) throw IllegalStateException()
         urls.add(mapOrderUri)
-        val mapChaosSrcRelativePath = Path.of(UtilsRelative.MAP_CHAOS_RELATIVE_PATH)
+        val mapChaosSrcRelativePath = Path.of(UtilsMy.MAP_CHAOS_RELATIVE_PATH)
         val mapChaosSrcAbsolutePath: Path = srcGenDir.resolve(mapChaosSrcRelativePath)
-        val mapChaosUri = RatUrl(mapChaosSrcAbsolutePath, mapChaosSrcRelativePath, dstMainDir)
+        val mapChaosUri = UrlMy(mapChaosSrcAbsolutePath, mapChaosSrcRelativePath, dstMainDir)
         if (urls.contains(mapChaosUri)) throw IllegalStateException()
 
         urls.sortBy { it.relativeUrl }

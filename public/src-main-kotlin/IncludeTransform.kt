@@ -1,9 +1,3 @@
-import Constants.abstractSeparator
-import Constants.includeLink
-import Constants.includeSection
-import Constants.includeTag
-import Constants.paragSeparator
-import Constants.sectionSeparator
 
 class IncludeTransform(private val generator: Generator) {
 
@@ -16,8 +10,8 @@ class IncludeTransform(private val generator: Generator) {
         if (page.isMap && generator.firstRun) return
         val commands = parag.split(" ").toMutableList()
         if (!commands.remove("#include")) throw IllegalStateException()
-        val withLink = commands.remove(includeLink)
-        val asSection = commands.remove(includeSection)
+        val withLink = commands.remove(UtilsMy.includeLink)
+        val asSection = commands.remove(UtilsMy.includeSection)
         val path = commands.removeLast()
         val e = "Missing page for path \"$path\" in page \"${page.relativeUrl}\""
         val includedPage = generator.sitemap.srcPages[path] ?: throw IllegalStateException(e)
@@ -41,9 +35,9 @@ class IncludeTransform(private val generator: Generator) {
 
     fun transform(page: Page) {
         if (page.abstracts.isNotEmpty()) return
-        page.abstracts.addAll(page.formatted.split(abstractSeparator).map { supersection ->
-            supersection.split(sectionSeparator).map { section ->
-                section.split(paragSeparator).map { it }.toMutableList()
+        page.abstracts.addAll(page.formatted.split(UtilsMy.abstractSeparator).map { supersection ->
+            supersection.split(UtilsMy.sectionSeparator).map { section ->
+                section.split(UtilsMy.paragSeparator).map { it }.toMutableList()
             }.toMutableList()
         })
         page.abstracts.forEach { abstract ->
@@ -51,15 +45,15 @@ class IncludeTransform(private val generator: Generator) {
             for (section in sectionsIterator) {
                 val paragIterator = section.listIterator()
                 for (parag in paragIterator) {
-                    if (parag.startsWith(includeTag)) {
+                    if (parag.startsWith(UtilsMy.includeTag)) {
                         onInclude(page, parag, paragIterator, section, sectionsIterator)
                     }
                 }
             }
         }
-        page.includeText = page.abstracts.joinToString(separator = abstractSeparator) { abstract ->
-            abstract.joinToString(separator = sectionSeparator) { section ->
-                section.joinToString(separator = paragSeparator) { it }
+        page.includeText = page.abstracts.joinToString(separator = UtilsMy.abstractSeparator) { abstract ->
+            abstract.joinToString(separator = UtilsMy.sectionSeparator) { section ->
+                section.joinToString(separator = UtilsMy.paragSeparator) { it }
             }
         }
     }

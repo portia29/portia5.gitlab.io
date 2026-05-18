@@ -1,9 +1,9 @@
 import java.util.*
 import kotlin.io.path.readText
 
-data class Page(val url: RatUrl) : RatUrlInterface by url {
+data class Page(val url: UrlMy) : UrlMyInterface by url {
     val raw: String = srcAbsolutePath.readText()
-    val formatted: String = TextFormatter.transform(raw)
+    val formatted: String = TextFormatter().transform(raw)
     // Also lenses.
     val abstracts = mutableListOf<MutableList<MutableList<String>>>()
 

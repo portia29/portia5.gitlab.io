@@ -12,7 +12,7 @@ class LineTransform(
         spaces.replace(" ", "&nbsp;")
     }
 
-    fun transform(url: RatUrl, line: String, wordTransformer: (url: RatUrl, word: String) -> String): String {
+    fun transform(url: UrlMy, line: String, wordTransformer: (url: UrlMy, word: String) -> String): String {
         val builder = StringBuilder()
         val spaces = StringBuilder()
         var firstWord = true

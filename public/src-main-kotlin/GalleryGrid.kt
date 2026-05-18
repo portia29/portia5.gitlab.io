@@ -1,5 +1,5 @@
 
-import UtilsAbsolute.srcRawDir
+import UtilsMy.srcRawDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import java.nio.file.Paths
@@ -44,7 +44,7 @@ class GalleryGrid {
 
     fun main() {
         val html = resolve("/image/gallery")
-        val template = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile()
+        val template = UtilsMy.srcResDir.resolve("page-template.html").toFile()
         srcRawDir.resolve("test/image/test4.html").toFile().writeText(
             template.readText().replace("<!--DATA-->", html))
     }

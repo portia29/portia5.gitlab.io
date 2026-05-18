@@ -1,5 +1,7 @@
-import UtilsAbsolute.HOST_NAME
-import java.util.*
+import UtilsMy.HOST_NAME
+import UtilsMy.textRawEnd
+import UtilsMy.textRawStart
+import java.util.TreeSet
 
 class HtmlTransform(
     /**
@@ -12,22 +14,18 @@ class HtmlTransform(
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 25
 
-    // "<span class=\"nowrap\">$1</span>"
-    private val dashNoWrap = "(\\S+-\\S+)".toRegex()
-
-    // "<a href=\"$1\">\$1</a>"
-    private val hyperlink = "(http\\S+)".toRegex()
     val footnote = "(\\S+\\[\\d+])".toRegex()
     private val wbrBeforeUrl = "([/~.,\\-_?#%])".toRegex()
     private val wbrBeforeWord = "([=~,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val htmlTemplate
-        get() = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile().readText()
-    private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
+        get() = UtilsMy.srcResDir.resolve("page-template.html").toFile().readText()
+    private var lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
+    private var enabled = true
 
     fun htmlPage(title: String, body: String): String {
         return htmlTemplate
@@ -36,12 +34,12 @@ class HtmlTransform(
             .replace("<!--DATA-FOOTER-->", "")
     }
 
-    fun textToHtml(url: RatUrl, text: String): String {
+    fun textToHtml(url: UrlMy, text: String): String {
         val article = StringBuilder()
         article.append("    ")
         article.appendLine()
         val paragraphs = StringBuilder()
-        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
+        UtilsMy.splitToParagraphs(text).forEach { paragraph ->
             if (paragraphs.isEmpty()) {
                 paragraphs.append("    ")
             } else {
@@ -61,7 +59,7 @@ class HtmlTransform(
         return "<span class=\"nowrap\">$word</span>"
     }
 
-    private fun longUrlLineBreaks(url: String): String {
+    fun longUrlLineBreaks(url: String): String {
         // https://css-tricks.com/better-line-breaks-for-long-urls/
         return url.split("//").joinToString("//$wbrElement") { part ->
             // Insert a word break opportunity after a colon
@@ -92,7 +90,7 @@ class HtmlTransform(
         }
     }
 
-    private fun transformLink(url: RatUrl, link: String): String {
+    fun transformLink(url: UrlMy, link: String): String {
         //println("transformLink: $link")
         setOfLinks.add(link)
         if (link.startsWith(HOST_NAME)) {
@@ -121,9 +119,9 @@ class HtmlTransform(
         return word.contains("東亜重工")
     }
 
-    fun transformWord(url: RatUrl, word: String): String {
+    fun transformWord(url: UrlMy, word: String): String {
         //println("transformWord 1: $word")
-        if (UtilsAbsolute.isHyperlink(word)) {
+        if (UtilsMy.isHyperlink(word)) {
             return transformLink(url, word)
         }
         //println("transformWord 2: $word")
@@ -148,13 +146,13 @@ class HtmlTransform(
         return newWord
     }
 
-    fun transformLine(url: RatUrl, line: String): String {
+    fun transformLine(url: UrlMy, line: String): String {
         return lineTransform.transform(url, line, ::transformWord)
     }
 
     val beautifiedShortSeparator = TextTypography().beautifiedShortSeparator
 
-    fun transformParagraph(url: RatUrl, paragraph: String): String {
+    fun transformParagraph(url: UrlMy, paragraph: String): String {
         if (paragraph.startsWith("#gallery")) {
             val path = paragraph.split(" ")[1]
             return "\n" + GalleryGrid().resolve(path)
@@ -173,7 +171,18 @@ class HtmlTransform(
         }
         val result = StringBuilder()
         result.append("<p>")
-        val lines = UtilsAbsolute.splitParagraphToLines(paragraph).map { transformLine(url, it) }
+        val lines = UtilsMy.splitParagraphToLines(paragraph).mapNotNull {
+            if (it == textRawStart) {
+                enabled = false
+                lineTransform = LineTransform(false)
+                return@mapNotNull null
+            } else if (it == textRawEnd) {
+                enabled = true
+                lineTransform = LineTransform(true)
+                return@mapNotNull null
+            }
+            transformLine(url, it)
+        }
         result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")
         return result.toString()

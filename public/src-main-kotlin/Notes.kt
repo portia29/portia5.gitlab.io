@@ -1,6 +1,5 @@
-import UtilsAbsolute.dstTestDir
+import UtilsMy.dstTestDir
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
 import java.util.*
@@ -9,11 +8,11 @@ import java.util.function.Predicate
 /**
  * Novel - роман.
  */
-class Library {
+class Notes {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            Library().main()
+            Notes().main()
         }
     }
 
@@ -47,7 +46,7 @@ class Library {
     }
 
     @Serializable
-    data class Writing(
+    data class Note(
         val raw: String? = null,
         val comment: String? = null,
         val names: List<Name> = mutableListOf(),
@@ -73,8 +72,8 @@ class Library {
         return name
     }
 
-    private fun formatWritings(writings: List<Writing>, language: String): String {
-        return writings.joinToString(
+    private fun formatWritings(notes: List<Note>, language: String): String {
+        return notes.joinToString(
             separator = "», «", prefix = ": «", postfix = "».", transform = {
                 selectName(it.names, language)
             })
@@ -85,14 +84,14 @@ class Library {
     }
 
     @Suppress("unused")
-    fun notesGrouped(notes: List<Writing>): List<String> {
+    fun notesGrouped(notes: List<Note>): List<String> {
         val result = mutableListOf<String>()
         val length = notes.size
         var index = 0
         val addNoteNumber = false
-        fun drain(s: StringBuilder, p: Predicate<Writing>): LinkedList<Writing> {
+        fun drain(s: StringBuilder, p: Predicate<Note>): LinkedList<Note> {
             if (addNoteNumber) s.append("").append(result.size + 1).append(". ")
-            val list = LinkedList<Writing>()
+            val list = LinkedList<Note>()
             while (index < length) {
                 val n = notes[index]
                 if (!p.test(n)) {
@@ -144,33 +143,33 @@ class Library {
     }
 
     fun main() {
-        val writingsIn = loadNotes(UtilsAbsolute.srcResDir)
-        val libraryOut = UtilsAbsolute.srcGenDir
+        val writingsIn = loadNotes(UtilsMy.srcResDir)
+        val libraryOut = UtilsMy.srcGenDir
         val notes = notesGrouped(writingsIn)
         val text = StringBuilder()
         text.append("Коллекция заметок, здесь первая сотня, всего заметок ${notes.size}. ")
         val bs = "█ "
         val be = ""
         text.append(notes.subList(0, 100).joinToString("$be $bs", bs, be))
-        libraryOut.resolve("library-preview.txt").toFile().writeText(text.toString())
+        libraryOut.resolve("notes-preview.txt").toFile().writeText(text.toString())
     }
 
-    fun saveNotes(dst: Path, writingsIn: MutableList<Writing>) {
+    fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = true }
-        val outWritingsFile = dst.resolve("library.json").toFile()
+        val outWritingsFile = dst.resolve("notes.json").toFile()
         outWritingsFile.writeText(format.encodeToString(writingsIn))
     }
 
-    fun loadNotes(srcDir: Path): MutableList<Writing> {
-        val writingsFile = srcDir.resolve("library.json").toFile()
-        val writings = Json.decodeFromString<MutableList<Writing>>(writingsFile.readText())
-        saveNotes(srcDir, writings)
-        return writings
+    fun loadNotes(srcDir: Path): MutableList<Note> {
+        val writingsFile = srcDir.resolve("notes.json").toFile()
+        val notes = Json.decodeFromString<MutableList<Note>>(writingsFile.readText())
+        saveNotes(srcDir, notes)
+        return notes
     }
 
     @Suppress("unused")
-    fun archivedCode(writingsIn: MutableList<Writing>) {
-        fun mainListLong(writingsIn: MutableList<Writing>): StringBuilder {
+    fun archivedCode(writingsIn: MutableList<Note>) {
+        fun mainListLong(writingsIn: MutableList<Note>): StringBuilder {
             fun recommendationFilter(w: FiltrableWriting): Boolean {
                 return w.hasAnyOfTags(
                     "recommendation", "visible"
@@ -182,10 +181,10 @@ class Library {
             }
 
             val b = StringBuilder()
-            val fullList = LinkedList<Writing>()
+            val fullList = LinkedList<Note>()
             fullList.addAll(writingsIn.filter { recommendationFilter(it) })
             fullList.addAll(writingsIn.filter { entertainingFilter(it) })
-            val currentList = LinkedList<Writing>()
+            val currentList = LinkedList<Note>()
             fullList.forEach { w ->
                 if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
                     if (b.isNotEmpty()) {
@@ -225,7 +224,7 @@ class Library {
             return b
         }
         fun mainListMedium(
-            writingsIn: MutableList<Writing>, predicate: (Writing) -> Boolean
+            writingsIn: MutableList<Note>, predicate: (Note) -> Boolean
         ): StringBuilder {
             val b = StringBuilder()
             val list = writingsIn.filter { predicate(it) }
@@ -239,7 +238,7 @@ class Library {
             }
             return b
         }
-        fun mainListShort(writingsIn: MutableList<Writing>): StringBuilder {
+        fun mainListShort(writingsIn: MutableList<Note>): StringBuilder {
             val b = StringBuilder()
             val list = writingsIn.filter {
                 it.hasAnyOfTags(
@@ -255,7 +254,7 @@ class Library {
             b.append(".")
             return b
         }
-        fun mainListSummary(writingsIn: MutableList<Writing>): StringBuilder {
+        fun mainListSummary(writingsIn: MutableList<Note>): StringBuilder {
             val b = StringBuilder()
             val writingsCount = writingsIn.size
             val authorsCount = writingsIn.groupBy { it.authors }.keys.size
@@ -275,8 +274,8 @@ class Library {
         text.append(mainListLong(writingsIn))
         dstTestDir.resolve("library.txt").toFile().writeText(text.toString())
         fun generateListSplitByParts() {
-            val writingsIn = loadNotes(UtilsAbsolute.srcResDir)
-            val libraryOut = UtilsAbsolute.srcGenDir
+            val writingsIn = loadNotes(UtilsMy.srcResDir)
+            val libraryOut = UtilsMy.srcGenDir
             val notes = notesGrouped(writingsIn)
             val partSize = 100
             var partCount = 0

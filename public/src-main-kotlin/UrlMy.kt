@@ -1,13 +1,13 @@
 
-import UtilsAbsolute.HOST_NAME
+import UtilsMy.HOST_NAME
 import java.nio.file.Path
 import kotlin.io.path.exists
 import kotlin.io.path.pathString
 
-data class RatUrl(
+data class UrlMy(
     override val srcAbsolutePath: Path,
     override val srcRelativePath: Path,
-    override val dstDirPath: Path) : RatUrlInterface {
+    override val dstDirPath: Path) : UrlMyInterface {
 
     override val srcAbsolutePathString = srcAbsolutePath.pathString
     override val srcRelativePathString = srcRelativePath.pathString
@@ -21,7 +21,7 @@ data class RatUrl(
     override val dstAbsolutePath: Path = dstDirPath.resolve(dstRelativePath)
     override val isRoot = dstRelativePathString == "index.html"
     override val isRaw = !srcRelativePathString.endsWith(".txt")
-    override val isGen = srcAbsolutePathString.startsWith(UtilsAbsolute.srcGenDir.pathString)
+    override val isGen = srcAbsolutePathString.startsWith(UtilsMy.srcGenDir.pathString)
     override val isIndexOfDirectory: Boolean
 
     override val relativeUrl: String
@@ -33,7 +33,7 @@ data class RatUrl(
 
     init {
         if (isRoot) {
-            relativeUrl = UtilsRelative.ROOT_RELATIVE_URL
+            relativeUrl = UtilsMy.ROOT_RELATIVE_URL
             redirects = setOf("/index.html")
             isPage = true
             isDirectory = true
@@ -63,7 +63,7 @@ data class RatUrl(
             throw IllegalStateException(srcAbsolutePathString)
         }
         absoluteUrl = if (isRoot) HOST_NAME else "$HOST_NAME$relativeUrl"
-        isMap = relativeUrl == UtilsRelative.MAP_RELATIVE_URL
+        isMap = relativeUrl == UtilsMy.MAP_RELATIVE_URL
         isIndexOfDirectory = if (isPage && isRaw) {
             Path.of(srcAbsolutePathString.removeSuffix(".html")).exists()
         } else if (isPage) {

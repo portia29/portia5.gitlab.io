@@ -9,7 +9,7 @@ import kotlin.test.Test
  */
 class GitTest {
 
-    val repo = UtilsAbsolute.testResDir.resolve("gitrepo").toFile()
+    val repo = UtilsMy.testResDir.resolve("gitrepo").toFile()
 
     @Test
     fun main1() {
@@ -19,7 +19,7 @@ class GitTest {
     @Test
     fun main() {
         println(
-            rattyExec(
+            ratExec(
                 repo,
                 "git",
                 "log",
@@ -30,7 +30,7 @@ class GitTest {
             )
         )
         println(
-            "\n" + rattyExec(
+            "\n" + ratExec(
                 repo,
                 "git",
                 "log",
@@ -41,7 +41,7 @@ class GitTest {
             )
         )
         println(
-            "\n" + rattyExec(
+            "\n" + ratExec(
                 repo,
                 "git",
                 "log",
@@ -65,7 +65,7 @@ class GitTest {
         val endLocalDateTime = endDay.atTime(23, 59, 59).atOffset(ZoneOffset.ofHours(3))
         val until = requestDateFormatter.format(endLocalDateTime)
 
-        val requestResult = rattyExec(
+        val requestResult = ratExec(
             repo,
             "git",
             "log",
@@ -92,7 +92,7 @@ class GitTest {
         val endLocalDateTime = endDay.atTime(23, 59, 59).atOffset(ZoneOffset.ofHours(3))
         val until = requestDateFormatter.format(endLocalDateTime)
 
-        val requestResult = rattyExec(
+        val requestResult = ratExec(
             repo,
             "git",
             "log",

@@ -1,9 +1,9 @@
 import java.nio.file.Path
 
 class Context(
-    override val srcTxtDir: Path = UtilsAbsolute.srcTxtDir,
-    override val srcRawDir: Path = UtilsAbsolute.srcRawDir,
-    override val srcResDir: Path = UtilsAbsolute.srcResDir,
-    override val srcGenDir: Path = UtilsAbsolute.srcGenDir,
-    override val dstMainDir: Path = UtilsAbsolute.dstMainDir,
-    override val dstTestDir: Path = UtilsAbsolute.dstTestDir) : ContextInterface
+    override val srcTxtDir: Path = UtilsMy.srcTxtDir,
+    override val srcRawDir: Path = UtilsMy.srcRawDir,
+    override val srcResDir: Path = UtilsMy.srcResDir,
+    override val srcGenDir: Path = UtilsMy.srcGenDir,
+    override val dstMainDir: Path = UtilsMy.dstMainDir,
+    override val dstTestDir: Path = UtilsMy.dstTestDir) : ContextInterface

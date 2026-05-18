@@ -54,7 +54,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
     private fun main() {
         cleanDstDirs()
         Favicon().main()
-        Library().main()
+        Notes().main()
         sitemap.updateUrls()
         sitemap.srcPages.forEach { processPage(it.value) }
         firstRun = false

@@ -1380,7 +1380,7 @@
         ]
     },
     {
-        "raw": "'Мой маньяк по соседству' by 'Boolochka' at 'ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812'",
+        "raw": "'Мой маньяк по соседству' by 'Boolochka' at 'https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812'",
         "tags": [
             "raw"
         ]
@@ -3224,20 +3224,116 @@
     {
         "names": [
             {
-                "name": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
+                "name": "Selfless Dating",
+                "language": "en"
             }
         ],
         "tags": [
-            "anime"
+            "blogging",
+            "essay"
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Shinji Ishihira",
+                        "name": "Jacob Falkovich",
                         "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "BusyBeaver(6) is really quite large",
+                "language": "en",
+                "comment": "First encounter date 2025-06-29 https://scottaaronson.blog/?p=8972"
+            }
+        ],
+        "tags": [
+            "math"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Aaronson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "[CONTEXT-2] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 10 минут, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
+        "tags": [
+            "raw",
+            "context2"
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "451 градус по Фаренгейту",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Ray Bradbury",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Казаки",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Смерть чиновника",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "ru"
                     }
                 ]
             }
@@ -3259,6 +3355,28 @@
                     {
                         "name": "Лев Толстой",
                         "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shinji Ishihira",
+                        "language": "en"
                     }
                 ]
             }
@@ -3333,28 +3451,6 @@
     {
         "names": [
             {
-                "name": "The Devil Is a Part-Timer!",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Devil_Is_a_Part-Timer!"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Naoto Hosoda",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "No Game No Life",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/No_Game_No_Life"
@@ -3368,6 +3464,28 @@
                 "names": [
                     {
                         "name": "Atsuko Ishizuka",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Miss Kobayashi's Dragon Maid",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Miss_Kobayashi%27s_Dragon_Maid"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yasuhiro Takemoto",
                         "language": "en"
                     }
                 ]
@@ -3399,120 +3517,9 @@
     {
         "names": [
             {
-                "name": "Selfless Dating",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "BusyBeaver(6) is really quite large",
+                "name": "The Devil Is a Part-Timer!",
                 "language": "en",
-                "comment": "First encounter date 2025-06-29 https://scottaaronson.blog/?p=8972"
-            }
-        ],
-        "tags": [
-            "math"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Aaronson",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "451 градус по Фаренгейту",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "en"
-                    },
-                    {
-                        "name": "Ray Bradbury",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Казаки",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Смерть чиновника",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Miss Kobayashi's Dragon Maid",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Miss_Kobayashi%27s_Dragon_Maid"
+                "link": "https://en.wikipedia.org/wiki/The_Devil_Is_a_Part-Timer!"
             }
         ],
         "tags": [
@@ -3522,7 +3529,7 @@
             {
                 "names": [
                     {
-                        "name": "Yasuhiro Takemoto",
+                        "name": "Naoto Hosoda",
                         "language": "en"
                     }
                 ]
@@ -5118,6 +5125,35 @@
     {
         "names": [
             {
+                "name": "Blade Runner",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Blade_Runner"
+            },
+            {
+                "name": "Бегущий по лезвию",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "neo-noir"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ridley Scott",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1982"
+    },
+    {
+        "names": [
+            {
                 "name": "Приключения Незнайки и его друзей",
                 "language": "?"
             }
@@ -6005,7 +6041,7 @@
         ]
     },
     {
-        "raw": "\"An Unfortunate Dualist\" from This Book Needs No Title by Raymond M. Smullyan.",
+        "raw": "\"An Unfortunate Dualist\" from \"This Book Needs No Title\" by \"Raymond M. Smullyan\".",
         "comment": "First encounter date 2026-05-05 / 1980 by Raymond M. Smullyan. Published by Prentice-Hall, Inc., Englewood Cliffs, N J. https://web.ics.purdue.edu/~drkelly/SmullyanUnfortunateDualist1980.pdf https://x.com/psychiel/status/2051228666030338272",
         "tags": [
             "raw"
@@ -6778,35 +6814,6 @@
             }
         ],
         "created": "2003"
-    },
-    {
-        "names": [
-            {
-                "name": "Blade Runner",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Blade_Runner"
-            },
-            {
-                "name": "Бегущий по лезвию",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "neo-noir"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ridley Scott",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1982"
     },
     {
         "names": [
@@ -10307,15 +10314,24 @@
         "created": "2003"
     },
     {
+        "raw": "...𝔸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣾⣿⣷⣦⣌⠙⢿⣿⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣷⡈⢻⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⠋⣉⠙⢻⣿⣿⣿⣷⠀⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡷⢀⣿⣿⣿⡿⠀⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣼⣿⣿\n⣿⣿⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿\n⣿⣿⣿⣿⣿⠟⢁⣴⣿⣿⠟⢁⣴⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿\n⣿⣿⠁⣴⣿⣿⣿⣿⣿⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n⣿⣿⠀⢿⣿⣿⣿⣿⣿⡿⠋⣠⣾⣿⣿⠟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n⣿⣿⣧⡈⠻⢿⣿⡿⠋⣠⣾⣿⣿⡟⢁⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n⣿⣿⣿⣿⣷⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+        "tags": [
+            "raw",
+            "ascii-art",
+            "unicode"
+        ]
+    },
+    {
         "raw": "Коллекция личных воспоминаний. Дошкольное время, горячее летнее солнце, фиолетовые тени на асфальте, во дворе забивают свинью, спускают в эмалированное ведро кровь, осмаливают паяльной лампой; у нас живёт человек скрывающийся от полиции и употребляющий наркотики, на его голени незаживающая гноящаяся рана, по ночам мы с ним смотрим зарубежные фильмы. Школьное время, кличка «Маугли», полученная за хаотичное перебегание дороги и смуглый цвет кожи, весёлые игры на городских свалках и заброшенных стройках, несколько случаев переживания ощущения своей смертности, пачка историй о драках дома, в школе и во дворе, плохое понимание, что чувствую я и что чувствуют другие люди, возможно наследственное, отец в молодости вместо трибунала получил диагноз психопатии, биологические родители матери оставили её младенцем на вокзале. Потеря сознания от передозировки, потеря сознания после нескольких суток бессонной работы, хождение полностью голым по улице.",
         "tags": [
             "raw"
         ]
     },
     {
-        "raw": "#Mantra1 #MakeArchive Вместо “Memento mori” можно переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое.",
+        "raw": "#Mantra1 #MakeArchive Описать переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса, чтобы хотелось жить его красиво, без страхов, без эгоизма.",
         "tags": [
-            "raw"
+            "raw",
+            "context1"
         ]
     },
     {

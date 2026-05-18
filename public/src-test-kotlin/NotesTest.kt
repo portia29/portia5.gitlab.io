@@ -1,12 +1,12 @@
-import UtilsAbsolute.testResDir
+
+import UtilsMy.testResDir
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
 import kotlin.io.path.listDirectoryEntries
 import kotlin.test.Test
 
-class LibraryTest {
+class NotesTest {
     private val resLibrary: Path = testResDir.resolve("library")
     private val resMigration: Path = resLibrary.resolve("migration")
     private val resIn: Path = resMigration.resolve("in")
@@ -157,7 +157,7 @@ class LibraryTest {
                         }
                     }
                     if (newAuthor == null) throw IllegalStateException(author.toString())
-                    writing.authors[i] = newAuthor!!
+                    writing.authors[i] = newAuthor
                 }
             }
         }

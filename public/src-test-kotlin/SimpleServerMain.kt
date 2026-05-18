@@ -11,13 +11,13 @@ class SimpleServerMain {
         fun main(args: Array<String>) {
             val port = if (args.isNotEmpty()) args[0].toInt() else SimpleServerMain().defaultPort
             val home = if (args.size > 1) Path.of(args[1])
-                .toRealPath() else UtilsAbsolute.projectDir.resolve("public")
+                .toRealPath() else UtilsMy.projectDir.resolve("public")
             SimpleServerMain().start(port, home, false)
         }
     }
 
     val defaultPort = 8080
-    private val defaultHome: Path = UtilsAbsolute.projectDir.resolve("public")
+    private val defaultHome: Path = UtilsMy.projectDir.resolve("public")
 
     fun start() {
         start(defaultPort, defaultHome, false)
