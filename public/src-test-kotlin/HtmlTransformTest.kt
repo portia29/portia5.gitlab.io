@@ -1,4 +1,7 @@
 
+import java.nio.file.Path
+import java.nio.file.Paths
+import kotlin.io.path.exists
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -114,22 +117,14 @@ class HtmlTransformTest {
 
     @Test
     fun textToHtml() {
-        /*
         val resourcesDir = Paths.get("src-test-res")
         assert(resourcesDir.exists())
         val srcRelPath = Path.of("test1.txt")
         val srcAbsPath = resourcesDir.resolve(srcRelPath)
-        val textString = srcAbsPath.toFile().readText()
-        val expectedHtmlString = resourcesDir.resolve("test1.html").toFile().readText()
-
-        val page = Page(RatUrl(srcAbsPath, srcRelPath, resourcesDir))
-        val pages = mapOf(page.relativeUrl to page)
-        val includeTransform = IncludeTransform()
-        includeTransform.transform(pages, page)
-        page.beautyText = TextBeautifier().transform(TestUtils.url, page.includeText)
-        val bodyHtml = htmlTransform.textToHtml(TestUtils.url, page.beautyText)
-        val htmlPage = htmlTransform.htmlPage(page.title, bodyHtml, page.navigation)
-        assertEquals(expectedHtmlString, htmlPage)
-        */
+        val page = Page(UrlMy(srcAbsPath, srcRelPath, resourcesDir))
+        Generator().processPage(page)
+        val expectedHtmlString = resourcesDir.resolve("test1-expected.html").toFile().readText()
+        val actualHtmlString = resourcesDir.resolve("test1.html").toFile().readText()
+        assertEquals(expectedHtmlString, actualHtmlString)
     }
 }

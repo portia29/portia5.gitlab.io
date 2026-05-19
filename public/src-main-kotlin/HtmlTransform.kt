@@ -15,10 +15,6 @@ class HtmlTransform(
     private val maxUnwrappedWordLenght = 25
 
     val footnote = "(\\S+\\[\\d+])".toRegex()
-    private val wbrBeforeUrl = "([/~.,\\-_?#%])".toRegex()
-    private val wbrBeforeWord = "([=~,\\-_?#%])".toRegex()
-    private val wbrAfter = "([:])".toRegex()
-    private val wbrBeforeAfter = "([=&])".toRegex()
     private val htmlTemplate
         get() = UtilsMy.srcResDir.resolve("page-template.html").toFile().readText()
     private var lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
@@ -62,31 +58,28 @@ class HtmlTransform(
     fun longUrlLineBreaks(url: String): String {
         // https://css-tricks.com/better-line-breaks-for-long-urls/
         return url.split("//").joinToString("//$wbrElement") { part ->
-            // Insert a word break opportunity after a colon
-            part.replace(wbrAfter, "\$1$wbrElement")
-                // Before a single slash, tilde, period, comma, hyphen, underline,
-                // question mark, number sign, or percent symbol.
-                .replace(wbrBeforeUrl, "$wbrElement\$1")
-                // Before and after an equals sign or ampersand
-                .replace(wbrBeforeAfter, "$wbrElement\$1$wbrElement")
+            part.replace(":|[/~.,\\-_?#%]|[=&]".toRegex()) { match ->
+                when (val s = match.value) {
+                    ":" -> "$s$wbrElement"
+                    "=", "&" -> "$wbrElement$s$wbrElement"
+                    else -> "$wbrElement$s"
+                }
+            }
         }
     }
 
-    @Suppress("RegExpSimplifiable")
-    private val longWordLineBreaks = "((\\w{$maxUnwrappedWordLenght})|(.+))".toRegex()
-
     private fun longWordLineBreaksTwo(word: String): String {
         // TODO "&shy;" vs wbrElement
-        return longWordLineBreaks.findAll(word).joinToString(wbrElement) { it.value }
+        return "((\\w{$maxUnwrappedWordLenght})|(.+))".toRegex()
+            .findAll(word).joinToString(wbrElement) { it.value }
     }
 
     private fun longWordLineBreaks(word: String, base: String = "-"): String {
         return word.split(base).joinToString("$base$wbrElement") { part ->
-            // Insert a word break opportunity after a colon
-            part.replace(wbrAfter, "\$1$wbrElement")
-                // Before a equals sign, tilde, period, comma, hyphen, underline,
-                // question mark, number sign, or percent symbol.
-                .replace(wbrBeforeWord, "$wbrElement\$1")
+            part.replace(":|[=~,\\-_?#%]".toRegex()) { match ->
+                val s = match.value
+                if (s == ":") "$s$wbrElement" else "$wbrElement$s"
+            }
         }
     }
 

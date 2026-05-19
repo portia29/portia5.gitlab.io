@@ -12,7 +12,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         }
     }
 
-    private val includeTransform = IncludeTransform(this)
+    val includeTransform = IncludeTransform(this)
     private val htmlTransform = HtmlTransform()
     private val redirects = mutableSetOf<String>()
     val sitemap = Sitemap(c)
@@ -41,7 +41,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         dstMainDir.resolve("_redirects").toFile().writeText(redirects.joinToString("\n"))
     }
 
-    private fun processPage(page: Page) {
+    fun processPage(page: Page) {
         page.srcAbsolutePath.toFile().writeText(page.formatted)
         includeTransform.transform(page)
         page.beautyText = TextTypography().transform(page.url, page.includeText)
