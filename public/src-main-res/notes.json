@@ -1,6 +1,6 @@
 [
     {
-        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 12%. Reading: \"Structure and Interpretation of Computer Programs\", page 119/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 119/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
         "tags": [
             "raw"
         ]
@@ -1115,7 +1115,7 @@
         ]
     },
     {
-        "raw": "\"Pale Blue Dot\", the photograph itself and commentary by Carl Sagan.",
+        "raw": "\"Pale Blue Dot\", a photograph of Earth taken on February 14, 1990, by the Voyager 1 space probe from an unprecedented distance of over 6 billion kilometers, with commentary by Carl Sagan.",
         "comment": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
         "tags": [
             "raw",
@@ -1266,28 +1266,6 @@
     {
         "names": [
             {
-                "name": "Ghost in the Shell",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Mamoru Oshii",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Fate/stay night",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Fate/stay_night_(2006_TV_series)"
@@ -1337,7 +1315,7 @@
         ]
     },
     {
-        "comment": "2025, апрель, 20, воскресенье",
+        "comment": "Дочитано 2025, апрель, 20",
         "names": [
             {
                 "name": "Want: Sexual Fantasies by Anonymous",
@@ -1377,12 +1355,6 @@
                     }
                 ]
             }
-        ]
-    },
-    {
-        "raw": "'Мой маньяк по соседству' by 'Boolochka' at 'https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812'",
-        "tags": [
-            "raw"
         ]
     },
     {
@@ -1617,31 +1589,6 @@
     {
         "names": [
             {
-                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Emily Nagoski",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Puella Magi Madoka Magica",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
@@ -1655,6 +1602,28 @@
                 "names": [
                     {
                         "name": "Akiyuki Shinbo, Yukihiro Miyamoto",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Ghost in the Shell",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Mamoru Oshii",
                         "language": "en"
                     }
                 ]
@@ -2831,6 +2800,31 @@
     {
         "names": [
             {
+                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Мартин Иден",
                 "language": "ru"
             }
@@ -3271,6 +3265,63 @@
             "raw",
             "context2"
         ]
+    },
+    {
+        "names": [
+            {
+                "name": "Monty Python and the Holy Grail",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+            },
+            {
+                "name": "Монти Пайтон и Священный Грааль",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam, Terry Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "The Hitchhiker's Guide to the Galaxy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
+            },
+            {
+                "name": "Автостопом по галактике",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Garth Jennings",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2005"
     },
     {
         "names": [
@@ -3716,10 +3767,17 @@
         ]
     },
     {
+        "raw": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do [ First encounter date 2026-05-20 ] [ Я понял ответ Тёрстона в духе того, что чтобы жил какой-то язык должны быть носители этого языка, чем больше тем лучше. Сравнение с языком моё, сам он говорит о conceptual и symbolic forms, первое существует в головах математиков, второе его представление на бумаге, symbolic form, то есть математическая нотация меняется, нужно чтобы кто-то считывал старые symbolic представления в conceptual в своей голове и записывал снова в новом symbolic представлении. ] [ \"Timothy Gowers: November 7, 2011 ... I once heard that the average number of readers of a mathematics paper is less than 1. ... but assuming that there’s a long tail, there will be huge nubers of papers that people won’t have happened to read\" gowers.wordpress.com/2011/11/03 ] [ В нескольких ответах говорят, что математика настолько большая, что получить какой-то новый результат легко. ]",
+        "tags": [
+            "raw",
+            "math"
+        ]
+    },
+    {
         "names": [
             {
                 "name": "Детство, Отрочество и Юность",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -3740,7 +3798,7 @@
         "names": [
             {
                 "name": "Сияние",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -3761,7 +3819,7 @@
         "names": [
             {
                 "name": "Капитанский мундир",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -3965,7 +4023,7 @@
         "names": [
             {
                 "name": "Мертвая зона",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -3986,7 +4044,7 @@
         "names": [
             {
                 "name": "Крыжовник",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4051,7 +4109,7 @@
         "names": [
             {
                 "name": "Маленький принц",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4124,7 +4182,7 @@
         "names": [
             {
                 "name": "Белая гвардия",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4145,7 +4203,7 @@
         "names": [
             {
                 "name": "Холстомер",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4166,7 +4224,7 @@
         "names": [
             {
                 "name": "Сто лет одиночества",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -4177,7 +4235,7 @@
                 "names": [
                     {
                         "name": "Гарсиа Маркес",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -4226,63 +4284,6 @@
                 ]
             }
         ]
-    },
-    {
-        "names": [
-            {
-                "name": "Monty Python and the Holy Grail",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
-            },
-            {
-                "name": "Монти Пайтон и Священный Грааль",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Terry Gilliam, Terry Jones",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1975"
-    },
-    {
-        "names": [
-            {
-                "name": "The Hitchhiker's Guide to the Galaxy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
-            },
-            {
-                "name": "Автостопом по галактике",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "comedy"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Garth Jennings",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "2005"
     },
     {
         "raw": "Francisco Goya: Los caprichos",
@@ -4696,6 +4697,13 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "raw": "'Мой маньяк по соседству' by 'Boolochka' at 'https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812'",
+        "tags": [
+            "raw",
+            "sex"
         ]
     },
     {
