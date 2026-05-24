@@ -10460,6 +10460,34 @@
         ]
     },
     {
+        "names": [
+            {
+                "name": "And Now for Something Completely Different",
+                "language": "en"
+            },
+            {
+                "name": "А теперь нечто совсем другое",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ian MacNaughton",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1971",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/And_Now_for_Something_Completely_Different | 1971. A collection of sketches from the Monty Python's Flying Circus television series."
+    },
+    {
         "raw": "Qwen AI Memory Record for library.json",
         "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH library.json\n\nAuthor: Qwen3.6 (Alibaba Cloud large language model)\nGenerated: 2026-05-09\nPurpose: Standardize how AI assistants add/modify entries in this personal library file.\n\n=== CORE FORMAT RULES ===\n• File is a JSON array of objects. Each object represents one media item (book, film, essay, concept, etc.)\n• The \"rating\" field has been REMOVED from the schema. Do NOT add or reference it.\n• Preserve existing structure: do not reorder fields or change key names.\n\n=== HANDLING NAMES ===\n• Always provide names in both English and Russian when possible.\n• Format: \"names\": [{\"name\": \"Title\", \"language\": \"en\"}, {\"name\": \"Название\", \"language\": \"ru\"}]\n• If an English Wikipedia article exists for a Russian-only title, add the English name WITH link inside the name object: {\"name\": \"English Title\", \"language\": \"en\", \"link\": \"https://en.wikipedia.org/wiki/...\"}\n• Do NOT use the top-level \"link\" field for Wikipedia links. Instead, put Wikipedia URLs in \"comment\" as: \"Main link EN: https://en.wikipedia.org/wiki/...\"\n\n=== HANDLING LINKS ===\n• If a \"comment\" field contains ONLY a single URL, convert it: move the URL to a top-level \"link\" field and remove/empty \"comment\".\n• If \"comment\" contains multiple URLs or mixed content, keep it as-is. You may append additional context.\n• For films/series: always add Wikipedia link to \"comment\" in format \"Main link EN: https://...\" followed by pipe-separated metadata (year, brief plot, awards).\n\n=== HANDLING COMMENT FIELD ===\n• Use \"comment\" for: publication year, genre notes, awards, brief plot summaries, first-encounter dates, contextual quotes.\n• Keep comments concise but informative. Prefer structured format: \"Key: value | Key2: value2\"\n• For essays/blog posts: add \"First encounter date YYYY-MM-DD\" if user mentions when they found it.\n\n=== HANDLING AUTHORS ===\n• Format: \"authors\": [{\"names\": [{\"name\": \"Author Name\", \"language\": \"en\"}, {\"name\": \"Имя Автора\", \"language\": \"ru\"}]}]\n• Multiple authors: add separate objects to the \"authors\" array.\n• For studios/directors: use the primary creative lead (director for films, writer for books).\n\n=== HANDLING TAGS ===\n• Tags are an array of lowercase, hyphenated strings: [\"film\", \"sci-fi\", \"thriller\"]\n• Use consistent taxonomy: media type first (film/novel/essay/concept), then genre/subgenre, then thematic tags.\n• Do not invent new tag categories without user confirmation.\n\n=== HANDLING \"RAW\" ENTRIES ===\n• Entries with \"raw\" field instead of \"names\" are for non-standard items: academic papers, quotes, mixed media notes.\n• Preserve the exact \"raw\" text. Add metadata in \"comment\" or \"link\" as appropriate.\n• Tag as [\"raw\", \"academic\"] or [\"raw\", \"animation\"] etc. to indicate content type.\n\n=== WHEN ADDING NEW ENTRIES ===\n1. Search Wikipedia for English title/link. If found, include it per rules above.\n2. Add Russian title if user provided one or if easily translatable.\n3. Set \"created\" field to release year for films/books.\n4. Assign tags from existing taxonomy; do not add \"rating\".\n5. Format authors with language tags.\n6. For films: always include \"Main link EN: ...\" in comment with year and one-sentence logline.\n\n=== VALIDATION CHECKLIST ===\n☐ JSON is valid (no trailing commas, proper escaping)\n☐ All \"names\" objects have \"name\" and \"language\"\n☐ Wikipedia links are in \"comment\" (not top-level \"link\") unless converting single-link comments\n☐ NO \"rating\" field present anywhere\n☐ Tags are lowercase, hyphenated, from existing set\n☐ Authors formatted with nested \"names\" array and language tags\n\n=== MODEL IDENTIFICATION & EDITING POLICY ===\n• This record is maintained by Qwen3.6 (Alibaba Cloud).\n• Other AI assistants should NOT edit this record. Instead, create your own instruction/memory records with unique \"raw\" titles (e.g., \"Claude AI Memory Record\", \"Gemini Notes for library.json\").\n• When referencing this file's rules, cite the author field to avoid conflicts.\n\n=== END INSTRUCTIONS ===",
         "tags": [
@@ -10482,7 +10510,7 @@
     },
     {
         "raw": "Gemini AI Memory Record for notes.json",
-        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH notes.json\n\nAuthor: Gemini 2.0 Flash (Google large language model)\nGenerated: 2024-05-16\nPurpose: Standardize how Gemini and other AI assistants add entries from add.txt to this file.\n\n=== CORE FORMAT RULES ===\n• Follow the existing JSON structure strictly.\n• Use 'names' for books, films, concepts, and other media with clear titles.\n• Use 'raw' for academic citations, quotes, and miscellaneous notes as found in add.txt.\n• Use 'tags' consistently (e.g., 'academic', 'video', 'concept', 'novel').\n• Prefer bilingual names (English/Russian) if available.\n• Wikipedia links go in 'comment' as 'Main link EN: ...'.\n• Top-level 'link' field is NOT allowed. Move all external links into 'comment'.\n\n=== DATA SOURCES ===\n• 'add.txt' acts as a staging area for new entries.\n• Once an entry is added to 'notes.json', it should be removed from 'add.txt'.\n\n=== EDITING POLICY ===\n• This specific entry is maintained by Gemini.\n• Respect Qwen's memory record and other AI assistants' records.\n",
+        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH notes.json\n\nAuthor: Gemini 2.0 Flash (Google large language model)\nGenerated: 2024-05-16\nPurpose: Standardize how Gemini and other AI assistants add entries from add.txt to this file.\n\n=== CORE FORMAT RULES ===\n• Follow the existing JSON structure strictly.\n• Use 'names' for books, films, concepts, and other media with clear titles.\n• Use 'raw' for academic citations, quotes, and miscellaneous notes as found in add.txt.\n• Use 'tags' consistently (e.g., 'academic', 'video', 'concept', 'novel').\n• Prefer bilingual names (English/Russian) if available.\n• Wikipedia links go in 'comment' as 'Main link EN: ...'.\n• Top-level 'link' field is NOT allowed. Move all external links into 'comment'.\n• When a link is inserted into the 'comment' field, do not duplicate it in any 'link' field within 'names'.\n\n=== DATA SOURCES ===\n• 'add.txt' acts as a staging area for new entries.\n• Once an entry is added to 'notes.json', it should be removed from 'add.txt'.\n\n=== EDITING POLICY ===\n• This specific entry is maintained by Gemini.\n• Respect Qwen's memory record and other AI assistants' records.\n",
         "tags": [
             "raw",
             "meta",
