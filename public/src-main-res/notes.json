@@ -1206,6 +1206,36 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/One_Piece",
+        "names": [
+            {
+                "name": "One Piece",
+                "language": "en"
+            },
+            {
+                "name": "Ван-Пис",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Eiichiro Oda",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Эйитиро Ода",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "names": [
             {
                 "name": "World Trigger",
@@ -4521,6 +4551,93 @@
                 "names": [
                     {
                         "name": "Gustav Meyrink",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "[ Thurston, William P.. “On Proof and Progress in Mathematics.” Bulletin of the American Mathematical Society 30 (1994): 161-177. ] [ Abstract: In response to Jaffe and Quinn [math.HO/9307227], the author discusses forms of progress in mathematics that are not captured by formal proofs of theorems, especially in his own work in the theory of foliations and geometrization of 3-manifolds and dynamical systems. https://arxiv.org/abs/math/9404236 ]",
+        "tags": [
+            "raw",
+            "academic",
+            "mathematics"
+        ]
+    },
+    {
+        "raw": "[ Prakash, Chetan et al. “Fitness Beats Truth in the Evolution of Perception.” Acta biotheoretica vol. 69,3 (2021): 319-341. doi:10.1007/s10441-020-09400-0 ] [ https://sites.socsci.uci.edu/~ddhoff/FBT-7-30-17 ]",
+        "tags": [
+            "raw",
+            "academic",
+            "evolutionary-psychology"
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Agency",
+                "language": "en",
+                "link": "https://www.lesswrong.com/w/agency"
+            }
+        ],
+        "tags": [
+            "concept",
+            "rationality"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "LessWrong Community",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "https://youtu.be/8jVogdTJESw?si=P3kh4gL9uOfrqdQB | Видео 27 минут, посмотрено, красиво, те 1% видео, информации в которых стоит быть в формате видео, а не в формате картинки или текста. | Finding the order in chaos by releasing millions of double pendulums and generating a new fractal in the process.",
+        "names": [
+            {
+                "name": "Pushing Simulation to the LIMIT to Find Order in Chaos",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "video",
+            "science",
+            "chaos-theory"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Drew's Campfire",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "https://youtu.be/SwGbHsBAcZ0?si=uXGJuwi1sJpv4OcX | Видео 19 минут, посмотрено, способ визуализации четырёхмерных объектов через как бы колоду карт где на каждой карте рисунок трёхмерного объекта.",
+        "names": [
+            {
+                "name": "Visualizing 4D Pt.1",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "video",
+            "mathematics",
+            "visualization"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "HyperCubist Math",
                         "language": "en"
                     }
                 ]
@@ -10357,6 +10474,27 @@
                 "names": [
                     {
                         "name": "Qwen3.6",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "Gemini AI Memory Record for notes.json",
+        "comment": "INSTRUCTIONS FOR AI ASSISTANTS WORKING WITH notes.json\n\nAuthor: Gemini 2.0 Flash (Google large language model)\nGenerated: 2024-05-16\nPurpose: Standardize how Gemini and other AI assistants add entries from add.txt to this file.\n\n=== CORE FORMAT RULES ===\n• Follow the existing JSON structure strictly.\n• Use 'names' for books, films, concepts, and other media with clear titles.\n• Use 'raw' for academic citations, quotes, and miscellaneous notes as found in add.txt.\n• Use 'tags' consistently (e.g., 'academic', 'video', 'concept', 'novel').\n• Prefer bilingual names (English/Russian) if available.\n• Wikipedia links go in 'comment' as 'Main link EN: ...'.\n• Top-level 'link' field is NOT allowed. Move all external links into 'comment'.\n\n=== DATA SOURCES ===\n• 'add.txt' acts as a staging area for new entries.\n• Once an entry is added to 'notes.json', it should be removed from 'add.txt'.\n\n=== EDITING POLICY ===\n• This specific entry is maintained by Gemini.\n• Respect Qwen's memory record and other AI assistants' records.\n",
+        "tags": [
+            "raw",
+            "meta",
+            "ai-instruction",
+            "documentation",
+            "gemini-memory"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gemini 2.0 Flash",
                         "language": "en"
                     }
                 ]
