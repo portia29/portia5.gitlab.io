@@ -1,30 +1,16 @@
 [
     {
-        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 119/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
+        "raw": "The Münchhausen trilemma is an epistemological thought experiment intended to demonstrate the theoretical impossibility of proving any truth, even in the fields of logic and mathematics, without appealing to accepted assumptions.",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma Hans Albert",
         "tags": [
-            "raw"
+            "raw",
+            "epistemology"
         ]
     },
     {
-        "names": [
-            {
-                "name": "Münchhausen trilemma",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
-            }
-        ],
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
         "tags": [
-            "epistemology"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hans Albert",
-                        "language": "en"
-                    }
-                ]
-            }
+            "raw"
         ]
     },
     {
@@ -3260,6 +3246,13 @@
         ]
     },
     {
+        "raw": "[UNICODE] ⁂ ❖ ⦿ 《》 ⟨⟩ ❝❞ 「」 ༺༻ ╰┈➤ <•> ᚛ᚉᚓᚐᚏᚈ ᚇᚑᚋ ᚇᚒᚔᚈ᚜ ⟡───⟡───⟡ ─̥── <///><///><///> ❦❦❦ ꙮꙮꙮ ❀❀❀ ₮₮₮ ΞΞΞ ▄▄▄ ▙▙▙ ▟▟▟ ▛▛▛ °°° ｡｡｡ ໒໒໒ ₊₊₊ ♡♡♡ ⋆⋆⋆ ‧‧‧ ⸜⸜⸜ ₊₊₊ ˚˚˚ ``` ✦✦✦ ☰☰☰ ◗◗◗ ��� ᵈᵈᵈ ᶜᶜᶜ ₑₑₑ ᵢᵢᵢ ᵤᵤᵤ 𝚊𝚊𝚊 𝔸𝔸𝔸",
+        "tags": [
+            "raw",
+            "unicode"
+        ]
+    },
+    {
         "raw": "[CONTEXT-2] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 10 минут, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
         "tags": [
             "raw",
@@ -3346,6 +3339,13 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "raw": "[SIGNAL] irrationalunzen@gmail.com irrationalunzen@gmail.com irrationalunz en@gmail.com irra tionalunze n@gmail .co m",
+        "tags": [
+            "raw",
+            "signal"
         ]
     },
     {

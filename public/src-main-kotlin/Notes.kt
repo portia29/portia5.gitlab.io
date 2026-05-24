@@ -1,8 +1,9 @@
+
 import UtilsMy.dstTestDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
-import java.util.*
+import java.util.LinkedList
 import java.util.function.Predicate
 
 /**
@@ -147,7 +148,6 @@ class Notes {
         val libraryOut = UtilsMy.srcGenDir
         val notes = notesGrouped(writingsIn)
         val text = StringBuilder()
-        text.append("Коллекция заметок, здесь первая сотня, всего заметок ${notes.size}. ")
         val bs = "█ "
         val be = ""
         text.append(notes.subList(0, 100).joinToString("$be $bs", bs, be))
