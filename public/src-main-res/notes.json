@@ -10460,6 +10460,7 @@
         ]
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/And_Now_for_Something_Completely_Different | 1971. A collection of sketches from the Monty Python's Flying Circus television series.",
         "names": [
             {
                 "name": "And Now for Something Completely Different",
@@ -10484,10 +10485,10 @@
                 ]
             }
         ],
-        "created": "1971",
-        "comment": "Main link EN: https://en.wikipedia.org/wiki/And_Now_for_Something_Completely_Different | 1971. A collection of sketches from the Monty Python's Flying Circus television series."
+        "created": "1971"
     },
     {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Date_A_Live",
         "names": [
             {
                 "name": "Date A Live",
@@ -10515,8 +10516,38 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Specialty_of_the_House | 1948. A classic mystery short story.",
+        "names": [
+            {
+                "name": "The Specialty of the House",
+                "language": "en"
+            },
+            {
+                "name": "Фирменное блюдо",
+                "language": "ru"
+            }
         ],
-        "comment": "Main link EN: https://en.wikipedia.org/wiki/Date_A_Live"
+        "tags": [
+            "short-story",
+            "mystery"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Stanley Ellin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Стэнли Эллин",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
     },
     {
         "raw": "Qwen AI Memory Record for library.json",
