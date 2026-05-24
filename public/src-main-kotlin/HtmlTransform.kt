@@ -7,7 +7,7 @@ class HtmlTransform(
     /**
      * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
      */
-    val xhmtlCompatibleVoidElements: Boolean = false
+    xhmtlCompatibleVoidElements: Boolean = false
 ) {
 
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
@@ -17,7 +17,7 @@ class HtmlTransform(
     val footnote = "(\\S+\\[\\d+])".toRegex()
     private val htmlTemplate
         get() = UtilsMy.srcResDir.resolve("page-template.html").toFile().readText()
-    private var lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
+    private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
@@ -167,14 +167,23 @@ class HtmlTransform(
         val lines = UtilsMy.splitParagraphToLines(paragraph).mapNotNull {
             if (it == textRawStart) {
                 enabled = false
-                lineTransform = LineTransform(false)
                 return@mapNotNull null
             } else if (it == textRawEnd) {
                 enabled = true
-                lineTransform = LineTransform(true)
                 return@mapNotNull null
             }
-            transformLine(url, it)
+            if (enabled) {
+                return@mapNotNull transformLine(url, it)
+            }
+            UtilsMy.splitLine(it).mapIndexed { i, s ->
+                if (s.isNotBlank()) {
+                    return@mapIndexed transformWord(url, s)
+                } else if (s.length > 1 || i == 0) {
+                    return@mapIndexed "<span class=\"prewrap\">$s</span>"
+                } else {
+                    return@mapIndexed s
+                }
+            }.joinToString("")
         }
         result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")

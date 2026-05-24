@@ -129,6 +129,9 @@ a, a:visited, a:hover, a:active {
 .nowrap {
   white-space: nowrap;
 }
+.prewrap {
+  white-space: pre-wrap;
+}
 article {
   width: 100%;
   max-width: 44rem;

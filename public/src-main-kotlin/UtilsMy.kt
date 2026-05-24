@@ -45,6 +45,10 @@ object UtilsMy {
         return paragraph.split('\n')
     }
 
+    fun splitLine(line: String): List<String> {
+        return "( +|[^ ]+)".toRegex().findAll(line).map { it.value }.toList()
+    }
+
     fun isHyperlink(word: String): Boolean {
         // if (word.contains(" ")) throw IllegalStateException()
         return word.startsWith("http://") || word.startsWith("https://")

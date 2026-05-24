@@ -8,34 +8,7 @@ import kotlin.test.assertEquals
 class HtmlTransformTest {
 
     private val htmlTransform: HtmlTransform = HtmlTransform()
-
-    @Test
-    fun transformLine() {
-        var lineIn = "\"The Map of Mathematics\" by Domain of Science:"
-        var lineOut = lineIn
-        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
-
-        lineIn = " — https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
-        lineOut = "&nbsp;— <a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
-                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OmJ<wbr>-4B<wbr>-mS<wbr>-Y<wbr>" +
-                "?si<wbr>=<wbr>bBWOSbdlpQ7kV9Bz</a>"
-        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
-
-        lineIn = "    — https://youtu.be/OJ4B"
-        lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4B\">" +
-                "https://youtu.be/OJ4B</a>"
-        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
-
-        lineIn = "    — https://youtu.be/OJ4BLKJIRGKSHDKFSHAG"
-        lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4BLKJIRGKSHDKFSHAG\">" +
-                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OJ4BLKJIRGKSHDKFSHAG</a>"
-        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
-
-        lineIn = "<///><///><///><///><///><///>"
-        lineOut = "&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;"
-        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
-    }
-
+    
     @Test
     fun isFootnote() {
         var input = "world![1]"
@@ -92,6 +65,52 @@ class HtmlTransformTest {
         assertEquals(linkOut, HtmlTransform(true).transformLink(TestUtils.url, linkIn))
     }
 
+    @Test
+    fun splitLine() {
+        var lineIn = "\"The Map of"
+        var lineOut = listOf("\"The", " ", "Map", " ", "of")
+        assertEquals(lineOut, UtilsMy.splitLine(lineIn))
+        lineIn = " — https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
+        lineOut = listOf(" ", "—", " ", "https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz")
+        assertEquals(lineOut, UtilsMy.splitLine(lineIn))
+        lineIn = "    — https://youtu.be/OJ4B F! "
+        lineOut = listOf("    ", "—", " ", "https://youtu.be/OJ4B", " ", "F!", " ")
+        assertEquals(lineOut, UtilsMy.splitLine(lineIn))
+        lineIn = "    — https://youtu.be/   OJ4B F! "
+        lineOut = listOf("    ", "—", " ", "https://youtu.be/", "   ", "OJ4B", " ", "F!", " ")
+        assertEquals(lineOut, UtilsMy.splitLine(lineIn))
+        lineIn = "<///><///><///><///><///><///>"
+        lineOut = listOf("<///><///><///><///><///><///>")
+        assertEquals(lineOut, UtilsMy.splitLine(lineIn))
+    }
+    
+    @Test
+    fun transformLine() {
+        var lineIn = "\"The Map of Mathematics\" by Domain of Science:"
+        var lineOut = lineIn
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+
+        lineIn = " — https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz"
+        lineOut = "&nbsp;— <a href=\"https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz\">" +
+                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OmJ<wbr>-4B<wbr>-mS<wbr>-Y<wbr>" +
+                "?si<wbr>=<wbr>bBWOSbdlpQ7kV9Bz</a>"
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+
+        lineIn = "    — https://youtu.be/OJ4B"
+        lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4B\">" +
+                "https://youtu.be/OJ4B</a>"
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+
+        lineIn = "    — https://youtu.be/OJ4BLKJIRGKSHDKFSHAG"
+        lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4BLKJIRGKSHDKFSHAG\">" +
+                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OJ4BLKJIRGKSHDKFSHAG</a>"
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+
+        lineIn = "<///><///><///><///><///><///>"
+        lineOut = "&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;&lt;///&gt;"
+        assertEquals(lineOut, htmlTransform.transformLine(TestUtils.url, lineIn))
+    }
+    
     @Test
     fun transformParagraph() {
         val paragraphIn = "\"The Map of Mathematics\" by Domain of Science:" +
