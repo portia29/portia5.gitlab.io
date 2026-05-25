@@ -1,6 +1,6 @@
 [
     {
-        "raw": "The Münchhausen trilemma is an epistemological thought experiment intended to demonstrate the theoretical impossibility of proving any truth, even in the fields of logic and mathematics, without appealing to accepted assumptions.",
+        "raw": "The \"Münchhausen trilemma\" is an epistemological thought experiment intended to demonstrate the theoretical impossibility of proving any truth without appealing to accepted assumptions.",
         "comment": "Main link EN: https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma Hans Albert",
         "tags": [
             "raw",
@@ -11,6 +11,42 @@
         "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
         "tags": [
             "raw"
+        ]
+    },
+    {
+        "raw": "[CONTEXT-1] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT-1] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Exploration–exploitation dilemma",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Humanity",
+                        "language": "en"
+                    }
+                ]
+            }
         ]
     },
     {
@@ -139,28 +175,6 @@
                 "names": [
                     {
                         "name": "Robert Nozick",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Exploration–exploitation dilemma",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Humanity",
                         "language": "en"
                     }
                 ]
@@ -2740,31 +2754,6 @@
     {
         "names": [
             {
-                "name": "Флейта",
-                "language": "ru",
-                "link": "https://www.youtube.com/watch?v=69icQwqS2O4"
-            }
-        ],
-        "tags": [
-            "music",
-            "folk-rock",
-            "russian-music",
-            "youtube"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ольга Арефьева и Ковчег",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Смерть героя",
                 "language": "ru"
             },
@@ -2975,6 +2964,376 @@
     {
         "names": [
             {
+                "name": "Ascendance of a Bookworm",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Yoshiki Watanabe",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Watchbird",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Robert Sheckley",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "It Looks Like You’re Trying To Take Over The World",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gwern Branwen",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Selfless Dating",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "BusyBeaver(6) is really quite large",
+                "language": "en",
+                "comment": "First encounter date 2025-06-29 https://scottaaronson.blog/?p=8972"
+            }
+        ],
+        "tags": [
+            "math"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Aaronson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "[UNICODE] ⁂ ❖ ✦ ❦ ❀ ⦿ 《》 ⟨⟩ ❝❞ 「」 ༺༻ ╰┈➤ <•> ᚛ᚉᚐᚏᚇᚑᚋᚒᚔᚈ᚜ <///> ₮₮₮ ΞΞΞ",
+        "tags": [
+            "raw",
+            "unicode"
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Monty Python and the Holy Grail",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+            },
+            {
+                "name": "Монти Пайтон и Священный Грааль",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Gilliam, Terry Jones",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "1975"
+    },
+    {
+        "names": [
+            {
+                "name": "The Hitchhiker's Guide to the Galaxy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
+            },
+            {
+                "name": "Автостопом по галактике",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "science fiction",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Garth Jennings",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "created": "2005"
+    },
+    {
+        "names": [
+            {
+                "name": "451 градус по Фаренгейту",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Ray Bradbury",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Birth of a Master",
+                "language": "en"
+            },
+            {
+                "name": "Рождение знаменитости",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "short story"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Андре Моруа",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "André Maurois",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "[SIGNAL] irrationalunzen@gmail.com irrationalunzen@gmail.com irrationalunz en@gmail.com irra tionalunze n@gmail .co m",
+        "tags": [
+            "raw",
+            "signal"
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Казаки",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Смерть чиновника",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "nouvelle"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Поликушка",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Shinji Ishihira",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The King's Avatar",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
+            }
+        ],
+        "tags": [
+            "anime"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hao Lin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Флейта",
+                "language": "ru",
+                "link": "https://www.youtube.com/watch?v=69icQwqS2O4"
+            }
+        ],
+        "tags": [
+            "music",
+            "folk-rock",
+            "russian-music",
+            "youtube"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ольга Арефьева и Ковчег",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Code Geass: Lelouch of the Re;surrection",
                 "language": "en",
                 "link": "https://myanimelist.net/anime/34437/Code_Geass__Fukkatsu_no_Lelouch"
@@ -3002,19 +3361,22 @@
     {
         "names": [
             {
-                "name": "Ascendance of a Bookworm",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm"
+                "name": "Маленький принц",
+                "language": "ru"
             }
         ],
         "tags": [
-            "anime"
+            "novel"
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Yoshiki Watanabe",
+                        "name": "Антуан де Сент-Экзюпери",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Antoine de Saint-Exupéry",
                         "language": "en"
                     }
                 ]
@@ -3179,307 +3541,6 @@
                     {
                         "name": "Франц Ка́фка",
                         "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Watchbird",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "It Looks Like You’re Trying To Take Over The World",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gwern Branwen",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Selfless Dating",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "BusyBeaver(6) is really quite large",
-                "language": "en",
-                "comment": "First encounter date 2025-06-29 https://scottaaronson.blog/?p=8972"
-            }
-        ],
-        "tags": [
-            "math"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Aaronson",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "raw": "[UNICODE] ⁂ ❖ ⦿ 《》 ⟨⟩ ❝❞ 「」 ༺༻ ╰┈➤ <•> ᚛ᚉᚓᚐᚏᚈ ᚇᚑᚋ ᚇᚒᚔᚈ᚜ ⟡───⟡───⟡ ─̥── <///><///><///> ❦❦❦ ꙮꙮꙮ ❀❀❀ ₮₮₮ ΞΞΞ ▄▄▄ ▙▙▙ ▟▟▟ ▛▛▛ °°° ｡｡｡ ໒໒໒ ₊₊₊ ♡♡♡ ⋆⋆⋆ ‧‧‧ ⸜⸜⸜ ₊₊₊ ˚˚˚ ``` ✦✦✦ ☰☰☰ ◗◗◗ ��� ᵈᵈᵈ ᶜᶜᶜ ₑₑₑ ᵢᵢᵢ ᵤᵤᵤ 𝚊𝚊𝚊 𝔸𝔸𝔸",
-        "tags": [
-            "raw",
-            "unicode"
-        ]
-    },
-    {
-        "raw": "[CONTEXT-2] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 10 минут, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
-        "tags": [
-            "raw",
-            "context2"
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Monty Python and the Holy Grail",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
-            },
-            {
-                "name": "Монти Пайтон и Священный Грааль",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "comedy"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Terry Gilliam, Terry Jones",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "1975"
-    },
-    {
-        "names": [
-            {
-                "name": "The Hitchhiker's Guide to the Galaxy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(film)"
-            },
-            {
-                "name": "Автостопом по галактике",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "film",
-            "science fiction",
-            "comedy"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Garth Jennings",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "created": "2005"
-    },
-    {
-        "names": [
-            {
-                "name": "451 градус по Фаренгейту",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "en"
-                    },
-                    {
-                        "name": "Ray Bradbury",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "raw": "[SIGNAL] irrationalunzen@gmail.com irrationalunzen@gmail.com irrationalunz en@gmail.com irra tionalunze n@gmail .co m",
-        "tags": [
-            "raw",
-            "signal"
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Казаки",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Смерть чиновника",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "nouvelle"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Поликушка",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/No_Matter_How_I_Look_at_It,_It%27s_You_Guys%27_Fault_I%27m_Not_Popular!"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Shinji Ishihira",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The King's Avatar",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/The_King%27s_Avatar_(anime)"
-            }
-        ],
-        "tags": [
-            "anime"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Hao Lin",
-                        "language": "en"
                     }
                 ]
             }
@@ -4129,31 +4190,6 @@
                 "names": [
                     {
                         "name": "Elizabeth Van Nostrand",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Маленький принц",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антуан де Сент-Экзюпери",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Antoine de Saint-Exupéry",
                         "language": "en"
                     }
                 ]
@@ -5474,37 +5510,8 @@
     {
         "names": [
             {
-                "name": "The Birth of a Master",
-                "language": "en"
-            },
-            {
-                "name": "Рождение знаменитости",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "short story"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Андре Моруа",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "André Maurois",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Чайка по имени Джонатан Ливингстон",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5525,7 +5532,7 @@
         "names": [
             {
                 "name": "Leviathan Wakes",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -5546,7 +5553,7 @@
         "names": [
             {
                 "name": "Серия о Шерлоке Холмсе",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5557,7 +5564,7 @@
                 "names": [
                     {
                         "name": "Конан Дойл",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5567,7 +5574,7 @@
         "names": [
             {
                 "name": "Серия о Тарзане",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5578,7 +5585,7 @@
                 "names": [
                     {
                         "name": "Эдгар Берроуз",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5588,7 +5595,7 @@
         "names": [
             {
                 "name": "Серия о Стальной Крысе",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5599,7 +5606,7 @@
                 "names": [
                     {
                         "name": "Гарри Гаррисон",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5631,7 +5638,7 @@
         "names": [
             {
                 "name": "Серия о капитане Бладе",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5642,7 +5649,7 @@
                 "names": [
                     {
                         "name": "Рафаэль Сабатини",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5652,7 +5659,7 @@
         "names": [
             {
                 "name": "На Западном фронте без перемен",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5663,7 +5670,7 @@
                 "names": [
                     {
                         "name": "Эрих Мария Ремарк",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -5673,7 +5680,7 @@
         "names": [
             {
                 "name": "Возвращение",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5684,7 +5691,7 @@
                 "names": [
                     {
                         "name": "Эрих Мария Ремарк",
-                        "language": "?"
+                        "language": "ru"
                     }
                 ]
             }
@@ -6853,6 +6860,13 @@
             }
         ],
         "created": "2009"
+    },
+    {
+        "raw": "[UNICODE] ⟡───⟡───⟡ ─̥──  ꙮꙮꙮ ▄▄▄ ▙▙▙ ▟▟▟ ▛▛▛ °°° ｡｡｡ ໒໒໒ ₊₊₊ ♡♡♡ ⋆⋆⋆ ‧‧‧ ⸜⸜⸜ ₊₊₊ ˚˚˚ ``` ☰☰☰ ◗◗◗ ��� ᵈᵈᵈ ᶜᶜᶜ ₑₑₑ ᵢᵢᵢ ᵤᵤᵤ 𝚊𝚊𝚊 𝔸𝔸𝔸 ᚛ᚉᚓᚐᚏᚈ ᚇᚑᚋ ᚇᚒᚔᚈ᚜",
+        "tags": [
+            "raw",
+            "unicode"
+        ]
     },
     {
         "names": [
@@ -10453,13 +10467,6 @@
         ]
     },
     {
-        "raw": "#Mantra1 #MakeArchive Описать переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса, чтобы хотелось жить его красиво, без страхов, без эгоизма.",
-        "tags": [
-            "raw",
-            "context1"
-        ]
-    },
-    {
         "comment": "Main link EN: https://en.wikipedia.org/wiki/And_Now_for_Something_Completely_Different | 1971. A collection of sketches from the Monty Python's Flying Circus television series.",
         "names": [
             {
@@ -10543,6 +10550,80 @@
                     },
                     {
                         "name": "Стэнли Эллин",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "Twin brothers wipe 96 gov’t databases minutes after being fired | https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
+        "tags": [
+            "raw",
+            "article",
+            "news",
+            "tech"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Xena:_Warrior_Princess",
+        "names": [
+            {
+                "name": "Xena: Warrior Princess",
+                "language": "en"
+            },
+            {
+                "name": "Зена — королева воинов",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "fantasy"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Hercules:_The_Legendary_Journeys",
+        "names": [
+            {
+                "name": "Hercules: The Legendary Journeys",
+                "language": "en"
+            },
+            {
+                "name": "Удивительные странствия Геракла",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "tv-series",
+            "fantasy"
+        ]
+    },
+    {
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/The_Diamond_Arm",
+        "names": [
+            {
+                "name": "The Diamond Arm",
+                "language": "en"
+            },
+            {
+                "name": "Бриллиантовая рука",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "film",
+            "comedy"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Leonid Gaidai",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Леонид Гайдай",
                         "language": "ru"
                     }
                 ]
