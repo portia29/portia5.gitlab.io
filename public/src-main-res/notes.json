@@ -4,27 +4,8 @@
         "comment": "Main link EN: https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma Hans Albert",
         "tags": [
             "raw",
-            "epistemology"
-        ]
-    },
-    {
-        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
-        "tags": [
-            "raw"
-        ]
-    },
-    {
-        "raw": "[CONTEXT-1] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
-        "tags": [
-            "raw",
-            "context"
-        ]
-    },
-    {
-        "raw": "[CONTEXT-1] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
-        "tags": [
-            "raw",
-            "context"
+            "epistemology",
+            "wikipedia"
         ]
     },
     {
@@ -179,6 +160,91 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Abilene paradox",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jerry B. Harvey",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Just-world fallacy",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
+            }
+        ],
+        "tags": [
+            "concept"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sextus Empiricus",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
+        "tags": [
+            "raw"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Текст выше, начинающийся с “Можно написать текст, перечитывание которого помогает приводить свой интеллект в хорошее состояние.” и заканчивающийся “Играй в игры забавы всех ради!” назовём “CONTEXT”. Относящиеся к нему заметки отмечены соответствующим тегом.",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Комментарий к \"Спокойно принимаем то, что не можем изменить. Возможно через год это моё тело умрёт от неизлечимой болезни. Возможно через месяц человечество погибнет в планетарной катастрофе. Возможно мир это чей-то сон, и сейчас всё превратится в 37 грамм сыра.\". [ \"Софизм серого\" | lesswrong.ru/134 ] [ The Fallacy of Gray | readthesequences.com/The-Fallacy-Of-Gray ]",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Комментарий к \"Играй в игры забавы ради!\". Забава как в культуре видеоигр пожелание противнику \"Good Luck, Have Fun\". Забава как играть в Factorio или решать судоку. Забава как превращать себя в слова для других и как извлекать других из слов в которые они превратили себя.",
+        "tags": [
+            "raw",
+            "context"
         ]
     },
     {
@@ -1687,7 +1753,7 @@
         "names": [
             {
                 "name": "The Stamp Collector",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
@@ -1706,56 +1772,15 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "The Path to Reason",
-                "language": "?"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "rationality"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jacob Falkovich",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "When Your Child Is a Psychopath",
-                "language": "en",
-                "link": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Barbara Bradley Hagerty",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
+        "comment": "[ Main link EN: https://en.wikipedia.org/wiki/A_Clockwork_Orange_(novel) ] [ Main link RU: https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D0%B0%D0%BF%D0%B5%D0%BB%D1%8C%D1%81%D0%B8%D0%BD ]",
         "names": [
             {
                 "name": "Заводной апельсин",
                 "language": "ru"
+            },
+            {
+                "name": "A Clockwork Orange",
+                "language": "en"
             }
         ],
         "tags": [
@@ -2711,27 +2736,6 @@
     {
         "names": [
             {
-                "name": "Анна Каренина",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Preview: eternalism and nihilism",
                 "language": "en"
             }
@@ -2797,52 +2801,6 @@
                     {
                         "name": "David Chapman",
                         "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Emily Nagoski",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Мартин Иден",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "ru"
                     }
                 ]
             }
@@ -4575,6 +4533,73 @@
     {
         "names": [
             {
+                "name": "Анна Каренина",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Мартин Иден",
+                "language": "ru"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Джек Лондон",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Посещение И. Г. Оберейтом пиявок уничтожающих время",
                 "language": "ru"
             }
@@ -5445,50 +5470,6 @@
     {
         "names": [
             {
-                "name": "Abilene paradox",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jerry B. Harvey",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Just-world fallacy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sextus Empiricus",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Волшебник Изумрудного города",
                 "language": "ru"
             }
@@ -6198,6 +6179,52 @@
                 "names": [
                     {
                         "name": "O. Henry",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "The Path to Reason",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "rationality"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "When Your Child Is a Psychopath",
+                "language": "en",
+                "link": "https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/"
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Barbara Bradley Hagerty",
                         "language": "en"
                     }
                 ]
