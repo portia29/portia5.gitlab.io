@@ -73,6 +73,7 @@ class Notes {
         return name
     }
 
+    @Suppress("SameParameterValue")
     private fun formatWritings(notes: List<Note>, language: String): String {
         return notes.joinToString(
             separator = "», «", prefix = ": «", postfix = "».", transform = {
@@ -80,6 +81,7 @@ class Notes {
             })
     }
 
+    @Suppress("SameParameterValue")
     private fun formatAuthors(authors: List<Author>, language: String): String {
         return selectName(authors[0].names, language)
     }
@@ -108,20 +110,26 @@ class Notes {
             index++
             val text = StringBuilder()
             if (n.hasAnyOfTags("raw")) {
-                drain(text, p = { t -> false })
-                text.append(n.raw)
-            } else {
-                if (n.hasAnyOfTags("concept")) {
-                    val list = drain(text, p = { t -> t.hasAnyOfTags("concept") })
+                if (n.hasAnyOfTags("wikipedia")) {
+                    val list = drain(text, p = { t -> t.hasAnyOfTags("wikipedia") })
                     list.addFirst(n)
                     val t = StringBuilder()
                     list.forEach {
                         if (t.isNotEmpty()) t.append(" ")
-                        t.append(selectName(it.names, defaultLang))
-                        t.append(".")
+                        t.append(it.raw)
+                        it.raw?.endsWith('.')?.let { endsWithDot ->
+                            if (!endsWithDot) {
+                                t.append(".")
+                            }
+                        }
                     }
                     text.append(t)
-                } else if (n.hasAnyOfTags("tv-series")) {
+                } else {
+                    drain(text, p = { t -> false })
+                    text.append(n.raw)
+                }
+            } else {
+                if (n.hasAnyOfTags("tv-series")) {
                     val list = drain(text, p = { t -> t.hasAnyOfTags("tv-series") })
                     list.addFirst(n)
                     text.append("Television series")

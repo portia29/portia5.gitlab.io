@@ -1,7 +1,13 @@
 [
     {
-        "raw": "The \"Münchhausen trilemma\" is an epistemological thought experiment intended to demonstrate the theoretical impossibility of proving any truth without appealing to accepted assumptions.",
-        "comment": "Main link EN: https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma Hans Albert",
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 14%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
+        "tags": [
+            "raw"
+        ]
+    },
+    {
+        "raw": "[WIKIPEDIA] The \"Münchhausen trilemma\" is an epistemological thought experiment intended to demonstrate the theoretical impossibility of proving any truth without appealing to accepted assumptions.",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma | Hans Albert",
         "tags": [
             "raw",
             "epistemology",
@@ -9,242 +15,90 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Exploration–exploitation dilemma",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Humanity",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Russell's paradox",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Bertrand Russell",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Kolmogorov complexity",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Andrey Kolmogorov",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Inductive bias",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Inductive_bias"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Humanity",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Bayes' theorem",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Thomas Bayes",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Prisoner's dilemma",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Merrill Flood, Melvin Dresher",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Utility monster",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Utility_monster"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert Nozick",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Abilene paradox",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Abilene_paradox"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Jerry B. Harvey",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Just-world fallacy",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Just-world_fallacy"
-            }
-        ],
-        "tags": [
-            "concept"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sextus Empiricus",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 13%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
-        "tags": [
-            "raw"
-        ]
-    },
-    {
-        "raw": "[CONTEXT] Текст выше, начинающийся с “Можно написать текст, перечитывание которого помогает приводить свой интеллект в хорошее состояние.” и заканчивающийся “Играй в игры забавы всех ради!” назовём “CONTEXT”. Относящиеся к нему заметки отмечены соответствующим тегом.",
+        "raw": "Exploration–exploitation dilemma",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma",
         "tags": [
             "raw",
-            "context"
+            "decision-theory",
+            "wikipedia"
         ]
     },
     {
-        "raw": "[CONTEXT] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
+        "raw": "Russell's paradox",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Russell%27s_paradox | Bertrand Russell",
         "tags": [
             "raw",
-            "context"
+            "logic",
+            "mathematics",
+            "wikipedia"
         ]
     },
     {
-        "raw": "[CONTEXT] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
+        "raw": "Kolmogorov complexity",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Kolmogorov_complexity | Andrey Kolmogorov",
         "tags": [
             "raw",
-            "context"
+            "information-theory",
+            "computer-science",
+            "wikipedia"
         ]
     },
     {
-        "raw": "[CONTEXT] Комментарий к \"Спокойно принимаем то, что не можем изменить. Возможно через год это моё тело умрёт от неизлечимой болезни. Возможно через месяц человечество погибнет в планетарной катастрофе. Возможно мир это чей-то сон, и сейчас всё превратится в 37 грамм сыра.\". [ \"Софизм серого\" | lesswrong.ru/134 ] [ The Fallacy of Gray | readthesequences.com/The-Fallacy-Of-Gray ]",
+        "raw": "Inductive bias",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Inductive_bias",
         "tags": [
             "raw",
-            "context"
+            "machine-learning",
+            "wikipedia"
         ]
     },
     {
-        "raw": "[CONTEXT] Комментарий к \"Играй в игры забавы ради!\". Забава как в культуре видеоигр пожелание противнику \"Good Luck, Have Fun\". Забава как играть в Factorio или решать судоку. Забава как превращать себя в слова для других и как извлекать других из слов в которые они превратили себя.",
+        "raw": "Bayes' theorem",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Bayes%27_theorem | Thomas Bayes",
         "tags": [
             "raw",
-            "context"
+            "probability",
+            "statistics",
+            "wikipedia"
+        ]
+    },
+    {
+        "raw": "Prisoner's dilemma",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Prisoner%27s_dilemma | Merrill Flood, Melvin Dresher",
+        "tags": [
+            "raw",
+            "game-theory",
+            "wikipedia"
+        ]
+    },
+    {
+        "raw": "Utility monster",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Utility_monster | Robert Nozick",
+        "tags": [
+            "raw",
+            "ethics",
+            "philosophy",
+            "wikipedia"
+        ]
+    },
+    {
+        "raw": "Abilene paradox",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Abilene_paradox | Jerry B. Harvey",
+        "tags": [
+            "raw",
+            "psychology",
+            "sociology",
+            "wikipedia"
+        ]
+    },
+    {
+        "raw": "Just-world fallacy",
+        "comment": "Main link EN: https://en.wikipedia.org/wiki/Just-world_fallacy | Sextus Empiricus",
+        "tags": [
+            "raw",
+            "psychology",
+            "bias",
+            "wikipedia"
         ]
     },
     {
@@ -590,26 +444,11 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Simulacra Levels Summary",
-                "language": "en",
-                "link": "https://www.lesswrong.com/posts/hLzwNuPyEvR4mfAce/simulacra-levels-summary"
-            }
-        ],
+        "raw": "Zvi Mowshowitz: «Simulacra Levels Summary».",
+        "comment": "[[ Simulacrum Levels | https://www.lesswrong.com/w/simulacrum-levels ]] [[ Zvi Mowshowitz | [ Simulacra Levels Summary | https://www.lesswrong.com/posts/hLzwNuPyEvR4mfAce/simulacra-levels-summary ] [ Simulacra Levels and Their Interactions ] [ Unifying the Simulacra Definitions ] [ The Four Children of the Seder as the Simulacra Levels ] ]] [[ Elizabeth Van Nostrand | [ Negative Feedback and Simulacra ] ]]",
         "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "en"
-                    }
-                ]
-            }
+            "raw",
+            "lesswrong"
         ]
     },
     {
@@ -902,6 +741,35 @@
     {
         "names": [
             {
+                "name": "Омон Ра",
+                "language": "ru"
+            },
+            {
+                "name": "Omon Ra",
+                "language": "en"
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Victor Pelevin",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Носитель инфекции",
                 "language": "ru"
             },
@@ -1148,6 +1016,41 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Текст выше, начинающийся с “Можно написать текст, перечитывание которого помогает приводить свой интеллект в хорошее состояние.” и заканчивающийся “Играй в игры забавы всех ради!” назовём “CONTEXT”. Относящиеся к нему заметки отмечены соответствующим тегом.",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Комментарий к \"Спокойно принимаем то, что не можем изменить. Возможно через год это моё тело умрёт от неизлечимой болезни. Возможно через месяц человечество погибнет в планетарной катастрофе. Возможно мир это чей-то сон, и сейчас всё превратится в 37 грамм сыра.\". [ \"Софизм серого\" | lesswrong.ru/134 ] [ The Fallacy of Gray | readthesequences.com/The-Fallacy-Of-Gray ]",
+        "tags": [
+            "raw",
+            "context"
+        ]
+    },
+    {
+        "raw": "[CONTEXT] Комментарий к \"Играй в игры забавы ради!\". Забава как в культуре видеоигр пожелание противнику \"Good Luck, Have Fun\". Забава как играть в Factorio или решать судоку. Забава как превращать себя в слова для других и как извлекать других из слов в которые они превратили себя.",
+        "tags": [
+            "raw",
+            "context"
         ]
     },
     {
@@ -1597,31 +1500,6 @@
     {
         "names": [
             {
-                "name": "Омон Ра",
-                "language": "ru"
-            }
-        ],
-        "tags": [
-            "novel"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Victor Pelevin",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Пикник на обочине",
                 "language": "ru"
             }
@@ -1893,28 +1771,6 @@
     {
         "names": [
             {
-                "name": "Simulacra Levels and Their Interactions",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Билет на планету Транай",
                 "language": "ru"
             },
@@ -2064,28 +1920,6 @@
                     },
                     {
                         "name": "Robert Sheckley",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Unifying the Simulacra Definitions",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
                         "language": "en"
                     }
                 ]
@@ -2365,28 +2199,6 @@
                     {
                         "name": "Фёдор Достоевский",
                         "language": "ru"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "The Four Children of the Seder as the Simulacra Levels",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "en"
                     }
                 ]
             }
@@ -4135,28 +3947,6 @@
     {
         "names": [
             {
-                "name": "Negative Feedback and Simulacra",
-                "language": "en"
-            }
-        ],
-        "tags": [
-            "blogging",
-            "essay"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Elizabeth Van Nostrand",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Воспламеняющая взглядом",
                 "language": "ru"
             }
@@ -4635,26 +4425,12 @@
         ]
     },
     {
-        "names": [
-            {
-                "name": "Agency",
-                "language": "en",
-                "link": "https://www.lesswrong.com/w/agency"
-            }
-        ],
+        "raw": "Agency by LessWrong",
+        "comment": "Main link EN: https://www.lesswrong.com/w/agency",
         "tags": [
-            "concept",
-            "rationality"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "LessWrong Community",
-                        "language": "en"
-                    }
-                ]
-            }
+            "raw",
+            "rationality",
+            "lesswrong"
         ]
     },
     {
@@ -5341,7 +5117,7 @@
         "names": [
             {
                 "name": "Приключения Незнайки и его друзей",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5362,7 +5138,7 @@
         "names": [
             {
                 "name": "Незнайка в Солнечном городе",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5383,7 +5159,7 @@
         "names": [
             {
                 "name": "Незнайка на Луне",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5429,7 +5205,7 @@
         "names": [
             {
                 "name": "Повесть о настоящем человеке",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "tags": [
@@ -5450,7 +5226,7 @@
         "names": [
             {
                 "name": "Psycho",
-                "language": "?"
+                "language": "en"
             }
         ],
         "tags": [
