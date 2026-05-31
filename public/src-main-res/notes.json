@@ -1019,47 +1019,10 @@
         ]
     },
     {
-        "raw": "[CONTEXT] Текст выше, начинающийся с “Можно написать текст, перечитывание которого помогает приводить свой интеллект в хорошее состояние.” и заканчивающийся “Играй в игры забавы всех ради!” назовём “CONTEXT”. Относящиеся к нему заметки отмечены соответствующим тегом.",
+        "raw": "[CONTEXT] Текст выше, начинающийся с \"Можно написать текст, перечитывание которого помогает приводить свой интеллект в хорошее состояние.\" и заканчивающийся \"Играй в игры забавы ради!\" назовём \"CONTEXT\" и отметим относящиеся к нему заметки соответствующим тегом.",
         "tags": [
             "raw",
             "context"
-        ]
-    },
-    {
-        "raw": "[CONTEXT] Запрещаю себе покупать никотин, за исключением в форме пластыря, снять с себя этот запрет я могу, но с момента снятия запрета до первой покупки должна пройти как минимум неделя. «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
-        "tags": [
-            "raw",
-            "context"
-        ]
-    },
-    {
-        "names": [
-            {
-                "name": "Blame!",
-                "language": "en",
-                "link": "https://en.wikipedia.org/wiki/Blame!"
-            }
-        ],
-        "tags": [
-            "manga"
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Tsutomu Nihei",
-                        "language": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
-        "comment": "https://doi.org/10.1136/bmj.327.7429.1459 https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
-        "tags": [
-            "raw",
-            "academic"
         ]
     },
     {
@@ -1068,6 +1031,14 @@
         "tags": [
             "raw",
             "wikipedia"
+        ]
+    },
+    {
+        "raw": "Smith GC, Pell JP. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459-1461. doi:10.1136/bmj.327.7429.1459",
+        "comment": "https://doi.org/10.1136/bmj.327.7429.1459 https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/ https://pmc.ncbi.nlm.nih.gov/articles/PMC300808/pdf/32701459.pdf",
+        "tags": [
+            "raw",
+            "academic"
         ]
     },
     {
@@ -1095,6 +1066,28 @@
                     },
                     {
                         "name": "Carl Sagan",
+                        "language": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Blame!",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/Blame!"
+            }
+        ],
+        "tags": [
+            "manga"
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Tsutomu Nihei",
                         "language": "en"
                     }
                 ]
@@ -2824,7 +2817,7 @@
         ]
     },
     {
-        "raw": "[UNICODE] ⁂ ❖ ✦ ❦ ❀ ⦿ 《》 ⟨⟩ ❝❞ 「」 ༺༻ ╰┈➤ <•> ᚛ᚉᚐᚏᚇᚑᚋᚒᚔᚈ᚜ <///> ₮₮₮ ΞΞΞ",
+        "raw": "[UNICODE] ⁂ ❖ ✦ ❦ ❀ ⦿ ⧉ Ξ ₮ 《》 ⟨⟩ ❝❞ 「」 ༺༻ ╰┈➤ <•> ᚛ᚉᚐᚏᚑᚋᚔᚈ᚜ <///>",
         "tags": [
             "raw",
             "unicode"
@@ -3607,13 +3600,6 @@
         ]
     },
     {
-        "raw": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do [ First encounter date 2026-05-20 ] [ Я понял ответ Тёрстона в духе того, что чтобы жил какой-то язык должны быть носители этого языка, чем больше тем лучше. Сравнение с языком моё, сам он говорит о conceptual и symbolic forms, первое существует в головах математиков, второе его представление на бумаге, symbolic form, то есть математическая нотация меняется, нужно чтобы кто-то считывал старые symbolic представления в conceptual в своей голове и записывал снова в новом symbolic представлении. ] [ \"Timothy Gowers: November 7, 2011 ... I once heard that the average number of readers of a mathematics paper is less than 1. ... but assuming that there’s a long tail, there will be huge nubers of papers that people won’t have happened to read\" gowers.wordpress.com/2011/11/03 ] [ В нескольких ответах говорят, что математика настолько большая, что получить какой-то новый результат легко. ]",
-        "tags": [
-            "raw",
-            "math"
-        ]
-    },
-    {
         "names": [
             {
                 "name": "Детство, Отрочество и Юность",
@@ -3674,6 +3660,13 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "raw": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do [ First encounter date 2026-05-20 ] [ Я понял ответ Тёрстона в духе того, что чтобы жил какой-то язык должны быть носители этого языка, чем больше тем лучше. Сравнение с языком моё, сам он говорит о conceptual и symbolic forms, первое существует в головах математиков, второе его представление на бумаге, symbolic form, то есть математическая нотация меняется, нужно чтобы кто-то считывал старые symbolic представления в conceptual в своей голове и записывал снова в новом symbolic представлении. ] [ \"Timothy Gowers: November 7, 2011 ... I once heard that the average number of readers of a mathematics paper is less than 1. ... but assuming that there’s a long tail, there will be huge nubers of papers that people won’t have happened to read\" gowers.wordpress.com/2011/11/03 ] [ В нескольких ответах говорят, что математика настолько большая, что получить какой-то новый результат легко. ]",
+        "tags": [
+            "raw",
+            "math"
         ]
     },
     {
@@ -10413,14 +10406,14 @@
         ]
     },
     {
-        "raw": "[CONTEXT] For an average living human right now, the chance of dying in the next 12 months is roughly 0.77%, or about 1 in 130.",
+        "raw": "[CONTEXT] [ \"Софизм серого\" | lesswrong.ru/134 ] [ The Fallacy of Gray | readthesequences.com/The-Fallacy-Of-Gray ] [ https://en.wikipedia.org/wiki/Wishful_thinking ]",
         "tags": [
             "raw",
             "context"
         ]
     },
     {
-        "raw": "[CONTEXT] Комментарий к \"Спокойно принимаем то, что не можем изменить. Возможно через год это моё тело умрёт от неизлечимой болезни. Возможно через месяц человечество погибнет в планетарной катастрофе. Возможно мир это чей-то сон, и сейчас всё превратится в 37 грамм сыра.\". [ \"Софизм серого\" | lesswrong.ru/134 ] [ The Fallacy of Gray | readthesequences.com/The-Fallacy-Of-Gray ]",
+        "raw": "[CONTEXT] «Я запрещаю себе сегодня заниматься чем-либо кроме вот этого трудного дела пока не позанимаюсь им 1 час, то есть либо занимаюсь этим делом, либо сижу смотря в стену».",
         "tags": [
             "raw",
             "context"
