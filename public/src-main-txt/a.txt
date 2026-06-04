@@ -1,7 +1,1 @@
 #include /p1
-
-<<< * * * >>>
-
-#include /p2
-
-https://portia5.gitlab.io/x
