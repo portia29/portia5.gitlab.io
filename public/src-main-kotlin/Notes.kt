@@ -166,6 +166,7 @@ class Notes {
         val format = Json { prettyPrint = true }
         val outWritingsFile = dst.resolve("notes.json").toFile()
         outWritingsFile.writeText(format.encodeToString(writingsIn))
+
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {

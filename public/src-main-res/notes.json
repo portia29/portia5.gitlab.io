@@ -1,6 +1,6 @@
 [
     {
-        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 15%. Reading: \"Structure and Interpretation of Computer Programs\", page 125/642. Learning: Lean, Natural Number Game, world 2/9, level 1/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
+        "raw": "[DOING] Learning: Khan Academy, 6th grade math, 15%. Reading: \"Structure and Interpretation of Computer Programs\", page 138/642. Learning: Lean, Natural Number Game, world 2/9, level 2/5. Если нечего делать можно посмотреть в дневнике записи с тегом #MakeArchive.",
         "tags": [
             "raw"
         ]
@@ -200,7 +200,9 @@
                 "link": "https://doi.org/10.48550/arXiv.1108.1791"
             }
         ],
-        "tags": [],
+        "tags": [
+            "academic"
+        ],
         "authors": [
             {
                 "names": [
@@ -10420,7 +10422,7 @@
         ]
     },
     {
-        "raw": "[CONTEXT] Переключение между видом от первого лица и RTS где я один из множества обычных юнитов, словно вместо взгляда из своих глаз начинаешь видеть себя сверху, потом поднимаешься выше и видишь с птичьего полёта дом и город где ты, потом поднимаешься ещё выше и видишь целиком планету, и время начинает бежать быстро, возникают и исчезают города и всё такое. Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
+        "raw": "[CONTEXT] Можно представлять, что в 18 лет умер от инсульта, и вся дальнейшая жизнь это вроде бонуса.",
         "tags": [
             "raw",
             "context"
