@@ -7,6 +7,7 @@
 
 # IntelliJ IDEA
 .idea/
+!.idea/project.prompts.xml
 *.iws
 *.iml
 *.ipr
