@@ -10,4 +10,4 @@
 
 <<< * * * >>>
 
-#include /notes-preview
+#include /notes-public

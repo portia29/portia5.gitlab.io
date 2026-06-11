@@ -1,6 +1,6 @@
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
-https://portia5.gitlab.io/notes-preview
+https://portia5.gitlab.io/notes-public
 https://portia5.gitlab.io/p1
 https://portia5.gitlab.io/p2
 https://portia5.gitlab.io/p3

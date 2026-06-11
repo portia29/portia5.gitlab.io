@@ -159,7 +159,7 @@ class Notes {
         val bs = "█ "
         val be = ""
         text.append(notes.subList(0, 100).joinToString("$be $bs", bs, be))
-        libraryOut.resolve("notes-preview.txt").toFile().writeText(text.toString())
+        libraryOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
