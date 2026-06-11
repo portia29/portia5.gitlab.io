@@ -152,7 +152,7 @@ class Notes {
     }
 
     fun main() {
-        val writingsIn = loadNotes(UtilsMy.srcResDir)
+        val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
         val libraryOut = UtilsMy.srcGenDir
         val notes = notesGrouped(writingsIn)
         val text = StringBuilder()
@@ -171,6 +171,7 @@ class Notes {
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
         val writingsFile = srcDir.resolve("notes.json").toFile()
+        if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val notes = Json.decodeFromString<MutableList<Note>>(writingsFile.readText())
         saveNotes(srcDir, notes)
         return notes
