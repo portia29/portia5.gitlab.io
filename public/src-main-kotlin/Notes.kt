@@ -154,7 +154,7 @@ class Notes {
     fun main() {
         val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
         val libraryOut = UtilsMy.srcGenDir
-        val notes = notesGrouped(writingsIn)
+        val notes = notesGrouped(writingsIn.filter { !it.tags.contains("lesswrong") })
         val text = StringBuilder()
         val bs = "█ "
         val be = ""
