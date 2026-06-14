@@ -158,7 +158,7 @@ class Notes {
         val text = StringBuilder()
         val bs = "█ "
         val be = ""
-        text.append(notes.subList(0, 90).joinToString("$be $bs", bs, be))
+        text.append(notes.subList(0, 85).joinToString("$be $bs", bs, be))
         libraryOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
