@@ -1,1 +1,13 @@
-private/src-main-res/
+.gradle/
+.idea/
+.kotlin/
+build/
+gradle/
+private/src-main-res/2019/
+private/src-main-res/2020/
+private/src-main-res/2021/
+private/src-main-res/2022/
+private/src-main-res/2023/
+private/src-main-res/2024/
+private/src-main-res/2025/
+private/src-main-res/2026/
