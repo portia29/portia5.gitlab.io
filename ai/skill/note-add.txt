@@ -15,12 +15,13 @@ This instruction defines the procedure and format for adding new records to the 
 
 ##### `names` (Array of objects)
 - Always provide names in both **English** (`"language": "en"`) and **Russian** (`"language": "ru"`) if possible.
-- A name object can optionally include a `link` field if it's a direct link to the source (e.g., a DOI link for a paper or a Substack link for an essay).
-- **Wikipedia links** should NOT be in the `link` field; they belong in the `comment` field.
+- A name object **must not** contain a `link` field. Any external URLs should be placed in the `comment` field (see below).
+- **Wikipedia links** should be included in the `comment` field, not as a separate `link`.
 
 ##### `authors` (Array of objects)
 - Each object contains a `names` array (following the same bilingual rules as above).
 - For films, use the primary creative lead (director). For studios/companies, use the entity name.
+- Author name objects **must not** contain a `link` field.
 
 ##### `tags` (Array of strings)
 - Use lowercase, hyphenated strings (e.g., `novel`, `sci-fi`, `academic`, `blogging`, `rationality`, `lesswrong`).
@@ -29,7 +30,7 @@ This instruction defines the procedure and format for adding new records to the 
 ##### `comment` (String, optional)
 - Used for: publication year, brief plot summaries, awards, first encounter dates (`First encounter date YYYY-MM-DD`), and external links.
 - **Wikipedia Links**: Format as `Main link EN: https://en.wikipedia.org/wiki/...`.
-- **Consolidation Rule**: If the `comment` would contain ONLY a single URL (and no other text), move that URL to a top-level `link` field and omit the `comment`. If there is any other text or multiple links, keep everything in `comment`.
+- **Consolidation Rule**: If the `comment` would contain ONLY a single URL (and no other text), keep that URL directly in the `comment` (do **not** create a separate `link` field). If there is any other text or multiple links, keep everything in `comment`.
 
 ##### `created` (String, optional)
 - Release year (e.g., `"1975"`).
@@ -38,11 +39,11 @@ This instruction defines the procedure and format for adding new records to the 
 - Used instead of `names` for non-standard entries. Preserve the source text as much as possible. Tag with `["raw", ...]` and other appropriate categories.
 
 #### 4. Procedure for Adding
-1.  Identify if the item is a standard media piece or a raw note.
-2.  Search for official English/Russian titles and English Wikipedia links.
-3.  Construct the JSON object following the rules above.
-4.  Append the new object to the end of the JSON array in `notes.json`.
-5.  Ensure valid JSON syntax (handle commas correctly).
+1. Identify if the item is a standard media piece or a raw note.
+2. Search for official English/Russian titles and English Wikipedia links.
+3. Construct the JSON object following the rules above.
+4. Append the new object to the end of the JSON array in `notes.json`.
+5. Ensure valid JSON syntax (handle commas correctly).
 
 #### 5. Staging (add.txt)
 - New items are typically staged in `add.txt`. Once an item is successfully added to `notes.json`, it should be removed from `add.txt`.
