@@ -162,17 +162,26 @@ class Notes {
         libraryOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
+    val notesSeparator = "{}"
+
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = true }
         val outWritingsFile = dst.resolve("Notes.txt").toFile()
-        outWritingsFile.writeText(format.encodeToString(writingsIn))
-
+        val sb = StringBuilder()
+        writingsIn.forEach {
+            if (sb.isNotEmpty()) sb.append(notesSeparator)
+            val n = format.encodeToString(it)
+            if (n.contains(notesSeparator)) throw IllegalStateException(n)
+            sb.append(n.subSequence(1, n.length - 1))
+        }
+        outWritingsFile.writeText(sb.subSequence(1, sb.length - 1).toString())
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
         val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
-        val notes = Json.decodeFromString<MutableList<Note>>(writingsFile.readText())
+        val strings = writingsFile.readText().split(notesSeparator)
+        val notes = strings.map { Json.decodeFromString<Note>("{$it}") }.toMutableList()
         saveNotes(srcDir, notes)
         return notes
     }
