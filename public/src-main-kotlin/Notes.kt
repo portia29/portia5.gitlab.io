@@ -49,7 +49,7 @@ class Notes {
     @Serializable
     data class Note(
         val raw: String? = null,
-        val comment: String? = null,
+        var comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
         val authors: MutableList<Author> = mutableListOf(),
@@ -163,6 +163,7 @@ class Notes {
     }
 
     val notesSeparator = "{}"
+    val noteSeparator = "    -> "
 
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = true }
@@ -170,18 +171,33 @@ class Notes {
         val sb = StringBuilder()
         writingsIn.forEach {
             if (sb.isNotEmpty()) sb.append(notesSeparator)
+            val comment = it.comment
+            it.comment = null
             val n = format.encodeToString(it)
             if (n.contains(notesSeparator)) throw IllegalStateException(n)
+            if (n.contains(noteSeparator)) throw IllegalStateException(n)
             sb.append(n.subSequence(1, n.length - 1))
+            if (comment != null) {
+                if (comment.contains(notesSeparator)) throw IllegalStateException(n)
+                if (comment.contains(noteSeparator)) throw IllegalStateException(n)
+                sb.append(noteSeparator).append(comment)
+            }
         }
-        outWritingsFile.writeText(sb.subSequence(1, sb.length - 1).toString())
+        outWritingsFile.writeText(sb.removePrefix("\n").removeSuffix("\n").toString())
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
         val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val strings = writingsFile.readText().split(notesSeparator)
-        val notes = strings.map { Json.decodeFromString<Note>("{$it}") }.toMutableList()
+        val notes = strings.map {
+            val parts = it.split(noteSeparator)
+            val note = Json.decodeFromString<Note>("{${parts[0]}}")
+            if (parts.size > 1) {
+                note.comment = parts[1]
+            }
+            note
+        }.toMutableList()
         saveNotes(srcDir, notes)
         return notes
     }
