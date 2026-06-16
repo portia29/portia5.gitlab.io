@@ -164,13 +164,13 @@ class Notes {
 
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = true }
-        val outWritingsFile = dst.resolve("notes.json").toFile()
+        val outWritingsFile = dst.resolve("Notes.txt").toFile()
         outWritingsFile.writeText(format.encodeToString(writingsIn))
 
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
-        val writingsFile = srcDir.resolve("notes.json").toFile()
+        val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val notes = Json.decodeFromString<MutableList<Note>>(writingsFile.readText())
         saveNotes(srcDir, notes)
