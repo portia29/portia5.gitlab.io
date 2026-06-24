@@ -151,15 +151,27 @@ class Notes {
         return result
     }
 
+    fun saveTest(writingsIn: MutableList<Note>) {
+        val outFile = UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")
+        val text = StringBuilder()
+        val notes = notesGrouped(writingsIn)
+        notes.forEachIndexed { index, note ->
+            if (text.isNotEmpty()) text.append(" ")
+            text.append("█ [").append(index + 1).append("] ").append(note)
+        }
+        outFile.toFile().writeText(text.toString())
+    }
+
     fun main() {
         val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
-        val libraryOut = UtilsMy.srcGenDir
+        saveTest(writingsIn)
+        val notesOut = UtilsMy.srcGenDir
         val notes = notesGrouped(writingsIn.filter { !it.tags.contains("lesswrong") })
         val text = StringBuilder()
         val bs = "█ "
         val be = ""
         text.append(notes.subList(0, 70).joinToString("$be $bs", bs, be))
-        libraryOut.resolve("notes-public.txt").toFile().writeText(text.toString())
+        notesOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
     val notesSeparator = "█"
