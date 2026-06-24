@@ -162,7 +162,7 @@ class Notes {
         libraryOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
-    val notesSeparator = "\n{}\n\n"
+    val notesSeparator = "█"
     val noteSeparator = "<>\n"
 
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
@@ -170,27 +170,27 @@ class Notes {
         val outWritingsFile = dst.resolve("Notes.txt").toFile()
         val sb = StringBuilder()
         writingsIn.forEach {
-            if (sb.isNotEmpty()) sb.append(notesSeparator)
+            if (sb.isNotEmpty()) sb.append("\n\n")
             val comment = it.comment
             it.comment = null
             val n = format.encodeToString(it)
             if (n.contains(notesSeparator)) throw IllegalStateException(n)
             if (n.contains(noteSeparator)) throw IllegalStateException(n)
-            sb.append(n.subSequence(1, n.length - 1)).append("\n")
+            sb.append("$notesSeparator ").append(n.subSequence(1, n.length - 1))
             if (comment != null) {
                 if (comment.contains(notesSeparator)) throw IllegalStateException(n)
                 if (comment.contains(noteSeparator)) throw IllegalStateException(n)
-                sb.append(noteSeparator).append(comment)
+                sb.append("\n").append(noteSeparator).append(comment.trim())
             }
         }
-        outWritingsFile.writeText(sb.removePrefix("\n").removeSuffix("\n").toString())
+        outWritingsFile.writeText(sb.toString())
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
         val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
-        val strings = writingsFile.readText().split(notesSeparator)
-        val notes = strings.map {
+        val strings = writingsFile.readText().split("$notesSeparator ")
+        val notes = strings.filter { it.isNotBlank() }.map {
             val parts = it.split("\n<>\n")
             val note = Json.decodeFromString<Note>("{${parts[0]}}")
             if (parts.size > 1) {
