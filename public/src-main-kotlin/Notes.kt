@@ -137,8 +137,10 @@ class Notes {
                 } else if (n.hasAnyOfTags("anime")) {
                     val list = drain(text, p = { t -> t.hasAnyOfTags("anime") })
                     list.addFirst(n)
-                    text.append("Anime")
-                    text.append(formatWritings(list, defaultLang))
+                    text.append(list.joinToString(
+                        separator = "», «", prefix = "[ANIME] «", postfix = "».", transform = {
+                            selectName(it.names, defaultLang)
+                        }))
                 } else {
                     val list = drain(text, p = { t -> t.authors == n.authors })
                     list.addFirst(n)
