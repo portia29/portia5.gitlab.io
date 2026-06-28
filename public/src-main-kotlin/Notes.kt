@@ -17,7 +17,7 @@ class Notes {
         }
     }
 
-    interface FiltrableWriting {
+    interface FiltrableNote {
         fun hasAnyOfTags(vararg tags: String): Boolean
     }
 
@@ -25,8 +25,7 @@ class Notes {
     data class Name(
         var name: String,
         val language: String,
-        val link: String? = null,
-        val comment: String? = null
+        val link: String? = null
     )
 
     @Serializable
@@ -53,7 +52,7 @@ class Notes {
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
         val authors: MutableList<Author> = mutableListOf()
-    ) : FiltrableWriting {
+    ) : FiltrableNote {
         override fun hasAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
             return false
@@ -90,9 +89,7 @@ class Notes {
         val result = mutableListOf<String>()
         val length = notes.size
         var index = 0
-        val addNoteNumber = false
-        fun drain(s: StringBuilder, p: Predicate<Note>): LinkedList<Note> {
-            if (addNoteNumber) s.append("").append(result.size + 1).append(". ")
+        fun drain(p: Predicate<Note>): LinkedList<Note> {
             val list = LinkedList<Note>()
             while (index < length) {
                 val n = notes[index]
@@ -110,7 +107,7 @@ class Notes {
             val text = StringBuilder()
             if (n.hasAnyOfTags("raw")) {
                 if (n.hasAnyOfTags("wikipedia")) {
-                    val list = drain(text, p = { t -> t.hasAnyOfTags("wikipedia") })
+                    val list = drain(p = { t -> t.hasAnyOfTags("wikipedia") })
                     list.addFirst(n)
                     val t = StringBuilder()
                     t.append("[WIKIPEDIA]")
@@ -124,24 +121,24 @@ class Notes {
                     }
                     text.append(t)
                 } else {
-                    drain(text, p = { t -> false })
+                    drain(p = { t -> false })
                     text.append(n.raw)
                 }
             } else {
                 if (n.hasAnyOfTags("tv-series")) {
-                    val list = drain(text, p = { t -> t.hasAnyOfTags("tv-series") })
+                    val list = drain(p = { t -> t.hasAnyOfTags("tv-series") })
                     list.addFirst(n)
                     text.append("Television series")
                     text.append(formatWritings(list, defaultLang))
                 } else if (n.hasAnyOfTags("anime")) {
-                    val list = drain(text, p = { t -> t.hasAnyOfTags("anime") })
+                    val list = drain(p = { t -> t.hasAnyOfTags("anime") })
                     list.addFirst(n)
                     text.append(list.joinToString(
                         separator = "», «", prefix = "[ANIME] «", postfix = "».", transform = {
                             selectName(it.names, defaultLang)
                         }))
                 } else {
-                    val list = drain(text, p = { t -> t.authors == n.authors })
+                    val list = drain(p = { t -> t.authors == n.authors })
                     list.addFirst(n)
                     text.append(formatAuthors(list[0].authors, defaultLang))
                     text.append(formatWritings(list, defaultLang))
@@ -218,13 +215,13 @@ class Notes {
     @Suppress("unused")
     fun archivedCode(writingsIn: MutableList<Note>) {
         fun mainListLong(writingsIn: MutableList<Note>): StringBuilder {
-            fun recommendationFilter(w: FiltrableWriting): Boolean {
+            fun recommendationFilter(w: FiltrableNote): Boolean {
                 return w.hasAnyOfTags(
                     "recommendation", "visible"
                 ) && !w.hasAnyOfTags("invisible")
             }
 
-            fun entertainingFilter(w: FiltrableWriting): Boolean {
+            fun entertainingFilter(w: FiltrableNote): Boolean {
                 return w.hasAnyOfTags("entertaining") && !w.hasAnyOfTags("invisible")
             }
 
