@@ -23,7 +23,7 @@ class Notes {
 
     @Serializable
     data class Name(
-        val name: String,
+        var name: String,
         val language: String,
         val link: String? = null,
         val comment: String? = null
@@ -52,8 +52,7 @@ class Notes {
         var comment: String? = null,
         val names: List<Name> = mutableListOf(),
         val tags: Set<String>,
-        val authors: MutableList<Author> = mutableListOf(),
-        val created: String? = null
+        val authors: MutableList<Author> = mutableListOf()
     ) : FiltrableWriting {
         override fun hasAnyOfTags(vararg tags: String): Boolean {
             for (tag in tags) if (this.tags.contains(tag)) return true
@@ -114,9 +113,9 @@ class Notes {
                     val list = drain(text, p = { t -> t.hasAnyOfTags("wikipedia") })
                     list.addFirst(n)
                     val t = StringBuilder()
+                    t.append("[WIKIPEDIA]")
                     list.forEach {
-                        if (t.isNotEmpty()) t.append(" ")
-                        t.append(it.raw)
+                        t.append(" ").append(it.raw)
                         it.raw?.endsWith('.')?.let { endsWithDot ->
                             if (!endsWithDot) {
                                 t.append(".")
@@ -204,8 +203,8 @@ class Notes {
         val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val strings = writingsFile.readText().split("$notesSeparator ")
-        val notes = strings.filter { it.isNotBlank() }.map {
-            val parts = it.split("\n<>\n")
+        val notes = strings.filter { it.isNotBlank() }.map { noteString ->
+            val parts = noteString.split("\n<>\n")
             val note = Json.decodeFromString<Note>("{${parts[0]}}")
             if (parts.size > 1) {
                 note.comment = parts[1]
