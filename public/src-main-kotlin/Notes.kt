@@ -24,8 +24,7 @@ class Notes {
     @Serializable
     data class Name(
         var name: String,
-        val language: String,
-        val link: String? = null
+        val language: String
     )
 
     @Serializable
@@ -206,6 +205,19 @@ class Notes {
             if (parts.size > 1) {
                 note.comment = parts[1]
             }
+            /*
+            note.names.forEach {
+                if (it.link != null) {
+                    val t = "Main link ${it.language.uppercase(Locale.US)}: ${it.link}"
+                    if (note.comment == null) {
+                        note.comment = t
+                    } else {
+                        note.comment += "\n\n" + t
+                    }
+                    it.link = null
+                }
+            }
+            */
             note
         }.toMutableList()
         saveNotes(srcDir, notes)
