@@ -163,11 +163,21 @@ class Notes {
         val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
         saveTest(writingsIn)
         val notesOut = UtilsMy.srcGenDir
-        val notes = notesGrouped(writingsIn.filter { !it.tags.contains("lesswrong") })
+        var separatorHit = false
+        val notes = notesGrouped(writingsIn.filter {
+            if (separatorHit) {
+                return@filter false
+            }
+            if (it.hasAnyOfTags("separator")) {
+                separatorHit = true
+                return@filter false
+            }
+            !it.tags.contains("lesswrong")
+        })
         val text = StringBuilder()
         val bs = "█ "
         val be = ""
-        text.append(notes.subList(0, 60).joinToString("$be $bs", bs, be))
+        text.append(notes.joinToString("$be $bs", bs, be))
         notesOut.resolve("notes-public.txt").toFile().writeText(text.toString())
     }
 
