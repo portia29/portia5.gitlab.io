@@ -74,7 +74,7 @@ class Notes {
     @Suppress("SameParameterValue")
     private fun formatWritings(notes: List<Note>, language: String): String {
         return notes.joinToString(
-            separator = "», «", prefix = ": «", postfix = "».", transform = {
+            separator = "», «", prefix = " «", postfix = "».", transform = {
                 selectName(it.names, language)
             })
     }
@@ -101,59 +101,49 @@ class Notes {
             }
             return list
         }
-        fun appendByTag(n: Note, tag: String): StringBuilder? {
+        fun appendByTag(b: StringBuilder, n: Note, tag: String): Boolean {
             if (!n.hasAnyOfTags(tag)) {
-                return null
+                return false
             }
             val list = drain(p = { t -> t.hasAnyOfTags(tag) })
             list.addFirst(n)
             val t = StringBuilder()
             t.append("[${tag.uppercase(Locale.US)}]")
-            list.forEach {
-                t.append(" ").append(it.raw)
-                it.raw?.endsWith('.')?.let { endsWithDot ->
-                    if (!endsWithDot) {
-                        t.append(".")
+            if (!n.hasAnyOfTags("raw")) {
+                t.append(formatWritings(list, defaultLang))
+            } else {
+                list.forEach {
+                    t.append(" ").append(it.raw)
+                    it.raw?.endsWith('.')?.let { endsWithDot ->
+                        if (!endsWithDot) {
+                            t.append(".")
+                        }
                     }
                 }
             }
-            return t
+            b.append(t)
+            return true
         }
         while (index < length) {
             val n = notes[index]
             index++
             val text = StringBuilder()
-            if (n.hasAnyOfTags("raw")) {
-                var hitByTag = false
-                listOf("wikipedia", "humour").forEach { tag ->
-                    val t = appendByTag(n, tag)
-                    if (t != null) {
-                        hitByTag = true
-                        text.append(t)
-                        return@forEach
-                    }
+            var appendByTag = false
+            listOf("wikipedia", "anime", "tv-series").forEach { tag ->
+                if (appendByTag(text, n, tag)) {
+                    appendByTag = true
+                    return@forEach
                 }
-                if (!hitByTag) {
+            }
+            if (!appendByTag) {
+                if (n.hasAnyOfTags("raw")) {
                     drain(p = { t -> false })
                     text.append(n.raw)
-                }
-            } else {
-                if (n.hasAnyOfTags("tv-series")) {
-                    val list = drain(p = { t -> t.hasAnyOfTags("tv-series") })
-                    list.addFirst(n)
-                    text.append("Television series")
-                    text.append(formatWritings(list, defaultLang))
-                } else if (n.hasAnyOfTags("anime")) {
-                    val list = drain(p = { t -> t.hasAnyOfTags("anime") })
-                    list.addFirst(n)
-                    text.append(list.joinToString(
-                        separator = "», «", prefix = "[ANIME] «", postfix = "».", transform = {
-                            selectName(it.names, defaultLang)
-                        }))
                 } else {
                     val list = drain(p = { t -> t.authors == n.authors })
                     list.addFirst(n)
                     text.append(formatAuthors(list[0].authors, defaultLang))
+                    text.append(":")
                     text.append(formatWritings(list, defaultLang))
                 }
             }
@@ -252,19 +242,11 @@ class Notes {
     fun archivedCode(writingsIn: MutableList<Note>) {
         fun mainListLong(writingsIn: MutableList<Note>): StringBuilder {
             fun recommendationFilter(w: FiltrableNote): Boolean {
-                return w.hasAnyOfTags(
-                    "recommendation", "visible"
-                ) && !w.hasAnyOfTags("invisible")
+                return w.hasAnyOfTags("recommendation")
             }
-
-            fun entertainingFilter(w: FiltrableNote): Boolean {
-                return w.hasAnyOfTags("entertaining") && !w.hasAnyOfTags("invisible")
-            }
-
             val b = StringBuilder()
             val fullList = LinkedList<Note>()
             fullList.addAll(writingsIn.filter { recommendationFilter(it) })
-            fullList.addAll(writingsIn.filter { entertainingFilter(it) })
             val currentList = LinkedList<Note>()
             fullList.forEach { w ->
                 if (currentList.isNotEmpty() && currentList.first().authors != w.authors) {
@@ -287,9 +269,8 @@ class Notes {
             }
             b.append(" ")
             b.append("Ещё я читал этих авторов. ")
-            val mainListAuthors = writingsIn.filter {
-                recommendationFilter(it) || entertainingFilter(it) || it.tags.contains("invisible")
-            }.groupBy { it.authors }.keys
+            val mainListAuthors = writingsIn.filter { recommendationFilter(it) }
+                .groupBy { it.authors }.keys
             val authorsList =
                 writingsIn.filter { !mainListAuthors.contains(it.authors) }
                     .groupBy { it.authors }.keys.toMutableList()
@@ -304,37 +285,6 @@ class Notes {
             )
             return b
         }
-        fun mainListMedium(
-            writingsIn: MutableList<Note>, predicate: (Note) -> Boolean
-        ): StringBuilder {
-            val b = StringBuilder()
-            val list = writingsIn.filter { predicate(it) }
-            for (i in 0..9) {
-                val w = list[i]
-                if (b.isNotEmpty()) {
-                    b.append(" ")
-                }
-                b.append(formatAuthors(w.authors, defaultLang))
-                b.append(formatWritings(listOf(w), defaultLang))
-            }
-            return b
-        }
-        fun mainListShort(writingsIn: MutableList<Note>): StringBuilder {
-            val b = StringBuilder()
-            val list = writingsIn.filter {
-                it.hasAnyOfTags(
-                    "recommendation", "visible"
-                ) && !it.hasAnyOfTags("invisible")
-            }.groupBy { it.authors }.keys.toList()
-            for (i in 0..9) {
-                if (i != 0) {
-                    b.append(", ")
-                }
-                b.append(formatAuthors(list[i], defaultLang))
-            }
-            b.append(".")
-            return b
-        }
         fun mainListSummary(writingsIn: MutableList<Note>): StringBuilder {
             val b = StringBuilder()
             val writingsCount = writingsIn.size
@@ -345,35 +295,7 @@ class Notes {
         }
         val text = StringBuilder()
         text.append(mainListSummary(writingsIn)).appendLine().appendLine()
-        text.append(mainListShort(writingsIn)).appendLine().appendLine()
-        text.append(mainListMedium(writingsIn) { it.hasAnyOfTags("recommendation") })
-            .appendLine().appendLine()
-        text.append(mainListMedium(writingsIn) { !it.hasAnyOfTags("fiction") }).appendLine()
-            .appendLine()
-        text.append(mainListMedium(writingsIn) { it.hasAnyOfTags("fiction") }).appendLine()
-            .appendLine()
         text.append(mainListLong(writingsIn))
         dstTestDir.resolve("library.txt").toFile().writeText(text.toString())
-        fun generateListSplitByParts() {
-            val writingsIn = loadNotes(UtilsMy.srcResDir)
-            val libraryOut = UtilsMy.srcGenDir
-            val notes = notesGrouped(writingsIn)
-            val partSize = 100
-            var partCount = 0
-            var partIndex = 0
-            while (partIndex < notes.size) {
-                partCount++
-                partIndex += partSize
-                val text = StringBuilder()
-                text.append("Коллекция заметок, часть № $partCount")
-                text.append(", заметки с ${partIndex - partSize + 1} по $partIndex, заметок всего ${notes.size}. ")
-                val fromIndex = partIndex - partSize
-                val toIndex = if (partIndex < notes.size) partIndex else notes.size
-                val bs = "⟨"
-                val be = "⟩"
-                text.append(notes.subList(fromIndex, toIndex).joinToString("$be $bs", bs, be))
-                libraryOut.resolve("library$partCount.txt").toFile().writeText(text.toString())
-            }
-        }
     }
 }
