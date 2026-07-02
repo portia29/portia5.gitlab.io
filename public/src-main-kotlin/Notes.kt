@@ -4,6 +4,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
 import java.util.LinkedList
+import java.util.Locale
 import java.util.function.Predicate
 
 /**
@@ -100,26 +101,39 @@ class Notes {
             }
             return list
         }
+        fun appendByTag(n: Note, tag: String): StringBuilder? {
+            if (!n.hasAnyOfTags(tag)) {
+                return null
+            }
+            val list = drain(p = { t -> t.hasAnyOfTags(tag) })
+            list.addFirst(n)
+            val t = StringBuilder()
+            t.append("[${tag.uppercase(Locale.US)}]")
+            list.forEach {
+                t.append(" ").append(it.raw)
+                it.raw?.endsWith('.')?.let { endsWithDot ->
+                    if (!endsWithDot) {
+                        t.append(".")
+                    }
+                }
+            }
+            return t
+        }
         while (index < length) {
             val n = notes[index]
             index++
             val text = StringBuilder()
             if (n.hasAnyOfTags("raw")) {
-                if (n.hasAnyOfTags("wikipedia")) {
-                    val list = drain(p = { t -> t.hasAnyOfTags("wikipedia") })
-                    list.addFirst(n)
-                    val t = StringBuilder()
-                    t.append("[WIKIPEDIA]")
-                    list.forEach {
-                        t.append(" ").append(it.raw)
-                        it.raw?.endsWith('.')?.let { endsWithDot ->
-                            if (!endsWithDot) {
-                                t.append(".")
-                            }
-                        }
+                var hitByTag = false
+                listOf("wikipedia", "humour").forEach { tag ->
+                    val t = appendByTag(n, tag)
+                    if (t != null) {
+                        hitByTag = true
+                        text.append(t)
+                        return@forEach
                     }
-                    text.append(t)
-                } else {
+                }
+                if (!hitByTag) {
                     drain(p = { t -> false })
                     text.append(n.raw)
                 }
@@ -152,9 +166,9 @@ class Notes {
         val outFile = UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")
         val text = StringBuilder()
         val notes = notesGrouped(writingsIn)
-        notes.forEachIndexed { index, note ->
+        notes.forEach { note ->
             if (text.isNotEmpty()) text.append(" ")
-            text.append("█ [").append(index + 1).append("] ").append(note)
+            text.append("█ ").append(note)
         }
         outFile.toFile().writeText(text.toString())
     }
@@ -172,7 +186,7 @@ class Notes {
                 separatorHit = true
                 return@filter false
             }
-            !it.tags.contains("lesswrong")
+            true
         })
         val text = StringBuilder()
         val bs = "█ "
