@@ -186,7 +186,7 @@ class Notes {
     }
 
     val notesSeparator = "█"
-    val noteSeparator = "<>\n"
+    val noteSeparator = "\n\n"
 
     fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = false }
@@ -202,8 +202,7 @@ class Notes {
             sb.append("$notesSeparator ").append(n.subSequence(1, n.length - 1))
             if (comment != null) {
                 if (comment.contains(notesSeparator)) throw IllegalStateException(n)
-                if (comment.contains(noteSeparator)) throw IllegalStateException(n)
-                sb.append("\n").append(noteSeparator).append(comment.trim())
+                sb.append(noteSeparator).append(comment.trim())
             }
         }
         outWritingsFile.writeText(sb.toString())
@@ -214,9 +213,9 @@ class Notes {
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val strings = writingsFile.readText().split("$notesSeparator ")
         val notes = strings.filter { it.isNotBlank() }.map { noteString ->
-            val parts = noteString.split("\n<>\n")
+            val parts = noteString.split(noteSeparator, limit = 2)
             val note = Json.decodeFromString<Note>("{${parts[0]}}")
-            if (parts.size > 1) {
+            if (parts.size > 1 && parts[1].isNotBlank()) {
                 note.comment = parts[1]
             }
             /*
