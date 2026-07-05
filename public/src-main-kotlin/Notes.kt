@@ -109,9 +109,7 @@ class Notes {
             list.addFirst(n)
             val t = StringBuilder()
             t.append("[${tag.uppercase(Locale.US)}]")
-            if (!n.hasAnyOfTags("raw")) {
-                t.append(formatWritings(list, defaultLang))
-            } else {
+            if (n.hasAnyOfTags("raw")) {
                 list.forEach {
                     t.append(" ").append(it.raw)
                     it.raw?.endsWith('.')?.let { endsWithDot ->
@@ -120,6 +118,8 @@ class Notes {
                         }
                     }
                 }
+            } else {
+                t.append(formatWritings(list, defaultLang))
             }
             b.append(t)
             return true
@@ -129,7 +129,7 @@ class Notes {
             index++
             val text = StringBuilder()
             var appendByTag = false
-            listOf("wikipedia", "anime", "tv-series").forEach { tag ->
+            listOf("wikipedia", "anime", "film", "tv-series").forEach { tag ->
                 if (appendByTag(text, n, tag)) {
                     appendByTag = true
                     return@forEach

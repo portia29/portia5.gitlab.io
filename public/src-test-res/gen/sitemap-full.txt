@@ -38,6 +38,7 @@
 [3] /a[.html]
 [3] /map[.html]
 [3] /map-order[.html]
+[3] /next[.html]
 [3] /notes-public[.html]
 [3] /p1[.html]
 [3] /p2[.html]
