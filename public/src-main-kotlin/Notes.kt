@@ -1,4 +1,3 @@
-
 import UtilsMy.dstTestDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -101,6 +100,7 @@ class Notes {
             }
             return list
         }
+
         fun appendByTag(b: StringBuilder, n: Note, tag: String): Boolean {
             if (!n.hasAnyOfTags(tag)) {
                 return false
@@ -163,26 +163,33 @@ class Notes {
         outFile.toFile().writeText(text.toString())
     }
 
-    fun main() {
-        val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
-        saveTest(writingsIn)
-        val notesOut = UtilsMy.srcGenDir
-        var separatorHit = false
-        val notes = notesGrouped(writingsIn.filter {
-            if (separatorHit) {
-                return@filter false
-            }
-            if (it.hasAnyOfTags("separator")) {
-                separatorHit = true
-                return@filter false
-            }
-            true
-        })
+    fun makePart(notesOut: Path, notes: List<String>, part: Int) {
         val text = StringBuilder()
         val bs = "█ "
         val be = ""
         text.append(notes.joinToString("$be $bs", bs, be))
-        notesOut.resolve("notes-public.txt").toFile().writeText(text.toString())
+        notesOut.resolve("notes-p${part}.txt").toFile().writeText(text.toString())
+    }
+
+    fun main() {
+        val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
+        saveTest(writingsIn)
+        val notesOut = UtilsMy.srcGenDir
+        val separator1 = writingsIn.find {
+            it.hasAnyOfTags("separator") && it.raw!!.contains("part 1 end")
+        }
+        val notes1 = notesGrouped(writingsIn.subList(0, writingsIn.indexOf(separator1) + 1))
+        val separator2 = writingsIn.find {
+            it.hasAnyOfTags("separator") && it.raw!!.contains("part 2 end")
+        }
+        val notes2 = notesGrouped(
+            writingsIn.subList(
+                writingsIn.indexOf(separator1) + 1,
+                writingsIn.indexOf(separator2) + 1
+            )
+        )
+        makePart(notesOut, notes1, 1)
+        makePart(notesOut, notes2, 2)
     }
 
     val notesSeparator = "█"
@@ -243,6 +250,7 @@ class Notes {
             fun recommendationFilter(w: FiltrableNote): Boolean {
                 return w.hasAnyOfTags("recommendation")
             }
+
             val b = StringBuilder()
             val fullList = LinkedList<Note>()
             fullList.addAll(writingsIn.filter { recommendationFilter(it) })
@@ -284,6 +292,7 @@ class Notes {
             )
             return b
         }
+
         fun mainListSummary(writingsIn: MutableList<Note>): StringBuilder {
             val b = StringBuilder()
             val writingsCount = writingsIn.size
@@ -292,6 +301,7 @@ class Notes {
             b.append(" штук всего $writingsCount, авторов всего $authorsCount.")
             return b
         }
+
         val text = StringBuilder()
         text.append(mainListSummary(writingsIn)).appendLine().appendLine()
         text.append(mainListLong(writingsIn))
