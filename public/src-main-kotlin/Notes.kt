@@ -176,11 +176,11 @@ class Notes {
         saveTest(writingsIn)
         val notesOut = UtilsMy.srcGenDir
         val separator1 = writingsIn.find {
-            it.hasAnyOfTags("separator") && it.raw!!.contains("part 1 end")
+            it.hasAnyOfTags("separator") && it.raw!!.contains("part 1")
         }
         val notes1 = notesGrouped(writingsIn.subList(0, writingsIn.indexOf(separator1) + 1))
         val separator2 = writingsIn.find {
-            it.hasAnyOfTags("separator") && it.raw!!.contains("part 2 end")
+            it.hasAnyOfTags("separator") && it.raw!!.contains("part 2")
         }
         val notes2 = notesGrouped(
             writingsIn.subList(
