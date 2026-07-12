@@ -172,20 +172,20 @@ class Notes {
     }
 
     fun main() {
-        val writingsIn = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
-        saveTest(writingsIn)
+        val notesRaw = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
+        saveTest(notesRaw)
         val notesOut = UtilsMy.srcGenDir
-        val separator1 = writingsIn.find {
+        val separator1 = notesRaw.find {
             it.hasAnyOfTags("separator") && it.raw!!.contains("part 1")
         }
-        val notes1 = notesGrouped(writingsIn.subList(0, writingsIn.indexOf(separator1) + 1))
-        val separator2 = writingsIn.find {
+        val notes1 = notesGrouped(notesRaw.subList(0, notesRaw.indexOf(separator1) + 1))
+        val separator2 = notesRaw.find {
             it.hasAnyOfTags("separator") && it.raw!!.contains("part 2")
         }
         val notes2 = notesGrouped(
-            writingsIn.subList(
-                writingsIn.indexOf(separator1) + 1,
-                writingsIn.indexOf(separator2) + 1
+            notesRaw.subList(
+                notesRaw.indexOf(separator1) + 1,
+                notesRaw.indexOf(separator2) + 1
             )
         )
         makePart(notesOut, notes1, 1)

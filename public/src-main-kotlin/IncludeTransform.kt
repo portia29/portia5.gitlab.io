@@ -26,7 +26,9 @@ class IncludeTransform(private val generator: Generator) {
                     paragIterator.add(it)
                 }
             } else {
-                throw IllegalStateException("$path in ${page.relativeUrl}")
+                throw IllegalStateException("$path in ${page.relativeUrl}" +
+                        " asSection=$asSection" +
+                        " summarySection=${includedPage.summarySection.isNotEmpty()}")
             }
         } else {
             throw IllegalStateException("${page.relativeUrl} $parag")
