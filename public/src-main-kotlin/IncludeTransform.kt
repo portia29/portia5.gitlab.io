@@ -26,9 +26,13 @@ class IncludeTransform(private val generator: Generator) {
                     paragIterator.add(it)
                 }
             } else {
-                throw IllegalStateException("$path in ${page.relativeUrl}" +
-                        " asSection=$asSection" +
-                        " summarySection=${includedPage.summarySection.isNotEmpty()}")
+                paragIterator.remove()
+                if (section.isEmpty()) {
+                    sectionsIterator.remove()
+                }
+                includedPage.chapters[0].forEach { section ->
+                    sectionsIterator.add(section)
+                }
             }
         } else {
             throw IllegalStateException("${page.relativeUrl} $parag")
@@ -36,13 +40,13 @@ class IncludeTransform(private val generator: Generator) {
     }
 
     fun transform(page: Page) {
-        if (page.abstracts.isNotEmpty()) return
-        page.abstracts.addAll(page.formatted.split(UtilsMy.abstractSeparator).map { supersection ->
-            supersection.split(UtilsMy.sectionSeparator).map { section ->
+        if (page.chapters.isNotEmpty()) return
+        page.chapters.addAll(page.formatted.split(UtilsMy.chapterSeparator).map { chapter ->
+            chapter.split(UtilsMy.sectionSeparator).map { section ->
                 section.split(UtilsMy.paragSeparator).map { it }.toMutableList()
             }.toMutableList()
         })
-        page.abstracts.forEach { abstract ->
+        page.chapters.forEach { abstract ->
             val sectionsIterator = abstract.listIterator()
             for (section in sectionsIterator) {
                 val paragIterator = section.listIterator()
@@ -53,8 +57,8 @@ class IncludeTransform(private val generator: Generator) {
                 }
             }
         }
-        page.includeText = page.abstracts.joinToString(separator = UtilsMy.abstractSeparator) { abstract ->
-            abstract.joinToString(separator = UtilsMy.sectionSeparator) { section ->
+        page.includeText = page.chapters.joinToString(separator = UtilsMy.chapterSeparator) { chapter ->
+            chapter.joinToString(separator = UtilsMy.sectionSeparator) { section ->
                 section.joinToString(separator = UtilsMy.paragSeparator) { it }
             }
         }

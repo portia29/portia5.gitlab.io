@@ -1,11 +1,11 @@
-import java.util.*
+import java.util.Locale
 import kotlin.io.path.readText
 
 data class Page(val url: UrlMy) : UrlMyInterface by url {
     val raw: String = srcAbsolutePath.readText()
     val formatted: String = TextFormatter().transform(raw)
     // Also lenses.
-    val abstracts = mutableListOf<MutableList<MutableList<String>>>()
+    val chapters = mutableListOf<MutableList<MutableList<String>>>()
 
     private var _summaryParag: String? = null
     val summaryParag: String
@@ -18,17 +18,17 @@ data class Page(val url: UrlMy) : UrlMyInterface by url {
             return
         }
         _summaryParag = ""
-        when (abstracts.size) {
+        when (chapters.size) {
             1, 2 -> {
-                if (abstracts[0].size == 1 && abstracts[0][0].size == 1) {
-                    _summaryParag = abstracts[0][0][0]
+                if (chapters[0].size == 1 && chapters[0][0].size == 1) {
+                    _summaryParag = chapters[0][0][0]
                 }
             }
             3 -> {
-                if (abstracts[0].size != 1 || abstracts[0][0].size != 1) {
+                if (chapters[0].size != 1 || chapters[0][0].size != 1) {
                     throw IllegalStateException()
                 }
-                _summaryParag = abstracts[0][0][0]
+                _summaryParag = chapters[0][0][0]
             }
             else -> {
                 throw IllegalStateException()
@@ -37,7 +37,7 @@ data class Page(val url: UrlMy) : UrlMyInterface by url {
     }
     fun summaryParag(link: Boolean): String {
         return if (summaryParag.isNotEmpty() && link) {
-            "${summaryParag}\n - ${absoluteUrl}"
+            "${summaryParag}\n - $absoluteUrl"
         } else {
             summaryParag
         }
@@ -54,22 +54,22 @@ data class Page(val url: UrlMy) : UrlMyInterface by url {
             return
         }
         _summarySection = mutableListOf()
-        when (abstracts.size) {
+        when (chapters.size) {
             1 -> {
-                if (abstracts[0].size == 1 && abstracts[0][0].size > 1) {
-                    _summarySection = abstracts[0][0].toMutableList()
+                if (chapters[0].size == 1 && chapters[0][0].size > 1) {
+                    _summarySection = chapters[0][0].toMutableList()
                 }
             }
             2 -> {
-                if (abstracts[0].size == 1 && abstracts[0][0].size > 1) {
-                    _summarySection = abstracts[0][0].toMutableList()
-                } else if (abstracts[1].size == 1) {
-                    _summarySection = abstracts[1][0].toMutableList()
+                if (chapters[0].size == 1 && chapters[0][0].size > 1) {
+                    _summarySection = chapters[0][0].toMutableList()
+                } else if (chapters[1].size == 1) {
+                    _summarySection = chapters[1][0].toMutableList()
                 }
             }
             3 -> {
-                if (abstracts[1].size != 1) throw IllegalStateException()
-                _summarySection = abstracts[1][0].toMutableList()
+                if (chapters[1].size != 1) throw IllegalStateException()
+                _summarySection = chapters[1][0].toMutableList()
             }
             else -> {
                 throw IllegalStateException()
@@ -97,19 +97,19 @@ data class Page(val url: UrlMy) : UrlMyInterface by url {
             return
         }
         _summaryFull = mutableListOf()
-        when (abstracts.size) {
+        when (chapters.size) {
             1 -> {
-                if (abstracts[0].size > 1) {
-                    _summaryFull = abstracts[0].map { it.toMutableList() }.toMutableList()
+                if (chapters[0].size > 1) {
+                    _summaryFull = chapters[0].map { it.toMutableList() }.toMutableList()
                 }
             }
             2 -> {
-                if (abstracts[1].size > 1) {
-                    _summaryFull = abstracts[1].map { it.toMutableList() }.toMutableList()
+                if (chapters[1].size > 1) {
+                    _summaryFull = chapters[1].map { it.toMutableList() }.toMutableList()
                 }
             }
             3 -> {
-                _summaryFull = abstracts[2].map { it.toMutableList() }.toMutableList()
+                _summaryFull = chapters[2].map { it.toMutableList() }.toMutableList()
             }
             else -> {
                 throw IllegalStateException()

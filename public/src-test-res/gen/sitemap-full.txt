@@ -35,7 +35,7 @@
 [2] /test/issue3/css/main-combined.css
 [2] /test/issue3/css/main-standalone.css
 [2] /test/issue3/css/normalize.css
-[3] /j[.html]
+[3] /joke[.html]
 [3] /l[.html]
 [3] /l-next[.html]
 [3] /map[.html]
