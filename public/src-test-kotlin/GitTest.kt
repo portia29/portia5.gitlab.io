@@ -12,12 +12,8 @@ class GitTest {
     val repo = UtilsMy.testResDir.resolve("gitrepo").toFile()
 
     @Test
-    fun main1() {
-
-    }
-
-    @Test
     fun main() {
+        if (!repo.exists()) return
         println(
             ratExec(
                 repo,
@@ -55,6 +51,7 @@ class GitTest {
 
     @Test
     fun test1() {
+        if (!repo.exists()) return
         val requestDateFormatter = DateTimeFormatter.ISO_OFFSET_DATE_TIME
 
         val startDay = YearMonth.of(1999, 12).atEndOfMonth()
@@ -82,6 +79,7 @@ class GitTest {
 
     @Test
     fun test2() {
+        if (!repo.exists()) return
         val requestDateFormatter = DateTimeFormatter.ISO_OFFSET_DATE_TIME
 
         val startDay = YearMonth.of(2000, 1).atDay(1)
