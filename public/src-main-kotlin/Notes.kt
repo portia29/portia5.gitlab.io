@@ -5,6 +5,7 @@ import java.nio.file.Path
 import java.util.LinkedList
 import java.util.Locale
 import java.util.function.Predicate
+import kotlin.io.path.listDirectoryEntries
 
 /**
  * Novel - роман.
@@ -216,6 +217,8 @@ class Notes {
     }
 
     fun loadNotes(srcDir: Path): MutableList<Note> {
+        val files = srcDir.listDirectoryEntries("notes-*.txt").sorted()
+        println(files)
         val writingsFile = srcDir.resolve("Notes.txt").toFile()
         if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
         val strings = writingsFile.readText().split("$notesSeparator ")
