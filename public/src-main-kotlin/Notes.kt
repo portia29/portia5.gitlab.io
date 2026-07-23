@@ -1,11 +1,12 @@
+
 import UtilsMy.dstTestDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import java.io.File
 import java.nio.file.Path
 import java.util.LinkedList
 import java.util.Locale
 import java.util.function.Predicate
-import kotlin.io.path.listDirectoryEntries
 
 /**
  * Novel - роман.
@@ -153,52 +154,32 @@ class Notes {
         return result
     }
 
-    fun saveTest(writingsIn: MutableList<Note>) {
-        val outFile = UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")
-        val text = StringBuilder()
-        val notes = notesGrouped(writingsIn)
-        notes.forEach { note ->
-            if (text.isNotEmpty()) text.append(" ")
-            text.append("█ ").append(note)
-        }
-        outFile.toFile().writeText(text.toString())
-    }
-
-    fun makePart(notesOut: Path, notes: List<String>, part: Int) {
-        val text = StringBuilder()
-        val bs = "█ "
-        val be = ""
-        text.append(notes.joinToString("$be $bs", bs, be))
-        notesOut.resolve("notes-p${part}.txt").toFile().writeText(text.toString())
-    }
-
     fun main() {
-        val notesRaw = loadNotes(UtilsMy.projectDir.parent.resolve("private/src-main-res"))
-        saveTest(notesRaw)
+        val notesIn = UtilsMy.projectDir.parent.resolve("private/src-main-res")
         val notesOut = UtilsMy.srcGenDir
-        val separator1 = notesRaw.find {
-            it.hasAnyOfTags("separator") && it.raw!!.contains("part 1")
+        val filesPairs = listOf(
+            Pair<Path, Path>(notesIn.resolve("notes-p1.txt"),
+                notesOut.resolve("notes-p1.txt")),
+            Pair<Path, Path>(notesIn.resolve("notes-p2.txt"),
+                notesOut.resolve("notes-p2.txt")),
+            Pair<Path, Path>(notesIn.resolve("notes-p3.txt"),
+                UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")))
+        filesPairs.forEach {
+            val notesRaw = loadNotes(it.first.toFile())
+            val notes = notesGrouped(notesRaw)
+            val text = StringBuilder()
+            val bs = "█ "
+            val be = ""
+            text.append(notes.joinToString("$be $bs", bs, be))
+            it.second.toFile().writeText(text.toString())
         }
-        val notes1 = notesGrouped(notesRaw.subList(0, notesRaw.indexOf(separator1) + 1))
-        val separator2 = notesRaw.find {
-            it.hasAnyOfTags("separator") && it.raw!!.contains("part 2")
-        }
-        val notes2 = notesGrouped(
-            notesRaw.subList(
-                notesRaw.indexOf(separator1) + 1,
-                notesRaw.indexOf(separator2) + 1
-            )
-        )
-        makePart(notesOut, notes1, 1)
-        makePart(notesOut, notes2, 2)
     }
 
     val notesSeparator = "█"
     val noteSeparator = "\n\n"
 
-    fun saveNotes(dst: Path, writingsIn: MutableList<Note>) {
+    fun saveNotes(notesFile: File, writingsIn: MutableList<Note>) {
         val format = Json { prettyPrint = false }
-        val outWritingsFile = dst.resolve("Notes.txt").toFile()
         val sb = StringBuilder()
         writingsIn.forEach {
             if (sb.isNotEmpty()) sb.append("\n\n")
@@ -213,15 +194,12 @@ class Notes {
                 sb.append(noteSeparator).append(comment.trim())
             }
         }
-        outWritingsFile.writeText(sb.toString())
+        notesFile.writeText(sb.toString())
     }
 
-    fun loadNotes(srcDir: Path): MutableList<Note> {
-        val files = srcDir.listDirectoryEntries("notes-*.txt").sorted()
-        println(files)
-        val writingsFile = srcDir.resolve("Notes.txt").toFile()
-        if (!writingsFile.exists()) return emptyList<Note>().toMutableList()
-        val strings = writingsFile.readText().split("$notesSeparator ")
+    fun loadNotes(notesFile: File): MutableList<Note> {
+        if (!notesFile.exists()) return emptyList<Note>().toMutableList()
+        val strings = notesFile.readText().split("$notesSeparator ")
         val notes = strings.filter { it.isNotBlank() }.map { noteString ->
             val parts = noteString.split(noteSeparator, limit = 2)
             val note = Json.decodeFromString<Note>("{${parts[0]}}")
@@ -243,7 +221,7 @@ class Notes {
             */
             note
         }.toMutableList()
-        saveNotes(srcDir, notes)
+        saveNotes(notesFile, notes)
         return notes
     }
 
