@@ -163,6 +163,8 @@ class Notes {
             Pair<Path, Path>(notesIn.resolve("notes-p2.txt"),
                 notesOut.resolve("notes-p2.txt")),
             Pair<Path, Path>(notesIn.resolve("notes-p3.txt"),
+                notesOut.resolve("notes-p3.txt")),
+            Pair<Path, Path>(notesIn.resolve("notes-p4.txt"),
                 UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")))
         filesPairs.forEach {
             val notesRaw = loadNotes(it.first.toFile())
