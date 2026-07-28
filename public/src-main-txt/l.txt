@@ -2,11 +2,11 @@
 
 <<< * * * >>>
 
-#include /p2
+#include /p2-curiouser
 
 <<< * * * >>>
 
-#include /p3
+#include /p3-context
 
 <<< * * * >>>
 

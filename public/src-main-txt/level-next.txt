@@ -2,11 +2,11 @@
 
 <<< * * * >>>
 
-#include /p2
+#include /p2-curiouser
 
 <<< * * * >>>
 
-#include /p3
+#include /p3-context
 
 <<< * * * >>>
 
@@ -18,11 +18,11 @@
 
 <<< * * * >>>
 
-#include /p6
+#include /p6-meta
 
 <<< * * * >>>
 
-#include /p7
+#include /p7-narrative
 
 <<< * * * >>>
 

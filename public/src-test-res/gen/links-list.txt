@@ -10,12 +10,12 @@ https://portia5.gitlab.io/notes-p1
 https://portia5.gitlab.io/notes-p2
 https://portia5.gitlab.io/notes-p3
 https://portia5.gitlab.io/p1
-https://portia5.gitlab.io/p2
-https://portia5.gitlab.io/p3
+https://portia5.gitlab.io/p2-curiouser
+https://portia5.gitlab.io/p3-context
 https://portia5.gitlab.io/p4
 https://portia5.gitlab.io/p5
-https://portia5.gitlab.io/p6
-https://portia5.gitlab.io/p7
+https://portia5.gitlab.io/p6-meta
+https://portia5.gitlab.io/p7-narrative
 https://portia5.gitlab.io/p8
 https://portia5.gitlab.io/test
 https://portia5.gitlab.io/test/bullet

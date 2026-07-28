@@ -44,7 +44,7 @@ class HtmlTransform(
             try {
                 paragraphs.append(transformParagraph(url, paragraph))
             } catch (e: Exception) {
-                throw IllegalStateException(url.srcRelativePathString, e)
+                throw IllegalStateException(url.srcRelativePathString + "\n[$paragraph]", e)
             }
         }
         article.append(paragraphs)
@@ -112,6 +112,8 @@ class HtmlTransform(
         return word.contains("東亜重工")
     }
 
+    val linkifyOff = "#linkify-off"
+
     fun transformWord(url: UrlMy, word: String): String {
         //println("transformWord 1: $word")
         if (UtilsMy.isHyperlink(word)) {
@@ -121,6 +123,9 @@ class HtmlTransform(
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         //.replace("\"", "&quot;").replace("'", "&apos;")
+        if (newWord.startsWith(linkifyOff)) {
+            newWord = newWord.removePrefix(linkifyOff)
+        }
         if (newWord.length > maxUnwrappedWordLenght) {
             setOfLongWords.add(newWord)
             newWord = longWordLineBreaks(newWord)

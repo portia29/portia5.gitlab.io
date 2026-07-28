@@ -2,4 +2,4 @@
 
 <<< * * * >>>
 
-#include /p2
+#include /p2-curiouser
