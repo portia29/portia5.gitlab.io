@@ -155,7 +155,8 @@ class Notes {
     }
 
     fun main() {
-        val notesIn = UtilsMy.projectDir.parent.resolve("private/src-main-res")
+        val privateDir = UtilsMy.projectDir.parent.resolve("private")
+        val notesIn = privateDir.resolve("src-main-res")
         val notesOut = UtilsMy.srcGenDir
         val filesPairs = listOf(
             Pair<Path, Path>(notesIn.resolve("notes-p1.txt"),
@@ -165,7 +166,7 @@ class Notes {
             Pair<Path, Path>(notesIn.resolve("notes-p3.txt"),
                 notesOut.resolve("notes-p3.txt")),
             Pair<Path, Path>(notesIn.resolve("notes-p4.txt"),
-                UtilsMy.projectDir.parent.resolve("private/src-test-res/notes-full.txt")))
+                privateDir.resolve("src-test-res/notes-full.txt")))
         filesPairs.forEach {
             val notesRaw = loadNotes(it.first.toFile())
             val notes = notesGrouped(notesRaw)

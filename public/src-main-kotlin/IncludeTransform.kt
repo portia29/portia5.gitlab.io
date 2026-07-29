@@ -46,8 +46,8 @@ class IncludeTransform(private val generator: Generator) {
                 section.split(UtilsMy.paragSeparator).map { it }.toMutableList()
             }.toMutableList()
         })
-        page.chapters.forEach { abstract ->
-            val sectionsIterator = abstract.listIterator()
+        page.chapters.forEach { chapter ->
+            val sectionsIterator = chapter.listIterator()
             for (section in sectionsIterator) {
                 val paragIterator = section.listIterator()
                 for (parag in paragIterator) {

@@ -4,7 +4,6 @@ import kotlin.io.path.readText
 data class Page(val url: UrlMy) : UrlMyInterface by url {
     val raw: String = srcAbsolutePath.readText()
     val formatted: String = TextFormatter().transform(raw)
-    // Also lenses.
     val chapters = mutableListOf<MutableList<MutableList<String>>>()
 
     private var _summaryParag: String? = null

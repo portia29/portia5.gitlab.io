@@ -7,7 +7,8 @@ class HtmlTransform(
     /**
      * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
      */
-    xhmtlCompatibleVoidElements: Boolean = false
+    val xhmtlCompatibleVoidElements: Boolean = false,
+    val linkifyAll: Boolean = false
 ) {
 
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
@@ -21,7 +22,8 @@ class HtmlTransform(
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
-    private var enabled = true
+    private var textRawMode = false
+    private val explicitLinkify = "#link-"
 
     fun htmlPage(title: String, body: String): String {
         return htmlTemplate
@@ -112,20 +114,19 @@ class HtmlTransform(
         return word.contains("東亜重工")
     }
 
-    val linkifyOff = "#linkify-off"
-
     fun transformWord(url: UrlMy, word: String): String {
         //println("transformWord 1: $word")
-        if (UtilsMy.isHyperlink(word)) {
+        if ((linkifyAll || url.isMap) && UtilsMy.isHyperlink(word)) {
             return transformLink(url, word)
+        }
+        if (word.startsWith(explicitLinkify)) {
+            return transformLink(url, word.removePrefix(explicitLinkify))
         }
         //println("transformWord 2: $word")
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         //.replace("\"", "&quot;").replace("'", "&apos;")
-        if (newWord.startsWith(linkifyOff)) {
-            newWord = newWord.removePrefix(linkifyOff)
-        }
+
         if (newWord.length > maxUnwrappedWordLenght) {
             setOfLongWords.add(newWord)
             newWord = longWordLineBreaks(newWord)
@@ -171,24 +172,25 @@ class HtmlTransform(
         result.append("<p>")
         val lines = UtilsMy.splitParagraphToLines(paragraph).mapNotNull {
             if (it == textRawStart) {
-                enabled = false
+                textRawMode = true
                 return@mapNotNull null
             } else if (it == textRawEnd) {
-                enabled = true
+                textRawMode = false
                 return@mapNotNull null
             }
-            if (enabled) {
+            if (textRawMode) {
+                UtilsMy.splitLine(it).mapIndexed { i, s ->
+                    if (s.isNotBlank()) {
+                        return@mapIndexed transformWord(url, s)
+                    } else if (s.length > 1 || i == 0) {
+                        return@mapIndexed "<span class=\"prewrap\">$s</span>"
+                    } else {
+                        return@mapIndexed s
+                    }
+                }.joinToString("")
+            } else {
                 return@mapNotNull transformLine(url, it)
             }
-            UtilsMy.splitLine(it).mapIndexed { i, s ->
-                if (s.isNotBlank()) {
-                    return@mapIndexed transformWord(url, s)
-                } else if (s.length > 1 || i == 0) {
-                    return@mapIndexed "<span class=\"prewrap\">$s</span>"
-                } else {
-                    return@mapIndexed s
-                }
-            }.joinToString("")
         }
         result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")

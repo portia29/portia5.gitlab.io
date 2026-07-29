@@ -1,5 +1,3 @@
-https://arxiv.org/abs/math/9404236
-https://doi.org/10.5281/zenodo.20043111
 https://portia5.gitlab.io
 https://portia5.gitlab.io/joke
 https://portia5.gitlab.io/l
@@ -42,4 +40,3 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
-https://sites.socsci.uci.edu/~ddhoff/FBT-7-30-17
