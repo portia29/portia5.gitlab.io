@@ -1,6 +1,8 @@
+
 import java.nio.file.Files
 import java.nio.file.Path
-import java.util.*
+import java.util.SortedMap
+import java.util.TreeSet
 
 class Sitemap(c: ContextInterface) : ContextInterface by c {
     private val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
@@ -28,20 +30,19 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
         srcPages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
     }
 
-    private fun genStep(url: String, suburls: Set<String>?, level: Int): String {
-        val builder = StringBuilder()
-        if (level > 0) builder.append('\n')
-        for (i in 1..level) {
-            builder.append("    ")
-        }
-        if (level > 0) builder.append("$level ")
-        builder.append(url)
-        suburls?.forEach { builder.append(genStep(it, parsedMap[it], level + 1)) }
-        parsedMap.remove(url)
-        return builder.toString()
-    }
-
     private fun generate(roots: Set<String>): String {
+        fun genStep(url: String, suburls: Set<String>?, level: Int): String {
+            val builder = StringBuilder()
+            if (level > 0) builder.append('\n')
+            for (i in 1..level) {
+                builder.append("    ")
+            }
+            if (level > 0) builder.append("$level ")
+            builder.append(url)
+            suburls?.forEach { builder.append(genStep(it, parsedMap[it], level + 1)) }
+            parsedMap.remove(url)
+            return builder.toString()
+        }
         val builder = StringBuilder()
         roots.forEach {
             if (builder.isNotEmpty()) builder.append("\n")

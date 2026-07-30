@@ -45,10 +45,12 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         page.srcAbsolutePath.toFile().writeText(page.formatted)
         includeTransform.transform(page)
         page.beautyText = TextTypography().transform(page.url, page.includeText)
-        val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
-        val htmlFile = page.dstAbsolutePath.toFile()
-        htmlFile.parentFile.mkdirs()
-        htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml))
+        if (!page.isGen) {
+            val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
+            val htmlFile = page.dstAbsolutePath.toFile()
+            htmlFile.parentFile.mkdirs()
+            htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml))
+        }
     }
 
     private fun main() {
