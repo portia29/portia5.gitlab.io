@@ -24,7 +24,6 @@ interface UrlMyInterface {
     val isIndexOfDirectory: Boolean
 }
 
-
 data class UrlMy(
     override val srcAbsolutePath: Path,
     override val srcRelativePath: Path,

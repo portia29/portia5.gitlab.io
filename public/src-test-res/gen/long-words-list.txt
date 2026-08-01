@@ -4,7 +4,6 @@
 doi:10.1016/j.ebiom.2018.09.015
 doi:10.1136/bmj.327.7429.1459
 doi:10.3389/fnhum.2014.00940
-https://arxiv.org/abs/math/9404236
 https://doi.org/10.5281/zenodo.20043111
 «https://portia5.gitlab.io/joke»,
 «https://portia5.gitlab.io/l»,

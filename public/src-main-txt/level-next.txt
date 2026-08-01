@@ -22,8 +22,4 @@
 
 <<< * * * >>>
 
-#include /p7-narrative
-
-<<< * * * >>>
-
 #include /p8
