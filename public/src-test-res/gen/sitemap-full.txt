@@ -45,7 +45,7 @@
 [3] /notes-p3[.html]
 [3] /p1[.html]
 [3] /p2-curiouser[.html]
-[3] /p3-context[.html]
+[3] /p3-core[.html]
 [3] /p4[.html]
 [3] /p5[.html]
 [3] /p6-meta[.html]
