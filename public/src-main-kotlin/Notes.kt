@@ -159,22 +159,23 @@ class Notes {
         val notesIn = privateDir.resolve("src-main-res")
         val notesOut = UtilsMy.srcGenDir
         val filesPairs = listOf(
-            Pair<Path, Path>(notesIn.resolve("notes-p1.txt"),
-                notesOut.resolve("notes-p1.txt")),
-            Pair<Path, Path>(notesIn.resolve("notes-p2.txt"),
-                notesOut.resolve("notes-p2.txt")),
-            Pair<Path, Path>(notesIn.resolve("notes-p3.txt"),
-                notesOut.resolve("notes-p3.txt")),
-            Pair<Path, Path>(notesIn.resolve("notes-p4.txt"),
-                privateDir.resolve("src-test-res/notes-full.txt")))
-        filesPairs.forEach {
-            val notesRaw = loadNotes(it.first.toFile())
+            Pair<Path, List<Path>>(notesOut.resolve("notes-p1.txt"),
+                listOf(notesIn.resolve("notes-p1.txt"))),
+            Pair<Path, List<Path>>(notesOut.resolve("notes-p2.txt"),
+                listOf(notesIn.resolve("notes-p2.txt"))),
+            Pair<Path, List<Path>>(notesOut.resolve("notes-p3.txt"),
+                listOf(notesIn.resolve("notes-p3.txt"), notesIn.resolve("notes-p3-anime.txt"))),
+            Pair<Path, List<Path>>(privateDir.resolve("src-test-res/notes-full.txt"),
+                listOf(notesIn.resolve("notes-p6-private.txt"))))
+        filesPairs.forEach { pair: Pair<Path, List<Path>> ->
+            val notesRaw = mutableListOf<Note>()
+            pair.second.forEach { notesRaw.addAll(loadNotes(it.toFile())) }
             val notes = notesGrouped(notesRaw)
             val text = StringBuilder()
             val bs = "█ "
             val be = ""
             text.append(notes.joinToString("$be $bs", bs, be))
-            it.second.toFile().writeText(text.toString())
+            pair.first.toFile().writeText(text.toString())
         }
     }
 
