@@ -164,7 +164,10 @@ class Notes {
             Pair<Path, List<Path>>(notesOut.resolve("notes-p2.txt"),
                 listOf(notesIn.resolve("notes-p2.txt"))),
             Pair<Path, List<Path>>(notesOut.resolve("notes-p3.txt"),
-                listOf(notesIn.resolve("notes-p3.txt"), notesIn.resolve("notes-p3-anime.txt"))),
+                listOf(notesIn.resolve("notes-p3.txt"),
+                    notesIn.resolve("notes-p3-anime.txt"),
+                    notesIn.resolve("notes-p3-film.txt"),
+                    notesIn.resolve("notes-p3-tv-series.txt"))),
             Pair<Path, List<Path>>(privateDir.resolve("src-test-res/notes-full.txt"),
                 listOf(notesIn.resolve("notes-p6-private.txt"))))
         filesPairs.forEach { pair: Pair<Path, List<Path>> ->
