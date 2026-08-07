@@ -17,16 +17,14 @@ class IncludeTransform(private val generator: Generator) {
         val includedPage = generator.sitemap.srcPages[path] ?: throw IllegalStateException(e)
         transform(includedPage)
         if (commands.isEmpty()) {
+            paragIterator.remove()
             if (!asSection && includedPage.summaryParag.isNotEmpty()) {
-                paragIterator.remove()
                 paragIterator.add(includedPage.summaryParag(withLink))
             } else if (includedPage.summarySection.isNotEmpty()) {
-                paragIterator.remove()
                 includedPage.summarySection(withLink).forEach {
                     paragIterator.add(it)
                 }
             } else {
-                paragIterator.remove()
                 if (section.isEmpty()) {
                     sectionsIterator.remove()
                 }

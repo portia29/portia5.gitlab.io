@@ -76,7 +76,11 @@ class Notes {
     private fun formatWritings(notes: List<Note>, language: String): String {
         return notes.joinToString(
             separator = "», «", prefix = " «", postfix = "».", transform = {
-                selectName(it.names, language)
+                if (it.hasAnyOfTags("raw")) {
+                    it.raw.toString()
+                } else {
+                    selectName(it.names, language)
+                }
             })
     }
 

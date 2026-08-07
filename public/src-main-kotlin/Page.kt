@@ -145,4 +145,12 @@ data class Page(val url: UrlMy) : UrlMyInterface by url {
             _title = "Well… $name!"
         }
     }
+
+    override fun toString(): String {
+        return "Page(url=$url, chapters=$chapters," +
+                " _summaryParag=$_summaryParag, summaryParag='$summaryParag'," +
+                " _summarySection=$_summarySection, summarySection=$summarySection," +
+                " _summaryFull=$_summaryFull, summaryFull=$summaryFull," +
+                " navigation=$navigation, _title=$_title, title='$title')"
+    }
 }
